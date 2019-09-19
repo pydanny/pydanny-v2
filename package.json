@@ -1,0 +1,24 @@
+{
+  "name": "pydanny-v2",
+  "version": "1.0.0",
+  "description": "inside the head of PyDanny",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pydanny/pydanny-v2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pydanny/pydanny-v2/issues"
+  },
+  "homepage": "https://github.com/pydanny/pydanny-v2#readme",
+  "devDependencies": {
+    "vuepress": "^1.1.0"
+  }
+}
