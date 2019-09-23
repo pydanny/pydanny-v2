@@ -1,6 +1,7 @@
 ---
 sidebar: auto
 ---
+
 # Books
 
 Writing is a passion of mine, so over the years I've seen a few books published

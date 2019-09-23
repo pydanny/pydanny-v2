@@ -1,6 +1,6 @@
 ---
 date: 2015-03-29
-tag: 
+tag:
   - book
   - twoscoops
   - brambles
@@ -9,6 +9,7 @@ author: Daniel Roy Greenfeld
 location: California
 title: Punchline
 ---
+
 <div class="twelve wide column">
 
 <h1 class="ui block header">
@@ -59,5 +60,5 @@ fiction writing based articles to my author blog at
 <hr/>
 <h3 class="ui header">Subscribe!</h3>
 <p>If you read this far, you might want to follow me on <a href="https://twitter.com/pydanny">twitter</a> or <a href="https://github.com/pydanny">github</a> and subscribe via email below (I'll email you new articles when I publish them).</p>
-<!-- Begin MailChimp Signup Form -->
+ 
 </div>

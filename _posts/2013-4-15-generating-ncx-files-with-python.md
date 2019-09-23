@@ -1,6 +1,6 @@
 ---
 date: 2013-4-15
-tag: 
+tag:
   - python
   - twoscoops
   - book
@@ -11,37 +11,48 @@ author: Daniel Roy Greenfeld
 location: California
 title: Generating NCX files with Python
 ---
-<div class="twelve wide column">
 
-<h1 class="ui block header">
-<div class="content">
-<a href="/generating-ncx-files-with-python.html">Generating NCX files with Python</a>
-</div>
-</h1>
-<p>With the help of fellow Python developer Matt Harrison's excellent
-<a href="http://www.amazon.com/Ebook-Formatting-Mobi-EPUB-ebook/dp/B00BWQXHU6/ref=la_B0077BQLH6_1_2?ie=UTF8&amp;qid=1366041987&amp;sr=1-2&amp;tag=ihpydanny-20" target="_blank">Ebook Formatting: KF8, Mobi &amp;
-EPUB</a>,
-we managed to create pretty decent looking Kindle and ePub versions of
-<a href="http://django.2scoops.org/" target="_blank">Two Scoops of Django</a>.</p>
-<p>One of many things we did was focus on providing an excellent table of
-contents. Of course we provided one inside the content of the book, but
-much like the PDF version we also provided one that various ebook
-readers can display in sidebars or drop down menus. Unfortunately,
-building this navigation isn't well documented (except for Matt's
-book), and I've yet to see any good ways to generate it via code.</p>
-<p>Which is why I present the following code. It looks at the HTML that
-KindleGen and ePub generators demand and pulls from it a chapter-based
-table of contents. Then constructs a .ncx file, which is what ebook
-readers use to generate the sidebar/dropdown table of contents.</p>
-<p>Our requirements:</p>
-<pre><code>Jinja2
+<div class="twelve wide column">
+  <h1 class="ui block header">
+    <div class="content">
+      <a href="/generating-ncx-files-with-python.html"
+        >Generating NCX files with Python</a
+      >
+    </div>
+  </h1>
+  <p>
+    With the help of fellow Python developer Matt Harrison's excellent
+    <a
+      href="http://www.amazon.com/Ebook-Formatting-Mobi-EPUB-ebook/dp/B00BWQXHU6/ref=la_B0077BQLH6_1_2?ie=UTF8&amp;qid=1366041987&amp;sr=1-2&amp;tag=ihpydanny-20"
+      target="_blank"
+      >Ebook Formatting: KF8, Mobi &amp; EPUB</a
+    >, we managed to create pretty decent looking Kindle and ePub versions of
+    <a href="http://django.2scoops.org/" target="_blank">Two Scoops of Django</a
+    >.
+  </p>
+  <p>
+    One of many things we did was focus on providing an excellent table of
+    contents. Of course we provided one inside the content of the book, but much
+    like the PDF version we also provided one that various ebook readers can
+    display in sidebars or drop down menus. Unfortunately, building this
+    navigation isn't well documented (except for Matt's book), and I've yet to
+    see any good ways to generate it via code.
+  </p>
+  <p>
+    Which is why I present the following code. It looks at the HTML that
+    KindleGen and ePub generators demand and pulls from it a chapter-based table
+    of contents. Then constructs a .ncx file, which is what ebook readers use to
+    generate the sidebar/dropdown table of contents.
+  </p>
+  <p>Our requirements:</p>
+  <pre><code>Jinja2
 Django
 BeautifulSoup4
 </code></pre>
-<p>And now the code:</p>
-<div class="codehilite ui secondary segment"><pre><span></span><code><span class="ch">#!/usr/bin/python</span>
+  <p>And now the code:</p>
+  <div class="codehilite ui secondary segment">
+    <pre><span></span><code><span class="ch">#!/usr/bin/python</span>
 <span class="c1"># -*- coding: utf-8 -*-</span>
-
 
 <span class="kn">from</span> <span class="nn">bs4</span> <span class="kn">import</span> <span class="n">BeautifulSoup</span>
 <span class="kn">from</span> <span class="nn">django.utils.text</span> <span class="kn">import</span> <span class="n">slugify</span>
@@ -74,7 +85,6 @@ BeautifulSoup4
 <span class="s2">&lt;/navMap&gt;</span>
 <span class="s2">&lt;/ncx&gt;</span>
 <span class="s2">"""</span><span class="p">)</span>
-
 
 <span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
 
@@ -109,24 +119,32 @@ BeautifulSoup4
     <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">"toc.ncx"</span><span class="p">,</span> <span class="s2">"w"</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
         <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">template</span><span class="p">)</span>
 
+<span class="k">if</span> <span class="vm">**name**</span> <span class="o">==</span> <span class="s1">'**main**'</span><span class="p">:</span>
+<span class="n">main</span><span class="p">(</span><span class="s1">'book.html'</span><span class="p">)</span>
+</code></pre>
+  </div>
+  <p>
+    There is more to adding a table of contents then just this simple module.
+    You also have to construct the .opf file, which is another undocumented mess
+    that I'll blog about.
+  </p>
+  <p>Published: 2013-4-15 09:00</p>
+  <p>
+    Tags:
 
-<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">'__main__'</span><span class="p">:</span>
-    <span class="n">main</span><span class="p">(</span><span class="s1">'book.html'</span><span class="p">)</span>
-</code></pre></div>
-<p>There is more to adding a table of contents then just this simple
-module. You also have to construct the .opf file, which is another
-undocumented mess that I'll blog about.</p>
-<p>Published: 2013-4-15 09:00</p>
-<p>Tags:
-  
     <a href="/tag/python.html">python</a>
-<a href="/tag/twoscoops.html">twoscoops</a>
-<a href="/tag/book.html">book</a>
-<a href="/tag/django.html">django</a>
-<a href="/tag/howto.html">howto</a>
-</p>
-<hr/>
-<h3 class="ui header">Subscribe!</h3>
-<p>If you read this far, you might want to follow me on <a href="https://twitter.com/pydanny">twitter</a> or <a href="https://github.com/pydanny">github</a> and subscribe via email below (I'll email you new articles when I publish them).</p>
-<!-- Begin MailChimp Signup Form -->
+    <a href="/tag/twoscoops.html">twoscoops</a>
+    <a href="/tag/book.html">book</a>
+    <a href="/tag/django.html">django</a>
+    <a href="/tag/howto.html">howto</a>
+  </p>
+  <hr />
+  <h3 class="ui header">Subscribe!</h3>
+  <p>
+    If you read this far, you might want to follow me on
+    <a href="https://twitter.com/pydanny">twitter</a> or
+    <a href="https://github.com/pydanny">github</a> and subscribe via email
+    below (I'll email you new articles when I publish them).
+  </p>
+   
 </div>

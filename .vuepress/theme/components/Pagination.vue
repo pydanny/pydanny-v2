@@ -25,7 +25,7 @@ export default {
 .pagination {
   a {
     margin-right: 20px;
-    color: #000;
+    color: #222;
     height: 38px;
     line-height: 38px;
     transition: all 0.3s ease;
@@ -35,7 +35,7 @@ export default {
     background: #FFF;
     padding: 0 15px;
     text-decoration: none;
-    border: 1px solid #000;
+    border: 1px solid #222;
     border-radius: 5px;
     transition: all 0.5s;
 

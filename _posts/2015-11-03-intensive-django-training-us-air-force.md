@@ -1,11 +1,12 @@
 ---
 date: 2015-11-03
-tag: 
+tag:
 
 author: Daniel Roy Greenfeld
 location: California
 title: Intensive Django Training with the US Air Force
 ---
+
 <div class="twelve wide column">
 
 <h1 class="ui block header">

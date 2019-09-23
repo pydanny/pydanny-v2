@@ -76,10 +76,16 @@
       padding-bottom 80px
   
   .ui-post
-    padding-bottom 25px
+    box-shadow 0 3px 10px rgba(0, 0, 0, 0.05)
+    padding 25px
     margin-bottom 25px
+    border-radius: 14px;
     border-bottom 1px solid #f1f1f1
+    background-color #FFF
     
+    &:hover
+      box-shadow 0 3px 15px rgba(0, 0, 0, 0.08)
+
     &:last-child
       border-bottom 0px
       margin-bottom 0px
@@ -93,7 +99,7 @@
     
     a
       cursor pointer
-      color #000
+      color #222
       transition all .2s
       text-decoration none
       
