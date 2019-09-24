@@ -1,9 +1,53 @@
-# PyDanny-V2 PyDanny.com V2 blog ## Getting Started to get started: ```zsh git
-clone https://github.com/pydanny/pydanny-v2.git cd pydanny-v2 yarn yarn run dev
-``` ### Prerequisites its good to have Vuepress installed globally on your
-machine ``` yarn add -D vuepress ``` ## Running the tests TODO ## Deployment
-TODO ## Built With - [Vuepress](https://github.com/vuejs/vuepress) - TODO ##
-Contributing TODO ## Versioning TODO ## Authors - **Ahmad Mostafa** - _Initial
-work_ - [z3by](https://github.com/z3by) See also the list of
-[contributors](https://github.com/pydanny/pydanny-v2/graphs/contributors) who
-participated in this project. ## License TODO
+# PyDanny-V2
+
+PyDanny.com V2 blog 
+
+## Getting Started
+
+### Installing
+
+navigate to the repository directory
+
+```bash
+cd pydanny-v2
+```
+
+install dependencies
+
+```bash
+yarn install
+```
+
+run a development live server
+
+```bash
+yarn dev
+```
+
+### Blogging
+
+start adding new posts into `pydanny-v2/_posts/**`
+
+## Deployment
+
+1. generate the static files using:
+
+```bash
+yarn build
+```
+
+2. deploy the content of `.vuepress/dist` to any hosting service, or you can use [netlify](https://www.netlify.com/) for continues deployment.
+
+## Built With
+
+- [vuepress](https://vuepress.vuejs.org/)
+- [@vuepress/theme-blog](https://vuepress-theme-blog.ulivz.com/)
+- [@vuepress/plugin-blog](https://vuepress-plugin-blog.ulivz.com/)
+
+## Authors
+
+- **Ahmad Mostafa** - _Initial work_ - [z3by](https://github.com/z3by)
+
+## License
+
+This project is licensed under the MIT License

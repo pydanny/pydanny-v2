@@ -1,6 +1,11 @@
 <template>
   <div id="vuperess-theme-blog__post-layout">
-    <Content class="vuepress-blog-theme-content" />
+    <PostHeader />
+    <br>
+    <br>
+    <main class="vuepress-blog-theme-content">
+      <Content />
+    </main>
     <Toc />
     <PostInfo />
   </div>
@@ -9,11 +14,13 @@
 <script>
 import Toc from "@theme/components/Toc.vue";
 import PostInfo from "@theme/components/PostInfo.vue";
+import PostHeader from "@theme/components/PostHeader.vue";
 
 export default {
   components: {
     Toc,
-    PostInfo
+    PostInfo,
+    PostHeader
   },
   computed: {
     published() {
@@ -29,6 +36,12 @@ export default {
   letter-spacing: 0px;
   color: #2c3e50;
   position: relative;
+  padding: 5px 50px !important;
+  border-radius: 20px;
+}
+
+.content__default {
+  margin: 20px auto !important;
 }
 </style>
 

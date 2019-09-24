@@ -2,7 +2,11 @@
 sidebar: auto
 ---
 
-# Courses ## Current Courses list
+# Courses
+
+
+
+## Current Courses list
 
 <div float="left">
   <img
@@ -22,4 +26,11 @@ sidebar: auto
 <br />
 <br />
 
-## Planned - Django Rest Framework - Docker - Vue.js
+## Planned
+
+
+- Django Rest Framework
+
+- Docker
+
+- Vue.js

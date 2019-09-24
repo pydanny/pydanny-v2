@@ -4,7 +4,7 @@ module.exports = {
   theme: "@vuepress/theme-blog",
   themeConfig: {
     nav: [
-      { text: "Blog", link: "/" },
+      { text: "Home", link: "/" },
       { text: "Tags", link: "/tag/" },
       { text: "Python", link: "/tag/python/" },
       { text: "Django", link: "/tag/django/" },
@@ -25,6 +25,12 @@ module.exports = {
         {
           type: "linkedin",
           link: "https://www.linkedin.com/in/pydanny/"
+        }
+      ],
+      copyright: [
+        {
+          text: `Content Copyright © 2012-${new Date().getFullYear()} Daniel Greenfeld.`,
+          link: ""
         }
       ]
     }
