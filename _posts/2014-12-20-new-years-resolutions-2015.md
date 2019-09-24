@@ -17,14 +17,14 @@ title: I did an Au Batido in 2014, now what?
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/new-years-resolutions-2015.html"
+      <a href="/new-years-resolutions-2015 "
         >I did an Au Batido in 2014, now what?</a
       >
     </div>
   </h1>
   <p>
     This is my summary of my
-    <a href="https://www.pydanny.com/tag/resolutions.html" target="_blank"
+    <a href="https://www.pydanny.com/tag/resolutions " target="_blank"
       >resolutions</a
     >
     for 2014 and an early pass at my resolutions for 2015. I'm doing this right
@@ -130,25 +130,4 @@ title: I did an Au Batido in 2014, now what?
     <li>See all my friends. All of them.</li>
     <li>Enjoy life with Audrey more.</li>
   </ul>
-  <p>Published: 2014-12-20 12:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/holidays.html">holidays</a>
-    <a href="/tag/resolutions.html">resolutions</a>
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/family.html">family</a>
-    <a href="/tag/friends.html">friends</a>
-    <a href="/tag/capoeira.html">capoeira</a>
-    <a href="/tag/django.html">django</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

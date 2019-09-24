@@ -13,7 +13,7 @@ title: Overloading Django Form Fields
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/overloading-form-fields.html">Overloading Django Form Fields</a>
+      <a href="/overloading-form-fields ">Overloading Django Form Fields</a>
     </div>
   </h1>
   <p>
@@ -203,21 +203,4 @@ title: Overloading Django Form Fields
       >Guide to Learning Iteration and Generators in Python</a
     >
   </p>
-  <p>Published: 2013-3-27 09:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/forms.html">forms</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

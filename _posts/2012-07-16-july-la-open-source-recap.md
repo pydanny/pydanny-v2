@@ -19,7 +19,7 @@ title: July 15th, 2012 LA Open Source Recap
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/july-la-open-source-recap.html"
+      <a href="/july-la-open-source-recap "
         >July 15th, 2012 LA Open Source Recap</a
       >
     </div>
@@ -195,27 +195,4 @@ title: July 15th, 2012 LA Open Source Recap
     >.
   </p>
   <p><strong>Update</strong>: Corrected the details about the SpaceX guy.</p>
-  <p>Published: 2012-07-16 18:00:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/php.html">php</a>
-    <a href="/tag/la.html">la</a>
-    <a href="/tag/clojure.html">clojure</a>
-    <a href="/tag/perl.html">perl</a>
-    <a href="/tag/ruby.html">ruby</a>
-    <a href="/tag/nodejs.html">nodejs</a>
-    <a href="/tag/meteor.html">meteor</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

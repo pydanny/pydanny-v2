@@ -15,12 +15,12 @@ title: Python F-Strings Are Fun!
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/python-f-strings-are-fun.html">Python F-Strings Are Fun!</a>
+      <a href="/python-f-strings-are-fun ">Python F-Strings Are Fun!</a>
     </div>
   </h1>
   <p>
     <a
-      href="https://www.pydanny.com/python-f-strings-are-fun.html"
+      href="https://www.pydanny.com/python-f-strings-are-fun "
       target="_blank"
       ><img
         alt="Python F-Strings Are Fun!"
@@ -33,7 +33,7 @@ title: Python F-Strings Are Fun!
       >Literal String Interpolation</a
     >, or as they are known more commonly,
     <a
-      href="https://docs.python.org/3.6/reference/lexical_analysis.html#f-strings"
+      href="https://docs.python.org/3.6/reference/lexical_analysis #f-strings"
       target="_blank"
       >f-strings</a
     >. At first I was hesitant because... well... we've got multiple string
@@ -136,15 +136,15 @@ title: Python F-Strings Are Fun!
 <span class="n">LANGUAGE_START</span> <span class="o">=</span> <span class="p">{</span>
 <span class="s1">'</span><span class="se">\\</span><span class="s1">begin{python}'</span><span class="p">:</span> <span class="s1">'.py'</span><span class="p">,</span>
 <span class="s1">'</span><span class="se">\\</span><span class="s1">begin{badpython}'</span><span class="p">:</span> <span class="s1">'.py'</span><span class="p">,</span>
-<span class="s1">'</span><span class="se">\\</span><span class="s1">begin{django}'</span><span class="p">:</span> <span class="s1">'.html'</span><span class="p">,</span>
-<span class="s1">'</span><span class="se">\\</span><span class="s1">begin{baddjango}'</span><span class="p">:</span> <span class="s1">'.html'</span><span class="p">,</span>
+<span class="s1">'</span><span class="se">\\</span><span class="s1">begin{django}'</span><span class="p">:</span> <span class="s1">' '</span><span class="p">,</span>
+<span class="s1">'</span><span class="se">\\</span><span class="s1">begin{baddjango}'</span><span class="p">:</span> <span class="s1">' '</span><span class="p">,</span>
 <span class="s1">'</span><span class="se">\\</span><span class="s1">begin{plaintext}'</span><span class="p">:</span> <span class="s1">'.txt'</span><span class="p">,</span>
 <span class="s1">'</span><span class="se">\\</span><span class="s1">begin{badplaintext}'</span><span class="p">:</span> <span class="s1">'.txt'</span><span class="p">,</span>
 <span class="s1">'</span><span class="se">\\</span><span class="s1">begin{sql}'</span><span class="p">:</span> <span class="s1">'.sql'</span><span class="p">,</span>
 <span class="s1">'</span><span class="se">\\</span><span class="s1">begin{makefile}'</span><span class="p">:</span> <span class="s1">''</span><span class="p">,</span>
 <span class="s1">'</span><span class="se">\\</span><span class="s1">begin{json}'</span><span class="p">:</span> <span class="s1">'.json'</span><span class="p">,</span>
 <span class="s1">'</span><span class="se">\\</span><span class="s1">begin{bash}'</span><span class="p">:</span> <span class="s1">'.txt'</span><span class="p">,</span>
-<span class="s1">'</span><span class="se">\\</span><span class="s1">begin{xml}'</span><span class="p">:</span> <span class="s1">'.html'</span><span class="p">,</span>
+<span class="s1">'</span><span class="se">\\</span><span class="s1">begin{xml}'</span><span class="p">:</span> <span class="s1">' '</span><span class="p">,</span>
 <span class="p">}</span>
 
 <span class="n">LANGUAGE_END</span> <span class="o">=</span> <span class="p">{</span><span class="n">x</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">'begin'</span><span class="p">,</span> <span class="s1">'end'</span><span class="p">):</span><span class="n">y</span> <span class="k">for</span> <span class="n">x</span><span class="p">,</span><span class="n">y</span> <span class="ow">in</span> <span class="n">LANGUAGE_START</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
@@ -179,7 +179,7 @@ title: Python F-Strings Are Fun!
                 <span class="c1"># be broken up but remains because it's easy for me to read</span>
                 <span class="n">filename</span> <span class="o">=</span>  <span class="n">f</span><span class="s1">'code/chapter_{chapter_num}_example_{str(example_num).zfill(2)}{in_example}'</span>
                 <span class="n">dafile</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="s1">'w'</span><span class="p">)</span>
-                <span class="k">if</span> <span class="n">in_example</span> <span class="ow">in</span> <span class="p">(</span><span class="s1">'.py'</span><span class="p">,</span> <span class="s1">'.html'</span><span class="p">):</span>
+                <span class="k">if</span> <span class="n">in_example</span> <span class="ow">in</span> <span class="p">(</span><span class="s1">'.py'</span><span class="p">,</span> <span class="s1">' '</span><span class="p">):</span>
                     <span class="n">dafile</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">f</span><span class="s1">'"""</span><span class="se">\n</span><span class="s1">{LEGALESE}"""</span><span class="se">\n\n</span><span class="s1">'</span><span class="p">)</span>
                 <span class="k">else</span><span class="p">:</span>
                     <span class="n">dafile</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">f</span><span class="s1">'{LEGALESE}</span><span class="se">\n</span><span class="s1">{STAR*20}</span><span class="se">\n\n</span><span class="s1">'</span><span class="p">)</span>
@@ -203,23 +203,4 @@ title: Python F-Strings Are Fun!
 </code></pre>
   </div>
 
-  <p>Published: 2017-04-27 00:05</p>
-  <p>
-    Tags:
-
-    <a href="/tag/twoscoops.html">twoscoops</a>
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/python3.html">python3</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

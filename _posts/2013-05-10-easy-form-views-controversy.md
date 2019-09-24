@@ -13,7 +13,7 @@ title: The Easy Form Views Pattern Controversy
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/easy-form-views-controversy.html"
+      <a href="/easy-form-views-controversy "
         >The Easy Form Views Pattern Controversy</a
       >
     </div>
@@ -47,7 +47,7 @@ title: The Easy Form Views Pattern Controversy
     something like this:
   </p>
   <div class="codehilite ui secondary segment">
-    <pre><span></span><code><span class="k">def</span> <span class="nf">my_view</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="n">template_name</span><span class="o">=</span><span class="s2">"my_app/my_form.html"</span><span class="p">):</span>
+    <pre><span></span><code><span class="k">def</span> <span class="nf">my_view</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="n">template_name</span><span class="o">=</span><span class="s2">"my_app/my_form "</span><span class="p">):</span>
 
     <span class="k">if</span> <span class="n">request</span><span class="o">.</span><span class="n">method</span> <span class="o">==</span> <span class="s1">'POST'</span><span class="p">:</span>
         <span class="n">form</span> <span class="o">=</span> <span class="n">MyForm</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">POST</span><span class="p">)</span>
@@ -62,7 +62,7 @@ title: The Easy Form Views Pattern Controversy
   </div>
   <p>In contrast, the Easy Form Views pattern works like this:</p>
   <div class="codehilite ui secondary segment">
-    <pre><span></span><code><span class="k">def</span> <span class="nf">my_view</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="n">template_name</span><span class="o">=</span><span class="s2">"my_app/my_form.html"</span><span class="p">):</span>
+    <pre><span></span><code><span class="k">def</span> <span class="nf">my_view</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="n">template_name</span><span class="o">=</span><span class="s2">"my_app/my_form "</span><span class="p">):</span>
 
     <span class="n">form</span> <span class="o">=</span> <span class="n">MyForm</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">POST</span> <span class="ow">or</span> <span class="bp">None</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">form</span><span class="o">.</span><span class="n">is_valid</span><span class="p">():</span>
@@ -172,21 +172,4 @@ title: The Easy Form Views Pattern Controversy
     <strong>Update:</strong> Changed some of the text to be more succinct and
     took out the leading sentence.
   </p>
-  <p>Published: 2013-05-10 12:00:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/howto.html">howto</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

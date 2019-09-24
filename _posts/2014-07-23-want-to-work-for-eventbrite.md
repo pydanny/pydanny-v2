@@ -15,7 +15,7 @@ title: Want to work for Eventbrite?
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/want-to-work-for-eventbrite.html"
+      <a href="/want-to-work-for-eventbrite "
         >Want to work for Eventbrite?</a
       >
     </div>
@@ -122,23 +122,4 @@ hints: chr, problem solving, list comprehension
       />{.align-center width="300px" height="116px"}</a
     >
   </p>
-  <p>Published: 2014-07-23 12:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/eventbrite.html">eventbrite</a>
-    <a href="/tag/django-rest-framework.html">django-rest-framework</a>
-    <a href="/tag/argentina.html">argentina</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

@@ -14,7 +14,7 @@ title: Core Concepts of Django Forms
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/core-concepts-django-forms.html"
+      <a href="/core-concepts-django-forms "
         >Core Concepts of Django Forms</a
       >
     </div>
@@ -94,7 +94,7 @@ title: Core Concepts of Django Forms
   <p>
     Understanding the structure of Django forms is really useful. This structure
     is what allows the modification mechanism that I described in my
-    <a href="https://pydanny.com/overloading-form-fields.html" target="_blank"
+    <a href="https://pydanny.com/overloading-form-fields " target="_blank"
       >previous post</a
     >.
   </p>
@@ -213,27 +213,10 @@ title: Core Concepts of Django Forms
   <p>
     ... and I touch on them in
     <a
-      href="https://pydanny.com/core-concepts-django-modelforms.html"
+      href="https://pydanny.com/core-concepts-django-modelforms "
       target="_blank"
       >my post on ModelForms</a
     >.
   </p>
   <p>Published: 2013-3-29 11:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/forms.html">forms</a>
-    <a href="/tag/class-based-views.html">class-based-views</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

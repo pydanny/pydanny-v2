@@ -11,7 +11,7 @@ title: Python Partials are Fun!
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/python-partials-are-fun.html">Python Partials are Fun!</a>
+      <a href="/python-partials-are-fun ">Python Partials are Fun!</a>
     </div>
   </h1>
   <p>
@@ -19,14 +19,14 @@ title: Python Partials are Fun!
     that makes your life and those of others easier, but to do so in a very
     clear and maintainable way. Recently I've been playing around with Python's
     <a
-      href="https://docs.python.org/2.7/library/functools.html#functools.partial"
+      href="https://docs.python.org/2.7/library/functools #functools.partial"
       target="_blank"
       >functools.partial</a
     >
     function, which I've found can help facilitate writing reusable code.
   </p>
   <p>
-    <a href="https://pydanny.com/python-partials-are-fun.html" target="_blank"
+    <a href="https://pydanny.com/python-partials-are-fun " target="_blank"
       ><img alt="image" src="https://pydanny.com/static/partials.png"
     /></a>
   </p>
@@ -92,7 +92,7 @@ title: Python Partials are Fun!
     into play. Let's rewrite our square and cube functions using partials, and
     test it for success using
     <a
-      href="https://pydanny.com/pytest-no-boilerplate-testing.html"
+      href="https://pydanny.com/pytest-no-boilerplate-testing "
       target="_blank"
       >py.test</a
     >:
@@ -261,19 +261,4 @@ title: Python Partials are Fun!
     <a href="https://twitter.com/samueljohn_de" target="_blank">Samuel John</a>
     corrected me on Nick Coghlan's name.
   </p>
-  <p>Published: 2014-04-24 09:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

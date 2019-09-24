@@ -14,7 +14,7 @@ title: Deadline for DjangoCon Financial Aid requests is tomorrow!
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/deadline-for-djangocon-financial-aid-request.html"
+      <a href="/deadline-for-djangocon-financial-aid-request "
         >Deadline for DjangoCon Financial Aid requests is tomorrow!</a
       >
     </div>
@@ -43,22 +43,4 @@ title: Deadline for DjangoCon Financial Aid requests is tomorrow!
       >Apply while you still have time!</a
     >
   </p>
-  <p>Published: 2012-08-02 21:30</p>
-  <p>
-    Tags:
-
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/djangocon.html">djangocon</a>
-    <a href="/tag/pyladies.html">pyladies</a>
-    <a href="/tag/dsf.html">dsf</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

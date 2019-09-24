@@ -17,7 +17,7 @@ title: New Year's Resolutions for 2014
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/new-years-resolutions-for-2014.html"
+      <a href="/new-years-resolutions-for-2014 "
         >New Year's Resolutions for 2014</a
       >
     </div>
@@ -74,25 +74,4 @@ title: New Year's Resolutions for 2014
     <li>Pulled of an Aú Batido</li>
     <li>Took a fun class with Audrey. We did woodshop!</li>
   </ul>
-  <p>Published: 2014-01-01 12:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/holidays.html">holidays</a>
-    <a href="/tag/resolutions.html">resolutions</a>
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/family.html">family</a>
-    <a href="/tag/friends.html">friends</a>
-    <a href="/tag/capoeira.html">capoeira</a>
-    <a href="/tag/django.html">django</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

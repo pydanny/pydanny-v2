@@ -12,7 +12,7 @@ title: Choosing a new python based blog engine
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/choosing-a-new-blog-engine.html"
+      <a href="/choosing-a-new-blog-engine "
         >Choosing a new python based blog engine</a
       >
     </div>
@@ -37,7 +37,7 @@ title: Choosing a new python based blog engine
     at it's new location of
     <a href="http://audreymroy.com" target="_blank">audreymroy.com</a>, the
     static file hosting seemed so awesome I was impressed enough to
-    <a href="https://pydanny.com/tried-out-jekyll.html" target="_blank"
+    <a href="https://pydanny.com/tried-out-jekyll " target="_blank"
       >give Jekyll a try</a
     >. Why did Jekyll and static file hosting interest me so much?
   </p>
@@ -108,7 +108,7 @@ title: Choosing a new python based blog engine
     <a href="http://www.makotemplates.org/" target="_blank">Mako</a> templates,
     which is... um...
     <a
-      href="https://pydanny.blogspot.com/2010/12/stupid-template-languages.html"
+      href="https://pydanny.blogspot.com/2010/12/stupid-template-languages "
       target="_blank"
       >not my friend</a
     >
@@ -167,20 +167,4 @@ title: Choosing a new python based blog engine
     /></a>
   </p>
   <p><a href="">Discuss this post on Hacker News</a></p>
-  <p>Published: 2012-04-05 12:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/blog.html">blog</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
 </div>

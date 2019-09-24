@@ -14,7 +14,7 @@ title: Python Decorator Cheatsheet
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/python-decorator-cheatsheet.html"
+      <a href="/python-decorator-cheatsheet "
         >Python Decorator Cheatsheet</a
       >
     </div>
@@ -194,22 +194,4 @@ title: Python Decorator Cheatsheet
     </li>
   </ul>
   <p><img alt="image" src="https://pydanny.com/static/sample-rst.png" /></p>
-  <p>Published: 2015-02-13 18:20</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/python3.html">python3</a>
-    <a href="/tag/cheatsheet.html">cheatsheet</a>
-    <a href="/tag/ppoftw.html">ppoftw</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

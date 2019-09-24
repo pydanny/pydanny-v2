@@ -14,7 +14,7 @@ title: Installing Pycairo on Mountain Lion
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/installing-pycairo-on-mac-osx.html"
+      <a href="/installing-pycairo-on-mac-osx "
         >Installing Pycairo on Mountain Lion</a
       >
     </div>
@@ -88,22 +88,4 @@ title: Installing Pycairo on Mountain Lion
     easy recipe for alternative Python installations, I would love to link to
     it.
   </p>
-  <p>Published: 2012-09-04 10:30</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/tools.html">tools</a>
-    <a href="/tag/howto.html">howto</a>
-    <a href="/tag/setup.html">setup</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
 </div>

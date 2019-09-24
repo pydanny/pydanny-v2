@@ -16,14 +16,14 @@ title: Implemementing Manual Schema with Django REST Framework
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/manual-schema-django-rest-framework.html"
+      <a href="/manual-schema-django-rest-framework "
         >Implemementing Manual Schema with Django REST Framework</a
       >
     </div>
   </h1>
   <p>
     <a
-      href="https://www.pydanny.com/manual-schema-django-rest-framework.html"
+      href="https://www.pydanny.com/manual-schema-django-rest-framework "
       target="_blank"
       ><img
         alt="BitCoin and Two Scoops of Django!"
@@ -140,24 +140,4 @@ title: Implemementing Manual Schema with Django REST Framework
       >Patreon</a
     >.
   </p>
-  <p>Published: 2018-02-01 20:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/django-rest-framework.html">django-rest-framework</a>
-    <a href="/tag/cheatsheet.html">cheatsheet</a>
-    <a href="/tag/howto.html">howto</a>
-    <a href="/tag/coreapi.html">coreapi</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

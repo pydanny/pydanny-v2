@@ -16,7 +16,7 @@ title: Launching our API at PyCon 2012
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/launching-our-api-at-pycon-2012.html"
+      <a href="/launching-our-api-at-pycon-2012 "
         >Launching our API at PyCon 2012</a
       >
     </div>
@@ -88,7 +88,7 @@ title: Launching our API at PyCon 2012
   <p>
     We're kicking off our PyCon 2012 API launch with an
     <a
-      href="http://developers.consumernotebook.com/contest.html"
+      href="http://developers.consumernotebook.com/contest "
       target="_blank"
       >API contest</a
     >.
@@ -101,7 +101,7 @@ title: Launching our API at PyCon 2012
   </p>
   <p>
     <a
-      href="http://developers.consumernotebook.com/contest.html"
+      href="http://developers.consumernotebook.com/contest "
       target="_blank"
       >API Contest Details</a
     >
@@ -180,24 +180,4 @@ What to bring if you are participating: Workout clothes, water bottle
   <p><strong>Location: The PyCon upstairs central open space</strong></p>
   <hr />
   <p>See you around!</p>
-  <p>Published: 2012-03-09 07:30</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/OAuth.html">OAuth</a>
-    <a href="/tag/api.html">api</a>
-    <a href="/tag/Consumer-Notebook.html">Consumer-Notebook</a>
-    <a href="/tag/pycon.html">pycon</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
 </div>

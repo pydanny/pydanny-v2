@@ -20,7 +20,7 @@ title: Los Angeles Open Source Sprint on Nov 4th!
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/la-open-source-5.html"
+      <a href="/la-open-source-5 "
         >Los Angeles Open Source Sprint on Nov 4th!</a
       >
     </div>
@@ -39,7 +39,7 @@ title: Los Angeles Open Source Sprint on Nov 4th!
     feverishly at work putting together another Los Angeles open source event.
     Our
     <a
-      href="https://pydanny.com/july-15th-2012-la-open-source-recap.html"
+      href="https://pydanny.com/july-15th-2012-la-open-source-recap "
       target="_blank"
       >last effort went smashingly well</a
     >, and like any good engineer, we're ready to scale up - this time to 150
@@ -197,28 +197,4 @@ Santa Monica, CA
         src="https://s3.amazonaws.com/pydanny/open_source_sprint.png"
     /></a>
   </p>
-  <p>Published: 2012-10-14 14:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/LA.html">LA</a>
-    <a href="/tag/sprint.html">sprint</a>
-    <a href="/tag/hackathon.html">hackathon</a>
-    <a href="/tag/nodejs.html">nodejs</a>
-    <a href="/tag/ruby.html">ruby</a>
-    <a href="/tag/rails.html">rails</a>
-    <a href="/tag/clojure.html">clojure</a>
-    <a href="/tag/php.html">php</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

@@ -15,7 +15,7 @@ title: "awesome-slugify: Human-readable URL slugs from any string (part 2)"
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/awesome-slugify-human-readable-url-slugs-from-any-string-2.html"
+      <a href="/awesome-slugify-human-readable-url-slugs-from-any-string-2 "
         >awesome-slugify: Human-readable URL slugs from any string (part 2)</a
       >
     </div>
@@ -23,7 +23,7 @@ title: "awesome-slugify: Human-readable URL slugs from any string (part 2)"
   <p>
     In my previous
     <a
-      href="https://pydanny.com/awesome-slugify-human-readable-url-slugs-from-any-string.html"
+      href="https://pydanny.com/awesome-slugify-human-readable-url-slugs-from-any-string "
       target="_blank"
       >blog post</a
     >
@@ -196,23 +196,4 @@ title: "awesome-slugify: Human-readable URL slugs from any string (part 2)"
     <code>get_slugify()</code> can be imported directly from the base
     <code>slugify</code> package.
   </p>
-  <p>Published: 2014-01-22 12:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/unicode.html">unicode</a>
-    <a href="/tag/i18n.html">i18n</a>
-    <a href="/tag/ppoftw.html">ppoftw</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

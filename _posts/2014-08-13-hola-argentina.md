@@ -15,7 +15,7 @@ title: Hola, Argentina!
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/hola-argentina.html">Hola, Argentina!</a>
+      <a href="/hola-argentina ">Hola, Argentina!</a>
     </div>
   </h1>
   <p>
@@ -54,23 +54,4 @@ title: Hola, Argentina!
       />{.align-center width="292px" height="183px"}</a
     >
   </p>
-  <p>Published: 2014-08-13 13:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/argentina.html">argentina</a>
-    <a href="/tag/eventbrite.html">eventbrite</a>
-    <a href="/tag/pyladies.html">pyladies</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

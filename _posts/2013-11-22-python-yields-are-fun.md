@@ -11,7 +11,7 @@ title: Python Yields are Fun!
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/python-yields-are-fun.html">Python Yields are Fun!</a>
+      <a href="/python-yields-are-fun ">Python Yields are Fun!</a>
     </div>
   </h1>
   <p>
@@ -204,7 +204,7 @@ title: Python Yields are Fun!
   <p>
     Tags:
 
-    <a href="/tag/python.html">python</a>
+    <a href="/tag/python ">python</a>
   </p>
   <hr />
   <h3 class="ui header">Subscribe!</h3>

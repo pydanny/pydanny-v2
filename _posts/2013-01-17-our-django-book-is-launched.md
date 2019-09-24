@@ -16,7 +16,7 @@ title: Our Django Book Has Launched
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/our-django-book-is-launched.html"
+      <a href="/our-django-book-is-launched "
         >Our Django Book Has Launched</a
       >
     </div>
@@ -88,24 +88,4 @@ title: Our Django Book Has Launched
       >http://django.2scoops.org</a
     >
   </p>
-  <p>Published: 2013-01-17 10:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/twoscoops.html">twoscoops</a>
-    <a href="/tag/resolutions.html">resolutions</a>
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/audrey.html">audrey</a>
-    <a href="/tag/heroku.html">heroku</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

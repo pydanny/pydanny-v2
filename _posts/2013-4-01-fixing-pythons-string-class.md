@@ -12,7 +12,7 @@ title: Fixing Python's String class
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/fixing-pythons-string-class.html"
+      <a href="/fixing-pythons-string-class "
         >Fixing Python's String class</a
       >
     </div>
@@ -249,7 +249,7 @@ title: Fixing Python's String class
   <p>
     This was my 2013
     <a
-      href="https://pydanny.com/fixing-pythons-string-class.html#april-fool-s-joke"
+      href="https://pydanny.com/fixing-pythons-string-class #april-fool-s-joke"
       target="_blank"
       >April Fool's Joke</a
     >.
@@ -260,20 +260,4 @@ title: Fixing Python's String class
     emailed me yesterday, I plan to follow this post with some more discussion
     on how to expand on native types in Python.
   </p>
-  <p>Published: 2013-4-01 00:01</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/joke.html">joke</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

@@ -12,7 +12,7 @@ title: Python dictionary as a class
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/python-dictionary-as-class.html"
+      <a href="/python-dictionary-as-class "
         >Python dictionary as a class</a
       >
     </div>
@@ -180,20 +180,4 @@ title: Python dictionary as a class
       nice to know the parent of an object?
     </li>
   </ul>
-  <p>Published: 2012-09-01 01:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/howto.html">howto</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

@@ -14,7 +14,7 @@ title: "pytest: no-boilerplate testing"
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/pytest-no-boilerplate-testing.html"
+      <a href="/pytest-no-boilerplate-testing "
         >pytest: no-boilerplate testing</a
       >
     </div>
@@ -29,7 +29,7 @@ title: "pytest: no-boilerplate testing"
     >
     I felt like I had been living under a rock for years. I've been using
     Python's
-    <a href="http://docs.python.org/2/library/unittest.html" target="_blank"
+    <a href="http://docs.python.org/2/library/unittest " target="_blank"
       >unittest</a
     >
     framework since 2006 and
@@ -102,7 +102,7 @@ test_main.py  <span class="c1"># checked for tests</span>
     <li>
       <strong>pytest</strong> does
       <a
-        href="http://pytest.org/latest/nose.html#unsupported-idioms-known-issues"
+        href="http://pytest.org/latest/nose #unsupported-idioms-known-issues"
         target="_blank"
         >its best</a
       >
@@ -218,7 +218,7 @@ samples.py:4: <span class="nv">AssertionError</span>
   <p>
     In my next
     <a
-      href="https://pydanny.com/pytest-no-boilerplate-testing-2.html"
+      href="https://pydanny.com/pytest-no-boilerplate-testing-2 "
       target="_blank"
       >blog post</a
     >
@@ -230,22 +230,4 @@ samples.py:4: <span class="nv">AssertionError</span>
     <li>Fixtures</li>
     <li>Fixture Teardown</li>
   </ul>
-  <p>Published: 2014-01-15 12:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/testing.html">testing</a>
-    <a href="/tag/ppoftw.html">ppoftw</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

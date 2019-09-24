@@ -13,7 +13,7 @@ title: Beginner's Guide to PyCon 2015
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/beginners-guide-pycon-2014.html"
+      <a href="/beginners-guide-pycon-2014 "
         >Beginner's Guide to PyCon 2015</a
       >
     </div>
@@ -209,12 +209,12 @@ title: Beginner's Guide to PyCon 2015
     </li>
     <li>
       <p>
-        <a href="http://www.virtualenv.org/en/latest/index.html" target="_blank"
+        <a href="http://www.virtualenv.org/en/latest/index " target="_blank"
           >virtualenv</a
         >
         and
         <a
-          href="http://www.pip-installer.org/en/latest/installing.html"
+          href="http://www.pip-installer.org/en/latest/installing "
           target="_blank"
           >pip</a
         >
@@ -302,21 +302,4 @@ title: Beginner's Guide to PyCon 2015
   </ul>
   <h1 id="two-scoops-of-django-footnote">Two Scoops of Django Footnote</h1>
   <p>Keep your eyes open.</p>
-  <p>Published: 2014-04-05 05:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/pycon.html">pycon</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

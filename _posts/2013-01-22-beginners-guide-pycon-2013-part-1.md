@@ -15,7 +15,7 @@ title: Beginner's Guide to PyCon 2013 Part I
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/beginners-guide-pycon-2013-part-1.html"
+      <a href="/beginners-guide-pycon-2013-part-1 "
         >Beginner's Guide to PyCon 2013 Part I</a
       >
     </div>
@@ -220,29 +220,10 @@ title: Beginner's Guide to PyCon 2013 Part I
   <p>
     Check out
     <a
-      href="https://pydanny.com/beginners-guide-pycon-2013-part-2.html"
+      href="https://pydanny.com/beginners-guide-pycon-2013-part-2 "
       target="_blank"
       >Beginner's Guide to PyCon 2013 Part II</a
     >
     where I cover the first day of talks best suited for new Python developers!
   </p>
-  <p>Published: 2013-01-22 16:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/audrey.html">audrey</a>
-    <a href="/tag/pycon.html">pycon</a>
-    <a href="/tag/pycon-2013-guide.html">pycon-2013-guide</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

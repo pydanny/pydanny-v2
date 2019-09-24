@@ -13,7 +13,7 @@ title: Why Doesn't Python Have Switch/Case?
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/why-doesnt-python-have-switch-case.html"
+      <a href="/why-doesnt-python-have-switch-case "
         >Why Doesn't Python Have Switch/Case?</a
       >
     </div>
@@ -127,7 +127,7 @@ title: Why Doesn't Python Have Switch/Case?
   <p>
     The
     <a
-      href="https://docs.python.org/2/faq/design.html#why-isn-t-there-a-switch-or-case-statement-in-python"
+      href="https://docs.python.org/2/faq/design #why-isn-t-there-a-switch-or-case-statement-in-python"
       target="_blank"
       >official answer</a
     >
@@ -199,21 +199,4 @@ title: Why Doesn't Python Have Switch/Case?
       >Two Scoops of Django 1.8</a
     >, is now available in both print paperback and PDF formats.
   </p>
-  <p>Published: 2015-06-09 18:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/howto.html">howto</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

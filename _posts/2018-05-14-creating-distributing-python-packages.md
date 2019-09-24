@@ -10,7 +10,7 @@ title: "New Course: Creating and Distributing Python Packages"
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/creating-distributing-python-packages.html"
+      <a href="/creating-distributing-python-packages "
         >New Course: Creating and Distributing Python Packages</a
       >
     </div>

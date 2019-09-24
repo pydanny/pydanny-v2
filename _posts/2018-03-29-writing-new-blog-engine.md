@@ -15,7 +15,7 @@ title: Writing A New Blog Engine
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/writing-new-blog-engine.html">Writing A New Blog Engine</a>
+      <a href="/writing-new-blog-engine ">Writing A New Blog Engine</a>
     </div>
   </h1>
   <p>
@@ -158,23 +158,4 @@ title: Writing A New Blog Engine
     In fact, this is my first blog post written in Markdown on the new blog. How
     cool is that?
   </p>
-  <p>Published: 2018-03-29 16:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/flask.html">flask</a>
-    <a href="/tag/blog.html">blog</a>
-    <a href="/tag/mountain.html">mountain</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

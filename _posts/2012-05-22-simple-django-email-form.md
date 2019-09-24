@@ -14,7 +14,7 @@ title: Simple Django email form using CBV
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/simple-django-email-form.html"
+      <a href="/simple-django-email-form "
         >Simple Django email form using CBV</a
       >
     </div>
@@ -74,7 +74,7 @@ title: Simple Django email form using CBV
 <span class="k">class</span> <span class="nc">ContactFormView</span><span class="p">(</span><span class="n">FormView</span><span class="p">):</span>
 
     <span class="n">form_class</span> <span class="o">=</span> <span class="n">ContactForm</span>
-    <span class="n">template_name</span> <span class="o">=</span> <span class="s2">"myapp/email_form.html"</span>
+    <span class="n">template_name</span> <span class="o">=</span> <span class="s2">"myapp/email_form "</span>
     <span class="n">success_url</span> <span class="o">=</span> <span class="s1">'/email-sent/'</span>
 
     <span class="k">def</span> <span class="nf">form_valid</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">form</span><span class="p">):</span>
@@ -92,9 +92,9 @@ title: Simple Django email form using CBV
 
 </code></pre>
   </div>
-  <p>In templates/myapp/email_form.html:</p>
+  <p>In templates/myapp/email_form :</p>
   <div class="codehilite ui secondary segment">
-    <pre><span></span><code>{% extends 'base.html' %}
+    <pre><span></span><code>{% extends 'base ' %}
 {% load crispy_forms_tags %}
 
 {% block title %}Send an email{% endblock %}
@@ -132,22 +132,4 @@ title: Simple Django email form using CBV
       >Two Scoops of Django: Best Practices for Django 1.6</a
     >!
   </p>
-  <p>Published: 2012-05-22 09:30</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/howto.html">howto</a>
-    <a href="/tag/class-based-views.html">class-based-views</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

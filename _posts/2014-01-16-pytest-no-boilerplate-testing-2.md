@@ -14,7 +14,7 @@ title: "pytest: no-boilerplate testing (part 2)"
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/pytest-no-boilerplate-testing-2.html"
+      <a href="/pytest-no-boilerplate-testing-2 "
         >pytest: no-boilerplate testing (part 2)</a
       >
     </div>
@@ -22,7 +22,7 @@ title: "pytest: no-boilerplate testing (part 2)"
   <p>
     In my previous
     <a
-      href="https://pydanny.com/pytest-no-boilerplate-testing.html"
+      href="https://pydanny.com/pytest-no-boilerplate-testing "
       target="_blank"
       >blog post</a
     >
@@ -59,14 +59,14 @@ title: "pytest: no-boilerplate testing (part 2)"
   <p>
     This is similar to, but just a bit easier to remember than the
     implementation in
-    <a href="http://docs.python.org/2/library/unittest.html" target="_blank"
+    <a href="http://docs.python.org/2/library/unittest " target="_blank"
       >unittest</a
     >.
   </p>
   <p>
     What I like about it is that even if I step away from code and tests for
     enough time to go on vacation and
-    <a href="https://pydanny.com/i-married-audrey-roy.html" target="_blank"
+    <a href="https://pydanny.com/i-married-audrey-roy " target="_blank"
       >get married</a
     >, when I come back I always remember the precise name of the
     <strong>context manager</strong> used to raise exceptions.
@@ -193,7 +193,7 @@ title: "pytest: no-boilerplate testing (part 2)"
   <p>
     Want to know more things you can do with <strong>pytest</strong> fixtures?
     Please read the
-    <a href="http://pytest.org/latest/fixture.html" target="_blank"
+    <a href="http://pytest.org/latest/fixture " target="_blank"
       >pytest fixtures documentation</a
     >
   </p>
@@ -201,7 +201,7 @@ title: "pytest: no-boilerplate testing (part 2)"
   <p>
     In my
     <a
-      href="https://pydanny.com/pytest-no-boilerplate-testing-3.html"
+      href="https://pydanny.com/pytest-no-boilerplate-testing-3 "
       target="_blank"
       >next blog post</a
     >
@@ -215,22 +215,4 @@ title: "pytest: no-boilerplate testing (part 2)"
     <li>Integration with <strong>Django</strong> and other frameworks.</li>
     <li>Integration with <code>setup.py</code></li>
   </ul>
-  <p>Published: 2014-01-16 12:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/testing.html">testing</a>
-    <a href="/tag/ppoftw.html">ppoftw</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

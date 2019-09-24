@@ -14,7 +14,7 @@ title: Phasing Out Django Packages APIv1 & APIv2
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/phasing-out-django-packages-apiv1-apiv2.html"
+      <a href="/phasing-out-django-packages-apiv1-apiv2 "
         >Phasing Out Django Packages APIv1 &amp; APIv2</a
       >
     </div>
@@ -96,7 +96,7 @@ title: Phasing Out Django Packages APIv1 & APIv2
   <ul>
     <li>
       <a
-        href="http://djangopackages.readthedocs.org/en/latest/apiv3_docs.html"
+        href="http://djangopackages.readthedocs.org/en/latest/apiv3_docs "
         target="_blank"
         >Django Packages APIv3 Documentation</a
       >
@@ -117,22 +117,4 @@ title: Phasing Out Django Packages APIv1 & APIv2
         src="https://s3.amazonaws.com/opencomparison/img/logo_501x316.png"
     /></a>
   </p>
-  <p>Published: 2015-03-01 12:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django-rest-framework.html">django-rest-framework</a>
-    <a href="/tag/api.html">api</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

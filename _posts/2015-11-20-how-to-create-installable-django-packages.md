@@ -16,14 +16,14 @@ title: How To Create Installable, Reusable Django Packages
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/how-to-create-installable-django-packages.html"
+      <a href="/how-to-create-installable-django-packages "
         >How To Create Installable, Reusable Django Packages</a
       >
     </div>
   </h1>
   <p>
     <a
-      href="https://www.pydanny.com/how-to-create-installable-django-packages.html"
+      href="https://www.pydanny.com/how-to-create-installable-django-packages "
       target="_blank"
       ><img
         alt="image"
@@ -172,7 +172,7 @@ title: How To Create Installable, Reusable Django Packages
 │   │       └── newpackage.js
 │   └── templates
 │       └── cheese
-│           └── base.html
+│           └── base 
 ├── docs
 │   ├── Makefile
 │   ├── authors.rst
@@ -229,24 +229,4 @@ title: How To Create Installable, Reusable Django Packages
     Try it out and let me know what you think. I'm open to new ideas and
     receiving pull requests.
   </p>
-  <p>Published: 2015-11-20 18:30</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/python3.html">python3</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/cheatsheet.html">cheatsheet</a>
-    <a href="/tag/ppoftw.html">ppoftw</a>
-    <a href="/tag/djangopackages.html">djangopackages</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

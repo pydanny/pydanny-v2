@@ -16,7 +16,7 @@ title: "Markup Language Faceoff: Lists"
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/markup-language-faceoff-lists.html"
+      <a href="/markup-language-faceoff-lists "
         >Markup Language Faceoff: Lists</a
       >
     </div>
@@ -27,7 +27,7 @@ title: "Markup Language Faceoff: Lists"
   </p>
   <p>
     <a
-      href="https://www.pydanny.com/markup-language-faceoff-lists.html"
+      href="https://www.pydanny.com/markup-language-faceoff-lists "
       target="_blank"
       ><img alt="Bullets faceoff" src="https://pydanny.com/static/bullets.png"
     /></a>
@@ -333,24 +333,4 @@ title: "Markup Language Faceoff: Lists"
       <strong>reStructuredText</strong> thanks to David Goodger.
     </li>
   </ul>
-  <p>Published: 2015-05-14 10:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/LaTeX.html">LaTeX</a>
-    <a href="/tag/RestructuredText.html">RestructuredText</a>
-    <a href="/tag/markdown.html">markdown</a>
-    <a href="/tag/faceoff.html">faceoff</a>
-    <a href="/tag/django.html">django</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

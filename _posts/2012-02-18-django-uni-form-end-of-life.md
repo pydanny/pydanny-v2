@@ -12,7 +12,7 @@ title: django-uni-form end of life
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/django-uni-form-end-of-life.html"
+      <a href="/django-uni-form-end-of-life "
         >django-uni-form end of life</a
       >
     </div>
@@ -24,7 +24,7 @@ title: django-uni-form end of life
     <a href="http://www.nasa.gov" target="_blank">NASA</a> HQ, we had to render
     all content, including forms,
     <a
-      href="http://django-uni-form.readthedocs.org/en/latest/concepts.html#section-508"
+      href="http://django-uni-form.readthedocs.org/en/latest/concepts #section-508"
       target="_blank"
       >Section 508</a
     >
@@ -56,7 +56,7 @@ title: django-uni-form end of life
 
 <span class="nd">@register.filter</span>
 <span class="k">def</span> <span class="nf">as_uni_form</span><span class="p">(</span><span class="n">form</span><span class="p">):</span>
-<span class="n">template</span> <span class="o">=</span> <span class="n">get_template</span><span class="p">(</span><span class="s1">'templates/uni_form.html'</span><span class="p">)</span>
+<span class="n">template</span> <span class="o">=</span> <span class="n">get_template</span><span class="p">(</span><span class="s1">'templates/uni_form '</span><span class="p">)</span>
 <span class="n">c</span> <span class="o">=</span> <span class="n">Context</span><span class="p">({</span><span class="s1">'form'</span><span class="p">:</span><span class="n">form</span><span class="p">})</span>
 
     <span class="k">return</span> <span class="n">template</span><span class="o">.</span><span class="n">render</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
@@ -104,7 +104,7 @@ title: django-uni-form end of life
   <p>
     Leading up to PyCon 2009 James Tauber suggested some things that lead to the
     <a
-      href="http://django-uni-form.readthedocs.org/en/latest/concepts.html#form-helpers"
+      href="http://django-uni-form.readthedocs.org/en/latest/concepts #form-helpers"
       target="_blank"
       >FormHelpers</a
     >, and we hammered out the API on IRC. We knew it crossed the rigid lines
@@ -125,7 +125,7 @@ title: django-uni-form end of life
   <p>
     After PyCon 2009 a pull request with the
     <a
-      href="http://django-uni-form.readthedocs.org/en/latest/helpers.html#layouts"
+      href="http://django-uni-form.readthedocs.org/en/latest/helpers #layouts"
       target="_blank"
       >Layout</a
     >
@@ -195,7 +195,7 @@ title: django-uni-form end of life
     The only blip I saw with Miguel is my own fault of sometimes being too nice
     as a project leader when it comes to accepting pull requests.
     <a
-      href="http://django-uni-form.readthedocs.org/en/latest/contributing.html#how-to-get-your-pull-request-accepted"
+      href="http://django-uni-form.readthedocs.org/en/latest/contributing #how-to-get-your-pull-request-accepted"
       target="_blank"
       >I believe pull requests should be really atomic</a
     >
@@ -209,7 +209,7 @@ title: django-uni-form end of life
   <p>
     During all this I asked Miguel to take over the project, he accepted, and
     <a
-      href="https://pydanny.blogspot.com/2011/06/announcing-django-uni-form-080-beta.html"
+      href="https://pydanny.blogspot.com/2011/06/announcing-django-uni-form-080-beta "
       target="_blank"
       >I even blogged my announcement his role as project leader</a
     >. Miguel is indeed very nice and after that fact he asked me to remain on
@@ -283,7 +283,7 @@ title: django-uni-form end of life
       >django-crispy-forms</a
     >. Don't worry about changing over as there are
     <a
-      href="http://django-crispy-forms.readthedocs.org/en/d-0/migration.html"
+      href="http://django-crispy-forms.readthedocs.org/en/d-0/migration "
       target="_blank"
       >migration instructions</a
     >
@@ -292,21 +292,5 @@ title: django-uni-form end of life
       >excellent documentation</a
     >.
   </p>
-  <p>Try it. You'll like it. :-)</p>
-  <p>Published: 2012-02-18 01:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/python.html">python</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
+  <p>Try it. You'll like it. :-)</p> 
 </div>

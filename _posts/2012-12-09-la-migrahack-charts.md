@@ -13,7 +13,7 @@ title: Result of our LA Migration Hackathon submission
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/la-migrahack-charts.html"
+      <a href="/la-migrahack-charts "
         >Result of our LA Migration Hackathon submission</a
       >
     </div>
@@ -100,21 +100,4 @@ title: Result of our LA Migration Hackathon submission
       >LA Hackathon on Immigration</a
     >
   </p>
-  <p>Published: 2012-12-09 15:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/hackathon.html">hackathon</a>
-    <a href="/tag/lahackthons.html">lahackthons</a>
-    <a href="/tag/Los%20Angeles.html">Los Angeles</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

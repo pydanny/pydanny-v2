@@ -14,7 +14,7 @@ title: "pytest: no-boilerplate testing (part 3)"
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/pytest-no-boilerplate-testing-3.html"
+      <a href="/pytest-no-boilerplate-testing-3 "
         >pytest: no-boilerplate testing (part 3)</a
       >
     </div>
@@ -22,7 +22,7 @@ title: "pytest: no-boilerplate testing (part 3)"
   <p>
     In my previous
     <a
-      href="https://pydanny.com/pytest-no-boilerplate-testing-2.html"
+      href="https://pydanny.com/pytest-no-boilerplate-testing-2 "
       target="_blank"
       >blog post</a
     >
@@ -38,7 +38,7 @@ title: "pytest: no-boilerplate testing (part 3)"
     When <strong>pytest</strong> is called, either via the command-line or by
     <code>pytest.main()</code>, it
     <a
-      href="http://pytest.org/latest/customize.html#how-test-configuration-is-read-from-configuration-ini-files"
+      href="http://pytest.org/latest/customize #how-test-configuration-is-read-from-configuration-ini-files"
       target="_blank"
       >looks for a configuration file</a
     >
@@ -81,7 +81,7 @@ title: "pytest: no-boilerplate testing (part 3)"
     considering submitting a documentation pull request. In the meantime, I live
     off the <code>conftest.py</code>
     <a
-      href="http://pytest.org/latest/search.html?q=conftest&amp;check_keywords=yes&amp;area=default"
+      href="http://pytest.org/latest/search ?q=conftest&amp;check_keywords=yes&amp;area=default"
       target="_blank"
       >search results</a
     >.
@@ -95,7 +95,7 @@ title: "pytest: no-boilerplate testing (part 3)"
     maturity that not only does it have plug-ins, but that most of the time this
     feature is transparent. You can add new plug-ins to your project in a
     <a
-      href="http://pytest.org/latest/plugins.html#plugin-discovery-order-at-tool-startup"
+      href="http://pytest.org/latest/plugins #plugin-discovery-order-at-tool-startup"
       target="_blank"
       >number of ways</a
     >, including <code>pip</code> installation from
@@ -168,13 +168,13 @@ title: "pytest: no-boilerplate testing (part 3)"
     Fortunately, the documentation for <strong>pytest</strong> covers both
     adding a new
     <a
-      href="http://pytest.org/latest/goodpractises.html#integrating-with-distutils-python-setup-py-test"
+      href="http://pytest.org/latest/goodpractises #integrating-with-distutils-python-setup-py-test"
       target="_blank"
       >setup.py command-classes for pytest</a
     >
     and
     <a
-      href="http://pytest.org/latest/goodpractises.html#integration-with-setuptools-test-commands"
+      href="http://pytest.org/latest/goodpractises #integration-with-setuptools-test-commands"
       target="_blank"
       >actual integration</a
     >. That's handy, but what I've found even more useful is the
@@ -206,22 +206,4 @@ title: "pytest: no-boilerplate testing (part 3)"
     discovered <strong>pytest</strong>. In the short time I've used
     <strong>pytest</strong>, it's saved me days, if not weeks, of tedious work.
   </p>
-  <p>Published: 2014-01-17 12:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/testing.html">testing</a>
-    <a href="/tag/ppoftw.html">ppoftw</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

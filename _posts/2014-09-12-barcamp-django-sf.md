@@ -16,7 +16,7 @@ title: Announcing BarCamp Django SF!
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/barcamp-django-sf.html">Announcing BarCamp Django SF!</a>
+      <a href="/barcamp-django-sf ">Announcing BarCamp Django SF!</a>
     </div>
   </h1>
   <h1 id="barcamp-django-sf">BarCamp Django SF!</h1>
@@ -192,24 +192,4 @@ title: Announcing BarCamp Django SF!
     <strong>Update 2014/09/13:</strong> Added note that explains speaking is not
     mandatory.
   </p>
-  <p>Published: 2014-09-12 13:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/eventbrite.html">eventbrite</a>
-    <a href="/tag/pyladies.html">pyladies</a>
-    <a href="/tag/pydiversity.html">pydiversity</a>
-    <a href="/tag/barcamp.html">barcamp</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

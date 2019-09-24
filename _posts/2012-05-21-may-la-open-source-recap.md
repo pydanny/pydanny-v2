@@ -14,7 +14,7 @@ title: May 12th, 2012 LA Open Source Recap
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/may-la-open-source-recap.html"
+      <a href="/may-la-open-source-recap "
         >May 12th, 2012 LA Open Source Recap</a
       >
     </div>
@@ -121,22 +121,4 @@ title: May 12th, 2012 LA Open Source Recap
         src="https://farm9.staticflickr.com/8003/7193961164_b26d27093d.jpg"
     /></a>
   </p>
-  <p>Published: 2012-05-21 09:30</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/los-angeles.html">los-angeles</a>
-    <a href="/tag/lahackathons.html">lahackathons</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

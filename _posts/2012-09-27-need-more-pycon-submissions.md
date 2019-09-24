@@ -13,7 +13,7 @@ title: We need more PyCon US 2013 submissions!
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/need-more-pycon-submissions.html"
+      <a href="/need-more-pycon-submissions "
         >We need more PyCon US 2013 submissions!</a
       >
     </div>
@@ -135,21 +135,4 @@ title: We need more PyCon US 2013 submissions!
       >PyCon US 2013 submissions</a
     >!
   </p>
-  <p>Published: 2012-09-27 18:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/pycon.html">pycon</a>
-    <a href="/tag/django.html">django</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
 </div>

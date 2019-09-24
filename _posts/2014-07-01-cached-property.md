@@ -17,14 +17,14 @@ title: "cached-property: Don't copy/paste code"
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/cached-property.html">cached-property: Don't copy/paste code</a>
+      <a href="/cached-property ">cached-property: Don't copy/paste code</a>
     </div>
   </h1>
   <p>
     In Python, the <code>@cached_property</code> decorator is a really nice
     piece of code. What it does is it caches the result of a
     <a
-      href="https://docs.python.org/2/library/functions.html#property"
+      href="https://docs.python.org/2/library/functions #property"
       target="_blank"
       >property</a
     >
@@ -36,7 +36,7 @@ title: "cached-property: Don't copy/paste code"
     If that doesn't make much sense, below is a snippet of code that shows the
     code and demonstrates it in action. As always, I'm using
     <a
-      href="https://pydanny.com/pytest-no-boilerplate-testing.html"
+      href="https://pydanny.com/pytest-no-boilerplate-testing "
       target="_blank"
       >pytest</a
     >
@@ -203,25 +203,4 @@ title: "cached-property: Don't copy/paste code"
     of the language.
   </p>
   <p><img alt="image" src="https://pydanny.com/static/directions_med.png" /></p>
-  <p>Published: 2014-07-01 12:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/flask.html">flask</a>
-    <a href="/tag/bottle.html">bottle</a>
-    <a href="/tag/ppoftw.html">ppoftw</a>
-    <a href="/tag/pypi.html">pypi</a>
-    <a href="/tag/pyramid.html">pyramid</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

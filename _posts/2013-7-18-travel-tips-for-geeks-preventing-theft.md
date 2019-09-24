@@ -16,7 +16,7 @@ title: "Travel Tips for Geeks: Preventing Theft"
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/travel-tips-for-geeks-preventing-theft.html"
+      <a href="/travel-tips-for-geeks-preventing-theft "
         >Travel Tips for Geeks: Preventing Theft</a
       >
     </div>
@@ -349,24 +349,4 @@ title: "Travel Tips for Geeks: Preventing Theft"
     In any case, it's easy to dramatically decrease your chances of being a
     victim of this kind of crime by being prepared and vigilant.
   </p>
-  <p>Published: 2013-7-18 16:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/travel.html">travel</a>
-    <a href="/tag/djangocon.html">djangocon</a>
-    <a href="/tag/pycon.html">pycon</a>
-    <a href="/tag/travel%20tips%20for%20geeks.html">travel tips for geeks</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

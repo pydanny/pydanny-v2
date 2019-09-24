@@ -12,7 +12,7 @@ title: Tried out Jekyll
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/tried-out-jekyll.html">Tried out Jekyll</a>
+      <a href="/tried-out-jekyll ">Tried out Jekyll</a>
     </div>
   </h1>
   <h1 id="why-jekyll">Why Jekyll?</h1>
@@ -80,20 +80,4 @@ title: Tried out Jekyll
     <a href="http://pelican.readthedocs.org/" target="_blank">pelican</a> as
     alternatives. More on that later.
   </p>
-  <p>Published: 2012-02-09 10:20</p>
-  <p>
-    Tags:
-
-    <a href="/tag/ruby.html">ruby</a>
-    <a href="/tag/blog.html">blog</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
 </div>

@@ -12,7 +12,7 @@ title: Code, Code, Code
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/code-code-code.html">Code, Code, Code</a>
+      <a href="/code-code-code ">Code, Code, Code</a>
     </div>
   </h1>
   <p>
@@ -105,26 +105,10 @@ title: Code, Code, Code
   </ul>
   <p>Practice makes perfect, right?</p>
   <p>
-    <a href="https://www.pydanny.com/code-code-code.html" target="_blank"
+    <a href="https://www.pydanny.com/code-code-code " target="_blank"
       ><img
         alt="Code, Code, Code"
         src="https://www.pydanny.com/static/code-code-code.png"
     /></a>
   </p>
-  <p>Published: 2016-05-28 17:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/python.html">python</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

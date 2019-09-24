@@ -15,7 +15,7 @@ title: "awesome-slugify: Human-readable URL slugs from any string"
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/awesome-slugify-human-readable-url-slugs-from-any-string.html"
+      <a href="/awesome-slugify-human-readable-url-slugs-from-any-string "
         >awesome-slugify: Human-readable URL slugs from any string</a
       >
     </div>
@@ -147,7 +147,7 @@ title: "awesome-slugify: Human-readable URL slugs from any string"
   <p>
     Rather than describe <strong>awesome-slugify</strong> in paragraph format,
     here is working test code (<a
-      href="https://pydanny.com/pytest-no-boilerplate-testing.html"
+      href="https://pydanny.com/pytest-no-boilerplate-testing "
       target="_blank"
       >using pytest which I described before</a
     >) that explains what we can do:
@@ -279,7 +279,7 @@ title: "awesome-slugify: Human-readable URL slugs from any string"
     As demonstrated, <strong>awesome-slugify</strong> covers many common use
     cases. Nevertheless, in
     <a
-      href="https://pydanny.com/awesome-slugify-human-readable-url-slugs-from-any-string-2.html"
+      href="https://pydanny.com/awesome-slugify-human-readable-url-slugs-from-any-string-2 "
       target="_blank"
       >my next blog post</a
     >
@@ -294,23 +294,4 @@ title: "awesome-slugify: Human-readable URL slugs from any string"
     unicode-to-ASCII translation. This is because 'ss' is not a precise
     translation of 'ß'.
   </p>
-  <p>Published: 2014-01-21 12:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/unicode.html">unicode</a>
-    <a href="/tag/i18n.html">i18n</a>
-    <a href="/tag/ppoftw.html">ppoftw</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

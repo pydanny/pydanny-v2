@@ -15,7 +15,7 @@ title: Two Scoops of Django Birthday Giveaway
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/two-scoops-of-django-birthday-giveaway.html"
+      <a href="/two-scoops-of-django-birthday-giveaway "
         >Two Scoops of Django Birthday Giveaway</a
       >
     </div>
@@ -98,23 +98,4 @@ title: Two Scoops of Django Birthday Giveaway
       as well. Good luck!
     </li>
   </ul>
-  <p>Published: 2017-07-24 15:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/twoscoops.html">twoscoops</a>
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/audrey.html">audrey</a>
-    <a href="/tag/book.html">book</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

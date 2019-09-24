@@ -14,7 +14,7 @@ title: Thoughts on ranting
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/thoughts-on-ranting.html">Thoughts on ranting</a>
+      <a href="/thoughts-on-ranting ">Thoughts on ranting</a>
     </div>
   </h1>
   <p>
@@ -25,7 +25,7 @@ title: Thoughts on ranting
   <p>
     Of course, as much as I like to read or listen to them, I also like to give
     them. As of 11/26/2012 there are 2 on this
-    <a href="https://pydanny.com/tag/rant.html" target="_blank">blog</a> and 26
+    <a href="https://pydanny.com/tag/rant " target="_blank">blog</a> and 26
     on my
     <a href="https://pydanny.blogspot.com/search/label/rant" target="_blank"
       >old blog</a
@@ -49,22 +49,4 @@ title: Thoughts on ranting
     <li>OR I need to be willing to create a solution.</li>
     <li>OR the object of the rant must be an easy target to flame.</li>
   </ul>
-  <p>Published: 2012-11-26 16:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/blog.html">blog</a>
-    <a href="/tag/rant.html">rant</a>
-    <a href="/tag/family.html">family</a>
-    <a href="/tag/friends.html">friends</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

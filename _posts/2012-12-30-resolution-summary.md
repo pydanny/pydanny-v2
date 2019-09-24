@@ -16,7 +16,7 @@ title: 2012 resolution summary
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/resolution-summary.html">2012 resolution summary</a>
+      <a href="/resolution-summary ">2012 resolution summary</a>
     </div>
   </h1>
   <h1 id="resolutions-completed">Resolutions completed</h1>
@@ -130,24 +130,4 @@ title: 2012 resolution summary
       Renee, Kenneth, Leslie, Whitney, Dave, and many others.
     </li>
   </ul>
-  <p>Published: 2012-12-30 10:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/holidays.html">holidays</a>
-    <a href="/tag/resolutions.html">resolutions</a>
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/capoeira.html">capoeira</a>
-    <a href="/tag/family.html">family</a>
-    <a href="/tag/friends.html">friends</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

@@ -16,7 +16,7 @@ title: The sorry state of Python OAuth providers
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/sorry-state-python-oauth-providers.html"
+      <a href="/sorry-state-python-oauth-providers "
         >The sorry state of Python OAuth providers</a
       >
     </div>
@@ -247,24 +247,4 @@ title: The sorry state of Python OAuth providers
       >Discuss this post on Hacker News</a
     >
   </p>
-  <p>Published: 2012-03-05 07:30</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/OAuth.html">OAuth</a>
-    <a href="/tag/api.html">api</a>
-    <a href="/tag/Consumer-Notebook.html">Consumer-Notebook</a>
-    <a href="/tag/rant.html">rant</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

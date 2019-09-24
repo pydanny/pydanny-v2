@@ -12,7 +12,7 @@ title: "Travel Tips for Geeks: Traveling Cheaply"
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/travel-tips-for-geeks-living-cheaply.html"
+      <a href="/travel-tips-for-geeks-living-cheaply "
         >Travel Tips for Geeks: Traveling Cheaply</a
       >
     </div>
@@ -155,8 +155,8 @@ title: "Travel Tips for Geeks: Traveling Cheaply"
   <p>
     Tags:
 
-    <a href="/tag/travel.html">travel</a>
-    <a href="/tag/travel%20tips%20for%20geeks.html">travel tips for geeks</a>
+    <a href="/tag/travel ">travel</a>
+    <a href="/tag/travel%20tips%20for%20geeks ">travel tips for geeks</a>
   </p>
   <hr />
   <h3 class="ui header">Subscribe!</h3>

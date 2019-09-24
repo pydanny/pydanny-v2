@@ -20,7 +20,7 @@ title: "Cookiecutter: Project Templates Made Easy"
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/cookie-project-templates-made-easy.html"
+      <a href="/cookie-project-templates-made-easy "
         >Cookiecutter: Project Templates Made Easy</a
       >
     </div>
@@ -64,7 +64,7 @@ title: "Cookiecutter: Project Templates Made Easy"
   <p>
     Fortunately, while I was
     <a
-      href="https://pydanny.com/made-up-statistics.html#debate-statistics"
+      href="https://pydanny.com/made-up-statistics #debate-statistics"
       target="_blank"
       >ranting</a
     >
@@ -394,16 +394,16 @@ cheese/
   <p>
     Tags:
 
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/rant.html">rant</a>
-    <a href="/tag/flask.html">flask</a>
-    <a href="/tag/pypi.html">pypi</a>
-    <a href="/tag/pypy.html">pypy</a>
-    <a href="/tag/python3.html">python3</a>
-    <a href="/tag/javascript.html">javascript</a>
-    <a href="/tag/audrey.html">audrey</a>
-    <a href="/tag/cookiecutter.html">cookiecutter</a>
+    <a href="/tag/python ">python</a>
+    <a href="/tag/django ">django</a>
+    <a href="/tag/rant ">rant</a>
+    <a href="/tag/flask ">flask</a>
+    <a href="/tag/pypi ">pypi</a>
+    <a href="/tag/pypy ">pypy</a>
+    <a href="/tag/python3 ">python3</a>
+    <a href="/tag/javascript ">javascript</a>
+    <a href="/tag/audrey ">audrey</a>
+    <a href="/tag/cookiecutter ">cookiecutter</a>
   </p>
   <hr />
   <h3 class="ui header">Subscribe!</h3>

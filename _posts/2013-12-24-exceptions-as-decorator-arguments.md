@@ -12,7 +12,7 @@ title: Exceptions as Decorator Arguments
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/exceptions-as-decorator-arguments.html"
+      <a href="/exceptions-as-decorator-arguments "
         >Exceptions as Decorator Arguments</a
       >
     </div>
@@ -51,20 +51,4 @@ title: Exceptions as Decorator Arguments
 </code></pre>
   </div>
 
-  <p>Published: 2013-12-24 13:15</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/howto.html">howto</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

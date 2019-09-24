@@ -15,7 +15,7 @@ title: You should Heroku
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/you-should-heroku.html">You should Heroku</a>
+      <a href="/you-should-heroku ">You should Heroku</a>
     </div>
   </h1>
   <p>
@@ -319,23 +319,5 @@ title: You should Heroku
       >Discuss this post on Hacker News</a
     >
   </p>
-  <p>Published: 2012-02-28 12:45</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/heroku.html">heroku</a>
-    <a href="/tag/consumernotebook.html">consumernotebook</a>
-    <a href="/tag/mongodb.html">mongodb</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
+     
 </div>

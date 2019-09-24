@@ -114,18 +114,4 @@ title: Ten Years Ago Today
       ><img alt="image" src="https://pydanny.com/static/arlington-trail.jpg"
     /></a>
   </p>
-  <p>Published: 2019-05-05 4:00</p>
-  Tags:
-  <a href="/tag/pycon"> #pycon</a>
-  <a href="/tag/family"> #family</a>
-  <a href="/tag/friends"> #friends</a>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

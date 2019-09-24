@@ -14,7 +14,7 @@ title: My PyCon 2012 Schedule
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/my-pycon-2012-schedule.html">My PyCon 2012 Schedule</a>
+      <a href="/my-pycon-2012-schedule ">My PyCon 2012 Schedule</a>
     </div>
   </h1>
   <p>
@@ -90,7 +90,7 @@ title: My PyCon 2012 Schedule
     I'll be at the
     <a href="http://consumernotebook.com" target="_blank">Consumer Notebook</a>
     <a
-      href="http://pycon.blogspot.com/2012/02/startup-row-winners-for-pycon-2012.html"
+      href="http://pycon.blogspot.com/2012/02/startup-row-winners-for-pycon-2012 "
       target="_blank"
       >Startup Row</a
     >
@@ -171,22 +171,5 @@ title: My PyCon 2012 Schedule
         width="277"
     /></a>
   </div>
-  <p>Published: 2012-02-22 09:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/pycon.html">pycon</a>
-    <a href="/tag/consumernotebook.html">consumernotebook</a>
-    <a href="/tag/django.html">django</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
+     
 </div>

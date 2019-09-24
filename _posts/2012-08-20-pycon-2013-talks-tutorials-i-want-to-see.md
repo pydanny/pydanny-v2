@@ -13,7 +13,7 @@ title: PyCon 2013 Talks/Tutorials I want to see
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/pycon-2013-talks-tutorials-i-want-to-see.html"
+      <a href="/pycon-2013-talks-tutorials-i-want-to-see "
         >PyCon 2013 Talks/Tutorials I want to see</a
       >
     </div>
@@ -109,27 +109,10 @@ title: PyCon 2013 Talks/Tutorials I want to see
     </li>
     <li>
       <a
-        href="http://pycon.blogspot.com/2012/07/i-want-you-for-pycon-program-commitee.html"
+        href="http://pycon.blogspot.com/2012/07/i-want-you-for-pycon-program-commitee "
         target="_blank"
         >Help review PyCon US talks</a
       >.
     </li>
   </ol>
-  <p>Published: 2012-08-20 14:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/pycon.html">pycon</a>
-    <a href="/tag/meme.html">meme</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

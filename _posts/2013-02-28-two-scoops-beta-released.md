@@ -15,7 +15,7 @@ title: Two Scoops of Django 1.5 Beta Released
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/two-scoops-beta-released.html"
+      <a href="/two-scoops-beta-released "
         >Two Scoops of Django 1.5 Beta Released</a
       >
     </div>
@@ -180,7 +180,7 @@ title: Two Scoops of Django 1.5 Beta Released
     After a lot of consideration, we've decided to hold off on the print version
     of the book until what we call the
     <a
-      href="https://pydanny.com/two-scoops-beta-released.html#final"
+      href="https://pydanny.com/two-scoops-beta-released #final"
       target="_blank"
       >final</a
     >
@@ -238,7 +238,7 @@ title: Two Scoops of Django 1.5 Beta Released
   <h1 id="can-i-buy-the-book-via-paypal">Can I buy the book via PayPal?</h1>
   <p>
     No. I've answered in full
-    <a href="https://pydanny.com/we-are-not-using-paypal.html" target="_blank"
+    <a href="https://pydanny.com/we-are-not-using-paypal " target="_blank"
       >here</a
     >.
   </p>
@@ -270,23 +270,4 @@ title: Two Scoops of Django 1.5 Beta Released
       >2scoops@cartwheelweb.com</a
     >. We try to respond personally to every request.
   </p>
-  <p>Published: 2013-02-28 15:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/twoscoops.html">twoscoops</a>
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/audrey.html">audrey</a>
-    <a href="/tag/pycon.html">pycon</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

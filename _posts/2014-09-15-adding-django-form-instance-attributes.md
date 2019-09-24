@@ -15,7 +15,7 @@ title: Adding Django form instance attributes
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/adding-django-form-instance-attributes.html"
+      <a href="/adding-django-form-instance-attributes "
         >Adding Django form instance attributes</a
       >
     </div>
@@ -114,29 +114,10 @@ title: Adding Django form instance attributes
   <h1 id="see-you-at-barcamp-django-sf">See you at BarCamp Django SF!</h1>
   <p>
     On October 4th and 5th I'll be at
-    <a href="https://pydanny.com/barcamp-django-sf.html" target="_blank"
+    <a href="https://pydanny.com/barcamp-django-sf " target="_blank"
       >BarCamp Django SF</a
     >
     if you want to talk about Django, Python, or have me teach you how to do
     cartwheels.
   </p>
-  <p>Published: 2014-09-15 10:30</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/howto.html">howto</a>
-    <a href="/tag/class-based-views.html">class-based-views</a>
-    <a href="/tag/forms.html">forms</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

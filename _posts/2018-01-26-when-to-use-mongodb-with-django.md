@@ -14,7 +14,7 @@ title: When to Use MongoDB with Django
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/when-to-use-mongodb-with-django.html"
+      <a href="/when-to-use-mongodb-with-django "
         >When to Use MongoDB with Django</a
       >
     </div>
@@ -71,7 +71,7 @@ title: When to Use MongoDB with Django
     Just save your data into this field using a JSON-serializable dict. It's
     that easy. Even better, in this previous
     <a
-      href="https://www.pydanny.com/pretty-formatting-json-django-admin.html"
+      href="https://www.pydanny.com/pretty-formatting-json-django-admin "
       target="_blank"
       >article</a
     >, I show how you can pretty print the JSON in the Django admin.
@@ -85,7 +85,7 @@ title: When to Use MongoDB with Django
   <p>
     For those using MySQL instead of PostgreSQL, there's always Django-MySQL's
     <a
-      href="https://django-mysql.readthedocs.io/en/latest/model_fields/json_field.html"
+      href="https://django-mysql.readthedocs.io/en/latest/model_fields/json_field "
       target="_blank"
       >jsonfield</a
     >.
@@ -165,22 +165,4 @@ title: When to Use MongoDB with Django
       >Patreon</a
     >.
   </p>
-  <p>Published: 2018-01-26 20:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/mongodb.html">mongodb</a>
-    <a href="/tag/rant.html">rant</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

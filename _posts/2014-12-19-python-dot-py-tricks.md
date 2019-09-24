@@ -12,7 +12,7 @@ title: setup.py tricks
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/python-dot-py-tricks.html">setup.py tricks</a>
+      <a href="/python-dot-py-tricks ">setup.py tricks</a>
     </div>
   </h1>
   <p>
@@ -151,7 +151,7 @@ $ python setup.py tag
   <p>
     I like <a href="http://pytest.org" target="_blank">py.test</a>. I've
     <a
-      href="https://www.pydanny.com/pytest-no-boilerplate-testing.html"
+      href="https://www.pydanny.com/pytest-no-boilerplate-testing "
       target="_blank"
       >blogged about the use of py.test</a
     >. I try to use it everywhere. Yet, I'm really not a fan of how we're
@@ -200,7 +200,7 @@ $ python setup.py tag
   <h1 id="what-about-subprocess">What about subprocess?</h1>
   <p>
     There are those who will ask, "Why aren't you using the
-    <a href="https://docs.python.org/2/library/subprocess.html" target="_blank"
+    <a href="https://docs.python.org/2/library/subprocess " target="_blank"
       >subprocess</a
     >
     library for these shell commands?"
@@ -225,20 +225,4 @@ $ python setup.py tag
     <li>2014/12/21 - Added a note about using tox.</li>
     <li>2014/12/21 - Added a note about Makefile and Windows</li>
   </ul>
-  <p>Published: 2014-12-19 12:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/ppoftw.html">ppoftw</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

@@ -14,7 +14,7 @@ title: Announcing PyCon Philippines!
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/announcing-pycon-philippines.html"
+      <a href="/announcing-pycon-philippines "
         >Announcing PyCon Philippines!</a
       >
     </div>
@@ -53,14 +53,14 @@ title: Announcing PyCon Philippines!
   <h1 id="interested-in-attending">Interested in attending?</h1>
   <p>
     Then head to the
-    <a href="http://ph.pycon.org/register.html" target="_blank"
+    <a href="http://ph.pycon.org/register " target="_blank"
       >registration page</a
     >. The early bird discount ends on June 15th, so buy your tickets now!
   </p>
   <h1 id="interested-in-sponsoring">Interested in sponsoring?</h1>
   <p>
     Please go to the
-    <a href="http://ph.pycon.org/sponsor.html" target="_blank"
+    <a href="http://ph.pycon.org/sponsor " target="_blank"
       >sponsorship page</a
     >.
   </p>
@@ -78,22 +78,4 @@ title: Announcing PyCon Philippines!
       ><img alt="image" src="http://ph.pycon.org/images/phpug.png"
     /></a>
   </p>
-  <p>Published: 2012-06-09 12:00:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/philippines.html">philippines</a>
-    <a href="/tag/pycon.html">pycon</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

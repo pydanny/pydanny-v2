@@ -12,7 +12,7 @@ title: Fiction vs Non-Fiction
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/fiction-vs-non-fiction.html">Fiction vs Non-Fiction</a>
+      <a href="/fiction-vs-non-fiction ">Fiction vs Non-Fiction</a>
     </div>
   </h1>
   <p>I'm a published author.</p>
@@ -130,20 +130,4 @@ title: Fiction vs Non-Fiction
     I'm writing, except to say it falls in the 'fantasy and science fiction'
     genre.
   </p>
-  <p>Published: 2014-02-24 01:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/book.html">book</a>
-    <a href="/tag/twoscoops.html">twoscoops</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

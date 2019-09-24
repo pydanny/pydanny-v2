@@ -11,7 +11,7 @@ title: Docstrings and Various Python Objects
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/docstrings-and-various-python-objects.html"
+      <a href="/docstrings-and-various-python-objects "
         >Docstrings and Various Python Objects</a
       >
     </div>
@@ -22,7 +22,7 @@ title: Docstrings and Various Python Objects
     I was disappointed by their lack of <strong>docstrings</strong>. For that
     reason, and various other shortcomings,
     <a
-      href="https://pydanny.blogspot.com/2007/07/lambdas-no-more.html"
+      href="https://pydanny.blogspot.com/2007/07/lambdas-no-more "
       target="_blank"
       >I went back to standard functions</a
     >. Also, for what it's worth, I've even spoken about how
@@ -41,7 +41,7 @@ title: Docstrings and Various Python Objects
   <p>
     Using
     <a
-      href="https://pydanny.com/pytest-no-boilerplate-testing.html"
+      href="https://pydanny.com/pytest-no-boilerplate-testing "
       target="_blank"
       >pytest</a
     >, Python 2.7.x, and lambdas, let's find out!
@@ -211,7 +211,7 @@ title: Docstrings and Various Python Objects
     create a string-like class that handles the <code>help()</code> issue. If
     that happens, maybe I'll add it to
     <a
-      href="https://pydanny.com/fixing-pythons-string-class.html"
+      href="https://pydanny.com/fixing-pythons-string-class "
       target="_blank"
       >String Theory</a
     >. ;-)
@@ -228,19 +228,4 @@ title: Docstrings and Various Python Objects
       ><img alt="image" src="https://s3.amazonaws.com/pydanny/lambda_scoops.png"
     /></a>
   </p>
-  <p>Published: 2014-03-05 12:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

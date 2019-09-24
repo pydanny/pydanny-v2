@@ -16,7 +16,7 @@ title: Stay with the Django CBV defaults!
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/stay-with-cbv-defaults.html"
+      <a href="/stay-with-cbv-defaults "
         >Stay with the Django CBV defaults!</a
       >
     </div>
@@ -86,9 +86,9 @@ title: Stay with the Django CBV defaults!
     These four CBVs will default to the following three templates without any
     action on my part:
   </p>
-  <pre><code>stuffage/stuff_detail.html (StuffDetailView)
-stuffage/stuff_form.html (StuffCreateView, StuffUpdateView)
-stuffage/stuff_list.html (StuffListView)
+  <pre><code>stuffage/stuff_detail  (StuffDetailView)
+stuffage/stuff_form  (StuffCreateView, StuffUpdateView)
+stuffage/stuff_list  (StuffListView)
 </code></pre>
   <p>So easy I use a simple script to render all this code!</p>
   <h1 id="what-about-doing-this-all-in-the-urlspy">
@@ -114,7 +114,7 @@ stuffage/stuff_list.html (StuffListView)
 <span class="c1">#       lookup time.</span>
 <span class="k">class</span> <span class="nc">StuffDetailView</span><span class="p">(</span><span class="n">generic</span><span class="o">.</span><span class="n">DetailView</span><span class="p">):</span>
     <span class="n">model</span> <span class="o">=</span> <span class="n">Stuff</span>
-    <span class="n">template_name</span> <span class="o">=</span> <span class="s2">"stuffage/stuffs.html"</span>
+    <span class="n">template_name</span> <span class="o">=</span> <span class="s2">"stuffage/stuffs "</span>
     <span class="n">context_object_name</span> <span class="o">=</span> <span class="s1">'stuff'</span>
 </code></pre>
   </div>
@@ -126,7 +126,7 @@ stuffage/stuff_list.html (StuffListView)
 <span class="c1">#       understand the view.</span>
 <span class="n">url</span><span class="p">(</span>
     <span class="n">regex</span><span class="o">=</span><span class="sa">r</span><span class="s2">"^$"</span><span class="p">,</span>
-    <span class="n">view</span><span class="o">=</span><span class="n">views</span><span class="o">.</span><span class="n">StuffListView</span><span class="o">.</span><span class="n">as_view</span><span class="p">(</span><span class="n">template_name</span><span class="o">=</span><span class="s2">"stuffage/stuffs.html"</span><span class="p">),</span>
+    <span class="n">view</span><span class="o">=</span><span class="n">views</span><span class="o">.</span><span class="n">StuffListView</span><span class="o">.</span><span class="n">as_view</span><span class="p">(</span><span class="n">template_name</span><span class="o">=</span><span class="s2">"stuffage/stuffs "</span><span class="p">),</span>
     <span class="n">name</span><span class="o">=</span><span class="s2">"stuff_list"</span><span class="p">,</span>
 <span class="p">),</span>
 
@@ -137,7 +137,7 @@ stuffage/stuff_list.html (StuffListView)
 <span class="n">regex</span><span class="o">=</span><span class="sa">r</span><span class="s2">"^\$"</span><span class="p">,</span>
 <span class="n">view</span><span class="o">=</span><span class="n">ListView</span><span class="o">.</span><span class="n">as_view</span><span class="p">(</span>
 <span class="n">model</span><span class="o">=</span><span class="n">Stuff</span><span class="p">,</span>
-<span class="n">template_name</span><span class="o">=</span><span class="s2">"stuffage/stuffs.html"</span><span class="p">),</span>
+<span class="n">template_name</span><span class="o">=</span><span class="s2">"stuffage/stuffs "</span><span class="p">),</span>
 <span class="n">name</span><span class="o">=</span><span class="s2">"stuff_list"</span><span class="p">,</span>
 <span class="p">),</span>
 </code></pre>
@@ -176,7 +176,7 @@ stuffage/stuff_list.html (StuffListView)
 <span class="c1"># Same view but with a template designed to show larger list items.</span>
 <span class="n">url</span><span class="p">(</span>
 <span class="n">regex</span><span class="o">=</span><span class="sa">r</span><span class="s2">"^large/\$"</span><span class="p">,</span>
-<span class="n">view</span><span class="o">=</span><span class="n">views</span><span class="o">.</span><span class="n">StuffListView</span><span class="o">.</span><span class="n">as_view</span><span class="p">(</span><span class="n">template_name</span><span class="o">=</span><span class="s2">"stuffage/stuff_list_large.html"</span><span class="p">),</span>
+<span class="n">view</span><span class="o">=</span><span class="n">views</span><span class="o">.</span><span class="n">StuffListView</span><span class="o">.</span><span class="n">as_view</span><span class="p">(</span><span class="n">template_name</span><span class="o">=</span><span class="s2">"stuffage/stuff_list_large "</span><span class="p">),</span>
 <span class="n">name</span><span class="o">=</span><span class="s2">"stuff_list_large"</span><span class="p">,</span>
 <span class="p">),</span>
 </code></pre>
@@ -196,24 +196,4 @@ stuffage/stuff_list.html (StuffListView)
     want to port to long existing sites like
     <a href="http://djangopackages.com" target="_blank">Django Packages</a>.
   </p>
-  <p>Published: 2012-11-27 16:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/rant.html">rant</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/howto.html">howto</a>
-    <a href="/tag/class-based-views.html">class-based-views</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

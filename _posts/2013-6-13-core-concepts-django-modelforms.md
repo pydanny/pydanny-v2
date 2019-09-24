@@ -13,7 +13,7 @@ title: Core Concepts of Django ModelForms
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/core-concepts-django-modelforms.html"
+      <a href="/core-concepts-django-modelforms "
         >Core Concepts of Django ModelForms</a
       >
     </div>
@@ -23,7 +23,7 @@ title: Core Concepts of Django ModelForms
     just six (6) bullets. The bullets I've marked in <strong>bold</strong> at
     the top are the topic of this blog post, while the two of these that were
     <a
-      href="https://pydanny.com/core-concepts-django-forms.html"
+      href="https://pydanny.com/core-concepts-django-forms "
       target="_blank"
       >covered in a previous blog post on Django forms</a
     >
@@ -194,7 +194,7 @@ title: Core Concepts of Django ModelForms
     I don't like this technique. This makes it so we are defining the title
     field in two places, once in the model and once in the form. I go into more
     of the details and problems of this approach in my previous blog post at
-    <a href="https://pydanny.com/overloading-form-fields.html" target="_blank"
+    <a href="https://pydanny.com/overloading-form-fields " target="_blank"
       >Overloading Django Form Fields</a
     >.
   </p>
@@ -279,7 +279,7 @@ title: Core Concepts of Django ModelForms
   <p>
     In my
     <a
-      href="https://pydanny.com/core-concepts-django-forms.html"
+      href="https://pydanny.com/core-concepts-django-forms "
       target="_blank"
       >previous post of Django forms</a
     >
@@ -357,7 +357,7 @@ title: Core Concepts of Django ModelForms
     <span class="k">else</span><span class="p">:</span>
         <span class="n">form</span> <span class="o">=</span> <span class="n">MyModelForm</span><span class="p">()</span>
 
-    <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="s2">"my_template.html"</span><span class="p">,</span> <span class="p">{</span><span class="s1">'form'</span><span class="p">:</span> <span class="n">form</span><span class="p">})</span>
+    <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="s2">"my_template "</span><span class="p">,</span> <span class="p">{</span><span class="s1">'form'</span><span class="p">:</span> <span class="n">form</span><span class="p">})</span>
 
 </code></pre>
   </div>
@@ -468,21 +468,4 @@ title: Core Concepts of Django ModelForms
     function- or class-based. The secret is to validate the incoming data the
     same way as you would any other view request by using forms.
   </p>
-  <p>Published: 2013-6-13 15:33</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/forms.html">forms</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

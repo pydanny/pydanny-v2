@@ -13,7 +13,7 @@ title: Surgery in Two Days
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/surgery-in-two-days.html">Surgery in Two Days</a>
+      <a href="/surgery-in-two-days ">Surgery in Two Days</a>
     </div>
   </h1>
   <p>
@@ -39,7 +39,7 @@ title: Surgery in Two Days
   </p>
   <p>
     Last year in early April my wife and were given the
-    <a href="https://pydanny.com/off-to-europe.html" target="_blank"
+    <a href="https://pydanny.com/off-to-europe " target="_blank"
       >chance to work in Europe</a
     >
     for a while. We moved out of our place and put all our stuff into storage.
@@ -168,21 +168,4 @@ title: Surgery in Two Days
   </p>
   <p>It's going to be delightful.</p>
   <p>One more thing: next time I'm hiring movers.</p>
-  <p>Published: 2014-04-02 05:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/blog.html">blog</a>
-    <a href="/tag/pycon.html">pycon</a>
-    <a href="/tag/surgery.html">surgery</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

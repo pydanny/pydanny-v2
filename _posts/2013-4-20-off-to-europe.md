@@ -14,7 +14,7 @@ title: Off to Europe!
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/off-to-europe.html">Off to Europe!</a>
+      <a href="/off-to-europe ">Off to Europe!</a>
     </div>
   </h1>
   <p>
@@ -76,22 +76,4 @@ title: Off to Europe!
       >http://blog.djangocircus.com/post/48439600279/meet-daniel-greenfeld</a
     >
   </p>
-  <p>Published: 2013-4-20 09:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/europe.html">europe</a>
-    <a href="/tag/travel.html">travel</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/djangocon.html">djangocon</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

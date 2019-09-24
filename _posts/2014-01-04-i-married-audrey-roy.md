@@ -15,7 +15,7 @@ title: I Married Audrey Roy
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/i-married-audrey-roy.html">I Married Audrey Roy</a>
+      <a href="/i-married-audrey-roy ">I Married Audrey Roy</a>
     </div>
   </h1>
   <p>
@@ -59,23 +59,4 @@ title: I Married Audrey Roy
       ><img alt="image" src="https://s3.amazonaws.com/pydanny/couple.jpg"
     /></a>
   </p>
-  <p>Published: 2014-01-04 09:30</p>
-  <p>
-    Tags:
-
-    <a href="/tag/holidays.html">holidays</a>
-    <a href="/tag/family.html">family</a>
-    <a href="/tag/friends.html">friends</a>
-    <a href="/tag/audrey.html">audrey</a>
-    <a href="/tag/resolutions.html">resolutions</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

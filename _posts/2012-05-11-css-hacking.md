@@ -14,7 +14,7 @@ title: CSS Hacking to make my code samples legible
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/css-hacking.html"
+      <a href="/css-hacking "
         >CSS Hacking to make my code samples legible</a
       >
     </div>
@@ -42,22 +42,4 @@ title: CSS Hacking to make my code samples legible
 <span class="n">shuffle</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">food_type</span><span class="p">)</span>
 </code></pre>
   </div>
-  <p>Published: 2012-05-11 08:30</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/css.html">css</a>
-    <a href="/tag/usability.html">usability</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

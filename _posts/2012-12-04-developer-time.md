@@ -14,7 +14,7 @@ title: Developer Time
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/developer-time.html">Developer Time</a>
+      <a href="/developer-time ">Developer Time</a>
     </div>
   </h1>
   <p>This blog post got started with a tweet.</p>
@@ -140,22 +140,4 @@ title: Developer Time
     every work day.
   </p>
   <p>If you've got any ideas, let me know!</p>
-  <p>Published: 2012-12-04 12:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/rant.html">rant</a>
-    <a href="/tag/blog.html">blog</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

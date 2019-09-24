@@ -12,7 +12,7 @@ title: Jinja2 Quick Load Function
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/jinja2-quick-load-function.html">Jinja2 Quick Load Function</a>
+      <a href="/jinja2-quick-load-function ">Jinja2 Quick Load Function</a>
     </div>
   </h1>
   <p>
@@ -53,7 +53,7 @@ title: Jinja2 Quick Load Function
   ...     "date": "June 12, 2014",
   ...     "items": ["oranges", "bananas", "steak", "milk"]
   ... }
-  >>> render_from_template(".", "shopping_list.html", **data)
+  >>> render_from_template(".", "shopping_list ", **data)
   ```
 
 
@@ -72,20 +72,4 @@ title: Jinja2 Quick Load Function
       >https://github.com/dirn</a
     >
   </p>
-  <p>Published: 2014-06-12 09:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/jinja2.html">jinja2</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

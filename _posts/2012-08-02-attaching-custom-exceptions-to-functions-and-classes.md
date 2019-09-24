@@ -14,7 +14,7 @@ title: Attaching custom exceptions to functions and classes
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/attaching-custom-exceptions-to-functions-and-classes.html"
+      <a href="/attaching-custom-exceptions-to-functions-and-classes "
         >Attaching custom exceptions to functions and classes</a
       >
     </div>
@@ -152,22 +152,4 @@ title: Attaching custom exceptions to functions and classes
     own. This makes for harder-to-maintain and harder-to-learn projects.
   </p>
   <p>Not that I've ever done that. Ahem.</p>
-  <p>Published: 2012-08-02 09:30</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/functions.html">functions</a>
-    <a href="/tag/howto.html">howto</a>
-    <a href="/tag/django.html">django</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

@@ -15,7 +15,7 @@ title: Generating NCX files with Python
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/generating-ncx-files-with-python.html"
+      <a href="/generating-ncx-files-with-python "
         >Generating NCX files with Python</a
       >
     </div>
@@ -120,7 +120,7 @@ BeautifulSoup4
         <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">template</span><span class="p">)</span>
 
 <span class="k">if</span> <span class="vm">**name**</span> <span class="o">==</span> <span class="s1">'**main**'</span><span class="p">:</span>
-<span class="n">main</span><span class="p">(</span><span class="s1">'book.html'</span><span class="p">)</span>
+<span class="n">main</span><span class="p">(</span><span class="s1">'book '</span><span class="p">)</span>
 </code></pre>
   </div>
   <p>
@@ -128,23 +128,4 @@ BeautifulSoup4
     You also have to construct the .opf file, which is another undocumented mess
     that I'll blog about.
   </p>
-  <p>Published: 2013-4-15 09:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/twoscoops.html">twoscoops</a>
-    <a href="/tag/book.html">book</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/howto.html">howto</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

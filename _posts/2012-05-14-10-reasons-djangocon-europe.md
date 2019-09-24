@@ -14,7 +14,7 @@ title: 10 reasons to go to DjangoCon Europe
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/10-reasons-djangocon-europe.html"
+      <a href="/10-reasons-djangocon-europe "
         >10 reasons to go to DjangoCon Europe</a
       >
     </div>
@@ -113,22 +113,4 @@ title: 10 reasons to go to DjangoCon Europe
     Call me selfish but I want you there because I haven't haven't met all our
     European friends yet in person. Hope to see you next month in Zurich!
   </p>
-  <p>Published: 2012-05-14 19:30</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/europe.html">europe</a>
-    <a href="/tag/djangocon.html">djangocon</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

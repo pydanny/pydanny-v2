@@ -13,7 +13,7 @@ title: My experiences with Django and Python 3
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/experiences-with-django-python3.html"
+      <a href="/experiences-with-django-python3 "
         >My experiences with Django and Python 3</a
       >
     </div>
@@ -49,7 +49,7 @@ title: My experiences with Django and Python 3
     <li>Run the test suite using Python 3.3</li>
     <li>
       Use
-      <a href="http://docs.python.org/2/library/2to3.html" target="_blank"
+      <a href="http://docs.python.org/2/library/2to3 " target="_blank"
         >2to3</a
       >
       to scan the code for issues.
@@ -251,21 +251,4 @@ title: My experiences with Django and Python 3
     on each project. However, each time I fix something it's done and I've made
     the world a better place.
   </p>
-  <p>Published: 2013-7-11 16:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/python3.html">python3</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

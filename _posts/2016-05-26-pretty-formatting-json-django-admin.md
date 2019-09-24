@@ -15,7 +15,7 @@ title: Pretty Formatting JSON in the Django Admin
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/pretty-formatting-json-django-admin.html"
+      <a href="/pretty-formatting-json-django-admin "
         >Pretty Formatting JSON in the Django Admin</a
       >
     </div>
@@ -102,7 +102,7 @@ title: Pretty Formatting JSON in the Django Admin
     a JavaScript library like hightlight.js instead of pygments. If not, it
     shouldn't be hard to create one using
     <a
-      href="https://www.pydanny.com/how-to-create-installable-django-packages.html"
+      href="https://www.pydanny.com/how-to-create-installable-django-packages "
       target="_blank"
       >Cookiecutter Django Package</a
     >. Let me know if you package this and I'll add it to this blog post.
@@ -124,23 +124,4 @@ title: Pretty Formatting JSON in the Django Admin
       >Cookiecutter sprint</a
     >. Stop by and say hi!
   </p>
-  <p>Published: 2016-05-26 17:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/cheatsheet.html">cheatsheet</a>
-    <a href="/tag/ppoftw.html">ppoftw</a>
-    <a href="/tag/postgresql.html">postgresql</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

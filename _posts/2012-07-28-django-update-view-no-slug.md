@@ -14,7 +14,7 @@ title: Django Update View without slug in the url
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/django-update-view-no-slug.html"
+      <a href="/django-update-view-no-slug "
         >Django Update View without slug in the url</a
       >
     </div>
@@ -108,22 +108,4 @@ title: Django Update View without slug in the url
     of mixins and model forms, I get an amazing amount of stuff done in a 5 line
     CBV.
   </p>
-  <p>Published: 2012-07-28 09:30</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/howto.html">howto</a>
-    <a href="/tag/class-based-views.html">class-based-views</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

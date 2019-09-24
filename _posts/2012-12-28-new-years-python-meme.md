@@ -14,7 +14,7 @@ title: New Year's Python Meme 2012
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/new-years-python-meme.html">New Year's Python Meme 2012</a>
+      <a href="/new-years-python-meme ">New Year's Python Meme 2012</a>
     </div>
   </h1>
   <p>
@@ -77,7 +77,7 @@ title: New Year's Python Meme 2012
       >django-mongonaut</a
     >, to client efforts and personal projects where I honed my craft, plus
     examples
-    <a href="https://pydanny.com/tag/class-based-views.html" target="_blank"
+    <a href="https://pydanny.com/tag/class-based-views " target="_blank"
       >I blogged about</a
     >
     or helped get into Django core, it made for a great year. Also I wasn't just
@@ -176,22 +176,4 @@ title: New Year's Python Meme 2012
       hashtag
     </li>
   </ul>
-  <p>Published: 2012-12-28 18:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/meme.html">meme</a>
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/holidays.html">holidays</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

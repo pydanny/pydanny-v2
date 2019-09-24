@@ -2,15 +2,23 @@
   <div id="vuperess-theme-blog__post-layout">
     <Content class="vuepress-blog-theme-content" />
     <Toc />
+    <PostInfo />
   </div>
 </template>
 
 <script>
 import Toc from "@theme/components/Toc.vue";
+import PostInfo from "@theme/components/PostInfo.vue";
 
 export default {
   components: {
-    Toc
+    Toc,
+    PostInfo
+  },
+  computed: {
+    published() {
+      return this.$frontmatter.date.slice(0, 10);
+    }
   }
 };
 </script>

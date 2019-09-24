@@ -14,7 +14,7 @@ title: Python Indie Bundle Cyber Monday Sale
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/python-indie-bundle-cyber-monday.html"
+      <a href="/python-indie-bundle-cyber-monday "
         >Python Indie Bundle Cyber Monday Sale</a
       >
     </div>
@@ -106,10 +106,10 @@ title: Python Indie Bundle Cyber Monday Sale
   <p>
     Tags:
 
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/twoscoops.html">twoscoops</a>
-    <a href="/tag/book.html">book</a>
+    <a href="/tag/python ">python</a>
+    <a href="/tag/django ">django</a>
+    <a href="/tag/twoscoops ">twoscoops</a>
+    <a href="/tag/book ">book</a>
   </p>
   <hr />
   <h3 class="ui header">Subscribe!</h3>

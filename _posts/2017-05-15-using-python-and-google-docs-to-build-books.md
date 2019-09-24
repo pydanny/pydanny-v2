@@ -15,14 +15,14 @@ title: Using Python and Google Docs to Build Books
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/using-python-and-google-docs-to-build-books.html"
+      <a href="/using-python-and-google-docs-to-build-books "
         >Using Python and Google Docs to Build Books</a
       >
     </div>
   </h1>
   <p>
     <a
-      href="https://www.pydanny.com/using-google-docs-and-python-to-assemble-fiction-books.html"
+      href="https://www.pydanny.com/using-google-docs-and-python-to-assemble-fiction-books "
       target="_blank"
       ><img
         alt="Python F-Strings Are Fun!"
@@ -115,7 +115,7 @@ the-darkest-autumn
 </code></pre>
   <p>
     Now it's time to bring in the code. By leveraging the
-    <a href="python-docx.readthedocs.io/en/latest/index.html" target="_blank"
+    <a href="python-docx.readthedocs.io/en/latest/index " target="_blank"
       >python-docx</a
     >
     library, I combine all the Word files into one large Word files using this
@@ -411,23 +411,4 @@ DONE!!!
         src="https://github.com/pydanny/pydanny.github.com/blob/master/static/the-darkest-autumn-04-01-thumbnail.jpg?raw=true"
     /></a>
   </p>
-  <p>Published: 2017-05-15 15:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/python3.html">python3</a>
-    <a href="/tag/cookiecutter.html">cookiecutter</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

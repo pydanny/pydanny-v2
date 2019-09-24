@@ -18,7 +18,7 @@ title: Building Conda Packages for Multiple Operating Systems
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/building-conda-packages-for-multiple-operating-systems.html"
+      <a href="/building-conda-packages-for-multiple-operating-systems "
         >Building Conda Packages for Multiple Operating Systems</a
       >
     </div>
@@ -46,7 +46,7 @@ title: Building Conda Packages for Multiple Operating Systems
   <ul>
     <li>
       A
-      <a href="http://conda.pydata.org/miniconda.html#miniconda" target="_blank"
+      <a href="http://conda.pydata.org/miniconda #miniconda" target="_blank"
         >conda binary</a
       >
       installed.
@@ -243,26 +243,4 @@ $ conda install cookiecutter
       statements.
     </li>
   </ul>
-  <p>Published: 2015-01-29 18:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/pypi.html">pypi</a>
-    <a href="/tag/python3.html">python3</a>
-    <a href="/tag/conda.html">conda</a>
-    <a href="/tag/cookiecutter.html">cookiecutter</a>
-    <a href="/tag/binstar.html">binstar</a>
-    <a href="/tag/packaging.html">packaging</a>
-    <a href="/tag/howto.html">howto</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

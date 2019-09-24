@@ -14,7 +14,7 @@ title: Django GetOrCreateView
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/get-or-create-view.html">Django GetOrCreateView</a>
+      <a href="/get-or-create-view ">Django GetOrCreateView</a>
     </div>
   </h1>
   <p>
@@ -124,7 +124,7 @@ title: Django GetOrCreateView
 <span class="n">urlpatterns</span> <span class="o">=</span> <span class="n">patterns</span><span class="p">(</span><span class="s1">''</span><span class="p">,</span>
 <span class="n">url</span><span class="p">(</span><span class="n">regex</span><span class="o">=</span><span class="sa">r</span><span class="s1">'^newsletter-signed-up/$'</span><span class="p">,</span>
         <span class="n">view</span><span class="o">=</span><span class="n">TemplateView</span><span class="o">.</span><span class="n">as_view</span><span class="p">(</span>
-            <span class="n">template_name</span><span class="o">=</span><span class="s2">"pages/newsletter_signed_up.html"</span>
+            <span class="n">template_name</span><span class="o">=</span><span class="s2">"pages/newsletter_signed_up "</span>
         <span class="p">),</span>
         <span class="n">name</span><span class="o">=</span><span class="s1">'newsletter_signedup'</span><span class="p">,</span>
     <span class="p">),</span>
@@ -138,7 +138,7 @@ title: Django GetOrCreateView
   <h1 id="closing-thoughts">Closing thoughts</h1>
   <p>
     First off, you'll notice I didn't include the
-    <code>pages/newsletter_signed_up.html</code> because for this case it's too
+    <code>pages/newsletter_signed_up </code> because for this case it's too
     trivial.
   </p>
   <p>
@@ -158,22 +158,4 @@ title: Django GetOrCreateView
       >django-braces</a
     >. ;-)
   </p>
-  <p>Published: 2012-10-16 22:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/howto.html">howto</a>
-    <a href="/tag/class-based-views.html">class-based-views</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

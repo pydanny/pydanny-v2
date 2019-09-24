@@ -15,7 +15,7 @@ title: PyCon Australia 2011 Review
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/pycon-australia-2011-review.html"
+      <a href="/pycon-australia-2011-review "
         >PyCon Australia 2011 Review</a
       >
     </div>
@@ -24,7 +24,7 @@ title: PyCon Australia 2011 Review
     In June of 2011 I had the good fortune of having my then girlfriend, Audrey
     Roy, now fiancee,
     <a
-      href="https://pydanny.blogspot.com/2011/06/im-going-to-pycon-australia.html"
+      href="https://pydanny.blogspot.com/2011/06/im-going-to-pycon-australia "
       target="_blank"
       >invited to present a keynote speech at PyCon Australia 2011</a
     >.
@@ -76,7 +76,7 @@ title: PyCon Australia 2011 Review
     great. Whatever you do, go and see it as many times as possible because he
     changes it each and every time. Richard Jones' presentation on the
     <a
-      href="https://pydanny-event-notes.readthedocs.org/en/latest/PyconAU2011/zen_of_python.html"
+      href="https://pydanny-event-notes.readthedocs.org/en/latest/PyconAU2011/zen_of_python "
       target="_blank"
       >Zen of Python</a
     >
@@ -100,12 +100,12 @@ title: PyCon Australia 2011 Review
   <p>
     The
     <a
-      href="https://pydanny-event-notes.readthedocs.org/en/latest/PyconAU2011/index.html"
+      href="https://pydanny-event-notes.readthedocs.org/en/latest/PyconAU2011/index "
       target="_blank"
       >rest of the talks I saw were all quite good</a
     >, in fact the
     <a
-      href="https://pydanny-event-notes.readthedocs.org/en/latest/PyconAU2011/decorators.html"
+      href="https://pydanny-event-notes.readthedocs.org/en/latest/PyconAU2011/decorators "
       target="_blank"
       >one on decorators</a
     >
@@ -205,23 +205,5 @@ title: PyCon Australia 2011 Review
     book about the experience.
   </p>
   <p><strong>Combined Result: Great</strong></p>
-  <p>Published: 2012-02-24 12:45</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/pycon.html">pycon</a>
-    <a href="/tag/audrey.html">audrey</a>
-    <a href="/tag/australia.html">australia</a>
-    <a href="/tag/review.html">review</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
+     
 </div>

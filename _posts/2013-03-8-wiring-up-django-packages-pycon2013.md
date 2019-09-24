@@ -13,7 +13,7 @@ title: "PyCon Tutorial: Wiring Up Django Packages"
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/wiring-up-django-packages-pycon2013.html"
+      <a href="/wiring-up-django-packages-pycon2013 "
         >PyCon Tutorial: Wiring Up Django Packages</a
       >
     </div>
@@ -137,21 +137,4 @@ title: "PyCon Tutorial: Wiring Up Django Packages"
     Note: Registration for the conference part of PyCon is closed, but tutorials
     are still open.
   </p>
-  <p>Published: 2013-03-8 11:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/pycon.html">pycon</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

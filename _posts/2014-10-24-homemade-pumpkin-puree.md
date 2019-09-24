@@ -15,7 +15,7 @@ title: Homemade Pumpkin Puree
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/homemade-pumpkin-puree.html">Homemade Pumpkin Puree</a>
+      <a href="/homemade-pumpkin-puree ">Homemade Pumpkin Puree</a>
     </div>
   </h1>
   <p>
@@ -257,23 +257,4 @@ title: Homemade Pumpkin Puree
   <p>
     Yes, I'll be documenting our pumpkin soup recipe in a future blog post. :-)
   </p>
-  <p>Published: 2014-10-24 9:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/recipe.html">recipe</a>
-    <a href="/tag/ingredients.html">ingredients</a>
-    <a href="/tag/audrey.html">audrey</a>
-    <a href="/tag/pumpkin.html">pumpkin</a>
-    <a href="/tag/halloween.html">halloween</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

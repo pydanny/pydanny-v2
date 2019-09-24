@@ -13,7 +13,7 @@ title: Annotated History of My Most Used Shell Commands
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/20130410-history-of-my-most-used-shell-commands.html"
+      <a href="/20130410-history-of-my-most-used-shell-commands "
         >Annotated History of My Most Used Shell Commands</a
       >
     </div>
@@ -62,21 +62,4 @@ title: Annotated History of My Most Used Shell Commands
       >available</a
     >)
   </p>
-  <p>Published: 2013-4-10 09:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/twoscoops.html">twoscoops</a>
-    <a href="/tag/book.html">book</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

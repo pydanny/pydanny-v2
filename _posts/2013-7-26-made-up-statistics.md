@@ -17,7 +17,7 @@ title: Made Up Statistics
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/made-up-statistics.html">Made Up Statistics</a>
+      <a href="/made-up-statistics ">Made Up Statistics</a>
     </div>
   </h1>
   <p>
@@ -172,7 +172,7 @@ title: Made Up Statistics
     <li>
       5% of python developers wonder why we don't just use the
       <a
-        href="http://docs.python.org/library/string.html#formatstrings"
+        href="http://docs.python.org/library/string #formatstrings"
         target="_blank"
         >str.format()</a
       >
@@ -227,7 +227,7 @@ title: Made Up Statistics
       <strong>clear explanation on the front page</strong> of PyPI as to what we
       should be using and how. Something like a link to the
       <a
-        href="https://python-packaging-user-guide.readthedocs.org/en/latest/index.html"
+        href="https://python-packaging-user-guide.readthedocs.org/en/latest/index "
         target="_blank"
         >Python Packaging User Guide</a
       >
@@ -268,7 +268,7 @@ title: Made Up Statistics
   <p>
     <strong>Note:</strong> This is a reprint and update of an earlier
     <a
-      href="https://pydanny.blogspot.com/2011/12/made-up-statistics.html"
+      href="https://pydanny.blogspot.com/2011/12/made-up-statistics "
       target="_blank"
       >article</a
     >.
@@ -276,30 +276,9 @@ title: Made Up Statistics
   <p>
     <strong>Update</strong>: Added link to the
     <a
-      href="https://python-packaging-user-guide.readthedocs.org/en/latest/index.html"
+      href="https://python-packaging-user-guide.readthedocs.org/en/latest/index "
       target="_blank"
       >Python Packaging User Guide</a
     >.
   </p>
-  <p>Published: 2013-7-26 16:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/rant.html">rant</a>
-    <a href="/tag/flask.html">flask</a>
-    <a href="/tag/pyramid.html">pyramid</a>
-    <a href="/tag/pypi.html">pypi</a>
-    <a href="/tag/pypy.html">pypy</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>

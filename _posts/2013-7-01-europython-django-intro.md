@@ -13,7 +13,7 @@ title: EuroPython Intro to Django Workshop
 <div class="twelve wide column">
   <h1 class="ui block header">
     <div class="content">
-      <a href="/europython-django-intro.html"
+      <a href="/europython-django-intro "
         >EuroPython Intro to Django Workshop</a
       >
     </div>
@@ -83,21 +83,4 @@ django-reg==1.0.1
       >
     </li>
   </ul>
-  <p>Published: 2013-7-01 16:00</p>
-  <p>
-    Tags:
-
-    <a href="/tag/python.html">python</a>
-    <a href="/tag/django.html">django</a>
-    <a href="/tag/europython.html">europython</a>
-  </p>
-  <hr />
-  <h3 class="ui header">Subscribe!</h3>
-  <p>
-    If you read this far, you might want to follow me on
-    <a href="https://twitter.com/pydanny">twitter</a> or
-    <a href="https://github.com/pydanny">github</a> and subscribe via email
-    below (I'll email you new articles when I publish them).
-  </p>
-   
-</div>
+  </div>
