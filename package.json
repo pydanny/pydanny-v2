@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/pydanny/pydanny-v2#readme",
   "devDependencies": {
+    "@vuepress/theme-blog": "^1.2.5",
     "vuepress": "^1.1.0"
   }
 }
