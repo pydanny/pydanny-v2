@@ -1,9 +1,9 @@
 <template>
   <div>
-    <p>Published: {{ published }}</p>
+    <p>Published: {{ $frontmatter.date }}</p>
     <h3>Tags:</h3>
     <ul class="blog-tags">
-      <li v-for="t in $frontmatter.tag" class="blog-tag">
+      <li v-for="t in $frontmatter.tags" class="blog-tag">
         <a :href="`/tag/${t}`">#{{ t }}</a>
       </li>
     </ul>

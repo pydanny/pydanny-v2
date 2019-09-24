@@ -10,7 +10,7 @@
           {{ page.frontmatter.summary || page.summary }}
           <!-- <Content :page-key="page.key" slot-key="intro"/>-->
         </div>
-
+        <hr>
         <div class="ui-post-author" v-if="page.frontmatter.author">
           <NavigationIcon/>
           <span>{{ page.frontmatter.author }} in {{ page.frontmatter.location }}</span>
