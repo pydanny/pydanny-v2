@@ -7,7 +7,7 @@
         </div>
 
         <div class="ui-post-description">
-          {{ page.frontmatter.description || page.description }}
+          {{ page.frontmatter.description || page.description }}...
           <!-- <Content :page-key="page.key" slot-key="intro"/>-->
         </div>
         <div class="ui-post-tags">
@@ -117,7 +117,7 @@ export default {
 }
 
 .ui-post-title {
-  font-size: 28px;
+  font-size: 24px;
   border-bottom: 0;
 
   a {

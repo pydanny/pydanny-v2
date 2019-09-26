@@ -85,11 +85,11 @@ Testimonial by Captain Jonathan D. Miller
 Here are some kind words that we received about the training we
 provided:
 
-<em><p>&ldquo;Daniel and Audrey just ran the most effective, focused training course I've had the pleasure of attending. They worked tirelessly with me in the months leading up to the course so that it was tailored specifically for our squadron's development environment, and they followed up afterward to ensure that their slides were flawless for our continued reference.</p>
+Daniel and Audrey just ran the most effective, focused training course I've had the pleasure of attending. They worked tirelessly with me in the months leading up to the course so that it was tailored specifically for our squadron's development environment, and they followed up afterward to ensure that their slides were flawless for our continued reference.
 
-<p>At several points during the course, my developers took me aside to mention to me how impressed they were with the Greenfelds' quality of instruction, preparation, and attention to detail. Having two instructors was a true force multiplier -- we covered more ground on Python and Django than I thought possible. After four days we were already building working prototypes of our desired applications, and many in the class had never touched Python before!</p>
+At several points during the course, my developers took me aside to mention to me how impressed they were with the Greenfelds' quality of instruction, preparation, and attention to detail. Having two instructors was a true force multiplier -- we covered more ground on Python and Django than I thought possible. After four days we were already building working prototypes of our desired applications, and many in the class had never touched Python before!
 
-<p>Our squadron's return on investment for this course was remarkable. Daniel and Audrey have my strongest endorsement, and I know the 91st COS will be sending future developers.&rdquo;</p></em>
+Our squadron's return on investment for this course was remarkable. Daniel and Audrey have my strongest endorsement, and I know the 91st COS will be sending future developers.
 | [Jonathan D. Miller](https://twitter.com/jondelmil), Capt, US Air
   Force
 | 91st Cyberspace Operations Squadron
