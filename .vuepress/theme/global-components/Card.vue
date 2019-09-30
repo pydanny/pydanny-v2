@@ -65,7 +65,7 @@ export default {
   flex-direction: row;
 
   .card-content {
-    margin: 10px;
+    margin: 20px;
   }
 
   @media (max-width: 678px) {

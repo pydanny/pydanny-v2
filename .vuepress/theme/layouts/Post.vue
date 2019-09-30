@@ -5,29 +5,27 @@
     <hr />
     <main class="vuepress-blog-theme-content">
       <Content />
-    </main>
-    <Toc />
-    <PostInfo />
-
-    <h2>Comments</h2>
-    <div class="comments">
-      <div v-if="!comments.length">
-        No comments yet! be the first and add your comment.
-      </div>
-      <div class="comment" v-for="comment in comments">
-        <div class="comment__header">
-          <h3 class="comment__user-title">
-            <a :href="comment.user.html_url" class="comment__user-name" target="_blank">
-              <img :src="comment.user.avatar_url" alt class="comment__user-avatar" />
-              @{{ comment.user.login }}
-            </a>
-          </h3>
-          <span>{{ new Date(comment.created_at).toDateString() }}</span>
+      <hr />
+      <Toc />
+      <PostInfo />
+      <h2>Comments</h2>
+      <div class="comments">
+        <div v-if="!comments.length">No comments yet! be the first and add your comment.</div>
+        <div class="comment" v-for="comment in comments">
+          <div class="comment__header">
+            <h3 class="comment__user-title">
+              <a :href="comment.user.html_url" class="comment__user-name" target="_blank">
+                <img :src="comment.user.avatar_url" alt class="comment__user-avatar" />
+                @{{ comment.user.login }}
+              </a>
+            </h3>
+            <span>{{ new Date(comment.created_at).toDateString() }}</span>
+          </div>
+          <hr />
+          <p>{{ comment.body }}</p>
         </div>
-        <hr />
-        <p>{{ comment.body }}</p>
       </div>
-    </div>
+    </main>
   </div>
 </template>
 
@@ -46,7 +44,7 @@ export default {
   data() {
     return {
       comments: [],
-      githubToken: 'demo-access-token'
+      githubToken: "demo-access-token"
     };
   },
   computed: {
@@ -56,23 +54,24 @@ export default {
   },
   methods: {
     getComments() {
-      axios.get(`https://api.github.com/search/issues?q=${this.$frontmatter.slug}%20in:title+repo:pydanny/pydanny-v2+label:post`, {
-        headers: {
-          Authorization: `token ${this.githubToken}`
-        }
-      }).then(res => {
-        const issue = res.data.items[0] || null
-        const issueExists =  issue && issue.title  == this.$frontmatter.slug
-        if (issueExists) {
-          axios
-          .get(
-            issue.comments_url
-          )
-          .then(res => {
-            this.comments = res.data;
-          });
-        }
-      })
+      axios
+        .get(
+          `https://api.github.com/search/issues?q=${this.$frontmatter.slug}%20in:title+repo:pydanny/pydanny-v2+label:post`,
+          {
+            headers: {
+              Authorization: `token ${this.githubToken}`
+            }
+          }
+        )
+        .then(res => {
+          const issue = res.data.items[0] || null;
+          const issueExists = issue && issue.title == this.$frontmatter.slug;
+          if (issueExists) {
+            axios.get(issue.comments_url).then(res => {
+              this.comments = res.data;
+            });
+          }
+        });
     }
   },
   created() {

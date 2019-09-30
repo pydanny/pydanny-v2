@@ -84,6 +84,8 @@ I co-wrote an ice-cream-themed book series on Django with my wife, Audrey Roy Gr
     :actions="book.actions"
     width="200"
     class="horizontal" />
+<br>
+<br>
 
 ## Fiction Works
 

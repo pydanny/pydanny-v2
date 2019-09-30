@@ -44,7 +44,7 @@ export default {
 .content-wrapper {
   padding: 160px 15px 80px 15px;
   min-height: calc(100vh - 80px - 60px - 160px);
-  max-width: 1040px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
