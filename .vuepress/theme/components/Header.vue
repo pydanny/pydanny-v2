@@ -35,8 +35,7 @@ export default {
   top: 0;
   width: 100vw;
   box-sizing: border-box;
-  // background lighten(#3eaf7c, 90%)
-  background-color: #FFF;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
   padding: 15px 20px;
   margin: auto;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.03);
@@ -61,7 +60,7 @@ export default {
 
   .title {
     /* flex 0 0 200px */
-    color: #222;
+    color: #ccc;
     font-size: 22px;
     margin: 0;
     letter-spacing: 2px;
@@ -69,7 +68,7 @@ export default {
     text-transform: uppercase;
 
     a {
-      color: #222;
+      color: #ccc;
       font-weight: bold;
       text-decoration: none;
     }
@@ -91,9 +90,13 @@ export default {
 
         a {
           font-size: 18px;
-          // color lighten(#3eaf7c, 30%)
+          color: #ccc;
           text-decoration: none;
           transition: color 0.3s;
+
+          &.nav-link.router-link-exact-active.router-link-active {
+            color: $accentColor;
+          }
         }
       }
     }
@@ -104,7 +107,8 @@ export default {
       input {
         border-radius: 20px;
         transition: all 0.5s;
-        border: 1px solid #cecece;
+        color: white;
+        background: linear-gradient(to right, transparentify(#8e9eab, 60%), transparentify(#eef2f3, 30%));
 
         &:hover {
           border: 1px solid $accentColor;
@@ -113,12 +117,14 @@ export default {
       }
 
       .suggestions {
-        border: 1px solid #222;
+        border: 1px solid #ccc;
         top: 40px;
         right: 0;
 
         a {
-          color: #222;
+          color: #555;
+          font-family: sans-serif;
+          font-weight: 400;
           text-decoration: none;
 
           &.focused {
