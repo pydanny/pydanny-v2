@@ -9,8 +9,8 @@
       <div class="card-body">
         <p class="card-text" v-if="text">{{text}}</p>
       </div>
-      <hr />
       <div class="card-footer" v-if="actions">
+        <hr />
         <div v-for="action in actions">
           <a :href="action.link" target="_blank" rel="noopener">{{action.text}}</a>
         </div>
