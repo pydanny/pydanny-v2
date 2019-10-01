@@ -75,7 +75,7 @@ export default {
     }
   },
   created() {
-    this.getComments();
+    // this.getComments();
   }
 };
 </script>

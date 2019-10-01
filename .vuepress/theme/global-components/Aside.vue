@@ -1,5 +1,5 @@
 <template>
-  <aside>
+  <aside class="aside-transparent">
     <h4 class="side-title">
       Suggested Book
       <FlagIcon />
@@ -184,5 +184,14 @@ export default {
 
 .side-title {
   margin: 20px 10px 10px 20px;
+}
+
+.aside-transparent {
+  opacity: 0.7;
+  transition opacity .5s ease;
+
+  &:hover {
+    opacity: 1;
+  }
 }
 </style>
