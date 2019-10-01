@@ -13,6 +13,8 @@
       width="100%"
       class="side-book-card"
     />
+    <br>
+    <br>
     <h4 class="side-title">
       Books I like
       <HeartIcon />
@@ -183,7 +185,7 @@ export default {
 }
 
 .side-title {
-  margin: 20px 10px 10px 20px;
+  margin: 0px 10px 10px 20px;
 }
 
 .aside-transparent {

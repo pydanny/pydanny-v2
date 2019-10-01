@@ -42,9 +42,8 @@ export default {
 
 <style lang="stylus">
 .content-wrapper {
-  padding: 160px 15px 80px 15px;
-  min-height: calc(100vh - 80px - 60px - 160px);
-  max-width: 1140px;
+  padding: 120px 30px 80px 30px;
+  min-height: calc(100vh - 80px - 60px - 120px);
   margin: 0 auto;
 }
 

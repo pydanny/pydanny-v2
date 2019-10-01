@@ -13,7 +13,7 @@
 <style lang="stylus">
 .layout-grid {
   display: grid;
-  grid-template-columns: 5fr 2fr;
+  grid-template-columns: 4fr 1fr;
   grid-gap: 20px;
 
   @media (max-width: 960px) {

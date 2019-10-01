@@ -35,7 +35,7 @@ export default {
   top: 0;
   width: 100vw;
   box-sizing: border-box;
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
   padding: 15px 20px;
   margin: auto;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.03);
@@ -68,7 +68,7 @@ export default {
     text-transform: uppercase;
 
     a {
-      color: #ccc;
+      color: lighten($accentColor, 80%)
       font-weight: bold;
       text-decoration: none;
     }
@@ -90,12 +90,12 @@ export default {
 
         a {
           font-size: 18px;
-          color: #ccc;
+          color: lighten($accentColor, 40%)
           text-decoration: none;
           transition: color 0.3s;
 
           &.nav-link.router-link-exact-active.router-link-active {
-            color: $accentColor;
+            color: lighten($accentColor, 80%);
           }
         }
       }
@@ -108,7 +108,7 @@ export default {
         border-radius: 20px;
         transition: all 0.5s;
         color: white;
-        background: linear-gradient(to right, transparentify(#8e9eab, 60%), transparentify(#eef2f3, 30%));
+        background: rgba(255, 255, 255, 0.3);
 
         &:hover {
           border: 1px solid $accentColor;
