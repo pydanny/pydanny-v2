@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Hero />
     <div class="layout-grid">
       <BaseListLayout v-if="$pagination" />
       <Content v-else />
@@ -7,6 +8,16 @@
     </div>
   </div>
 </template>
+
+<script>
+import Hero from '@theme/components/Hero.vue'
+
+export default {
+  components: {
+    Hero
+  }
+}
+</script>
 
 <style src="prismjs/themes/prism-okaidia.css"></style>
 

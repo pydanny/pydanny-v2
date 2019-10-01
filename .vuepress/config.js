@@ -1,6 +1,6 @@
 module.exports = {
   title: "PyDanny",
-  description: "inside the head of PyDanny",
+  description: "Inside the head of Daniel Roy Greenfeld",
   theme: "@vuepress/theme-blog",
   themeConfig: {
     fullName: "Daniel Roy greenfeld",

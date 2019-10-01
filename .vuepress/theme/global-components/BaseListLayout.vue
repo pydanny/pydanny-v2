@@ -1,6 +1,12 @@
 <template>
   <div id="base-list-layout">
     <div class="ui-posts">
+      <h2 v-if="$route.meta.pid && $route.meta.pid !== 'post'">
+        Latest
+        <span class="hilight">#{{ $route.meta.id }}</span> Posts
+      </h2>
+      <h2 v-else>Latest Posts</h2>
+
       <div class="ui-post" v-for="page in pages" v-if="page.frontmatter.published">
         <div class="ui-post-title">
           <NavLink :link="page.path">{{ page.title }}</NavLink>
@@ -36,7 +42,6 @@
         </div>
       </div>
     </div>
-
     <component v-if="$pagination.length > 1 && paginationComponent" :is="paginationComponent"></component>
   </div>
 </template>
@@ -114,6 +119,10 @@ export default {
   p {
     margin: 0;
   }
+}
+
+span.hilight {
+  color: $accentColor;
 }
 
 .ui-post-title {
