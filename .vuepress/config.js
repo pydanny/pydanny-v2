@@ -38,5 +38,13 @@ module.exports = {
         }
       ]
     }
-  }
+  },
+  plugins: [
+    [
+      "sitemap",
+      {
+        hostname: "https://www.pydanny.com"
+      }
+    ]
+  ]
 };
