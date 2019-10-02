@@ -8,23 +8,9 @@
       <hr />
       <Toc />
       <PostInfo />
-      <h2>Comments</h2>
-      <div class="comments">
-        <div v-if="!comments.length">No comments yet! be the first and add your comment.</div>
-        <div class="comment" v-for="comment in comments">
-          <div class="comment__header">
-            <h3 class="comment__user-title">
-              <a :href="comment.user.html_url" class="comment__user-name" target="_blank">
-                <img :src="comment.user.avatar_url" alt class="comment__user-avatar" />
-                @{{ comment.user.login }}
-              </a>
-            </h3>
-            <span>{{ new Date(comment.created_at).toDateString() }}</span>
-          </div>
-          <hr />
-          <p>{{ comment.body }}</p>
-        </div>
-      </div>
+      <ClientOnly>
+        <Disqus shortname="pydanny" />
+      </ClientOnly>
     </main>
   </div>
 </template>

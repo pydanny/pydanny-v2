@@ -45,6 +45,7 @@ module.exports = {
       {
         hostname: "https://www.pydanny.com"
       }
-    ]
+    ],
+    ["disqus"]
   ]
 };
