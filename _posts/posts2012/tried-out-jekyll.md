@@ -1,13 +1,10 @@
 ---
-category: blog
 date: '2012-02-09'
-filename: posts2012/tried-out-jekyll.md
 published: true
 slug: tried-out-jekyll
 tags:
 - ruby
 - blog
-timeToRead: 2
 time_to_read: 2
 title: Tried out Jekyll
 ---

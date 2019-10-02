@@ -1,13 +1,10 @@
 ---
-category: python
 date: '2016-05-28'
-filename: posts2016/code-code-code.md
 published: true
 slug: code-code-code
 tags:
 - django
 - python
-timeToRead: 3
 time_to_read: 3
 title: Code, Code, Code
 ---

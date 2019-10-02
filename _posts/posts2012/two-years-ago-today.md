@@ -1,13 +1,10 @@
 ---
-category: audrey
 date: '2012-02-17'
-filename: posts2012/two-years-ago-today.md
 published: true
 slug: two-years-ago-today
 tags:
 - pycon
 - audrey
-timeToRead: 1
 time_to_read: 1
 title: Two years ago today
 ---
