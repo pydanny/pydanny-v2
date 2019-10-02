@@ -6,14 +6,13 @@ module.exports = {
     fullName: "Daniel Roy greenfeld",
     personalPhoto: "/images/personalPhoto.png",
     bio:
-      "I do Python, Django, and JavaScript out of Los Angeles, California. I love to read, write, hang out with my wife, and play at Capoeira and Eskrima. I am a total Space and NASA Geek. I used to attend lots of software industry events, but these days I go to perhaps one per year. I've written a few books and courses.",
+      "I do Python, Django, and JavaScript out of Los Angeles, California. I love to read, write, hang out with my wife, and play at Capoeira and Brazilian Jiu-Jitsu. I am a total Space and NASA Geek. I used to attend lots of software industry events, but these days I go to perhaps one per year. I've written a few books and courses.",
     nav: [
       { text: "Home", link: "/" },
       { text: "Tags", link: "/tag/" },
       { text: "Python", link: "/tag/python/" },
       { text: "Django", link: "/tag/django/" },
       { text: "Books", link: "/pages/books/" },
-      { text: "Courses", link: "/pages/courses/" },
       { text: "About", link: "/pages/about/" }
     ],
     footer: {
@@ -33,7 +32,7 @@ module.exports = {
       ],
       copyright: [
         {
-          text: `Content Copyright © 2012-${new Date().getFullYear()} Daniel Greenfeld.`,
+          text: `Content Copyright © 2012-${new Date().getFullYear()} Daniel Roy Greenfeld.`,
           link: ""
         }
       ]
