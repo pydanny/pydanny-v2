@@ -18,7 +18,7 @@ module.exports = (themeConfig, ctx) => {
         path: "/",
         // layout: 'IndexPost', defaults to `Layout.vue`
         itemLayout: "Post",
-        itemPermalink: "/:slug",
+        itemPermalink: "/:slug.html",
         pagination: {
           lengthPerPage: 10
         }

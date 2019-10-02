@@ -9,7 +9,7 @@
 
       <div class="ui-post" v-for="page in pages" v-if="page.frontmatter.published">
         <div class="ui-post-title">
-          <NavLink :link="page.path">{{ page.title }}</NavLink>
+          <router-link :to="page.path">{{ page.title }}</router-link>
         </div>
 
         <div class="ui-post-description">
