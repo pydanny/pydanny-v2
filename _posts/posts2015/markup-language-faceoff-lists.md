@@ -82,7 +82,7 @@ This blog is written in
 [reStructuredText](http://en.wikipedia.org/wiki/ReStructuredText) and
 transformed into **HTML**. Let's see the markup for this blog post:
 
-```rst
+```rest
 * Item A
 * Item B
 
@@ -120,7 +120,7 @@ markup then odds are you are using **Markdown**.
 [Markdown](http://en.wikipedia.org/wiki/Markdown) does lists really
 well. Terse and no weird quirks:
 
-```rst
+```markdown
 * Item A
 * Item B
     1. First Numbered Inner Item
