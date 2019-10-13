@@ -6,7 +6,6 @@ tags:
 - django
 - djangocon
 - pyladies
-- dsf
 time_to_read: 0
 title: Deadline for DjangoCon Financial Aid requests is tomorrow!
 ---

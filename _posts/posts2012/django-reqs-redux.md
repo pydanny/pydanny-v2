@@ -5,7 +5,6 @@ slug: django-reqs-redux
 tags:
 - python
 - django
-- djangodash
 - setup
 time_to_read: 3
 title: Django Requirements 2012-08-15

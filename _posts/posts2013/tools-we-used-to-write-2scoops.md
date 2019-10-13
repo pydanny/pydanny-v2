@@ -92,7 +92,7 @@ her hands dirty by teaching me LaTeX, since my brain is slow and thick.
 Here's a sample of what I've learned how to do, taken from Chapter 6,
 Section 1, Subsection 5 (6.1.5):
 
-``` tex
+``` latex
 \subsection{Model Inheritance in Practice: The TimeStampedModel}
 It's very common in Django projects to include a \inlinecode{created} and \inlinecode{modified} timestamp field on all your models. We could manually add those fields to each and every model, but that's a lot of work and adds the risk of human error. A better solution is to write a \inlinecode{TimeStampedModel} \index{TimeStampedModel} to do the work for us:
 

@@ -9,6 +9,7 @@ tags:
   - Vue.js  
 time_to_read: 5
 title: Moving to Vuepress
+type: post
 ---
 
 [In 2018 I wrote my own blog engine](/writing-new-blog-engine) and it's time to move off.
@@ -22,7 +23,7 @@ The truth is I would rather be writing or coding new things then building and ma
 - [Falling off the mountain](/writing-new-blog-engine.html#falling-off-the-mountain)
 - [Climbing a frozen mountain](/writing-new-blog-engine.html#climbing-a-frozen-mountain)
 
-Yes, [Frozen-flask](https://pythonhosted.org/Frozen-Flask/) allowed me to turn my site into a static site. However, **the compilation time took over 5 minutes**. Yes, I ran my site locally on localhost, but testing out additional features to see how they rendered in the final build took too long. For example, my plans to optimize page/image loads and add search came to a screeching halt.
+Yes, [Frozen-flask](https://pythonhosted.org/Frozen-Flask/) allowed me to turn my site into a static site. However, **the compilation time took over 5 minutes**. While I ran my site locally on localhost, testing out additional features to see how they rendered in the final build took too long. For example, my plans to optimize page/image loads and add search came to a screeching halt.
 
 The end result was that for all my fun in writing the Mountain blog engine for myself, I felt uncomfortable with the results. Every time I visited my blog to write I would see the problems in the current system, try to fix them, then step away.    
 
@@ -34,6 +35,7 @@ A few months ago I wrote up these requirements:
 
 - Must be a static site because [Jamstack](https://jamstack.org/) rocks.
 - If not using .html extension, must easily redirect from .html to as not to annoy old readers. [Netlify's redirects](https://www.netlify.com/docs/redirects/) are perfect for this kind of thing.
+- Search needs to be a thing.
 - Powered by [VueJS](https://vuejs.org/) because it's my favorite frontend framework.
 
 So when I saw that my coworker, [Amanda Quint](https://www.amandaquint.com) had started a Vuepress blog I decided to give it a try. Setup was easy, but as always the challenge was in the details.

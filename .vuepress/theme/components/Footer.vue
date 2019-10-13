@@ -27,7 +27,8 @@ import {
   FacebookIcon,
   TwitterIcon,
   InstagramIcon,
-  LinkedinIcon
+  LinkedinIcon,
+  RssIcon
 } from "vue-feather-icons";
 
 export default {
@@ -36,7 +37,8 @@ export default {
     FacebookIcon,
     TwitterIcon,
     InstagramIcon,
-    LinkedinIcon
+    LinkedinIcon,
+    RssIcon
   },
 
   methods: {
@@ -52,6 +54,8 @@ export default {
           return "InstagramIcon";
         case "linkedin":
           return "LinkedinIcon";
+        case "feed":
+          return "RssIcon";          
         default:
           return "";
       }

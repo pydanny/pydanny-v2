@@ -6,7 +6,6 @@ tags:
 - twoscoops
 - python
 - django
-- paypal
 - rant
 time_to_read: 5
 title: We are not using PayPal

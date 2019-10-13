@@ -1,3 +1,14 @@
+const _ = require("lodash");
+
+const feed_options = {
+  canonical_base: 'https://pydanny.com',
+  sort:  entries => _.reverse( _.sortBy( entries, 'date' ) ),
+  feedLinks: {
+    json: "https://pydanny.com/json",
+    atom: "https://pydanny.com/feeds/all.atom.xml"
+  },  
+};
+
 module.exports = {
   title: "PyDanny",
   description: "Inside the head of Daniel Roy Greenfeld",
@@ -6,7 +17,10 @@ module.exports = {
     fullName: "Daniel Roy greenfeld",
     personalPhoto: "/images/personalPhoto.png",
     bio:
-      "I do Python, Django, and JavaScript out of Los Angeles, California. I love to read, write, hang out with my wife, and play at Capoeira and Brazilian Jiu-Jitsu. I am a total Space and NASA Geek. I used to attend lots of software industry events, but these days I go to perhaps one per year. I've written a few books and courses.",
+      `I do Python, Django, and JavaScript out of Los Angeles, California.
+      I love to read, write, hang out with my wife, and play at Capoeira and Brazilian Jiu-Jitsu.
+      I am a total Space and NASA Geek. I attend lots of software industry events.
+      I've written a few books and courses.`,
     nav: [
       { text: "Home", link: "/" },
       { text: "Tags", link: "/tag/" },
@@ -28,6 +42,10 @@ module.exports = {
         {
           type: "linkedin",
           link: "https://www.linkedin.com/in/pydanny/"
+        },
+        {
+          type: "feed",
+          link: "/feeds/all.atom.xml"
         }
       ],
       copyright: [
@@ -45,6 +63,7 @@ module.exports = {
         hostname: "https://www.pydanny.com"
       }
     ],
-    ["disqus"]
+    ["disqus"],
+    [ 'feed', feed_options ] 
   ]
 };

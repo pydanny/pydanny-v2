@@ -5,7 +5,7 @@ slug: europython-django-intro
 tags:
 - python
 - django
-- europython
+- europe
 time_to_read: 1
 title: EuroPython Intro to Django Workshop
 ---

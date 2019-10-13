@@ -10,7 +10,6 @@ tags:
 - clojure
 - ruby
 - nodejs
-- meteor
 time_to_read: 3
 title: July 15th, 2012 LA Open Source Recap
 ---

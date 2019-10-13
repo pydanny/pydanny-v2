@@ -50,6 +50,8 @@ export default {
           return "InstagramIcon";
         case "linkedin":
           return "LinkedinIcon";
+        case "feed":
+          return "RssIcon";          
         default:
           return "";
       }
