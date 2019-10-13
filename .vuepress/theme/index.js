@@ -20,7 +20,7 @@ module.exports = (themeConfig, ctx) => {
         itemLayout: "Post",
         itemPermalink: "/:slug.html",
         pagination: {
-          lengthPerPage: 10
+          lengthPerPage: 20
         }
       }
     ],
