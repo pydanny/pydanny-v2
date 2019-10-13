@@ -156,7 +156,7 @@ export default {
       ]
     };
   },
-  created() {
+  mounted() {
     this.changeCurrentBook();
   },
   computed: {
@@ -171,7 +171,7 @@ export default {
         this.currentBookIndex = randomBookIndex;
       }, 10000);
     }
-  }
+  },
 };
 </script>
 
