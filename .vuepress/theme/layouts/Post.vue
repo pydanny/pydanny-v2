@@ -9,7 +9,7 @@
       <Toc />
       <PostInfo />
       <ClientOnly>
-        <Disqus shortname="pydanny" />
+        <Disqus shortname="pydanny" :identifier="identifier" />
       </ClientOnly>
     </main>
   </div>
@@ -36,6 +36,9 @@ export default {
   computed: {
     published() {
       return this.$frontmatter.date.slice(0, 10);
+    },
+    identifier() {
+      return `${this.$frontmatter.slug}.html`
     }
   },
   methods: {
