@@ -6,6 +6,7 @@ slug: moving-to-vuepress
 tags:
   - javascript
   - blog
+  - Vue.js  
 time_to_read: 5
 title: Moving to Vuepress
 ---
@@ -16,13 +17,12 @@ title: Moving to Vuepress
 
 I like writing code and thought this was going to be a fun, easy project. How hard is it to write a blog engine anyway?
 
-The truth is I would rather be writing or coding new things then building and maintaining something that's been done thousands of times by other people. Yes, the foundation of a blog isn't hard, but the devil is in the details. Here are some bits of grief I encountered:
+The truth is I would rather be writing or coding new things then building and maintaining something that's been done thousands of times by other people. Yes, the foundation of a blog isn't hard, but the challenge is in the details. Here are some bits of grief I encountered:
 
-1. My original Flask/Markdown/Serverless design was really slow. My blog has a lot of articles, and recompiling all that material was astonishingly slow. I optimized where I could, but instead of fast loads some pages were taking 2-3 seconds. Not what I wanted for my blog. Switching to something database powered wasn't an option. I wanted something that cost me pennies to run a month, not tens of dollars.
+- [Falling off the mountain](/writing-new-blog-engine.html#falling-off-the-mountain)
+- [Climbing a frozen mountain](/writing-new-blog-engine.html#climbing-a-frozen-mountain)
 
-2. Switching to Sqlite3 on S3 was a cheap option I explored. However, it too suffered from slow load time issues.
-
-3. [Frozen-flask](https://pythonhosted.org/Frozen-Flask/) allowed me to turn my site into a static site. However, **the compilation time took over 5 minutes**. Yes, I ran my site locally on localhost, but testing out additional features to see how they rendered in the final build took too long. For example, my plans to optimize page/image loads and add search came to a screeching halt.
+Yes, [Frozen-flask](https://pythonhosted.org/Frozen-Flask/) allowed me to turn my site into a static site. However, **the compilation time took over 5 minutes**. Yes, I ran my site locally on localhost, but testing out additional features to see how they rendered in the final build took too long. For example, my plans to optimize page/image loads and add search came to a screeching halt.
 
 The end result was that for all my fun in writing the Mountain blog engine for myself, I felt uncomfortable with the results. Every time I visited my blog to write I would see the problems in the current system, try to fix them, then step away.    
 

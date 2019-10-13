@@ -47,7 +47,8 @@ yarn build
 ## Authors
 
 - **Ahmad Mostafa** - _Initial work_ - [z3by](https://github.com/z3by)
+- **Daniel Roy Greenfeld**
 
 ## License
 
-This project is licensed under the MIT License
+This project is licensed under the MIT License.
