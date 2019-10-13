@@ -8,7 +8,6 @@ tags:
 - django
 - flask
 - blog
-- mountain
 time_to_read: 4
 title: Writing A New Blog Engine
 ---

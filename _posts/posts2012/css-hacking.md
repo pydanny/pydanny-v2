@@ -5,8 +5,6 @@ slug: css-hacking
 tags:
 - python
 - django
-- css
-- usability
 time_to_read: 1
 title: CSS Hacking to make my code samples legible
 ---

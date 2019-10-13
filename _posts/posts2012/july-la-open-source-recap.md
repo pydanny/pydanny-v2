@@ -6,9 +6,8 @@ tags:
 - python
 - django
 - php
-- la
+- Los Angeles
 - clojure
-- perl
 - ruby
 - nodejs
 - meteor

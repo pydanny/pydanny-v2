@@ -4,7 +4,7 @@ published: true
 slug: la-migrahack-charts
 tags:
 - hackathon
-- lahackthons
+- hackathons
 - Los Angeles
 time_to_read: 1
 title: Result of our LA Migration Hackathon submission

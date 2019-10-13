@@ -5,7 +5,7 @@ slug: los-angeles-sprint
 tags:
 - python
 - django
-- LA
+- Los Angeles
 - sprint
 - hackathon
 time_to_read: 2

@@ -6,7 +6,6 @@ tags:
 - python
 - django
 - flask
-- bottle
 - ppoftw
 - pypi
 - pyramid

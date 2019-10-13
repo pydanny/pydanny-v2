@@ -5,12 +5,11 @@ slug: la-open-source-5
 tags:
 - python
 - django
-- LA
+- Los Angeles
 - sprint
 - hackathon
 - nodejs
 - ruby
-- rails
 - clojure
 - php
 time_to_read: 3

@@ -4,7 +4,6 @@ published: true
 slug: building-maintaining-scaling-projects
 tags:
 - nasa
-- WhartonWC
 time_to_read: 0
 title: Building, Maintaining and Scaling Projects
 ---

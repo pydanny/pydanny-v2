@@ -5,8 +5,8 @@ slug: may-la-open-source-recap
 tags:
 - python
 - django
-- los-angeles
-- lahackathons
+- Los Angeles
+- hackathons
 time_to_read: 2
 title: May 12th, 2012 LA Open Source Recap
 ---

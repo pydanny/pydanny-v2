@@ -6,7 +6,6 @@ tags:
 - python
 - django
 - howto
-- casestudy
 - hackathon
 - class-based-views
 time_to_read: 3

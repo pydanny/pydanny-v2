@@ -8,7 +8,6 @@ tags:
 - eventbrite
 - pyladies
 - pydiversity
-- barcamp
 time_to_read: 3
 title: Announcing BarCamp Django SF!
 ---

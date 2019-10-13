@@ -5,7 +5,6 @@ slug: python-dictionary-vs-javascript-object
 tags:
 - python
 - javascript
-- vs
 time_to_read: 1
 title: 'Python dictionary vs JavaScript object: Dynamic Keys'
 ---

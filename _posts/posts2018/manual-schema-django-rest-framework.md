@@ -9,7 +9,6 @@ tags:
   - django-rest-framework
   - cheatsheet
   - howto
-  - coreapi
 time_to_read: 1
 title: Implemementing Manual Schema with Django REST Framework
 ---

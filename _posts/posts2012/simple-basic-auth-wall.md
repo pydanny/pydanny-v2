@@ -5,7 +5,6 @@ slug: simple-basic-auth-wall
 tags:
 - python
 - django
-- wsgi
 - howto
 time_to_read: 1
 title: Simple HTTP Basic Auth Wall

@@ -5,7 +5,6 @@ published: true
 slug: fixing-pythons-string-class
 tags:
 - python
-- joke
 time_to_read: 4
 title: Fixing Python's String class
 ---

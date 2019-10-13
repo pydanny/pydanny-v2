@@ -4,7 +4,6 @@ published: true
 slug: curiosity-has-landed
 tags:
 - nasa
-- science
 - python
 - django
 time_to_read: 1

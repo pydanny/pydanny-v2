@@ -8,7 +8,6 @@ tags:
 - python3
 - conda
 - cookiecutter
-- binstar
 - packaging
 - howto
 time_to_read: 3
