@@ -10,6 +10,7 @@ tags:
 - book
 time_to_read: 1
 title: Two Scoops of Django Birthday Giveaway
+description: My 2017 birthday giveaway contest.
 ---
 
 [![Coldest Spring](https://raw.githubusercontent.com/pydanny/pydanny.github.com/master/static/51hVFnWbG7L.jpg)](https://www.amazon.com/Coldest-Spring/dp/B071P74C8Z/?tag=ihpydanny-20)

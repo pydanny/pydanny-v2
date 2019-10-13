@@ -2,7 +2,12 @@ const _ = require("lodash");
 
 const feed_options = {
   canonical_base: 'https://pydanny.com',
-  sort:  entries => _.reverse( _.sortBy( entries, 'date' ) )
+  id: 'https://pydanny.com/',
+  sort:  entries => _.reverse( _.sortBy( entries, 'date' ) ),
+  author: {
+    name: "Daniel Roy Greenfeld",
+    link: "https://pydanny.com"
+  }  
 };
 
 module.exports = {
