@@ -2,11 +2,7 @@ const _ = require("lodash");
 
 const feed_options = {
   canonical_base: 'https://pydanny.com',
-  sort:  entries => _.reverse( _.sortBy( entries, 'date' ) ),
-  feedLinks: {
-    json: "https://pydanny.com/json",
-    atom: "https://pydanny.com/feeds/all.atom.xml"
-  },  
+  sort:  entries => _.reverse( _.sortBy( entries, 'date' ) )
 };
 
 module.exports = {
@@ -45,7 +41,7 @@ module.exports = {
         },
         {
           type: "feed",
-          link: "/feeds/all.atom.xml"
+          link: "/feed.atom"
         }
       ],
       copyright: [
