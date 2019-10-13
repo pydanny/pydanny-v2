@@ -12,7 +12,7 @@ title: 'Django Class Based View: email form with CAPTCHA'
 ---
 
 [Yesterday I showed how to implement a simple email
-form](https://pydanny.com/simple-django-email-form-using-cbv.html) for
+form](/simple-django-email-form.html) for
 [Django](http://djangoproject.com) using Class Based Views. Today I'm
 going to extend yesterday's work to use the excellent
 [RECAPTCHA](http://www.google.com/recaptcha) service to help reduce spam
@@ -148,4 +148,4 @@ Want to learn more?
 
 Check out the Django book I co-wrote, [Two Scoops of Django: Best
 Practices for Django
-1.6](http://twoscoopspress.org/products/two-scoops-of-django-1-6)!
+1.11](http://twoscoopspress.org/products/two-scoops-of-django-1-11)!

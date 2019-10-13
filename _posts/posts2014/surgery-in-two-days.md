@@ -5,7 +5,7 @@ slug: surgery-in-two-days
 tags:
 - blog
 - pycon
-- surgery
+- injury
 time_to_read: 5
 title: Surgery in Two Days
 ---

@@ -6,7 +6,6 @@ slug: hola-pycon-colombia
 tags:
 - python
 - django
-- colombia
 - pycon
 time_to_read: 1
 title: Hola, PyCon Colombia!

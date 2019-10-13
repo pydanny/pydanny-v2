@@ -6,12 +6,12 @@ slug: resolutions-2018
 tags:
 - python
 - capoeira
-- eskrima
 - book
 - blog
 - django
 - resolutions
 - holidays
+- injury
 time_to_read: 1
 title: 2018 New Years Resolutions
 ---
