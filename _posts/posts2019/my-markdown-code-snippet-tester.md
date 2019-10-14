@@ -9,7 +9,7 @@ time_to_read: 5
 title: My Markdown Code Snippet Tester
 ---
 
-I've always wanted to run tests on my code snippets in my blog posts. Here's how I implemented it today.
+I've always wanted to run tests on my code snippets in my blog posts. Here's how I implemented it yesterday.
 
 # A Little Bit of History
 
