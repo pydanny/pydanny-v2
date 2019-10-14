@@ -67,7 +67,7 @@ books:
 
 # Books
 
-Writing is a passion of mine, so over the years I've seen a few books published
+Writing is a passion of mine, here are my published books.
 
 ## Technical Works
 

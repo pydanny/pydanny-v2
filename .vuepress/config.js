@@ -6,6 +6,7 @@ const feed_options = {
   sort:  entries => _.reverse( _.sortBy( entries, 'date' ) ),
   author: {
     name: "Daniel Roy Greenfeld",
+    email: 'pydanny@gmail.com',
     link: "https://pydanny.com"
   }  
 };
@@ -19,9 +20,10 @@ module.exports = {
     personalPhoto: "/images/personalPhoto.png",
     bio:
       `I do Python, Django, and JavaScript out of Los Angeles, California.
-      I love to read, write, hang out with my wife, and play at Capoeira and Brazilian Jiu-Jitsu.
+      I love to read, write, hang out with my wife, and play with my daughter.
+      For physical activity, I enjoy Brazilian Jiu-Jitsu and cycling.
       I am a total Space and NASA Geek. I attend lots of software industry events.
-      I've written a few books and courses.`,
+      I've also written a few books and courses.`,
     nav: [
       { text: "Home", link: "/" },
       { text: "Tags", link: "/tag/" },
