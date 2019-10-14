@@ -65,7 +65,6 @@ Usage: python md_test_runner.py blogpost.md
 Tested on: Python 3.7 and 3.8
 """
 from sys import argv
-from tempfile import NamedTemporaryFile
 import re
 import subprocess
 
