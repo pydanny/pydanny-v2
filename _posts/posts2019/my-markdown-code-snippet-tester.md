@@ -121,4 +121,4 @@ While this meets my requirements, there is lots of room for improvements. If you
 - Package it up so others can use it.
 - Add capability to run against multiple files.
 - Figure out how to make it not break the testing process if code highlighting is turned on itself.
-- Include capability test other languages.
+- Include capability to test other languages.
