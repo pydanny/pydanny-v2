@@ -1,5 +1,5 @@
 ---
-date: "2019-06-30"
+date: "2019-10-14"
 description: Why and how I'm moving my blog to vuepress.
 published: true
 slug: moving-to-vuepress
