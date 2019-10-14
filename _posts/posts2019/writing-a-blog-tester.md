@@ -1,13 +1,15 @@
 ---
 date: "2019-10-15"
 description: Ensuring that code in my articles actually works.
-published: false
-slug: writing-a-blog-tester
+published: true
+slug: my-markdown-code-snippet-tester
   - python
   - blog
 time_to_read: 5
-title: Writing a blog tester
+title: My Markdown Code Snippet Tester
 ---
+
+I've always wanted to run tests on my code snippets in my blog posts. Here's how I implemented it today.
 
 # A Little Bit of History
 
@@ -16,7 +18,7 @@ If you look back at some of the older articles on my blog you'll see I used [pyt
 - [cached-property: Don't copy/paste code](https://www.pydanny.com/cached-property.html)
 - [Docstrings and Various Python Objects](https://www.pydanny.com/docstrings-and-various-python-objects.html)
 
-I had a little python script that would recursively search my blog for `ReStructuredText`, slurp out the python blocks, write those to file, then run pytest against the generated files. This meant that while my blog might have grammar or spelling errors, the code was bug free.
+I had a little Python script that would recursively search my blog for `ReStructuredText`, slurp out the Python blocks, write those to file, then run pytest against the generated files. This meant that while my blog might have grammar or spelling errors, the code was bug-free. Having moved to `Markdown`, this script is no longer valid.
 
 # Requirements
 
@@ -25,7 +27,7 @@ With the advent of my new blog I decided to rewrite the testrunner script with t
 - Works with individual Markdown files. For debugging of blog entries this is faster and easier.
 - Rely on simple Python `assert` statements. Nothing against pytest, but if I'm testing individual files, it's overkill.
 
-# How it works
+# How It Works
 
 Let's say I have a code snippet with two asserts spread out over two code blocks:
 
@@ -50,11 +52,11 @@ assert times_5(3) == 15
 assert times_5(4) == 20
 ```
 
-Once saved as `testfile.py`, then `subprocess.Popen()` is run the code and capture the results. Any errors are reported to the user. If you have `assert times_5(4) == 200`, it's going to throw an `AssertionError`.
+Once saved as `testfile.py`, then `subprocess.Popen()` runs the code and captures the results. Any errors are reported to the user. If you change it to `assert times_5(4) == 200`, it's going to throw an `AssertionError` because 5 times 4 isn't 200.
 
 # The Code
 
-You'll notice that there is no highlighting in `md_testrunner.py` below. The reason is that if I did that, it breaks the testing process. 
+You'll notice that there is no highlighting in `md_testrunner.py` below. The reason is that if I did that, it breaks the testing process.
 
 ```
 """
@@ -113,6 +115,10 @@ if __name__ == "__main__":
 
 # Next Steps
 
-- Make it more fault tolerant. `sys.argv[1]` is fragile for gathering CLI arguments.
+While this meets my requirements, there is lots of room for improvements. If you're so inclined, here are some ideas to explore:
+
+- Make it more fault tolerant. For example, `sys.argv[1]` is fragile for gathering CLI arguments.
 - Package it up so others can use it.
-- Figure out how to make it not break the testing process if I turn on code highlighting.
+- Add capability to run against multiple files.
+- Figure out how to make it not break the testing process if code highlighting is turned on itself.
+- Include capability test other languages.
