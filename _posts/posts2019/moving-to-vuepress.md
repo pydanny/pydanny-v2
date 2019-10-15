@@ -6,7 +6,7 @@ slug: moving-to-vuepress
 tags:
   - javascript
   - blog
-  - Vue.js  
+  - Vue.js
 time_to_read: 5
 title: Moving to Vuepress
 type: post
@@ -25,7 +25,7 @@ The truth is I would rather be writing or coding new things then building and ma
 
 Yes, [Frozen-flask](https://pythonhosted.org/Frozen-Flask/) allowed me to turn my site into a static site. However, **the compilation time took over 5 minutes**. While I ran my site locally on localhost, testing out additional features to see how they rendered in the final build took too long. For example, my plans to optimize page/image loads and add search came to a screeching halt.
 
-The end result was that for all my fun in writing the Mountain blog engine for myself, I felt uncomfortable with the results. Every time I visited my blog to write I would see the problems in the current system, try to fix them, then step away.    
+The end result was that for all my fun in writing the Mountain blog engine for myself, I felt uncomfortable with the results. Every time I visited my blog to write I would see the problems in the current system, try to fix them, then step away.
 
 It's been time to migrate my blog for a while.
 
@@ -42,9 +42,9 @@ So when I saw that my coworker, [Amanda Quint](https://www.amandaquint.com) had 
 
 ## Migration challenges
 
-My current blog is over 7 years old and has over 130 articles. I ran into a number of problems with converting from a forgiving blog engine I wrote to something designed to prevent you from having missing content. There was also coming up with a theme. 
+My current blog is over 7 years old and has over 130 articles. I ran into a number of problems with converting from a forgiving blog engine I wrote to something designed to prevent you from having missing content. There was also coming up with a theme.
 
-Fortunately for me, my co-worker and friend [Ahmad Mostafa](https://www.ahmadmostafa.com/) helped me out. Together we converted my blog over. He did a ton of work on my blog conversaion and for that I am very thankful. I look forward to collaborating with him in the future. 
+Fortunately for me, my co-worker and friend [Ahmad Mostafa](https://www.ahmadmostafa.com/) helped me out. Together we converted my blog over. He did a ton of work on my blog conversion and for that I am very thankful. I look forward to collaborating with him in the future.
 
 ## Moving back to GitHub
 

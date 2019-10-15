@@ -3,13 +3,14 @@ date: "2019-10-15"
 description: Ensuring that code in my articles actually works.
 published: true
 slug: my-markdown-code-snippet-tester
+tags:
   - python
   - blog
 time_to_read: 5
 title: My Markdown Code Snippet Tester
 ---
 
-I've always wanted to run tests on my code snippets in my blog posts. Here's how I implemented it yesterday.
+I've always wanted to run tests on my code snippets in my blog posts. Here's how I implemented it on a lazy sunday.
 
 # A Little Bit of History
 
