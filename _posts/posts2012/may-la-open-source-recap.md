@@ -11,7 +11,7 @@ time_to_read: 2
 title: May 12th, 2012 LA Open Source Recap
 ---
 
-On May 12th, 2012, over 50 [Python](http://python.org),
+On May 12th, 2012, over 50 [Python](https://python.org),
 [C++](http://en.wikipedia.org/wiki/C%2B%2B),
 [Ruby](http://www.ruby-lang.org/), [PHP](http://www.php.net/),
 [JavaScript](http://en.wikipedia.org/wiki/JavaScript), and

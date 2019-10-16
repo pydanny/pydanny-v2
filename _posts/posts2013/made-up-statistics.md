@@ -59,7 +59,7 @@ hotness. I know because every other Python meetup features someone
 speaking on it - just like every other Ruby, Perl, and PHP meetup.
 Anyway... numbers:
 
--   24.3% of [Python](http://python.org/) developers doing DevOps think
+-   24.3% of [Python](https://python.org/) developers doing DevOps think
     they could have launched a PaaS (aka Heroku clone) before it got
     crowded.
 -   46.3% of Python developers doing DevOps spend all their time writing

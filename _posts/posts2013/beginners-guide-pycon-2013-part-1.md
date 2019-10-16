@@ -14,7 +14,7 @@ title: Beginner's Guide to PyCon 2013 Part I
 
 New to Python and thinking about going to the upcoming [PyCon
 US](https://us.pycon.org/2013/) for the first time? You know, that big
-[Python](http://python.org) conference taking place near San Francisco
+[Python](https://python.org) conference taking place near San Francisco
 in March?
 
 Or perhaps you signed up already and are getting worried about being

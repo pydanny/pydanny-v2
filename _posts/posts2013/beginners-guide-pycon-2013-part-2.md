@@ -15,7 +15,7 @@ title: Beginner's Guide to PyCon 2013 Part II
 This is Part II in a series of blog posts about [PyCon US
 2013](https://us.pycon.org/2013/). The goal is to provide a handy
 reference guide for first time attendees of the world's largest
-[Python](http://python.org) conference. [Part
+[Python](https://python.org) conference. [Part
 I](https://pydanny.com/beginners-guide-pycon-2013-part-1.html) was
 mostly about [tutorials](https://us.pycon.org/2013/schedule/tutorials/),
 this post will be about registration and the first day of talks.
@@ -31,7 +31,7 @@ is a shame, because the conference is awesome!
 Keep in mind that the money you spend on registration will go towards a
 very good thing. You see, after the costs for running PyCon are
 subtracted, the rest will go to the non-profit Python Software
-Foundation ([PSF](http://python.org/psf/)). In addition to supporting
+Foundation ([PSF](https://python.org/psf/)). In addition to supporting
 the Python language itself, the PSF provides financial aid and grants
 for aspiring developers around the world. Which means the money you
 spend registering for PyCon will literally change people's lives. This

@@ -14,7 +14,7 @@ title: Beginner's Guide to PyCon 2013 Part III
 This is Part III in a series of blog posts about [PyCon US
 2013](https://us.pycon.org/2013/). The goal is to provide a handy
 reference guide for first time attendees of the world's largest
-[Python](http://python.org) conference. [Part
+[Python](https://python.org) conference. [Part
 I](https://pydanny.com/beginners-guide-pycon-2013-part-1.html) was
 mostly about [tutorials](https://us.pycon.org/2013/schedule/tutorials/),
 [Part II](https://pydanny.com/beginners-guide-pycon-2013-part-2.html)

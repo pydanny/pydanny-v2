@@ -14,7 +14,7 @@ title: Tools we used to write Two Scoops of Django
 
 Because of the ubiquitousness of
 [reStructuredText](http://en.wikipedia.org/wiki/Restructured_Text) in
-the lives of [Python](http://python.org) developers and the advocacy of
+the lives of [Python](https://python.org) developers and the advocacy of
 it, it's not uncommon for people to assume we used it to write our
 book. However, that's not really the case.
 

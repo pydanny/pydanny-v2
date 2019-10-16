@@ -25,7 +25,7 @@ Tricks
 ======
 
 These are tricks I have to make package management in
-[python](http://python.org) a tiny bit easier. Before you attempt to
+[python](https://python.org) a tiny bit easier. Before you attempt to
 implement them, I recommend you have at least basic experience with
 creating new packages. Two ways to learn about python packaging are the
 [New Library

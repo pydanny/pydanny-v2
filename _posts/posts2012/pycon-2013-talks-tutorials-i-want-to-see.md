@@ -19,7 +19,7 @@ PyCon US, suggested a meme, "[PyCon 2013](https://us.pycon.org/2013)
 
 This **certain-to-be-controversial talk idea** would be where the
 speaker would solicit Pythonistas to submit a single arcane
-[Python](http://python.org) code module that would have to display the
+[Python](https://python.org) code module that would have to display the
 text of "*Although that way may not be obvious at first unless you're
 Dutch.*" There would be a '*Expert*' category which would forbid the
 eval/exec functions. The "*Anything Goes Category*" would allow use of

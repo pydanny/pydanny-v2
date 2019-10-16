@@ -16,7 +16,7 @@ title: July 15th, 2012 LA Open Source Recap
 
 On July 15th, 2012, at the [July LA Hackathons Open Source
 event](http://www.meetup.com/LA-Hackathons/events/64542582/), over 60
-[Python](http://python.org), [Django](http://djangoproject.com),
+[Python](https://python.org), [Django](http://djangoproject.com),
 [Ruby](http://www.ruby-lang.org/), [Ruby on
 Rails](http://rubyonrails.org/), [PHP](http://www.php.net/),
 [JavaScript](http://en.wikipedia.org/wiki/JavaScript),
