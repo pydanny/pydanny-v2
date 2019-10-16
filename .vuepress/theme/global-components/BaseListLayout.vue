@@ -1,47 +1,37 @@
 <template>
-  <div id="base-list-layout">
-    <div class="ui-posts">
-      <h2 v-if="$route.meta.pid && $route.meta.pid !== 'post'">
+  <div id="base-list-layout" align="center">
+    <header class="home-hero" :style="{backgroundImage: 'url(' + $themeConfig.heroImage + ')'}">
+      <h1>{{ $site.title }}</h1>
+      <h3>{{ $site.description }}</h3>
+    </header>
+    <div class="ui-posts" align="left">
+      <h1 v-if="$route.meta.pid && $route.meta.pid !== 'post'">
         Latest
         <span class="hilight">#{{ $route.meta.id }}</span> Posts
-      </h2>
-      <h2 v-else>Latest Posts</h2>
+      </h1>
+      <h1 v-else>Latest Posts</h1>
 
-      <div class="ui-post" v-for="page in pages" v-if="page.frontmatter.published">
-        <div class="ui-post-title">
-          <router-link :to="page.path">{{ page.title }}</router-link>
-        </div>
-
-        <div class="ui-post-description">
-          {{ page.frontmatter.description || page.description }}
-          <!-- <Content :page-key="page.key" slot-key="intro"/>-->
-        </div>
-        <div class="ui-post-tags">
-          <div>
-            <router-link
-              class="blog-tag sm"
-              v-for="tag in page.frontmatter.tags"
-              :to="'/tag/' + tag"
-            >#{{ tag }}</router-link>
+      <div class="ui-post" v-for="page in pages" :key="page.id">
+        <div
+          class="ui-post-image"
+          :style="{backgroundImage: `url(${page.frontmatter.image})`}"
+          v-if="page.frontmatter.image"
+        ></div>
+        <div class="ui-post-body">
+          <div class="ui-post-title">
+            <NavLink :link="page.path">{{ page.title }}</NavLink>
           </div>
+          <div class="ui-post-description">{{ page.frontmatter.description || page.description }}...</div>
         </div>
         <hr />
-        <div class="ui-post-author" v-if="page.frontmatter.author">
-          <NavigationIcon />
-          <span>{{ page.frontmatter.author }} in {{ page.frontmatter.location }}</span>
-        </div>
-
-        <div class="ui-post-date" v-if="page.frontmatter.date">
-          <ClockIcon />
-          <span>{{ new Date(page.frontmatter.date.trim()).toDateString() }}</span>
-          <span class="mx-1">|</span>
-          <span>
-            Time to read:
-            <b>{{ page.frontmatter.time_to_read }}</b> minutes
-          </span>
-        </div>
+        <PostFooter
+          :date="page.frontmatter.date"
+          :timeToRead="page.readingTime.text"
+          :location="page.frontmatter.location"
+        />
       </div>
     </div>
+
     <component v-if="$pagination.length > 1 && paginationComponent" :is="paginationComponent"></component>
   </div>
 </template>
@@ -50,14 +40,14 @@
 /* global THEME_BLOG_PAGINATION_COMPONENT */
 
 import Vue from "vue";
-import { NavigationIcon, ClockIcon } from "vue-feather-icons";
+import PostFooter from "../components/PostFooter";
 import {
   Pagination,
   SimplePagination
 } from "@vuepress/plugin-blog/lib/client/components";
 
 export default {
-  components: { NavigationIcon, ClockIcon },
+  components: { PostFooter },
 
   data() {
     return {
@@ -99,9 +89,47 @@ export default {
   }
 }
 
+header.home-hero {
+  height: 600px;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    color: white;
+    margin: 0;
+    font-size: 4em;
+
+    @media (max-width: 600px) {
+      font-size: 2em;
+    }
+  }
+
+  h3 {
+    color: darken(white, 9%);
+    margin-top: 0;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 300;
+  }
+}
+
+.ui-posts {
+  max-width: 800px;
+  margin-top: 14rem;
+
+  h1 {
+    font-family: serif;
+  }
+}
+
 .ui-post {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
-  padding: 25px;
+  padding: 10px;
+  padding-top: 15px;
   margin-bottom: 25px;
   border-radius: 14px;
   border-bottom: 1px solid #f1f1f1;
@@ -121,17 +149,24 @@ export default {
   }
 }
 
-span.hilight {
-  color: $accentColor;
+.ui-post-body {
+  padding: 15px;
+}
+
+.ui-post-image {
+  height: 200px;
+  background-size: cover;
+  margin-bottom: 15px;
+  border-radius: 10px;
 }
 
 .ui-post-title {
   font-size: 24px;
   border-bottom: 0;
+  margin-bottom: 10px;
 
   a {
     cursor: pointer;
-    font-weight: 500;
     color: #222;
     transition: all 0.2s;
     text-decoration: none;
@@ -143,17 +178,10 @@ span.hilight {
 }
 
 .ui-post-description {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 15px;
   color: rgba(0, 0, 0, 0.54);
   font-weight: 200;
-}
-
-.ui-post-tags {
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.54);
-  font-weight: 200;
-  display: flex;
 }
 
 .ui-post-author {
@@ -170,24 +198,6 @@ span.hilight {
     width: 14px;
     height: 14px;
   }
-}
-
-.ui-post-date {
-  display: flex;
-  align-items: center;
-  font-size: 12px;
-  color: rgba(0, 0, 0, 0.54);
-  font-weight: 200;
-
-  svg {
-    margin-right: 5px;
-    width: 14px;
-    height: 14px;
-  }
-}
-
-.mx-1 {
-  margin: 0 8px;
 }
 </style>
 

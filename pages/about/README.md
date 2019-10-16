@@ -1,1 +1,3 @@
-<IDCard />
+---
+layout: About
+---

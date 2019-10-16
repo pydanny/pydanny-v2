@@ -10,13 +10,13 @@
 </template>
 
 <script>
-import Hero from '@theme/components/Hero.vue'
+import Hero from "@theme/components/Hero.vue";
 
 export default {
   components: {
     Hero
   }
-}
+};
 </script>
 
 <style src="prismjs/themes/prism-okaidia.css"></style>
@@ -26,6 +26,7 @@ export default {
   display: grid;
   grid-template-columns: 4fr 1fr;
   grid-gap: 20px;
+  margin-top: $headerHeight;
 
   @media (max-width: 960px) {
     grid-template-columns: 1fr;

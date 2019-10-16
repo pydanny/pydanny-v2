@@ -1,14 +1,14 @@
 const _ = require("lodash");
 
 const feed_options = {
-  canonical_base: 'https://pydanny.com',
-  id: 'https://pydanny.com/',
-  sort:  entries => _.reverse( _.sortBy( entries, 'date' ) ),
+  canonical_base: "https://pydanny.com",
+  id: "https://pydanny.com/",
+  sort: entries => _.reverse(_.sortBy(entries, "date")),
   author: {
     name: "Daniel Roy Greenfeld",
-    email: 'pydanny@gmail.com',
+    email: "pydanny@gmail.com",
     link: "https://pydanny.com"
-  }  
+  }
 };
 
 module.exports = {
@@ -18,8 +18,7 @@ module.exports = {
   themeConfig: {
     fullName: "Daniel Roy greenfeld",
     personalPhoto: "/images/personalPhoto.png",
-    bio:
-      `I do Python, Django, and JavaScript out of Los Angeles, California.
+    bio: `I do Python, Django, and JavaScript out of Los Angeles, California.
       I love to read, write, hang out with my wife, and play with my daughter.
       For physical activity, I enjoy Brazilian Jiu-Jitsu and cycling.
       I am a total Space and NASA Geek. I attend lots of software industry events.
@@ -67,6 +66,7 @@ module.exports = {
       }
     ],
     ["disqus"],
-    [ 'feed', feed_options ] 
+    ["feed", feed_options],
+    ["reading-time"]
   ]
 };

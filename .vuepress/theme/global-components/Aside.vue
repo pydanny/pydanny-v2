@@ -13,8 +13,8 @@
       width="100%"
       class="side-book-card"
     />
-    <br>
-    <br>
+    <br />
+    <br />
     <h4 class="side-title">
       Books I like
       <HeartIcon />
@@ -171,7 +171,7 @@ export default {
         this.currentBookIndex = randomBookIndex;
       }, 10000);
     }
-  },
+  }
 };
 </script>
 
@@ -190,7 +190,7 @@ export default {
 
 .aside-transparent {
   opacity: 0.7;
-  transition opacity .5s ease;
+  transition: opacity 0.5s ease;
 
   &:hover {
     opacity: 1;

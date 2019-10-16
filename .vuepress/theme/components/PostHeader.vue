@@ -32,6 +32,7 @@ export default {
     margin-top: 0;
     margin-bottom: 0;
     font-family: serif;
+    font-size: 2.5rem;
   }
 
   .post-header__description {
@@ -46,14 +47,14 @@ export default {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin 10px;
-    justify-content center;
-    font-size 12px;
+    margin: 10px;
+    justify-content: center;
+    font-size: 12px;
 
     span {
       display: flex;
       align-items: center;
-      margin-right 10px;
+      margin-right: 10px;
 
       svg {
         margin-right: 10px;

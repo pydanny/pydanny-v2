@@ -30,16 +30,17 @@ export default {
 @import '~@app/style/config';
 
 #header {
-  z-index: 12;
+  z-index: 20;
   position: fixed;
   top: 0;
   width: 100vw;
   box-sizing: border-box;
   background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
   padding: 15px 20px;
-  margin: auto;
+  margin: 0 auto;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.03);
   transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
+  height: $navbarHeight;
 
   ol, ul {
     list-style: none;
@@ -55,8 +56,8 @@ export default {
 // border-bottom 5px solid lighten(#3eaf7c, 50%)
 .header-wrapper {
   display: flex;
-  line-height: 40px;
-  height: 40px;
+  line-height: 50px;
+  height: 100%;
 
   .title {
     /* flex 0 0 200px */
@@ -68,7 +69,7 @@ export default {
     text-transform: uppercase;
 
     a {
-      color: lighten($accentColor, 80%)
+      color: lighten($accentColor, 80%);
       font-weight: bold;
       text-decoration: none;
     }
@@ -90,7 +91,7 @@ export default {
 
         a {
           font-size: 18px;
-          color: lighten($accentColor, 40%)
+          color: lighten($accentColor, 40%);
           text-decoration: none;
           transition: color 0.3s;
 
@@ -107,8 +108,7 @@ export default {
       input {
         border-radius: 20px;
         transition: all 0.5s;
-        color: white;
-        background: rgba(255, 255, 255, 0.3);
+        color: $accentColor;
 
         &:hover {
           border: 1px solid $accentColor;
@@ -117,13 +117,15 @@ export default {
       }
 
       .suggestions {
-        border: 1px solid #ccc;
         top: 40px;
         right: 0;
+        font-size: 0.9em;
+        opacity: 0.9;
+        border: none;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 
         a {
           color: #555;
-          font-family: sans-serif;
           font-weight: 400;
           text-decoration: none;
 
