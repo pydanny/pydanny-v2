@@ -38,7 +38,7 @@ export default {
       return this.$frontmatter.date.slice(0, 10);
     },
     identifier() {
-      return `${this.$frontmatter.slug}.html`
+      return `${this.$frontmatter.slug}.html`;
     }
   },
   methods: {
@@ -81,6 +81,12 @@ export default {
 
 .content__default {
   margin: 20px auto !important;
+
+  p {
+    img {
+      width: 100%;
+    }
+  }
 }
 
 .comments {

@@ -1,16 +1,21 @@
 <template>
   <div class="post-header">
-    <h1 class="post-header__title">{{ $frontmatter.title }}</h1>
-    <h2 class="post-header__description">{{ $frontmatter.description }}</h2>
-    <div class="post-header__info">
-      <span>
-        <CalendarIcon />
-        <span>{{ new Date($frontmatter.date.trim()).toDateString() }}</span>
-      </span>
-      <span>
-        <ClockIcon />
-        <span>{{ $frontmatter.time_to_read }} min read</span>
-      </span>
+    <div class="post-header__head">
+      <img src="/images/personalPhoto.png" alt="Daniel Roy Greenfeld" />
+      <div>
+        <h1 class="post-header__title">{{ $frontmatter.title }}</h1>
+        <h2 class="post-header__description">{{ $frontmatter.description }}</h2>
+        <div class="post-header__info">
+          <span>
+            <CalendarIcon />
+            <span>{{ new Date($frontmatter.date.trim()).toDateString() }}</span>
+          </span>
+          <span>
+            <ClockIcon />
+            <span>{{ $page.readingTime.text }}</span>
+          </span>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -26,7 +31,15 @@ export default {
 
 <style lang="stylus">
 .post-header {
-  text-align: center;
+  .post-header__head {
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 10rem;
+      margin-right: 3rem;
+    }
+  }
 
   .post-header__title {
     margin-top: 0;
@@ -44,11 +57,11 @@ export default {
   }
 
   .post-header__info {
+    color: $accentColor;
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: 10px;
-    justify-content: center;
     font-size: 12px;
 
     span {

@@ -119,6 +119,11 @@ header.home-hero {
 
   h1 {
     font-family: serif;
+
+    .hilight {
+      font-family: Arial, Helvetica, sans-serif;
+      color: $accentColor;
+    }
   }
 }
 
