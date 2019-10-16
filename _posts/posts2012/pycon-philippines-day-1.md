@@ -1,14 +1,15 @@
 ---
-date: '2012-07-03'
+date: "2012-07-03"
 published: true
 slug: pycon-philippines-day-1
 tags:
-- python
-- django
-- philippines
-- pycon
+  - python
+  - django
+  - philippines
+  - pycon
 time_to_read: 5
 title: PyCon Philippines 2012 Day 1
+description: The first day of the first PyCon Philippines!
 ---
 
 [PyCon Philippines 2012](http://ph.pycon.org) (PyCon PH) happened just
@@ -21,8 +22,7 @@ I can assure you that PyCon PH was an wonderful, amazing, humbling
 experience. I'm hoping that this post and others will get across to you
 why.
 
-Arrival
-=======
+# Arrival
 
 Frank Pohlmann, chairman of PyCon Philippines picked us up and drove us
 to the event. He had worked day and night getting the event ready, all
@@ -43,8 +43,7 @@ registrants.
 More on the herculean efforts of the organizers and volunteers of this
 event in a forthcoming blog post.
 
-Inspiration
-===========
+# Inspiration
 
 We noticed a large group gather by a side corridor and went to say
 hello. There we met [Sony Valdez](https://twitter.com/mrvaldez),
@@ -60,8 +59,7 @@ the middle of the afternoon. **We didn't know they had to go until it
 was time to leave**. Next year I plan to do whatever is possible to help
 them come for the duration of the conference.
 
-PyCon Begins
-============
+# PyCon Begins
 
 After the national anthem, the Dean of Computer Science, Adrian Roy
 Valdez, started the event with a few words. Frank Pohlmann, PyCon PH
@@ -69,8 +67,7 @@ chair thanked everyone involved including the sponsors, speakers, and
 especially the attendees. I gave a keynote speech I'll blog about
 shortly, and then it was time for the talks.
 
-Intro to Python[^1]
--------------------
+## Intro to Python[^1]
 
 by [Paolo Barazon](http://twitter.com/titopao)
 
@@ -80,8 +77,7 @@ spoke at PyCon 2010, when for the first 10 minutes of my talk they
 couldn't get the projector to work. In any case, Paolo did a great job
 under very trying conditions.
 
-Python Tricks you can't live without[^2]
------------------------------------------
+## Python Tricks you can't live without[^2]
 
 By [Audrey Roy](http://audreymroy.com)
 
@@ -91,8 +87,7 @@ virtualenv, how to construct packages, basic use of PyPI, and hammered
 home the need for good documentation. I may be partial, but I think this
 was the best version of this kind of talk ever given. :-)
 
-Django Quickstart[^3]
----------------------
+## Django Quickstart[^3]
 
 By [Marconi](http://marconijr.com/)
 [Moreto](https://twitter.com/marconimjr)
@@ -103,8 +98,7 @@ next day by pitching in with beginners. His talk featured code for a
 simple TODO app, and you can see the working example at
 <http://quickstart.marconijr.com/>.
 
-Game Programming with Python[^4]
---------------------------------
+## Game Programming with Python[^4]
 
 > Are you afraid of math? Too bad! In this tutorial you will learn how
 > to math! Scary, isn't it?
@@ -137,8 +131,7 @@ before.
 
 I'm in awe.
 
-Functional Programming in Python[^5]
-------------------------------------
+## Functional Programming in Python[^5]
 
 by [Malcolm Tredinnick](https://twitter.com/malcolmt)
 
@@ -146,8 +139,7 @@ Sony was a hard act to follow, but Malcolm gave an amazing rendition of
 his classic talk on functional programming. I've seen Malcolm give this
 talk before, but this instance was clearly the best.
 
-Ansible[^6]
------------
+## Ansible[^6]
 
 by [Rodney](http://capsunlock.net) [Quillo](https://github.com/cocoy)
 
@@ -157,8 +149,7 @@ Fortunately for us, Rodney gave a talk on
 deployment tool. What makes Ansible different is it's range of options,
 and simplicity of use.
 
-I didn't know it's Python: Python Advocacy[^7]
-------------------------------------------------
+## I didn't know it's Python: Python Advocacy[^7]
 
 > "PyCon: More fun in the Philippines"
 >
@@ -169,14 +160,12 @@ Paulo Barazon returned to talk about the big users of Python, how to
 promote it's use, and why it's so awesome for... well.. lots of
 things.
 
-Maps of Imaginary Lands[^8]
----------------------------
+## Maps of Imaginary Lands[^8]
 
 Malcom came back to give us a talk on how to assemble the components
 necessary to do a mashup of an imaginary place he cooked up.
 
-Closing Keynote: Design your open source project[^9]
-----------------------------------------------------
+## Closing Keynote: Design your open source project[^9]
 
 by [Bryan](https://twitter.com/bryanveloso)
 [Veloso](http://avalonstar.com/)
@@ -186,31 +175,16 @@ instructing beginners on how to make your project used and loved by
 developers. His slides were incredible, [as you should see for
 yourself](https://speakerdeck.com/u/bryan/p/design-your-own-open-source-project).
 
-------------------------------------------------------------------------
+---
 
-Coming soon
-===========
-
--   Day 2 of PyCon Philippines
--   The Story of PyCon Philippines
--   More...
-
-[![image](http://ph.pycon.org/images/phpug.png)](http://ph.pycon.org)
+[Read Day 2 of PyCon Philippines!](https://pydanny.com/pycon-philippines-day-1.html)
 
 [^1]: <https://pydanny-event-notes.readthedocs.org/en/latest/PyconPH2012/basic_python.html>
-
 [^2]: <https://pydanny-event-notes.readthedocs.org/en/latest/PyconPH2012/python_tricks.html>
-
 [^3]: <https://pydanny-event-notes.readthedocs.org/en/latest/PyconPH2012/django_quickstart.html>
-
 [^4]: <https://pydanny-event-notes.readthedocs.org/en/latest/PyconPH2012/game_programming.html>
-
 [^5]: <https://pydanny-event-notes.readthedocs.org/en/latest/PyconPH2012/functional_programming.html>
-
 [^6]: <https://pydanny-event-notes.readthedocs.org/en/latest/PyconPH2012/ansible.html>
-
 [^7]: <https://pydanny-event-notes.readthedocs.org/en/latest/PyconPH2012/python_advocacy.html>
-
 [^8]: <https://pydanny-event-notes.readthedocs.org/en/latest/PyconPH2012/closing-keynote.html>
-
 [^9]: <https://pydanny-event-notes.readthedocs.org/en/latest/PyconPH2012/closing-keynote.html>
