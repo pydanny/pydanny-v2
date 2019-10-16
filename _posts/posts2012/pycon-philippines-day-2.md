@@ -31,7 +31,7 @@ talks:
   it.](https://twitter.com/malcolmt/status/219244338029412352)
 - Getting into space using weather balloons by Frank Pohlmann
 - [Ponystrap](https://github.com/audreyr/ponystrap) by [Audrey
-  Roy](http://audreymroy.com) ([video from DjangoCon
+  Roy](https://www.codemakesmehappy.com/) ([video from DjangoCon
   Europe](http://klewel.com/conferences/djangocon-2012/index.php?talkID=31))
 - Call for [Tagalog](http://en.wikipedia.org/wiki/Tagalog) and other
   [Philippine

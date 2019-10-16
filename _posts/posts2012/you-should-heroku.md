@@ -12,7 +12,7 @@ time_to_read: 7
 title: You should Heroku
 ---
 
-In mid-November me and my fiancee, [Audrey Roy](http://audreymroy.com)
+In mid-November me and my fiancee, [Audrey Roy](https://www.codemakesmehappy.com/)
 began our startup. We had been frustrated with trying to do on-line
 product research and came up with an idea to take the lessons learned
 from [Django Packages](http://djangopackages.com) / [Open

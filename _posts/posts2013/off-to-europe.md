@@ -13,7 +13,7 @@ title: Off to Europe!
 
 I feel like I'm dreaming, but **we're on our way to Europe!**
 
-A few weeks [Audrey](http://audreymroy.com) and I decided to move. While
+A few weeks [Audrey](https://www.codemakesmehappy.com/) and I decided to move. While
 looking at possible rentals or even mortgages, we were idly (dreaming
 really... still paying off debts incurred from last year) looking at
 how much a room/apartment would cost to rent in Europe. To our surprise,

@@ -15,7 +15,7 @@ title: Our Django Book Has Launched
 
 [![image](https://s3.amazonaws.com/twoscoops/img/tsd-cover.png)](https://twoscoopspress.org/products/two-scoops-of-django-1-5/)
 
-We ([Audrey Roy](http://audreymroy.com) and I) wrote a
+We ([Audrey Roy](https://www.codemakesmehappy.com/) and I) wrote a
 [book](https://twoscoopspress.org/products/two-scoops-of-django-1-5) on Django! It's called **Two Scoops
 of Django: Best Practices for Django 1.5**, and you can buy it right now
 in e-book (PDF) form on the website: <https://twoscoopspress.org/products/two-scoops-of-django-1-5>.

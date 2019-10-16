@@ -82,7 +82,7 @@ self-published books is we have control of content.
 How much work went into the [book](https://twoscoopspress.org/products/two-scoops-of-django-1-5)?
 ==============================================================
 
-[Audrey](http://audreymroy.com) and I put in hundreds of hours writing
+[Audrey](https://www.codemakesmehappy.com/) and I put in hundreds of hours writing
 and testing the content. We worked 12-16 hour days for weeks. It was
 madness, but a glorious madness. We became like hermits and toiled on
 the [book](https://twoscoopspress.org/products/two-scoops-of-django-1-5) while ignoring distractions like
@@ -103,7 +103,7 @@ Are you going to PyCon US?
 ==========================
 
 Absolutely! Wouldn't miss [PyCon US](https://us.pycon.org/2013/) for
-the world! [Audrey](http://audreymroy.com) and I met and fell in love at
+the world! [Audrey](https://www.codemakesmehappy.com/) and I met and fell in love at
 PyCon US 2010! We'll be there for at least the second day of tutorials,
 all the talks, and all the
 [sprints](https://us.pycon.org/2013/community/sprints/). I've even got
@@ -122,7 +122,7 @@ which can be leveraged to great effect. This tutorial will teach the
 evaluation, use, and extension of third party Python and Django
 applications in your projects. This tutorial will be a lecture with a
 lot of detailed and annotated code examples. Instructors are [Audrey
-Roy](http://audreymroy.com), Daniel Greenfeld, and [Kenneth
+Roy](https://www.codemakesmehappy.com/), Daniel Greenfeld, and [Kenneth
 Love](http://brack3t.com/) (of [Getting Started with
 Django](http://gettingstartedwithdjango.com/) fame).
 
@@ -144,7 +144,7 @@ processing/visualization libraries, in-depth code samples, and simple
 math operations. I use the stdlib, NumPy, SciPy, Matplotlib, PIL, and
 PyCairo to create building blocks, which I then combine to demonstrate
 advanced sound and image generation techniques. Speaker is [Audrey
-Roy](http://audreymroy.com).
+Roy](https://www.codemakesmehappy.com/).
 
 Are you going to Django Circus?
 ===============================

@@ -13,7 +13,7 @@ time_to_read: 3
 title: Launching our API at PyCon 2012
 ---
 
-A few months ago me and my fiancee, [Audrey Roy](http://audreymroy.com),
+A few months ago me and my fiancee, [Audrey Roy](https://www.codemakesmehappy.com/),
 launched our start up, [Consumer Notebook](http://consumernotebook.com).
 It's a Python powered product comparison site that combines the best
 features of [Open Comparison](http://opencomparison.org), Yelp, Consumer

@@ -17,7 +17,7 @@ title: Dynov 2013 Part I
 trip to Dynów, Poland in May 2013.
 
 This was our second trip to Poland. Last year (2012) I went with
-[Audrey](http://audreymroy.com) in 2012 for a few days to present at a
+[Audrey](https://www.codemakesmehappy.com/) in 2012 for a few days to present at a
 software conference called [PyCon Poland](http://pl.pycon.org/). We
 stayed for a few days afterwards in the eerily familiar Krakow, always
 conscious that my family heritage was perhaps just hours away. You see,

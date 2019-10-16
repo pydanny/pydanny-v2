@@ -22,7 +22,7 @@ tutorial](https://us.pycon.org/2013/schedule/presentation/11/) on March
 
 In alphabetical order, the instructors:
 
-> -   [Audrey Roy](http://audreymroy.com/)
+> -   [Audrey Roy](https://www.codemakesmehappy.com//)
 > -   Daniel Greenfeld (myself)
 > -   [Kenneth Love](http://gettingstartedwithdjango.com/)
 

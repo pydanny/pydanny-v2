@@ -10,7 +10,7 @@ time_to_read: 1
 title: EuroPython Intro to Django Workshop
 ---
 
-We (myself and [Audrey Roy](http://audreymroy.com)) have been asked to
+We (myself and [Audrey Roy](https://www.codemakesmehappy.com/)) have been asked to
 fill in a tutorial session at EuroPython 2013 on the afternoon July 3rd!
 Therefore, it is my honor to announce our EuroPython Intro to Django
 Workshop! (see the bottom of this article for registration instructions)

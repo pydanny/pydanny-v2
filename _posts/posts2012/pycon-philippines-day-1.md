@@ -79,7 +79,7 @@ under very trying conditions.
 
 ## Python Tricks you can't live without[^2]
 
-By [Audrey Roy](http://audreymroy.com)
+By [Audrey Roy](https://www.codemakesmehappy.com/)
 
 Audrey summarized a lot of the really important things you need to know
 in Python but aren't part of an introductory talk. Things like pip and

@@ -12,7 +12,7 @@ time_to_read: 5
 title: Two Scoops of Django 1.5 Beta Released
 ---
 
-After thirty four days of hard work, [Audrey Roy](http://audreymroy.com)
+After thirty four days of hard work, [Audrey Roy](https://www.codemakesmehappy.com/)
 and I are proud to announce that we've released the **beta** of [Two
 Scoops of Django: Best Practices for Django
 1.5](https://twoscoopspress.org/products/two-scoops-of-django-1-5). It's been a monumental effort, a labor

@@ -15,7 +15,7 @@ This year in June, the European edition of
 [DjangoCon](http://djangocon.eu) is going to be held in lovely
 [Zurich](https://en.wikipedia.org/wiki/Zurich),
 [Switzerland](https://en.wikipedia.org/wiki/Switzerland). It is my great
-fortune and delight to announce that [Audrey](http://audreymroy.com) and
+fortune and delight to announce that [Audrey](https://www.codemakesmehappy.com/) and
 I will be attending. Hooray!
 
 Needless to say, we're extremely excited. My [trip to Europe in
