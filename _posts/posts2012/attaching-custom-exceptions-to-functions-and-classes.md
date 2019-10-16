@@ -1,11 +1,11 @@
 ---
-date: '2012-08-02'
+date: "2012-08-02"
 published: true
 slug: attaching-custom-exceptions-to-functions-and-classes
 tags:
-- python
-- howto
-- django
+  - python
+  - howto
+  - django
 time_to_read: 3
 title: Attaching custom exceptions to functions and classes
 ---
@@ -17,14 +17,13 @@ mitigate having to remember to import custom exceptions, this is a handy
 pattern you can use in a project and can be done on both functions and
 classes.
 
-Attaching a custom exception to a function
-==========================================
+# Attaching a custom exception to a function
 
-This works because [Python](http://python.org) functions are first-class
+This works because [Python](https://python.org) functions are first-class
 objects. They can be passed around as things, and in this case, have
 things assigned to them.
 
-``` python
+```python
 # logic.py
 class DoesNotCompute(Exception):
     """ Easy to understand naming conventions work best! """
@@ -33,7 +32,7 @@ class DoesNotCompute(Exception):
 def this_function(x):
     """ This function only works on numbers."""
     try:
-        return x ** x 
+        return x ** x
     except TypeError:
         raise DoesNotCompute
 
@@ -45,7 +44,7 @@ Now I can import the function, and it won't just through
 `DoesNotCompute` exceptions, it will also carry the function along with
 the import:
 
-``` python
+```python
 >>> from logic import this_function
 >>> this_function(5)
 3125
@@ -62,23 +61,22 @@ DoesNotCompute
 Alright, that doesn't seem like much, but let's add in some exception
 handling:
 
-``` python
+```python
 >>> try:
 ...     this_function('is an example')
 ... except this_function.DoesNotCompute:
 ...     print('See what attaching custom exceptions to functions can do?')
-...     
-... 
+...
+...
 See what attaching custom exceptions to functions can do?
 ```
 
-Attaching the custom exception to a class
-=========================================
+# Attaching the custom exception to a class
 
 All we have to do is enhance our existing logic.py file by adding
 `ThisClass`:
 
-``` python
+```python
 # logic.py
 class DoesNotCompute(Exception):
     """ Easy to understand naming conventions work best! """
@@ -89,19 +87,19 @@ class DoesNotCompute(Exception):
 class ThisClass(object):
     # Since the DoesNotCompute exception exists, let's just assign it
     # as an attribute of ThisClass
-    DoesNotCompute = DoesNotCompute 
+    DoesNotCompute = DoesNotCompute
 
     def this_method(self, x):
         """ This method only works on numbers."""
         try:
-            return x ** x 
+            return x ** x
         except TypeError:
             raise DoesNotCompute
 ```
 
 Now to demonstrate in the shell (Python REPL for the semantic purists):
 
-``` python
+```python
 >>> from t import ThisClass
 >>> this_class = ThisClass()
 >>> this_class.this_method(3.3)
@@ -117,16 +115,15 @@ DoesNotCompute
 ... except ThisClass.DoesNotCompute:
 ...     print('Waiting to see how the OAuth stuff pans out')
 ...
-... 
+...
 Waiting to see how the OAuth stuff pans out
 ```
 
-Admonition: Don't go crazy
-===========================
+# Admonition: Don't go crazy
 
 Rather than use this trick all over the place, considering using it in a
 few places to powerful effect. For example,
-[Django](http://djangoproject.com) uses it only in a few places, and
+[Django](https://djangoproject.com) uses it only in a few places, and
 publicly only on `MyModelClass.DoesNotExist` and
 `MyModelClass.MultipleObjectsReturned`. By limiting Django's use of
 this technique, Django libraries are that much easier to comprehend. In

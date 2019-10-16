@@ -1,22 +1,22 @@
 ---
-date: '2012-11-21'
+date: "2012-11-21"
 published: true
 slug: casestudy-urls
 tags:
-- python
-- django
-- howto
-- hackathon
-- class-based-views
+  - python
+  - django
+  - howto
+  - hackathon
+  - class-based-views
 time_to_read: 3
-title: 'Case Study: URL Design for petcheatsheets.com'
+title: "Case Study: URL Design for petcheatsheets.com"
 ---
 
-**Backstory:** On Saturday, November 17, 2012 [Audrey
-Roy](http://audreymroy.com) and I decided to participate in the
+**Backstory:** On Saturday, November 17, 2012 Audrey
+Roy and I decided to participate in the
 [Petcentric](https://twitter.com/petcentric) hackathon, a Los Angeles
 area Pet-themed product/coding contest held at
-[Amplify](http://www.amplify.la/). We arrived a bit late, but armed with
+[Amplify](https://www.amplify.la/). We arrived a bit late, but armed with
 Audrey's idea of creating a pet based reference sheet for owners, pet
 sitters, vets, and anyone else needing a card with data on pets, we got
 to work. About eight hours later we toggled a DNS switch and
@@ -28,8 +28,7 @@ phone numbers, email addresses, and even physical addresses of family
 members and friends. Maintaining the privacy of pets and their owners
 was also a consideration in implementation.
 
-URL Design Thoughts
-===================
+# URL Design Thoughts
 
 During development, one of the things I considered carefully was URL
 design of the primary feature, which was pets. The obvious choice was to
@@ -57,13 +56,12 @@ actually:
 
     /<pet_id:base_36_encoded>/<pet_name:not_required>/
 
-Implementation
-==============
+# Implementation
 
 Here's a simplified view of the final implementation, starting with the
 model:
 
-``` python
+```python
 # pets/models.py
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
@@ -71,14 +69,14 @@ from django.utils.translation import ugettext_lazy as _
 class Pet(models.Model):
 
     name = models.CharField(_("Pet's name"), max_length=100)
-    identifier = models.CharField(_("identifier"), max_length=50, 
+    identifier = models.CharField(_("identifier"), max_length=50,
         null=True, blank=True, db_index=True)
     # More fields...
 ```
 
 Then the form:
 
-``` python
+```python
 # pets/forms.py
 from django import forms
 
@@ -93,7 +91,7 @@ class PetForm(forms.ModelForm):
 
 With model and form, we build the views:
 
-``` python
+```python
 # pets/views.py
 from django.shortcuts import get_object_or_404
 from django.utils.baseconv import base36
@@ -119,7 +117,7 @@ class PetCreateView(LoginRequiredMixin, CreateView):
 
 
 class GetPetMixin(object):
-    """ Any view that needs to get a Pet object can use this Mixin 
+    """ Any view that needs to get a Pet object can use this Mixin
 
         Pet Cheatsheet's owner's pet information is private, because it
             includes emergency contact information that often includes phone
@@ -133,7 +131,7 @@ class GetPetMixin(object):
         if pet.owner != self.request.user:
             # Rather than a 'forbidden' result, we want to show a 'Pet Not
             #    Found' page so we can educate site users.
-            raise Http404  
+            raise Http404
         return pet
 
 class PetDetailView(LoginRequiredMixin, GetPetMixin, DetailView):
@@ -151,7 +149,7 @@ class PetPDFView(LoginRequiredMixin, GetPetMixin, DetailView):
 
 Then we wire up the views into the urls:
 
-``` python
+```python
 from django.conf.urls.defaults import patterns, url
 
 from pets import views
@@ -177,8 +175,7 @@ urlpatterns = patterns("",
 )
 ```
 
-Result
-======
+# Result
 
 In the image below you can see how Marko's URL has his own unique
 identifier, along with his name. I can change the name in the URL or
