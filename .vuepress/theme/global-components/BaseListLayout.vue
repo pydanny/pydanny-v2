@@ -7,7 +7,7 @@
       </h1>
       <h1 v-else>Latest Posts</h1>
 
-      <div class="ui-post" v-for="page in pages" :key="page.id">
+      <div class="ui-post" v-for="page in pages" :key="page.key">
         <div
           class="ui-post-image"
           :style="{backgroundImage: `url(${page.frontmatter.image})`}"

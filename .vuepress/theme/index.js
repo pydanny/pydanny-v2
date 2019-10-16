@@ -47,6 +47,9 @@ module.exports = (themeConfig, ctx) => {
 
   const plugins = [
     "@vuepress/plugin-nprogress",
+    "@vuepress/back-to-top",
+    "smooth-scroll",
+    "reading-progress",
     ["@vuepress/medium-zoom", true],
     [
       "@vuepress/search",

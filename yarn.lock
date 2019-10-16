@@ -882,6 +882,13 @@
   dependencies:
     lodash.throttle "^4.1.1"
 
+"@vuepress/plugin-back-to-top@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-back-to-top/-/plugin-back-to-top-1.2.0.tgz#f6bb2f57317e94a6b0b6854719f3088481f2c0dd"
+  integrity sha512-QGFT5llXnqs/nrUmNql4jZuqo5VTKx/hsK9j1uNRdGBkyiqMs6h+brSpwTKtUqh/XwsCGn7FGPZLaYNkw7Oi8w==
+  dependencies:
+    lodash.debounce "^4.0.8"
+
 "@vuepress/plugin-blog@^1.2.5":
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-blog/-/plugin-blog-1.2.5.tgz#08a5cf3dbe1c048082682922fda1bd3fd2fa3477"
@@ -4368,6 +4375,11 @@ lodash.clonedeep@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
   integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=
 
+lodash.debounce@^4.0.8:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
+  integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
+
 lodash.defaultsdeep@4.6.1:
   version "4.6.1"
   resolved "https://registry.yarnpkg.com/lodash.defaultsdeep/-/lodash.defaultsdeep-4.6.1.tgz#512e9bd721d272d94e3d3a63653fa17516741ca6"
@@ -6421,6 +6433,11 @@ slash@^2.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-2.0.0.tgz#de552851a1759df3a8f206535442f5ec4ddeab44"
   integrity sha512-ZYKh3Wh2z1PpEXWr0MpSBZ0V6mZHAQfYevttO11c51CaWjGTaadiKZ+wVt1PbMlDV5qhMFslpZCemhwOK7C89A==
 
+smoothscroll-polyfill@^0.4.4:
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/smoothscroll-polyfill/-/smoothscroll-polyfill-0.4.4.tgz#3a259131dc6930e6ca80003e1cb03b603b69abf8"
+  integrity sha512-TK5ZA9U5RqCwMpfoMq/l1mrH0JAR7y7KRvOBx0n2869aLxch+gT9GhN3yUfjiw+d/DiF1mKo14+hd62JyMmoBg==
+
 snapdragon-node@^2.0.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/snapdragon-node/-/snapdragon-node-2.1.1.tgz#6c175f86ff14bdb0724563e8f3c1b021a286853b"
@@ -7369,6 +7386,11 @@ vuepress-plugin-feed@^0.1.7:
     remove-markdown "0.3.0"
     striptags "3.1.1"
 
+vuepress-plugin-reading-progress@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-reading-progress/-/vuepress-plugin-reading-progress-1.0.7.tgz#9a278866b5280e447226579945eded3055ba48ce"
+  integrity sha512-XFnD42/Xt4ZQ3G0j1ViF2WmBJM7f+zYJLKfD2ZEkIq3Ar38c3FKR/LU94aENaWRGnfDMDmAMEYjLrcmR4uq49g==
+
 vuepress-plugin-reading-time@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-reading-time/-/vuepress-plugin-reading-time-0.1.1.tgz#3ea3dcded424a00c1d5175a50af8d5694899f1ea"
@@ -7382,6 +7404,13 @@ vuepress-plugin-sitemap@^2.1.2:
   integrity sha512-x+jQVyhexQIn2XqjZbspdi0fmwGHBEaXASn6Oyrxkls+Z1qjTn/zr3DjVBbNd4VP6L5AtkDN8nvBEVfKTpJxjQ==
   dependencies:
     sitemap "^2.0.1"
+
+vuepress-plugin-smooth-scroll@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-smooth-scroll/-/vuepress-plugin-smooth-scroll-0.0.6.tgz#1123f4ef9444b6f407dd78d77649868a02c5cd5a"
+  integrity sha512-6jc7m+FvYuPaCVYsY5orc2/UMQpiRttQve79oI75HsAWXtzPKO/y1xpQNmLGcrvycq/gxaCqtpIJkKp1wgER3Q==
+  dependencies:
+    smoothscroll-polyfill "^0.4.4"
 
 vuepress@^1.1.0:
   version "1.1.0"

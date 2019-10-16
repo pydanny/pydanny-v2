@@ -19,11 +19,14 @@
   },
   "homepage": "https://github.com/pydanny/pydanny-v2#readme",
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.2.0",
     "@vuepress/theme-blog": "^1.2.5",
     "vuepress": "^1.1.0",
     "vuepress-plugin-disqus": "^0.1.1",
     "vuepress-plugin-feed": "^0.1.7",
-    "vuepress-plugin-reading-time": "^0.1.1"
+    "vuepress-plugin-reading-progress": "^1.0.7",
+    "vuepress-plugin-reading-time": "^0.1.1",
+    "vuepress-plugin-smooth-scroll": "^0.0.6"
   },
   "dependencies": {
     "axios": "^0.19.0",

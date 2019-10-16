@@ -114,6 +114,10 @@ export default {
     }
   }
 }
+
+.global-ui svg {
+  bottom: 6rem !important;
+}
 </style>
 
 <style src="prismjs/themes/prism-okaidia.css"></style>
