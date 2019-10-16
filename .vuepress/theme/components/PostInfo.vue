@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <br />
+  <div class="post-info">
     <div class="blog-tags">
       <router-link
         v-for="tag in $frontmatter.tags"
@@ -8,7 +7,7 @@
         class="blog-tag md"
       >#{{ tag }}</router-link>
     </div>
-    <h3 class="ui header">Follow Me!</h3>
+    <h3>Follow Me!</h3>
     <div>
       If you read this far, you might want to follow me on
       <a href="https://twitter.com/pydanny">
@@ -36,3 +35,10 @@ export default {
 </script>
 
 <style lang="stylus" scoped></style>
+
+<style lang="stylus">
+.post-info {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+</style>

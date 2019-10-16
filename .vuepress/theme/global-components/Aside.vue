@@ -189,7 +189,7 @@ export default {
 }
 
 .aside-transparent {
-  opacity: 0.7;
+  opacity: 0.5;
   transition: opacity 0.5s ease;
 
   &:hover {

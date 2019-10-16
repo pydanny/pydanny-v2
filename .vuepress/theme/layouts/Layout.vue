@@ -24,8 +24,8 @@ export default {
 <style lang="stylus">
 .layout-grid {
   display: grid;
-  grid-template-columns: 4fr 1fr;
-  grid-gap: 20px;
+  grid-template-columns: 5fr 2fr;
+  grid-gap: 2rem;
   margin-top: $headerHeight;
 
   @media (max-width: 960px) {

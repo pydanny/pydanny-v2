@@ -12,6 +12,16 @@
       <NavigationIcon />
       {{ location }}
     </div>
+    <div class="post-info-tags" v-if="tags">
+      <div>
+        <router-link
+          class="blog-tag"
+          v-for="(tag, index) in tags"
+          :key="index"
+          :to="'/tag/' + tag"
+        >#{{ tag }}</router-link>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -20,7 +30,7 @@ import { NavigationIcon, ClockIcon, CalendarIcon } from "vue-feather-icons";
 
 export default {
   components: { NavigationIcon, ClockIcon, CalendarIcon },
-  props: ["date", "timeToRead", "location"]
+  props: ["date", "timeToRead", "location", "tags"]
 };
 </script>
 
@@ -43,6 +53,20 @@ export default {
       margin-right: 5px;
       width: 17px;
       height: 17px;
+    }
+  }
+
+  .post-info-tags {
+    a.blog-tag {
+      font-size: 0.88rem;
+      padding: 0 4px;
+      display: inline;
+      margin-right: 0.3rem;
+      text-decoration: none;
+    }
+
+    @media (max-width: $MQMobile) {
+      display: none;
     }
   }
 }

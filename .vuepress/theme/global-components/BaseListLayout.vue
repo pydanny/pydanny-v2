@@ -1,9 +1,5 @@
 <template>
   <div id="base-list-layout" align="center">
-    <header class="home-hero" :style="{backgroundImage: 'url(' + $themeConfig.heroImage + ')'}">
-      <h1>{{ $site.title }}</h1>
-      <h3>{{ $site.description }}</h3>
-    </header>
     <div class="ui-posts" align="left">
       <h1 v-if="$route.meta.pid && $route.meta.pid !== 'post'">
         Latest
@@ -18,16 +14,17 @@
           v-if="page.frontmatter.image"
         ></div>
         <div class="ui-post-body">
-          <div class="ui-post-title">
-            <NavLink :link="page.path">{{ page.title }}</NavLink>
-          </div>
-          <div class="ui-post-description">{{ page.frontmatter.description || page.description }}...</div>
+          <h3 class="ui-post-title">
+            <router-link :to="page.path">{{ page.title }}</router-link>
+          </h3>
+          <div class="ui-post-description">{{ page.frontmatter.description || page.description }}</div>
         </div>
         <hr />
         <PostFooter
           :date="page.frontmatter.date"
           :timeToRead="page.readingTime.text"
           :location="page.frontmatter.location"
+          :tags="page.frontmatter.tags.slice(0,3)"
         />
       </div>
     </div>
@@ -119,7 +116,6 @@ header.home-hero {
 
 .ui-posts {
   max-width: 800px;
-  margin-top: 14rem;
 
   h1 {
     font-family: serif;
@@ -151,6 +147,13 @@ header.home-hero {
 
 .ui-post-body {
   padding: 15px;
+
+  .post-info-tags {
+    a {
+      margin-right: 0.3rem;
+      text-decoration: none;
+    }
+  }
 }
 
 .ui-post-image {
@@ -160,9 +163,10 @@ header.home-hero {
   border-radius: 10px;
 }
 
-.ui-post-title {
+h3.ui-post-title {
   font-size: 24px;
   border-bottom: 0;
+  margin: 0;
   margin-bottom: 10px;
 
   a {
@@ -179,7 +183,7 @@ header.home-hero {
 
 .ui-post-description {
   font-size: 16px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   color: rgba(0, 0, 0, 0.54);
   font-weight: 200;
 }
