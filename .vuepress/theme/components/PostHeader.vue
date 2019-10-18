@@ -37,7 +37,13 @@ export default {
 
     img {
       width: 10rem;
+      height: 10rem;
       margin-right: 3rem;
+    }
+
+    @media (max-width: $MQMobile) {
+      flex-direction: column;
+      align-items: center;
     }
   }
 
