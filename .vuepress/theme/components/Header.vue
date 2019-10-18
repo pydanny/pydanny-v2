@@ -95,6 +95,10 @@ export default {
           text-decoration: none;
           transition: color 0.3s;
 
+          &:hover {
+            color: lighten($accentColor, 80%);
+          }
+
           &.nav-link.router-link-exact-active.router-link-active {
             color: lighten($accentColor, 80%);
           }
@@ -106,6 +110,7 @@ export default {
       margin-left: 20px;
 
       input {
+        min-width: 100px;
         border-radius: 20px;
         transition: all 0.5s;
         color: $accentColor;

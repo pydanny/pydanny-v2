@@ -40,6 +40,8 @@ header#header-hero {
     position: absolute;
     top: 30vh;
     left: 25vw;
+    letter-spacing: 10px;
+    font-weight: 600;
 
     @media (max-width: $MQMobile) {
       font-size: 3rem;

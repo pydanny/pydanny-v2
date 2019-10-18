@@ -1,5 +1,6 @@
 <template>
   <div class="post-info">
+    <FeaturedPosts />
     <div class="blog-tags">
       <router-link
         v-for="tag in $frontmatter.tags"
@@ -28,9 +29,10 @@
 
 <script>
 import { GithubIcon, TwitterIcon } from "vue-feather-icons";
+import FeaturedPosts from "../components/FeaturedPosts.vue";
 
 export default {
-  components: { GithubIcon, TwitterIcon }
+  components: { GithubIcon, TwitterIcon, FeaturedPosts }
 };
 </script>
 
@@ -42,3 +44,4 @@ export default {
   margin-bottom: 3rem;
 }
 </style>
+
