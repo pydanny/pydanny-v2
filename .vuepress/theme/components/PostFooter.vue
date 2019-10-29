@@ -4,15 +4,24 @@
       <CalendarIcon />
       {{ new Date(date.trim()).toDateString() }}
     </div>
-    <div class="post-info-item" v-if="timeToRead">
+    <div
+      class="post-info-item"
+      v-if="timeToRead"
+    >
       <ClockIcon />
       {{ timeToRead }}
     </div>
-    <div class="post-info-item" v-if="location">
+    <div
+      class="post-info-item"
+      v-if="location"
+    >
       <NavigationIcon />
       {{ location }}
     </div>
-    <div class="post-info-tags" v-if="tags">
+    <div
+      class="post-info-tags"
+      v-if="tags"
+    >
       <div>
         <router-link
           class="blog-tag"
@@ -27,7 +36,6 @@
 
 <script>
 import { NavigationIcon, ClockIcon, CalendarIcon } from "vue-feather-icons";
-
 export default {
   components: { NavigationIcon, ClockIcon, CalendarIcon },
   props: ["date", "timeToRead", "location", "tags"]
@@ -39,9 +47,9 @@ export default {
   display: flex;
   align-items: center;
   font-size: 12px;
-  color: rgba(0, 0, 0, 0.54);
+  color: rgba(0, 0, 0, 0.34);
   font-weight: 200;
-  padding: 15px 0px 15px 15px;
+  padding: 0.6rem 0px 0.6rem 0.6rem;
 
   div.post-info-item {
     margin-right: 10px;
@@ -61,8 +69,13 @@ export default {
       font-size: 0.88rem;
       padding: 0 4px;
       display: inline;
+      opacity: 0.6;
       margin-right: 0.3rem;
       text-decoration: none;
+
+      &:hover {
+        opacity: 1;
+      }
     }
 
     @media (max-width: $MQMobile) {

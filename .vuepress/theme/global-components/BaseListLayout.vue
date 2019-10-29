@@ -1,23 +1,36 @@
 <template>
-  <div id="base-list-layout" align="center">
-    <div class="ui-posts" align="left">
+  <div
+    id="base-list-layout"
+    align="center"
+  >
+    <div
+      class="ui-posts"
+      align="left"
+    >
       <h1 v-if="$route.meta.pid && $route.meta.pid !== 'post'">
         Latest
         <span class="hilight">#{{ $route.meta.id }}</span> Posts
       </h1>
       <h1 v-else>Latest Posts</h1>
 
-      <div class="ui-post" v-for="page in pages" :key="page.key">
-        <div
-          class="ui-post-image"
-          :style="{backgroundImage: `url(${page.frontmatter.image})`}"
-          v-if="page.frontmatter.image"
-        ></div>
-        <div class="ui-post-body">
+      <div
+        class="ui-post"
+        v-for="page in pages"
+        :key="page.key"
+      >
+        <div class="ui-post-header">
           <h3 class="ui-post-title">
             <router-link :to="page.path">{{ page.title }}</router-link>
           </h3>
-          <div class="ui-post-description">{{ page.frontmatter.description || page.description }}</div>
+          <h5 class="ui-post-description">{{ page.frontmatter.description }}</h5>
+        </div>
+        <div class="ui-post-body">
+          <p
+            class="ui-post-summary"
+            v-if="page.summary"
+          >{{ page.summary }}
+            <router-link :to="page.path">Read more</router-link>
+          </p>
         </div>
         <hr />
         <PostFooter
@@ -29,7 +42,10 @@
       </div>
     </div>
 
-    <component v-if="$pagination.length > 1 && paginationComponent" :is="paginationComponent"></component>
+    <component
+      v-if="$pagination.length > 1 && paginationComponent"
+      :is="paginationComponent"
+    ></component>
   </div>
 </template>
 
@@ -46,24 +62,24 @@ import {
 export default {
   components: { PostFooter },
 
-  data() {
+  data () {
     return {
       paginationComponent: null
     };
   },
 
-  created() {
+  created () {
     this.paginationComponent = this.getPaginationComponent();
   },
 
   computed: {
-    pages() {
+    pages () {
       return this.$pagination.pages;
     }
   },
 
   methods: {
-    getPaginationComponent() {
+    getPaginationComponent () {
       const n = THEME_BLOG_PAGINATION_COMPONENT;
       if (n === "Pagination") {
         return Pagination;
@@ -129,7 +145,7 @@ header.home-hero {
 
 .ui-post {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
-  padding: 10px;
+  padding: 0.5rem;
   padding-top: 15px;
   margin-bottom: 25px;
   border-radius: 14px;
@@ -138,6 +154,10 @@ header.home-hero {
 
   &:hover {
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+
+    .ui-post-summary {
+      color: lighten(slategray, 10%);
+    }
   }
 
   &:last-child {
@@ -148,6 +168,14 @@ header.home-hero {
   p {
     margin: 0;
   }
+}
+
+.ui-post-header {
+  padding: 0.3rem 0.8rem;
+}
+
+.ui-post-summary {
+  color: lighten(slategray, 30%);
 }
 
 .ui-post-body {
@@ -169,14 +197,15 @@ header.home-hero {
 }
 
 h3.ui-post-title {
-  font-size: 24px;
+  font-size: 1.3em;
+  font-family: sans-serif !important;
+  font-weight: bolder;
   border-bottom: 0;
   margin: 0;
-  margin-bottom: 10px;
 
   a {
     cursor: pointer;
-    color: #222;
+    color: $accentColor;
     transition: all 0.2s;
     text-decoration: none;
 
@@ -187,9 +216,10 @@ h3.ui-post-title {
 }
 
 .ui-post-description {
-  font-size: 16px;
+  font-size: 1rem;
   margin-bottom: 0px;
-  color: rgba(0, 0, 0, 0.54);
+  margin-top: 0.4rem;
+  color: lighten($accentColor, 50%);
   font-weight: 200;
 }
 

@@ -26,7 +26,7 @@ export default {
   display: grid;
   grid-template-columns: 5fr 2fr;
   grid-gap: 2rem;
-  margin-top: $headerHeight;
+  margin-top: 65vh;
 
   @media (max-width: 960px) {
     grid-template-columns: 1fr;

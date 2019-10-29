@@ -6,7 +6,7 @@ module.exports = (themeConfig, ctx) => {
     summaryLength:
       typeof themeConfig.summaryLength === "number"
         ? themeConfig.summaryLength
-        : 200,
+        : 300,
     pwa: !!themeConfig.pwa
   });
 
@@ -18,6 +18,7 @@ module.exports = (themeConfig, ctx) => {
         path: "/",
         // layout: 'IndexPost', defaults to `Layout.vue`
         itemLayout: "Post",
+        frontmatter: { title: "Daniel Roy Greenfeld" },
         itemPermalink: "/:slug.html",
         pagination: {
           lengthPerPage: 20
@@ -83,7 +84,7 @@ module.exports = (themeConfig, ctx) => {
    * Generate summary.
    */
   if (themeConfig.summary) {
-    config.extendPageData = function(pageCtx) {
+    config.extendPageData = function (pageCtx) {
       const strippedContent = pageCtx._strippedContent;
       if (!strippedContent) {
         return;

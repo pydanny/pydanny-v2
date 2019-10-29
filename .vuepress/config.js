@@ -19,10 +19,10 @@ module.exports = {
     fullName: "Daniel Roy greenfeld",
     personalPhoto: "/images/personalPhoto.png",
     bio: `I do Python, Django, and JavaScript out of Los Angeles, California.
-      I love to read, write, hang out with my wife, and play with my daughter.
-      For physical activity, I enjoy Brazilian Jiu-Jitsu and cycling.
-      I am a total Space and NASA Geek. I attend lots of software industry events.
-      I've also written a few books and courses.`,
+    I love to read, write, hang out with my wife, and play with my daughter.
+    For physical activity, I enjoy Brazilian Jiu-Jitsu and cycling.
+    I am a total Space and NASA Geek. I attend lots of software industry events.
+    I've also written a few books and courses.`,
     nav: [
       { text: "Home", link: "/" },
       { text: "Tags", link: "/tag/" },
@@ -56,7 +56,8 @@ module.exports = {
           link: ""
         }
       ]
-    }
+    },
+    summary: true,
   },
   plugins: [
     [

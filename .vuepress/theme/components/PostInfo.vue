@@ -1,6 +1,5 @@
 <template>
   <div class="post-info">
-    <FeaturedPosts />
     <div class="blog-tags">
       <router-link
         v-for="tag in $frontmatter.tags"
@@ -8,6 +7,7 @@
         class="blog-tag md"
       >#{{ tag }}</router-link>
     </div>
+    <FeaturedPosts />
     <h3>Follow Me!</h3>
     <div>
       If you read this far, you might want to follow me on
