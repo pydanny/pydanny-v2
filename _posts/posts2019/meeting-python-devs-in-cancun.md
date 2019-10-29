@@ -1,6 +1,6 @@
 ---
 date: "2019-10-30"
-description: STEM is everywhere!
+description: Python programming builds bridges across the world!
 published: true
 slug: meeting-python-devs-in-cancun
 tags:
