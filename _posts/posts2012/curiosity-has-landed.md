@@ -17,7 +17,7 @@ Mars, and has the power to use them for at least 14 years.
 
 Simply put, this is an incredible step forward.
 
-[![image](http://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Mars_Science_Laboratory_Curiosity_rover.jpg/800px-Mars_Science_Laboratory_Curiosity_rover.jpg)](http://en.wikipedia.org/wiki/File:Mars_Science_Laboratory_Curiosity_rover.jpg)
+[![image](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Mars_Science_Laboratory_Curiosity_rover.jpg/800px-Mars_Science_Laboratory_Curiosity_rover.jpg)](http://en.wikipedia.org/wiki/File:Mars_Science_Laboratory_Curiosity_rover.jpg)
 
 As an American, I'm proud that our nation is capable of putting
 together such amazing feats of engineering and science. People from a
@@ -28,7 +28,7 @@ As a human being, I'm proud that we have yet again proven that we are
 still capable of working together to make amazing things happen.
 
 As someone who grew up in the 1970s, and someone who is proud to have
-worked at [NASA](http://www.nasa.gov) for over 5 years, this is my
+worked at [NASA](https://www.nasa.gov) for over 5 years, this is my
 American dream.
 
 Going Forward

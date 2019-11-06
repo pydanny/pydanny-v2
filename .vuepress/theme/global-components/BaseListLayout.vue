@@ -22,7 +22,7 @@
         <hr />
         <PostFooter
           :date="page.frontmatter.date"
-          :timeToRead="page.readingTime.text"
+          :timeToRead="page.frontmatter.time_to_read"
           :location="page.frontmatter.location"
           :tags="page.frontmatter.tags.slice(0,3)"
         />

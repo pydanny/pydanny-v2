@@ -1,21 +1,21 @@
 ---
-date: '2012-05-10'
+date: "2012-05-10"
 published: true
 slug: choosing-api-framework-for-django
 tags:
-- python
-- django
-- api
-- review
+  - python
+  - django
+  - api
+  - review
 time_to_read: 3
 title: Choosing an API framework for Django
 ---
 
-First off, out of the box, [Django](http://djangoproject.com) lets you
+First off, out of the box, [Django](https://djangoproject.com) lets you
 construct API responses with a little work. All you need to do is
 something like this:
 
-``` python
+```python
 # Copied from https://docs.djangoproject.com/en/1.4/topics/class-based-views/#more-than-just-html
 from django import http
 from django.utils import simplejson as json
@@ -42,7 +42,7 @@ class JSONResponseMixin(object):
 
 Once you get that mixin, use it in your views like so:
 
-``` python
+```python
 # modified from djangoproject.com sample code
 from django.utils import simplejson as json
 
@@ -58,35 +58,33 @@ like pagination, posting of data, metadata, API discovery, and other
 important things ends up being a bit more work. This is where the
 resource oriented API frameworks come in.
 
-What makes a decent API Framework?
-==================================
+# What makes a decent API Framework?
 
 These features:
 
--   pagination
--   posting of data with validation
--   Publishing of metadata along with querysets
--   API discovery
--   proper HTTP response handling
--   caching
--   serialization
--   throttling
--   permissions
--   authentication
+- pagination
+- posting of data with validation
+- Publishing of metadata along with querysets
+- API discovery
+- proper HTTP response handling
+- caching
+- serialization
+- throttling
+- permissions
+- authentication
 
 Proper API frameworks also need:
 
--   Really good test coverage of their code
--   Decent performance
--   Documentation
--   An active community to advance and support the framework
+- Really good test coverage of their code
+- Decent performance
+- Documentation
+- An active community to advance and support the framework
 
 If you take these factors, at this time there are only two API
 frameworks worth using, [django-tastypie](#django-tastypie) and
 [django-rest-framework](#django-rest-framework).
 
-Which one is better? django-tastypie or django-rest-framework?
-==============================================================
+# Which one is better? django-tastypie or django-rest-framework?
 
 I say they are equal.
 
@@ -94,8 +92,7 @@ You simply can't go wrong with either one. The authors and communities
 behind both of them are active, the code is solid and tested. And here
 are my specific thoughts about both of them:
 
-django-tastypie
-===============
+# django-tastypie
 
 Using django-tastypie is like playing with pure Python while using the
 Django ORM. I find it very comfortable. Seems really fast too. The
@@ -104,11 +101,10 @@ anything out. It also supports OAuth 1.0a out of the box, which is
 mighty awesome these days.
 
 In fact, I wrote a custom OAuth2 handler for django-tastypie for
-[consumer.io](http://consumer.io) that I'm working to extract for
+consumer.io that I'm working to extract for
 publication.
 
-django-rest-framework
-=====================
+# django-rest-framework
 
 As it's based off Django 1.3 style Class Based Views (CBVs), it has a
 very familiar pattern. Actually, because of the quality of the
@@ -117,8 +113,7 @@ than using Django's actual CBVs.
 
 Maybe I should make an HTML renderer for django-rest-framework? :-)
 
-But what about django-piston?
-=============================
+# But what about django-piston?
 
 **Don't use django-piston**.
 
@@ -138,7 +133,7 @@ wonderful.
 Use django-tastypie or django-rest-framework instead. You'll be much,
 much happier for it.
 
-------------------------------------------------------------------------
+---
 
 [Discuss this on Hacker
-News](http://news.ycombinator.com/item?id=3954314)
+News](https://news.ycombinator.com/item?id=3954314)

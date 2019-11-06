@@ -12,7 +12,7 @@
           </span>
           <span>
             <ClockIcon />
-            <span>{{ $page.readingTime.text }}</span>
+            <span>{{ $frontmatter.time_to_read }} min read</span>
           </span>
         </div>
       </div>
