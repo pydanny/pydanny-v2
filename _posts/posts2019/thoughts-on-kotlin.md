@@ -1,5 +1,5 @@
 ---
-date: "2019-11-05"
+date: "2019-11-07"
 description: My notes and impressions about this Android-friendly JVM language.
 published: true
 slug: thoughts-on-kotlin
