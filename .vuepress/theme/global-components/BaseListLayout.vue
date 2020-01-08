@@ -2,7 +2,6 @@
   <div id="base-list-layout" align="center">
     <div class="ui-posts" align="left">
       <h1 v-if="$route.meta.pid && $route.meta.pid !== 'post'">
-        Latest
         <span class="hilight">#{{ $route.meta.id }}</span> Posts
       </h1>
       <h1 v-else>Latest Posts</h1>

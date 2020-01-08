@@ -6,7 +6,7 @@
           class="wave waveTop"
           style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"
         >
-          <h1>{{$site.title}}</h1>
+          <h1>PyDanny</h1>
           <h2>{{$site.description}}</h2>
         </div>
       </div>

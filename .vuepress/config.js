@@ -12,24 +12,23 @@ const feed_options = {
 };
 
 module.exports = {
-  title: "PyDanny",
+  title: "Daniel Roy Greenfeld",
   description: "Inside the head of Daniel Roy Greenfeld",
   theme: "@vuepress/theme-blog",
   themeConfig: {
     fullName: "Daniel Roy greenfeld",
     personalPhoto: "/images/personalPhoto.png",
-    bio: `I do Python, Django, and JavaScript out of Los Angeles, California.
+    bio: `I do Python, JavaScript, and C# out of Los Angeles, California.
       I love to read, write, hang out with my wife, and play with my daughter.
       For physical activity, I enjoy Brazilian Jiu-Jitsu and cycling.
       I am a total Space and NASA Geek. I attend lots of software industry events.
-      I've also written a few books and courses.`,
+      I also write books.`,
     nav: [
       { text: "Home", link: "/" },
       { text: "Tags", link: "/tag/" },
-      { text: "Python", link: "/tag/python/" },
-      { text: "Django", link: "/tag/django/" },
       { text: "Books", link: "/pages/books/" },
-      { text: "About", link: "/pages/about/" }
+      { text: "About", link: "/pages/about/" },
+      { text: "Roy Greenfeld", link: "https://roygreenfeld.com/"}
     ],
     footer: {
       contact: [
