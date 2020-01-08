@@ -102,4 +102,4 @@ In 2020 I'm going to go further. I'm going to take up rock climbing and find oth
 
 ### Improve the World
 
-If you think this last resolution was inspired at least in part by my daughter, you would be correct. I want to improve the world for her and the future generations who share this planet with her. 
+If you think this last resolution was inspired by Uma, you would be correct. I want to improve the world for her and the future generations who share this planet with her. 
