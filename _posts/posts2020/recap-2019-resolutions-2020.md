@@ -6,10 +6,11 @@ slug: 2019-recap-2020-resolutions
 tags:
   - family
   - uma
+  - audrey
+  - travel 
   - kotlin
   - hackathon
   - pycon
-  - travel
 time_to_read: 15
 title: Recap of 2019 and Resolutions for 2020
 type: post
