@@ -54,7 +54,7 @@ Within the USA I visited upstate New Jersey, New York City, and Las Vegas, Nevad
 
 ### I Ate Coconut
 
-For most of my life I've been allergic to coconut. In the past few years eating coconut been less of an issue for me. As of the my trip to Ghana in August of 2019 the allergy is gone.  I'm excited, this opens up a whole new world of food possibilities.
+For most of my life I've been allergic to coconut. In the past few years eating coconut has been less of an issue for me. As of my trip to Ghana in August of 2019 the allergy is gone.  I'm excited, this opens up a whole new world of food possibilities.
 
 ### I Like Static Typing
 
