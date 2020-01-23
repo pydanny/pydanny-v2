@@ -13,7 +13,7 @@ time_to_read: 1
 title: Implemementing Manual Schema with Django REST Framework
 ---
 
-[![BitCoin and Two Scoops of Django!](https://raw.githubusercontent.com/pydanny/pydanny.github.com/master/static/drf.png)](https://www.pydanny.com/manual-schema-django-rest-framework.html)
+[![BitCoin and Two Scoops of Django!](https://raw.githubusercontent.com/pydanny/pydanny.github.com/master/static/drf.png)](/manual-schema-django-rest-framework.html)
 
 This is what will hopefully be the first in a series of reference
 articles for using [Core API](http://www.coreapi.org/) libraries with

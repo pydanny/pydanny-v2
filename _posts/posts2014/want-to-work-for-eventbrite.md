@@ -75,5 +75,5 @@ post.
 
 Good luck!
 
-[![image](../../.vuepress/assets/images/eventbrite_logo_gradient_v2.png){.align-center
+[![image](images/eventbrite_logo_gradient_v2.png){.align-center
 width="300px" height="116px"}](https://www.eventbrite.com)

@@ -11,12 +11,12 @@ title: Punchline
 ---
 
 Last year on April 1st [I wrote how the next Two Scoops Press book would
-be about goblins](https://www.pydanny.com/two-scoops-of-goblins.html).
+be about goblins](/two-scoops-of-goblins.html).
 Naturally, many interpreted this as an April Fool's Day prank. Also
 naturally, I didn't agree or disagree with this interpretation of my
 blog post.
 
-[![image](https://s3.amazonaws.com/pydanny/two-scoops-of-goblins.png)](https://www.pydanny.com/two-scoops-of-goblins.html)
+[![image](https://s3.amazonaws.com/pydanny/two-scoops-of-goblins.png)](/two-scoops-of-goblins.html)
 
 *Image from blog post last year*
 
@@ -27,7 +27,7 @@ The punchline is that blog post wasn't a joke or prank. Indeed,
 yesterday I released my first fiction book, a dark fantasy novel with
 goblins in it.
 
-[![image](https://www.pydanny.com/static/itb.png){.align-center
+[![image](/static/itb.png){.align-center
 width="40.0%"}](http://www.amazon.com/into-the-brambles-ebook/dp/B00VC5UQHO/?tag=the-brambles-20)
 
 Description:

@@ -43,7 +43,7 @@ of view and your own opinion of my opinions.
 With that out of the way, here's a bar graph created from the fictional
 data I presented with Miguel back in 2011:
 
-![image](../../.vuepress/assets/images/made-up-statistics.png){.img-polaroidalign-center}
+![image](images/made-up-statistics.png){.img-polaroidalign-center}
 
 You'll notice that my bar titles could be stronger. I actually did that
 on purpose in case anyone tries to use that chart in real life. In any
@@ -74,7 +74,7 @@ This time, because I'm worried about the data being taken seriously,
 I've titled the bar chart in such a way that no one will reference it
 in anything important:
 
-![image](../../.vuepress/assets/images/devops.png)
+![image](images/devops.png)
 
 Pydanny Made Up Python Enviroment Statistics
 ============================================
@@ -97,7 +97,7 @@ up to an even 100% (making it good pie chart material):
     to invite you into their fortified compounds. **We hate you that
     much.**
 
-![image](../../.vuepress/assets/images/environment.png){.img-polaroidalign-center}
+![image](images/environment.png){.img-polaroidalign-center}
 
 Pydanny Made Up Template Debate Statistics
 ==========================================
@@ -118,7 +118,7 @@ ending template debate in Python:
 The display for this data is a lovely pie chart as seen below. In order
 to make it appear more useful, I made it a 3-D pie chart:
 
-![image](../../.vuepress/assets/images/templates.png){.img-polaroidalign-center}
+![image](images/templates.png){.img-polaroidalign-center}
 
 Pydanny Made Up Python Web Optimization Statistics
 ==================================================
@@ -134,7 +134,7 @@ thing happens with other frameworks such as Flask and Pyramid.
 -   100% Django/Pyramid/Flask/etc core developers argue using caching
     and load balancing.
 
-![image](../../.vuepress/assets/images/optimization.png){.img-polaroidalign-center}
+![image](images/optimization.png){.img-polaroidalign-center}
 
 Of all the made up statistics in this blog post, I suspect this is the
 one closest to the truth of things.

@@ -12,7 +12,7 @@ time_to_read: 3
 title: Python F-Strings Are Fun!
 ---
 
-[![Python F-Strings Are Fun!](https://raw.githubusercontent.com/pydanny/pydanny.github.com/master/static/python-tip-from-pydanny.png)](https://www.pydanny.com/python-f-strings-are-fun.html)
+[![Python F-Strings Are Fun!](https://raw.githubusercontent.com/pydanny/pydanny.github.com/master/static/python-tip-from-pydanny.png)](/python-f-strings-are-fun.html)
 
 In python 3.6 we saw the adoption of [Literal String
 Interpolation](https://www.python.org/dev/peps/pep-0498/), or as they

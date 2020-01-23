@@ -16,8 +16,8 @@ I've always wanted to run tests on my code snippets in my blog posts. Here's how
 
 If you look back at some of the older articles on my blog you'll see I used [pytest](https://pytest.org) assertions to verify that code I wrote actually worked if you tried it out. Some examples:
 
-- [cached-property: Don't copy/paste code](https://www.pydanny.com/cached-property.html)
-- [Docstrings and Various Python Objects](https://www.pydanny.com/docstrings-and-various-python-objects.html)
+- [cached-property: Don't copy/paste code](/cached-property.html)
+- [Docstrings and Various Python Objects](/docstrings-and-various-python-objects.html)
 
 I had a little Python script that would recursively search my blog for `ReStructuredText`, slurp out the Python blocks, write those to file, then run pytest against the generated files. This meant that while my blog might have grammar or spelling errors, the code was bug-free. Having moved to `Markdown`, this script is no longer valid.
 

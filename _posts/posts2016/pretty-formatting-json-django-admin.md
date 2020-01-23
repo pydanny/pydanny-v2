@@ -88,7 +88,7 @@ Much better!
 There may be a package out there that does this already, perhaps even
 using a JavaScript library like hightlight.js instead of pygments. If
 not, it shouldn't be hard to create one using [Cookiecutter Django
-Package](https://www.pydanny.com/how-to-create-installable-django-packages.html).
+Package](/how-to-create-installable-django-packages.html).
 Let me know if you package this and I'll add it to this blog post.
 
 ------------------------------------------------------------------------

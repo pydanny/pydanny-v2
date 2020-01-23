@@ -79,4 +79,4 @@ What I Wish I Had Done
 
 Practice makes perfect, right?
 
-[![Code, Code, Code](https://www.pydanny.com/static/code-code-code.png)](https://www.pydanny.com/code-code-code.html)
+[![Code, Code, Code](images/code-code-code.png)](/code-code-code.html)

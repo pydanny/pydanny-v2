@@ -47,7 +47,7 @@ I went to Africa for the first time! I was there to attend the very first [PyCon
 
 I returned to Wellington, New Zealand to give a keynote at [Kiwi PyCon 2019](https://python.nz/). Audrey gave a keynote there in 2011, which means if we follow the pattern my daughter Uma will give a keynote there in 2027. In any case, it was so much fun reconnecting with old friends and making new ones. 
 
-![image](images/pycon-nz-2019.jpg)
+![Kiwi PyCon family photo!](images/pycon-nz-2019.jpg)
 
 Since it's so close to me, we've gone to Mexico every year since 2010 and 2019 was no different. This time it was to the coast of the Yucatan Peninsula to visit Cancun, Playa del Carmen, and Tulum. We even took the time to visit [PyCun, the Cancun Python group](./meeting-python-devs-in-cancun). 
 

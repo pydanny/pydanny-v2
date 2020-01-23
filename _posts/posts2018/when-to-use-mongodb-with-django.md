@@ -60,7 +60,7 @@ class Product(models.Model):
 
 Just save your data into this field using a JSON-serializable dict.
 It's that easy. Even better, in this previous
-[article](https://www.pydanny.com/pretty-formatting-json-django-admin.html),
+[article](/pretty-formatting-json-django-admin.html),
 I show how you can pretty print the JSON in the Django admin.
 
 Using this field, you get all the built-in features of Django and a

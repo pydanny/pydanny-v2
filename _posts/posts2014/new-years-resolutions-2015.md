@@ -15,14 +15,13 @@ title: I did an Au Batido in 2014, now what?
 ---
 
 This is my summary of my
-[resolutions](https://www.pydanny.com/tag/resolutions.html) for 2014 and
+[resolutions](/tag/resolutions) for 2014 and
 an early pass at my resolutions for 2015. I'm doing this right now
 instead of at the end of the year because as of the afternoon of
-December 21, I'm [going off the
-grid](http://danielroygreenfeld.com/2014/12/21/going-off-the-grid/).
+December 21, I'm going off the
+grid.
 
-Resolutions Accomplished in 2014
-================================
+## Resolutions Accomplished in 2014
 
 -   Release the second edition of Two Scoops of Django.
 -   Visited South America.
@@ -35,10 +34,9 @@ Resolutions Accomplished in 2014
 -   Took a fun class with Audrey. We did woodshop!
 -   Learned how to do [Aú Batido](http://en.wikipedia.org/wiki/L-kick)!
 
-[![image](../../.vuepress/assets/images/aubatido.jpg)](../../.vuepress/assets/images/aubatido.jpg)
+[![image](images/aubatido.jpg)](images/aubatido.jpg)
 
-General Accomplishments
-=======================
+## General Accomplishments
 
 -   Published Two Scoops of Django 1.6 with my awesome wife, Audrey Roy
     Greenfeld.
@@ -61,8 +59,7 @@ General Accomplishments
 -   Ate dinner below the waterline inside [fake island in the San
     Francisco Bay](www.forbesisland.com).
 
-Resolutions for 2015
-====================
+## Resolutions for 2015
 
 -   Bring a new child into the world.
 -   Write and publish at least 1 fiction book. This is a childhood dream

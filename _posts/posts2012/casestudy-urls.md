@@ -182,4 +182,4 @@ identifier, along with his name. I can change the name in the URL or
 even in the database, but so long as I don't modify the identifying
 part of the URL (`1m`), his information always shows up.
 
-![image](../../.vuepress/assets/images/petcheatsheets-url-example.png)]
+![image](images/petcheatsheets-url-example.png)]

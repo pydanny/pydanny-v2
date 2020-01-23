@@ -10,7 +10,7 @@ time_to_read: 2
 title: Titlecasing Markdown Headers with Python
 ---
 
-[![Markdown](../../.vuepress/assets/images/title-case.png)](https://www.pydanny.com/static/title-case.png)
+[![Markdown](images/title-case.png)](/static/title-case.png)
 
 Recently I've been writing a lot of Markdown. While not as
 sophisticated as ReStructuredText, it's simplicity is nice for

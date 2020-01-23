@@ -162,4 +162,4 @@ References:
     article on decorators for concerns about `functools.wraps`)
 -   <https://wiki.python.org/moin/PythonDecoratorLibrary>
 
-![image](../../.vuepress/assets/images/sample-rst.png)
+![image](images/sample-rst.png)
