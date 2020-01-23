@@ -87,7 +87,7 @@ We choose Heroku for a number of reasons:
 7.  When I think of Heroku I think of Puffer Fish. Which is awesome
     because Puffer Fish are awesome.
 
-[![image](http://farm6.staticflickr.com/5303/5776592544_fb15a2902a_m.jpg)](http://www.flickr.com/photos/saspotato/5776592544/)
+[![Puffer fish](images/5776592544_fb15a2902a_m.jpg)](http://www.flickr.com/photos/saspotato/5776592544/)
 
 Creative Commons: Some rights reserved by
 [Saspotato](http://www.flickr.com/photos/saspotato/5776592544/)

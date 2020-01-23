@@ -41,8 +41,7 @@ I'll be there to:
 
 And now to open the floor to questions...
 
-When and where?
-===============
+## When and where?
 
 Where:
 
@@ -55,13 +54,11 @@ When:
     November 4th, 2012
     10 AM to 9 PM
 
-Is this like a Hackathon?
-=========================
+## Is this like a Hackathon?
 
 Yup. See <http://en.wikipedia.org/wiki/Hackathon#Sprints>
 
-What if I don't have a project of my own to bring? Should I come?
-==================================================================
+## What if I don't have a project of my own to bring? Should I come?
 
 Heck yeah! There will be a number of projects around that you can join
 and contribute to in order to make the world a better place. The current
@@ -78,8 +75,7 @@ list of projects include things like:
 -   Clojure
 -   PHP
 
-I'm just starting as a developer, should I come?
-=================================================
+## I'm just starting as a developer, should I come?
 
 It depends.
 
@@ -96,8 +92,7 @@ beginner developers to wet their teeth on. Things I've learned at
 events like these include Git, Mercurial, JQuery, and a hundred other
 things that have made me a better coder.
 
-Can I come and do one of the following:
-=======================================
+## Can I come and do one of the following:
 
 -   Recruit.
 -   Get people to work on my private project.
@@ -115,8 +110,7 @@ In addition, we're considering future events that mix in business into
 our efforts. If you're interested in that sort of thing then stay tuned
 for more announcements.
 
-What about sponsorship?
-=======================
+## What about sponsorship?
 
 In return for sponsorship we mention your organization or person on the
 official event description, and provide many other perks including
@@ -128,17 +122,17 @@ attendees are incredibly grateful to those who make the event possible.
 
 If interested, keep in mind this event happened years ago.
 
-What do I need to bring?
-========================
+## What do I need to bring?
 
 Your own functioning laptop with power cord. Neither event organizers,
 the venue, or sponsors are providing equipment. We also encourage you to
 bring a power strip labeled with your name.
 
-I'm sold! How much does it cost and where do I register?
-=========================================================
+## I'm sold! How much does it cost and where do I register?
 
 The event is $10, covers food and drink for the day, and you can RSVP
 by clicking on the image below
 
-[![image](https://s3.amazonaws.com/pydanny/open_source_sprint.png)](http://www.meetup.com/LA-Hackathons/events/85658952/)
+
+[![Los Angeles Open Source Sprint](images/7132778527_6e3b49b313_o.png)](http://www.flickr.com/photos/pydanny/7132778527/)
+

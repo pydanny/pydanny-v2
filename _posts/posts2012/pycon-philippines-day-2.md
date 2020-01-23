@@ -143,8 +143,4 @@ I had this chance to bring PyCon to so many wonderful people.
 
 More thoughts on PyCon Philippines in a forthcoming blog post.
 
-# Coming soon
-
-- The Story of PyCon Philippines
-
-[![image](http://farm8.staticflickr.com/7135/7516869028_ff24aaa027_z.jpg)](http://www.flickr.com/photos/pydanny/7516869028/)
+[![image](images/7516869028_ff24aaa027_z.jpg)](http://www.flickr.com/photos/pydanny/7516869028/)

@@ -20,10 +20,9 @@ projects. It was awesome! Tons of open source projects saw
 contributions, and people across languages and frameworks worked
 together.
 
-[![image](https://farm9.staticflickr.com/8007/7193954598_1b071cb5e4.jpg)](http://www.flickr.com/photos/59834630@N07/7193954598/)
+[![Hack Awayyy!!!](image/7193954598_1b071cb5e4.jpg)](http://www.flickr.com/photos/59834630@N07/7193954598/)
 
-Event Background
-================
+## Event Background
 
 Less then two weeks before May 12, a bunch of us Los Angeles area Python
 developers were hanging out and wishing we had a local sprint to attend
@@ -54,8 +53,7 @@ Some of the projects worked on included:
     on
     [OpenComparison](https://github.com/opencomparison/opencomparison).
 
-More open source sprinting on July 15
-=====================================
+## More open source sprinting on July 15
 
 There's going to be another Los Angeles open source event on July 15 at
 [Originate](http://originate.com/). Instead of less then two weeks to
@@ -67,4 +65,4 @@ If you want to sponsor or volunteer, email me at pydanny (at)
 cartwheelweb.com or audreyr (at) cartwheelweb.com. We go out of our way
 to ensure that sponsors and volunteers feel appreciated.
 
-[![image](https://farm9.staticflickr.com/8003/7193961164_b26d27093d.jpg)](http://www.flickr.com/photos/59834630@N07/7193961164/)
+[![Los Angeles Open Source Sprint](images/7132778527_6e3b49b313_o.png)](http://www.flickr.com/photos/pydanny/7132778527/)

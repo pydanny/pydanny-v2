@@ -160,7 +160,7 @@ Join us at the PyCon US sprints either in person or on-line. [Details of
 the sprint are near the bottom of this PyCon Sprint
 page](https://us.pycon.org/2012/community/sprints/projects/).
 
-[![image](http://farm8.staticflickr.com/7201/6803475636_f34fb400eb_m.jpg)](http://oauth.net/)
+[![OAuth Logo](images/6803475636_f34fb400eb_m.jpg)](http://oauth.net/)
 
 ------------------------------------------------------------------------
 
