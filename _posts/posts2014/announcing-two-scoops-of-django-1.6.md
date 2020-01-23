@@ -11,14 +11,14 @@ time_to_read: 3
 title: Announcing Two Scoops of Django 1.6!
 ---
 
-[![image](https://twoscoops.smugmug.com/Pydannycom/i-M5FKCtv/0/M/two-scoops-django-co-authors-M.jpg)](http://twoscoopspress.com/products/two-scoops-of-django-1-6)
+[![image](images/two-scoops-django-co-authors-M.jpg)](http://roygreenfeld.com/products/two-scoops-of-django-1-6)
 
 We (Audrey Roy and I) just released the **revised**, **expanded**, and
 **slightly renamed** second edition of our book on Django. It's called
 [Two Scoops of Django: Best Practices for Django
-1.6](http://twoscoopspress.com/products/two-scoops-of-django-1-6), and
+1.6](http://roygreenfeld.com/products/two-scoops-of-django-1-6), and
 you can buy it right now in print format on our [online
-store](http://twoscoopspress.com/products/two-scoops-of-django-1-6) or
+store](http://roygreenfeld.com/products/two-scoops-of-django-1-6) or
 [Amazon.com](http://amzn.to/1n98duC).
 
 Two Scoops of Django: Best Practices for Django 1.6 is chock-full of
@@ -28,8 +28,7 @@ techniques that we've picked up over the years. We have put thousands
 of hours into writing and revising its hundreds of pages of concise,
 example-packed text.
 
-Why Should You Purchase the Second Edition?
-===========================================
+## Why Should You Purchase the Second Edition?
 
 > "I read the first edition cover to cover. The second one raises the
 > bar again. It's pedagogical, entertaining, and thoughtful."
@@ -39,12 +38,11 @@ Why Should You Purchase the Second Edition?
 
 Why should you buy this updated version of our previous book? Well,
 it's more than a slight rename, it's been
-[revised](http://twoscoopspress.com/pages/two-scoops-of-django-1-6-change-list)
+[revised](http://roygreenfeld.com/pages/two-scoops-of-django-1-6-change-list)
 and
-[expanded](http://twoscoopspress.com/pages/two-scoops-of-django-1-6-change-list)!
+[expanded](http://roygreenfeld.com/pages/two-scoops-of-django-1-6-change-list)!
 
-It's Revised
-=============
+## It's Revised
 
 Significant portions of the previous material have been revised,
 incorporating huge amounts of feedback submitted by our readers over the
@@ -67,8 +65,7 @@ wrong by those who you respect, and even harder to change patterns you
 promoted. However, we believe it's our duty to the readers to make our
 book the best is can be.
 
-It's Expanded
-==============
+## It's Expanded
 
 > "Can Two Scoops of Django expand the deployment chapter?"
 >
@@ -82,18 +79,16 @@ identical environments, and more.
 
 In fact...
 
-We expanded the book so much that **3 > 4**:
----------------------------------------------
+### We expanded the book so much that **3 > 4**:
 
-[![image](https://twoscoops.smugmug.com/Pydannycom/i-bDBT2Lt/0/M/3vs4-M.jpg)](http://twoscoopspress.com/products/two-scoops-of-django-1-6)
+[![image](images/3vs4-M.jpg)](http://roygreenfeld.com/products/two-scoops-of-django-1-6)
 
 This isn't to say that we padded the book. Not at all. The new material
 is packed with our loud volume of code examples and concise
 explanations. We would like to think it's awesome, but that's because
 we had the whole world helping us put it together.
 
-We Did It Together
-==================
+## We Did It Together
 
 I believe this new edition is amazing. As I said before, we didn't do
 it alone, we had you in our corner. By you, I mean the technical
@@ -103,18 +98,17 @@ the Python and Django developers around the world.
 Which means I'm delighted that our latest effort is finally in print.
 In my perfect world it gets a thousand five star reviews. ;-)
 
-Order!
-------
+## Order!
 
 You can purchase [Two Scoops of Django: Best Practices for Django
-1.6](http://twoscoopspress.com/products/two-scoops-of-django-1-6)
+1.6](http://roygreenfeld.com/products/two-scoops-of-django-1-6)
 online:
 
 -   [Two Scoops
-    Press](http://twoscoopspress.org/products/two-scoops-of-django-1-6)
+    Press](http://roygreenfeld.com/products/two-scoops-of-django-1-6)
     (autographed, limited supplies available)
 -   [Two Scoops Press Bulk
-    Order](http://twoscoopspress.org/products/wholesale-two-scoops-of-django-best-practices-for-django-1-6)
+    Order](http://roygreenfeld.com/products/wholesale-two-scoops-of-django-best-practices-for-django-1-6)
     (15 book minimum, free shipping anywhere on Earth)
 -   [Amazon.com](http://amzn.to/1n98duC)
 -   [Amazon.com UK](http://amzn.to/1jejegF)
