@@ -12,12 +12,12 @@ time_to_read: 5
 title: Two Scoops of Django 1.5 Beta Released
 ---
 
-After thirty four days of hard work, [Audrey Roy](https://www.codemakesmehappy.com/)
+After thirty four days of hard work, [Audrey](https://audrey.roygreenfeld.com)
 and I are proud to announce that we've released the **beta** of [Two
 Scoops of Django: Best Practices for Django
-1.5](https://twoscoopspress.org/products/two-scoops-of-django-1-5). It's been a monumental effort, a labor
+1.5](https://roygreenfeld.com/products/two-scoops-of-django-1-5). It's been a monumental effort, a labor
 of love, and we hope you find our efforts worthy. You can buy it right
-now in e-book (PDF) form on the website: <https://twoscoopspress.org/products/two-scoops-of-django-1-5>
+now in e-book (PDF) form on the website: <https://roygreenfeld.com/products/two-scoops-of-django-1-5>
 
 Two Scoops of Django: Best Practices for Django 1.5 is a compilation of
 best practices for the Django framework. Like any framework, Django has
@@ -32,7 +32,7 @@ experts from around the world. Reader contributions from advanced and
 beginning developers have also shaped the book, and we can't thank
 enough those who gave us their insights.
 
-[![image](https://s3.amazonaws.com/twoscoops/img/tsd-cover-beta.png)](https://twoscoopspress.org/products/two-scoops-of-django-1-5/)
+[![Beta launch image for TSD 1.5](images/tsd15-beta.png)](https://roygreenfeld.com/products/two-scoops-of-django-1-5/)
 
 <a name="features"></a>
 What is different about the beta release?
@@ -50,7 +50,6 @@ What is different about the beta release?
 -   Incorporated the feedback of dozens of readers. Thank you so much
     for your contributions!
 
-<a name="what-do-i-get"></a>
 What does buying the beta get me?
 =================================
 
@@ -58,7 +57,6 @@ What does buying the beta get me?
 -   Access to the Kindle and ePub formats when we release the final.
 -   Access to final release of the book.
 
-<a name="alternative-formats"></a>
 Why aren't there Kindle or ePub versions yet?
 ==============================================
 
@@ -68,7 +66,6 @@ format that looks good. Since we both have multiple presentations at the
 upcoming [PyCon US](https://us.pycon.org/2013/), we simply don't have
 time to get it done.
 
-<a name="alpha-buyers"></a>
 If I bought the alpha do I have to buy the beta?
 ================================================
 
@@ -76,7 +73,6 @@ Alpha buyers get full access the beta. In fact, you should have already
 received an email with a link to the latest version. If that hasn't
 arrived, please email us at <2scoops@cartwheelweb.com>.
 
-<a name="beginners"></a>
 Is this book good for beginners?
 ================================
 
@@ -96,11 +92,10 @@ everyone does when reading a technical reference: skip over challenging
 sections until they have enough grounding to understand.
 
 If any beginners are confused by our explanations, or have difficulties,
-please email us at <2scoops@cartwheelweb.com>. We'll do our best to
+please email us at <hello@roygreenfeld.com>. We'll do our best to
 answer your questions. Your issues provide invaluable insight into what
 we need to improve.
 
-<a name="experienced"></a>
 Is this book good for experienced developers?
 =============================================
 
@@ -110,7 +105,6 @@ said they've found good things to use in our book. Many have also found
 that by using our book as a supplementary manual, it helps them their
 team work better.
 
-<a name="updates"></a>
 Is this book going to get updated?
 ==================================
 
@@ -121,7 +115,6 @@ down on the **beta** rewrite. Even after the final version comes out,
 we'll continue to update the book. One of the advantages of
 self-published e-books is we have total control of content.
 
-<a name="print"></a>
 When can I get a print version?
 ===============================
 
@@ -132,9 +125,6 @@ release, which won't be released until after [PyCon
 US](https://us.pycon.org/2013/). We're very finicky and don't want
 buyers of the print version to have an unfinished book.
 
-<a name="tutorial"></a>
-<a name="pycon"></a>
-<a name="wiring-up-django-packages"></a>
 Tutorial? PyCon? Are you going?
 ===============================
 
@@ -147,7 +137,6 @@ team.
 While tickets to PyCon itself are sold out, you can still [register for
 the tutorials](https://us.pycon.org/2013/registration/register/).
 
-<a name="final"></a>
 When is the book's final release?
 ==================================
 
@@ -157,7 +146,6 @@ Our plan for the final release of Two Scoops of Django: Best Practices
 for Django 1.5 is to focus on errata, alternative electronic formats,
 and the print version.
 
-<a name="bulk"></a>
 Can we purchase the book in bulk?
 =================================
 
@@ -165,7 +153,6 @@ We're working on a program to provide organizations the capability to
 purchase many e-copies and keep the recipients of the book updated
 constantly. We hope to have this ready in a few days.
 
-<a name="paypal"></a>
 Can I buy the book via PayPal?
 ==============================
 
@@ -174,7 +161,6 @@ No. I've answered in full
 
 We're considering other non-credit card options to handle payment.
 
-<a name="known-issue-warnings"></a>
 Known Issue Warnings
 ====================
 
@@ -195,9 +181,8 @@ navigate to the download location on your phone/tablet with a file
 browser (e.g. Samsung's "My Files"), you should be able to open the
 file from there. Gumroad is currently investigating the issue.
 
-<a name="errata"></a>
 Where should I send errata or suggestions?
 ==========================================
 
-Please send errata to <2scoops@cartwheelweb.com>. We try to respond
+Please send errata to <hello@roygreenfeld.com>. We try to respond
 personally to every request.

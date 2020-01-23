@@ -16,7 +16,7 @@ time_to_read: 3
 title: Los Angeles Open Source Sprint on Nov 4th!
 ---
 
-[![image](https://s3.amazonaws.com/pydanny/la_hackathons.jpeg)](http://www.meetup.com/LA-Hackathons/events/85658952/)
+[![Hacking awayyy!!](images/la_hackathons.jpeg)](http://www.meetup.com/LA-Hackathons/events/85658952/)
 
 Yet again, myself, Audrey Roy, and a small but elite cadre of volunteers
 are feverishly at work putting together another Los Angeles open source
