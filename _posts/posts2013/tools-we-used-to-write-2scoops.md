@@ -194,7 +194,7 @@ Whither Two Scoops of Django?
 -----------------------------
 
 [Two Scoops of Django: Best Practices for Django
-1.5](https://twoscoopspress.org/products/two-scoops-of-django-1-5) will still receive periodic corrections,
+1.5](https://roygreenfeld.com/products/two-scoops-of-django-1-5) will still receive periodic corrections,
 but won't see new content unless it's security related for Django 1.5.
 Don't worry though, for when Django 1.6 comes nigh, we'll commence
 work on Two Scoops of Django: Best Practices for Django **1.6** (**TSD

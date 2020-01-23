@@ -17,7 +17,7 @@ With the help of fellow Python developer Matt Harrison's excellent
 [Ebook Formatting: KF8, Mobi &
 EPUB](http://www.amazon.com/Ebook-Formatting-Mobi-EPUB-ebook/dp/B00BWQXHU6/ref=la_B0077BQLH6_1_2?ie=UTF8&qid=1366041987&sr=1-2&tag=ihpydanny-20),
 we managed to create pretty decent looking Kindle and ePub versions of
-[Two Scoops of Django](https://twoscoopspress.org/products/two-scoops-of-django-1-5/).
+[Two Scoops of Django](https://roygreenfeld.com/products/two-scoops-of-django-1-5/).
 
 One of many things we did was focus on providing an excellent table of
 contents. Of course we provided one inside the content of the book, but

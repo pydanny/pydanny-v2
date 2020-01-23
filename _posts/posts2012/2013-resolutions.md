@@ -51,7 +51,7 @@ Accomplished
 -   Visit at least one new nation.
 -   Go to at least one technical conference in North America and Europe.
 -   Publish as least one book. See [Two Scoops of
-    Django](https://twoscoopspress.org/products/two-scoops-of-django-1-5/)
+    Django](https://roygreenfeld.com/products/two-scoops-of-django-1-5/)
 -   Update my blog to Pelican 3.
 -   Implement a custom theme design so my blog looks more unique. ;-)
 -   Visit a beach for more than one day. (Split, Croatia)

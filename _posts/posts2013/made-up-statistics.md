@@ -26,7 +26,7 @@ reference:
 -   80% ModelForms require trivial logic.
 -   20% ModelForms require complex logic.
 
-In Chapter 10 of [Two Scoops of Django](https://twoscoopspress.org/products/two-scoops-of-django-1-5/) I
+In Chapter 10 of [Two Scoops of Django](https://roygreenfeld.com/products/two-scoops-of-django-1-5/) I
 expanded on those made up statistics:
 
 -   95% of Django projects should use ModelForms.

@@ -13,7 +13,7 @@ time_to_read: 1
 title: Two Scoops of Django 1.11 is Out!
 ---
 
-[![Two Scoops of Django](https://cdn.shopify.com/s/files/1/0304/6901/files/tsd-111-alpha-470x235.jpg?2934688328290951771)](http://twoscoopspress.org/products/two-scoops-of-django-1-11)
+[![Two Scoops of Django](https://cdn.shopify.com/s/files/1/0304/6901/files/tsd-111-alpha-470x235.jpg?2934688328290951771)](http://roygreenfeld.com/products/two-scoops-of-django-1-11)
 
 When we started the Two Scoops of Django project back in 2012, I never
 thought it would become a book series. Well, it's turned into just

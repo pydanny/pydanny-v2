@@ -12,7 +12,7 @@ title: Overloading Django Form Fields
 ---
 
 One of the patterns we get positive feedback for mentioning in our
-[book](https://twoscoopspress.org/products/two-scoops-of-django-1-5/) is **overloading form fields**.
+[book](https://roygreenfeld.com/products/two-scoops-of-django-1-5/) is **overloading form fields**.
 
 The problem this pattern handles is the use case of when we have a model
 with a field(s) that allows for blank values, how do we force users to

@@ -148,4 +148,4 @@ Want to learn more?
 
 Check out the Django book I co-wrote, [Two Scoops of Django: Best
 Practices for Django
-1.11](http://twoscoopspress.org/products/two-scoops-of-django-1-11)!
+1.11](http://roygreenfeld.com/products/two-scoops-of-django-1-11)!

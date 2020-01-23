@@ -19,7 +19,7 @@ Workshop Description
 ====================
 
 Bring your laptops and join the authors of [Two Scoops of
-Django](https://twoscoopspress.org/products/two-scoops-of-django-1-5) for a hands-on Django workshop.
+Django](https://roygreenfeld.com/products/two-scoops-of-django-1-5) for a hands-on Django workshop.
 We'll build a real, working site from the ground up, using the upcoming
 Django 1.6 and covering Python 2.7/3.3. We'll cover as much as we can
 get through, including but not limited to:

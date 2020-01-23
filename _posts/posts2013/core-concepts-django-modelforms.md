@@ -208,7 +208,7 @@ But what about ModelForm.Meta.excludes?
 We advocate strongly against using `ModelForm.Meta.excludes`.
 
 In fact, when we were writing [Two Scoops of
-Django](https://twoscoopspress.org/products/two-scoops-of-django-1-5) the majority of our technical
+Django](https://roygreenfeld.com/products/two-scoops-of-django-1-5) the majority of our technical
 reviewers as well as our security reviewer fervently insisted that we
 advocate against use of `ModelForm.Meta.excludes`. We provide numerous
 warnings about it's usage, and go in-depth as to why in *section

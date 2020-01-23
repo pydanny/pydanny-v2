@@ -27,7 +27,7 @@ One of the characters mentions the elegance of Python. The first person
 who tells me in the comments below the name of the father and
 grandfather of that character gets an autographed [Two Scoops of Django
 1.11
-book](https://twoscoopspress.org/products/two-scoops-of-django-1-11)
+book](https://roygreenfeld.com/products/two-scoops-of-django-1-11)
 shipping anywhere in the world.
 
 Finally, if you want to give me a truly special present for my birthday,

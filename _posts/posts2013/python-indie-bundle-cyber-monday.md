@@ -55,7 +55,7 @@ If you want to purchase multiple copies, perhaps for your office or
 company:
 
 <p>
-<a href="http://twoscoopspress.org/products/python-indie-bundle" class="btn btn-danger">$24.95: Multiple copies at Two Scoops Press</a>
+<a href="http://roygreenfeld.com/products/python-indie-bundle" class="btn btn-danger">$24.95: Multiple copies at Two Scoops Press</a>
 </p>
 Did I Mention Bitcoin?
 ======================
@@ -63,7 +63,7 @@ Did I Mention Bitcoin?
 We support Bitcoin on Two Scoops Press!
 
 <p>
-<a href="http://twoscoopspress.org/products/python-indie-bundle" class="btn btn-danger">$24.95: Use Bitcoin at Two Scoops Press</a>
+<a href="http://roygreenfeld.com/products/python-indie-bundle" class="btn btn-danger">$24.95: Use Bitcoin at Two Scoops Press</a>
 </p>
 The Sale Ends Midnight Tonight!
 ===============================

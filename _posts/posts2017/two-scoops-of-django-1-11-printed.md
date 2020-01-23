@@ -13,18 +13,18 @@ time_to_read: 1
 title: Two Scoops of Django 1.11 Is Printed!
 ---
 
-[![Two Scoops of Django](https://raw.githubusercontent.com/pydanny/pydanny.github.com/master/static/danny-and-audrey-tsd111.jpg)](https://twoscoopspress.org/products/two-scoops-of-django-1-11)
+[![Two Scoops of Django](https://raw.githubusercontent.com/pydanny/pydanny.github.com/master/static/danny-and-audrey-tsd111.jpg)](https://roygreenfeld.com/products/two-scoops-of-django-1-11)
 
 After longer than we expected, the shiny new print copies of [Two Scoops
 of Django
-1.11](https://twoscoopspress.org/products/two-scoops-of-django-1-11) are
+1.11](https://roygreenfeld.com/products/two-scoops-of-django-1-11) are
 finally ready. We've shipped all pre-orders, and many of you who
 ordered it in advance should have the book in your hands. We're
 delighted by how well it's been received, which is due only to the help
 and encouragement of our readers.
 
 Right now you can order the print version of [Two Scoops of Django
-1.11](https://twoscoopspress.org/products/two-scoops-of-django-1-11) at
+1.11](https://roygreenfeld.com/products/two-scoops-of-django-1-11) at
 either:
 
 -   [Two Scoops

@@ -37,7 +37,7 @@ For reference, anything after a "#" is an annotation. :
     1 ssh       # Some projects are not on PaaS.
 
 Interesting how much of my very recent shell experience is focused on
-the [book](https://twoscoopspress.org/products/two-scoops-of-django-1-5/).
+the [book](https://roygreenfeld.com/products/two-scoops-of-django-1-5/).
 
 Speaking of books, today's reading is Jeff Knupp's [Writing Idiomatic
 Python

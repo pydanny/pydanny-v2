@@ -252,7 +252,7 @@ Two items of note (more to come):
     PM+) - Along with Disney Animation Studios and many others, Audrey
     and I are contributing! In fact, we're submitting a one of a kind,
     preview copy of the upcoming print edition of [Two Scoops of Django:
-    Best Practices for Django 1.5](https://twoscoopspress.org/products/two-scoops-of-django-1-5)!
+    Best Practices for Django 1.5](https://roygreenfeld.com/products/two-scoops-of-django-1-5)!
 -   The famously unrecorded Testing in Python Birds of a Feathers event.
 
 Part IV
