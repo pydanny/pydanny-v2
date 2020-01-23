@@ -78,7 +78,11 @@ admin.site.register(APIData, APIDataAdmin)
 The field remains the same, but we also get a display of nicely
 formatted data:
 
-<img alt="Admin Pretty JSON" class="align-center img-responsive" id="admin-pretty-json" src="https://www.pydanny.com/static/admin-pretty-json.png">
+![Admin Pretty JSON](images/admin-pretty-json.png)]
+
+
+
+
 Much better!
 
 There may be a package out there that does this already, perhaps even

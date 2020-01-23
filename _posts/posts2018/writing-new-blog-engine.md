@@ -12,7 +12,7 @@ time_to_read: 4
 title: Writing A New Blog Engine
 ---
 
-<img src="https://www.pydanny.com/static/EverestfromKalarPatarcrop.jpeg">
+![Everest from Kalar Patar](images/EverestfromKalarPatarcrop.JPG)
 
 Since around February of 2012, I've been publishing this blog as a static HTML site using [Pelican](https://blog.getpelican.com/). The experience was pretty good, but over time I ran into a few problems with the fact that I never upgraded the site to match current versions of Pelican. Which meant the following:
 

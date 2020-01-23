@@ -100,4 +100,4 @@ Sprints! Nothing set in stone yet, but some ideas I've had include:
 -   Hack on Mongo related technologies such as django-mongonaut and some
     other planned projects.
 
-<div style="text-align: center;"><a href="https://us.pycon.org/2012/"><img border="0" height="102" width="277" src="http://1.bp.blogspot.com/-fa4jnLXs1so/TniyemLkoiI/AAAAAAAAAqo/LjZqklTFBXk/s400/pycon2012.png"></a></div>
+![PyCon 2012 Logo](images/pycon2012.png)
