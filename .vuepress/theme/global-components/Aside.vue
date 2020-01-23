@@ -47,8 +47,8 @@ export default {
           "Two Scoops of Django is chock-full of material that will help you with your Django projects. Written to support Django 1.11 LTS (Long Term Support), this book won't get outdated until 2020.",
         actions: [
           {
-            text: "Available at twoscoopspress.com",
-            link: "http://twoscoopspress.com/products/two-scoops-of-django-1-11"
+            text: "Available at roygreenfeld.com",
+            link: "http://roygreenfeld.com/products/two-scoops-of-django-1-11"
           },
           {
             text: "Available at amazon.com",
@@ -115,9 +115,9 @@ export default {
               link: "https://2scoops.co/ambria-1"
             },
             {
-              text: "Available at twoscoopspress",
+              text: "Available at Roy Greenfeld",
               link:
-                "https://www.twoscoopspress.com/products/darkest-autumn-ambria-book-1"
+                "https://www.roygreenfeld.com/products/darkest-autumn-ambria-book-1"
             }
           ]
         },
@@ -130,8 +130,8 @@ export default {
           actions: [
             { text: "Available at amazon.com", link: "https://2scoops.co/itb" },
             {
-              text: "Available at twoscoopspress",
-              link: "https://www.twoscoopspress.com/products/into-the-brambles"
+              text: "Available at Roy Greenfeld",
+              link: "https://www.roygreenfeld.com/products/into-the-brambles"
             }
           ]
         },
