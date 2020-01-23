@@ -15,8 +15,7 @@ title: 'awesome-slugify: Human-readable URL slugs from any string'
 *note: The introduction mentions Django and Plone. However, this is not
 an article about Django or Plone.*
 
-Introduction
-============
+## Introduction
 
 Years ago, when I was working with [Plone](http://plone.org) at
 [NASA](http://nasa.gov), one thing I dreaded was when content editors
@@ -60,8 +59,7 @@ then on we could do this:
 u"straße"
 ```
 
-What If I'm Not Using Django?
-------------------------------
+### What If I'm Not Using Django?
 
 While a very nice tool, this package is dependent on Django's internal
 machinery to operate, which is a problem for non-Django users. While we
@@ -72,10 +70,9 @@ there was a nicely packaged/tested solution?
 Fortunately, such a nicely packaged/tested solution exists, and it's
 awesome!
 
-![An Awesome Django slug](https://s3.amazonaws.com/pydanny/awesome_slugify_django.jpg)
+![An Awesome Django slug](images/awesome_slugify_django.jpg)
 
-Introducing awesome-slugify
-===========================
+## Introducing awesome-slugify
 
 Created and maintained by [Dmitry Voronin](https://github.com/dimka665),
 [awesome-slugify](https://pypi.python.org/pypi/awesome-slugify) is easy
@@ -107,8 +104,7 @@ u'stra\xdfe'
 True
 ```
 
-Using awesome-slugify
----------------------
+### Using awesome-slugify
 
 Rather than describe **awesome-slugify** in paragraph format, here is
 working test code ([using pytest which I described
@@ -172,8 +168,7 @@ if __name__ == "__main__":
 
 Easy to use as any good `slugify()` function!
 
-Restricting the length of a returned slug
------------------------------------------
+### Restricting the length of a returned slug
 
 When using **awesome-slugify**'s `slugify()` and `slugify_unicode()`
 functions, the `max_length` argument acts in an interesting fashion. On
@@ -235,8 +230,7 @@ if __name__ == "__main__":
     pytest.main()
 ```
 
-What's Next?
-=============
+## What's Next?
 
 As demonstrated, **awesome-slugify** covers many common use cases.
 Nevertheless, in [my next blog

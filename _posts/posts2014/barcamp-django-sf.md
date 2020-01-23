@@ -12,8 +12,7 @@ time_to_read: 3
 title: Announcing BarCamp Django SF!
 ---
 
-BarCamp Django SF!
-==================
+## BarCamp Django SF!
 
 On October 4th and 5th [BarCamp Django
 SF](http://barcampdjangosf.eventbrite.com) will be taking place in the
@@ -25,8 +24,7 @@ community-focused event that's different than any previous multi-day
 How is [BarCamp Django SF](http://barcampdjangosf.eventbrite.com)
 different than previous Django conferences and events?
 
-Speakers are determined at the event
-------------------------------------
+### Speakers are determined at the event
 
 I know what you are thinking. It's something on the line of "*What the
 heck?!?*"
@@ -44,10 +42,8 @@ event where new speakers are as welcome as experienced speakers.
 While this is meant to be an informal, beginner-friendly event, a
 professional level of conduct is still required:
 
--   Speakers, like all attendees must agree to the [code of
-    conduct](https://eb-blog-engineering.s3.amazonaws.com/wp-content/uploads/2014/09/Eventbrite-Code-of-Conduct.pdf)
-    (also listed on the [event
-    page](http://barcampdjangosf.eventbrite.com)).
+-   Speakers, like all attendees must agree to the code of
+    conduct (listed on the [event page](http://barcampdjangosf.eventbrite.com)).
 -   No sales or recruiting pitches. Don't even try it!
 
 Some attendees planning to be speakers:
@@ -70,8 +66,7 @@ Some attendees planning to be speakers:
 **note:** Since enough people asked me about it, **speaking is not
 mandatory** for attendees of BarCamp Django SF.
 
-BarCamp Django are just $15
-----------------------------
+### BarCamp Django are just $15
 
 Yes, you read that correctly, tickets for this event are just **$15**.
 All proceeds from ticket sales are going to the Django Software
@@ -86,8 +81,7 @@ What that **$15** gets you:
 -   Security, including enforcement of the code of conduct.
 -   Camping! (see below)
 
-Camping!
---------
+### Camping!
 
 On the night of October 4th, you can stay overnight at [BarCamp Django
 SF](http://barcampdjangosf.eventbrite.com)!
@@ -110,10 +104,6 @@ don't have to worry about mosquitoes. Some people will stay up all
 night, but we'll have quiet areas for those of us who need our 8 hours.
 
 See you there!
-==============
-
-[![image](https://s.evbuc.com/https_proxy?url=http%3A%2F%2Fwww.cartwheelweb.com%2Fimg%2Fdjango-barcamp%2Fbarcamp-django-v17.png&sig=ADR2i78OsbG0dc0R6netJvTYp24-NWMuiQ&eid=12478998019){.align-center
-width="600px" height="495px"}](http://barcampdjangosf.eventbrite.com)
 
 **Update 2014/09/13:** Added note that explains speaking is not
 mandatory.

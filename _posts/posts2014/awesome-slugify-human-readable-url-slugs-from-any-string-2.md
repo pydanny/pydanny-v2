@@ -19,8 +19,7 @@ I covered using
 capture slugs in both ASCII and unicode. Today I'm covering the
 definition custom language `slugify` translation functions.
 
-Defining Custom Language `slugify` Translation Functions
-========================================================
+## Defining Custom Language `slugify` Translation Functions
 
 For those times we need ASCII representation of unicode characters, we
 can't always use the default unicode-to-ASCII mappings. A powerful
@@ -65,10 +64,9 @@ if __name__ == "__main__":
     pytest.main()
 ```
 
-![I ♥ your unicode smile](https://s3.amazonaws.com/pydanny/i-♥-your-unicode-smile.png)
+![I ♥ your unicode smile](images/i-♥-your-unicode-smile.png)
 
-More Practical Applications
----------------------------
+### More Practical Applications
 
 While writing an **emoji**-based translation function is fun, most of
 the time we need more practical translation functions. Built into
@@ -140,8 +138,7 @@ if __name__ == "__main__":
     pytest.main()
 ```
 
-Summary
-=======
+## Summary
 
 I really like the flexibility and power of **awesome-slugify**. During
 slugification it provides functions to preserve unicode characters,
