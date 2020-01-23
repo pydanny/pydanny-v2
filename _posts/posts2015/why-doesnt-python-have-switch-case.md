@@ -167,7 +167,7 @@ answer than the official one of 'Do this instead!'
 ------------------------------------------------------------------------
 
 The reference book I co-authored with [Audrey Roy
-Greenfeld](http://www.codemakesmehappy.com) on Django best practices,
+Greenfeld](http://audrey.roygreenfeld.com) on Django best practices,
 [Two Scoops of Django
 1.8](http://roygreenfeld.com/products/two-scoops-of-django-1-8), is
 now available in both print paperback and PDF formats.

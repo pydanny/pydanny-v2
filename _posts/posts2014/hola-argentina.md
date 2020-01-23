@@ -16,7 +16,7 @@ I'll be arriving in [Argentina](http://en.wikipedia.org/wiki/Argentina)
 on August 14th. I'll be speaking at [PyDay
 Mendoza](https://eventioz.com.ar/e/pyday-mendoza-2014) on August 15th,
 and sprinting on August 16th on something
-[Audrey](https://twitter.com/audreyr) and I named the "new library
+[Audrey](audrey.roygreenfeld.com) and I named the "new library
 sprint" (more details to come). On August 22nd, I'll be speaking at
 the combined Buenos Aires Python, Django, and PyLadies Argentina meetup.
 Between the events I'll be working from the

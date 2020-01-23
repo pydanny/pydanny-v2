@@ -22,7 +22,7 @@ release of the [Two Scoops of Django: Best Practices for Django
 1.11](http://roygreenfeld.com/products/two-scoops-of-django-1-11)
 **PDF** ebook.
 
-Co-authored with [Audrey Roy Greenfeld](https://twitter.com/audreyr),
+Co-authored with [Audrey Roy Greenfeld](audrey.roygreenfeld.com),
 the [1.11
 edition](http://roygreenfeld.com/products/two-scoops-of-django-1-11)
 of *Two Scoops of Django* is filled to the brim with knowledge to help

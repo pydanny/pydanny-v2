@@ -97,7 +97,7 @@ See you at PyCon!
 =================
 
 I'll be at PyCon with [Audrey Roy
-Greenfeld](https://twitter.com/audreyr). You can easily find us at the
+Greenfeld](audrey.roygreenfeld.com). You can easily find us at the
 [Cookiecutter](https://github.com/audreyr/cookiecutter) booth during the
 main conference days or at the [Cookiecutter
 sprint](https://us.pycon.org/2016/community/sprints/#cookiecutter). Stop

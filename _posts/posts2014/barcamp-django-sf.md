@@ -54,7 +54,7 @@ Some attendees planning to be speakers:
     Migrations, etc)
 -   [Natalie Downe](https://twitter.com/natbat) (co-founder of
     [Lanyrd](http://lanyrd.com/))
--   [Audrey Roy Greenfeld](https://twitter.com/audreyr)
+-   [Audrey Roy Greenfeld](audrey.roygreenfeld.com)
     ([Cookiecutter](github.com/audreyr/cookiecutter),
     [MessageBar](https://github.com/audreyr/messagebar), [Two Scoops of
     Django](http://roygreenfeld.com/products/two-scoops-of-django-1-6))

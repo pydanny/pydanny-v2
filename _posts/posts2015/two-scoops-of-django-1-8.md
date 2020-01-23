@@ -20,7 +20,7 @@ Django: Best Practices for Django
 
 [![Two Scoops of Django 1.u](images/two-scoops-1.8-ebook-S.jpg)](http://roygreenfeld.com/products/two-scoops-of-django-1-8)
 
-Co-authored with [Audrey Roy Greenfeld](https://twitter.com/audreyr),
+Co-authored with [Audrey Roy Greenfeld](audrey.roygreenfeld.com),
 the [1.8
 edition](http://roygreenfeld.com/products/two-scoops-of-django-1-8) of
 *Two Scoops of Django* is filled to the brim with knowledge to help make
