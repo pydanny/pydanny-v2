@@ -11,6 +11,7 @@ tags:
   - kotlin
   - hackathon
   - pycon
+  - resolutions
 time_to_read: 15
 title: Recap of 2019 and Resolutions for 2020
 type: post
@@ -25,7 +26,7 @@ In January of this year **Uma Roy Greenfeld** came into this world at 8 lbs 5 oz
 
 Being a parent of a newborn has changed my thinking. It's driving some of the plans I share with Audrey Roy Greenfeld for 2020 and beyond. More on that will be posted with the new year. 
 
-[![image](images/uma_posing_11_months.jpg)](https://photos.app.goo.gl/AeEpQ2vHvve9b5GP6)
+[![Uma doing a comic book landing](images/uma_posing_11_months.jpg)](https://photos.app.goo.gl/AeEpQ2vHvve9b5GP6)
 
 *Click the image above to see more photos from my daughter's first year.*
 
@@ -34,7 +35,7 @@ Being a parent of a newborn has changed my thinking. It's driving some of the pl
 
 Theodore "Ted" Greenfeld passed away in June at age 84. I learned a lot of life lessons from him - there's so much to say. Soon I'll post the eulogy I wrote for him, and publish his writings. Below is a photo of him by the Chesapeake Bay in the 1980s. He loved the water, especially the beach.
 
-![image](images/ted-greenfeld-1980s.jpg)
+![Ted Greenfeld circa 1980s at the Chesapeake Bay](images/ted-greenfeld-1980s.jpg)
 
 
 ### I Travelled
@@ -42,7 +43,7 @@ Theodore "Ted" Greenfeld passed away in June at age 84. I learned a lot of life 
 I went to Africa for the first time! I was there to attend the very first [PyCon Africa](https://africa.pycon.org/) in Accra, Ghana. What a wonderful experience - I enjoyed the [people, sights, and food](https://photos.app.goo.gl/5EMKJc8AzyrvG8vy7). Click the image below to see my photo journal.
 
 
-[![image](images/ghana_architecture.jpg)](https://photos.app.goo.gl/5EMKJc8AzyrvG8vy7)
+[![Lovely building in Accra, Ghana](images/ghana_architecture.jpg)](https://photos.app.goo.gl/5EMKJc8AzyrvG8vy7)
 
 I returned to Wellington, New Zealand to give a keynote at [Kiwi PyCon 2019](https://python.nz/). Audrey gave a keynote there in 2011, which means if we follow the pattern my daughter Uma will give a keynote there in 2027. In any case, it was so much fun reconnecting with old friends and making new ones. 
 
