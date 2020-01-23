@@ -93,6 +93,6 @@ SECRET_KEY = get_env_var("SECRET_KEY")
 
 ### I wrote a book to stop antipatterns
 
-In 2012 I kept getting offered rescue projects because people were using anti-patterns, especially this one. It was frustrating to see the same mistakes again and again. So I started to write a book, [Two Scoops of Django](https://twoscoopspress.com/products/two-scoops-of-django-1-11), designed to instruct people on how not to fall into anti-patterns like the one described in this article.
+In 2012 I kept getting offered rescue projects because people were using anti-patterns, especially this one. It was frustrating to see the same mistakes again and again. So I started to write a book, [Two Scoops of Django](https://roygreenfeld.com/products/two-scoops-of-django-1-11), designed to instruct people on how not to fall into anti-patterns like the one described in this article.
 
-If you don't want to buy my [book](https://twoscoopspress.com/products/two-scoops-of-django-1-11), please read and embrace the config section of [The Twelve Factor App](https://12factor.net/config). Your future self will thank me for it.
+If you don't want to buy my [book](https://roygreenfeld.com/products/two-scoops-of-django-1-11), please read and embrace the config section of [The Twelve Factor App](https://12factor.net/config). Your future self will thank me for it.

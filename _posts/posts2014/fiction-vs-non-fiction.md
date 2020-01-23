@@ -12,9 +12,9 @@ title: Fiction vs Non-Fiction
 I'm a published author.
 
 There, I said it. I co-wrote a
-[book](http://twoscoopspress.com/products/two-scoops-of-django-1-5) and
+[book](http://roygreenfeld.com/products/two-scoops-of-django-1-5) and
 its
-[sequel](http://twoscoopspress.com/products/two-scoops-of-django-1-6).
+[sequel](http://roygreenfeld.com/products/two-scoops-of-django-1-6).
 My childhood dream of becoming a writer has come true.
 
 Well, not completely.

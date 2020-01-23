@@ -28,7 +28,7 @@ Right now you can order the print version of [Two Scoops of Django
 either:
 
 -   [Two Scoops
-    Press](https://www.twoscoopspress.com/products/two-scoops-of-django-1-11)
+    Press](https://www.roygreenfeld.com/products/two-scoops-of-django-1-11)
     (for autographed copies directly from us), or
 -   [Amazon](http://mybook.to/tsd111) (this link sends you to your
     regional Amazon store)

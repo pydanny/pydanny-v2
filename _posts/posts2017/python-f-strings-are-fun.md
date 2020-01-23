@@ -82,7 +82,7 @@ A Utility Script Example
 ========================
 
 We just released [Two Scoops of Django
-1.11](https://www.twoscoopspress.com/products/two-scoops-of-django-1-11),
+1.11](https://www.roygreenfeld.com/products/two-scoops-of-django-1-11),
 which is written in [LaTeX](https://en.wikipedia.org/wiki/LaTeX). Like
 most programming books we provide [code examples in a
 repo](https://github.com/twoscoops/two-scoops-of-django-1.11/tree/master/code)

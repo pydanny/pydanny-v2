@@ -57,7 +57,7 @@ Some attendees planning to be speakers:
 -   [Audrey Roy Greenfeld](https://twitter.com/audreyr)
     ([Cookiecutter](github.com/audreyr/cookiecutter),
     [MessageBar](https://github.com/audreyr/messagebar), [Two Scoops of
-    Django](http://twoscoopspress.com/products/two-scoops-of-django-1-6))
+    Django](http://roygreenfeld.com/products/two-scoops-of-django-1-6))
 -   Michael Herman ([Real Python](https://twitter.com/realpython))
 -   Myself
 -   You! We especially welcome people from diverse backgrounds (race,

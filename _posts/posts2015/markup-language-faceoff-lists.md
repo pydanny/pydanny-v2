@@ -213,7 +213,7 @@ Or do you?
 The problem my wife and I have faced is that the combination of
 **LaTeX** packages and tools we've assembled for ourselves to write
 books like [Two Scoops of
-Django](http://twoscoopspress.com/products/two-scoops-of-django-1-8) is
+Django](http://roygreenfeld.com/products/two-scoops-of-django-1-8) is
 very, very different than what is rendered via
 [docutils](https://pypi.python.org/pypi/docutils)' `rst2latex` or
 Sphinx `make latex`. We've tried to write migration scripts, but have
