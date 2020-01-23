@@ -127,4 +127,4 @@ Now that I have all this, it's time to code!
 
 ------------------------------------------------------------------------
 
-[![image](http://farm5.staticflickr.com/4027/4358842735_38991c0944.jpg)](http://www.flickr.com/photos/pydanny/4358842735/)
+[![2010 Snowstorm!](images/4358842735_38991c0944.jpg)](http://www.flickr.com/photos/pydanny/4358842735/)

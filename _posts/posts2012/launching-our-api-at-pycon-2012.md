@@ -13,7 +13,7 @@ time_to_read: 3
 title: Launching our API at PyCon 2012
 ---
 
-A few months ago me and my fiancee, [Audrey Roy](https://www.codemakesmehappy.com/),
+A few months ago me and my fiancee (now wife), [Audrey Roy](https://audrey.roygreenfeld.com/),
 launched our start up, [Consumer Notebook](http://consumernotebook.com).
 It's a Python powered product comparison site that combines the best
 features of [Open Comparison](http://opencomparison.org), Yelp, Consumer
@@ -31,8 +31,7 @@ Like Twilio, Twitter, Facebook, and Google, we've got an
 an upcoming startup, we've got to really be creative in how we gain
 your attention, so here is what we're doing for PyCon 2012:
 
-1. Demos at our [PyCon Startup Row](https://us.pycon.org/2012/community/openspaces/capoeira/) booth.
-====================================================================================================
+## 1. Demos at our [PyCon Startup Row](https://us.pycon.org/2012/community/openspaces/capoeira/) booth.
 
 Thanks PyCon!
 
@@ -52,8 +51,8 @@ Speaking of the API, the next item on our plan is...
 
 ------------------------------------------------------------------------
 
-2. A big kickoff API contest.
-=============================
+## 2. A big kickoff API contest.
+
 
 We've put together the Consumer Notebook
 [API](http://api.consumernotebook.com), which lets you get product list
@@ -70,12 +69,11 @@ origin.
 [API Contest
 Details](http://developers.consumernotebook.com/contest.html)
 
-[![image](http://farm8.staticflickr.com/7189/6821231296_d0670e84b7_m.jpg)](http://www.flickr.com/photos/pydanny/6821231296/sizes/m/in/photostream/)
+[![image](images/6821231296_d0670e84b7_m.jpg)](http://www.flickr.com/photos/pydanny/6821231296/sizes/m/in/photostream/)
 
 ------------------------------------------------------------------------
 
-3. We're hosting the Saturday night [PyCon Capoeira Open Space](https://us.pycon.org/2012/community/openspaces/capoeira/)
-==========================================================================================================================
+## 3. We're hosting the Saturday night [PyCon Capoeira Open Space](https://us.pycon.org/2012/community/openspaces/capoeira/)
 
 Want to see some awesome Capoeira moves? Want to learn some of the
 basics? Want to just have fun?
@@ -110,7 +108,7 @@ Details:
     What to bring: Camera!
     What to bring if you are participating: Workout clothes, water bottle
 
-[![image](http://farm8.staticflickr.com/7182/6821195620_2b7870a39c_m.jpg)](http://www.flickr.com/photos/pydanny/6821195620/sizes/s/in/photostream/)
+[![image](images/6821195620_2b7870a39c_m.jpg)](http://www.flickr.com/photos/pydanny/6821195620/sizes/s/in/photostream/)
 
 **Location: The PyCon upstairs central open space**
 

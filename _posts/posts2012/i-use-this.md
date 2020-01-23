@@ -143,7 +143,7 @@ Mac OS X
 
 I started as an Apple user:
 
-[![image](http://farm8.staticflickr.com/7050/6933443849_51316a7cb7.jpg)](http://www.flickr.com/photos/pydanny/6933443849/)
+[![Me at 14-ish years of age sitting in from of the Apple 2](images/6933443849_51316a7cb7.jpg)](http://www.flickr.com/photos/pydanny/6933443849/)
 
 I use Mac OS X professionally and have done so since 2006. However,
 between autumn of 1985 and 2006 I used MS/DOS and Windows (deployments

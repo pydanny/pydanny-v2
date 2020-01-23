@@ -15,7 +15,7 @@ This year in June, the European edition of
 [DjangoCon](https://djangocon.eu) is going to be held in lovely
 [Zurich](https://en.wikipedia.org/wiki/Zurich),
 [Switzerland](https://en.wikipedia.org/wiki/Switzerland). It is my great
-fortune and delight to announce that [Audrey](https://www.codemakesmehappy.com/) and
+fortune and delight to announce that [Audrey](https://audrey.roygreenfeld.cm/) and
 I will be attending. Hooray!
 
 Needless to say, we're extremely excited. My [trip to Europe in
@@ -55,4 +55,4 @@ While I'm at it, I'm going to poke any prospective conference goers to
 submit their own talks. I love attending conference talks and at PyCon
 US this year I barely got to see any. Show me what you got!
 
-[![image](https://farm3.staticflickr.com/2339/1614703646_2e2610162a.jpg)](https://www.flickr.com/photos/pydanny/1614703646/)
+[![image](images/1614703646_2e2610162a.jpg)](https://www.flickr.com/photos/pydanny/1614703646/)

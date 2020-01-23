@@ -114,6 +114,6 @@ At some point I'll use the `CSS` setting to change the color of
 `pygments` to something with white background and black text. For now
 I'm happy as things are now.
 
-[![image](https://farm8.staticflickr.com/7043/6831339872_10d0c40171.jpg)](https://www.flickr.com/photos/77704901@N05/6831339872/)
+[![image](images/6831339872_10d0c40171.jpg)](https://www.flickr.com/photos/77704901@N05/6831339872/)
 
 [Discuss this post on Hacker News]()
