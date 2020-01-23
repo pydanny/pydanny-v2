@@ -15,7 +15,7 @@ In my opinion, the concepts behind Django's model forms can be listed
 in just six (6) bullets. The bullets I've marked in **bold** at the top
 are the topic of this blog post, while the two of these that were
 [covered in a previous blog post on Django
-forms](https://pydanny.com/core-concepts-django-forms.html) are at
+forms](/core-concepts-django-forms.html) are at
 bottom of my list.
 
 -   **ModelForms render Model fields as HTML.**
@@ -163,7 +163,7 @@ I don't like this technique. This makes it so we are defining the title
 field in two places, once in the model and once in the form. I go into
 more of the details and problems of this approach in my previous blog
 post at [Overloading Django Form
-Fields](https://pydanny.com/overloading-form-fields.html).
+Fields](/overloading-form-fields.html).
 
 ModelForms don't have to display/change all available fields.
 ==============================================================
@@ -232,7 +232,7 @@ ModelForms save dictionaries to SQL tables
 ==========================================
 
 In my [previous post of Django
-forms](https://pydanny.com/core-concepts-django-forms.html) I covered
+forms](/core-concepts-django-forms.html) I covered
 *forms validate dictionaries*. Well, ModelForms do the same thing AND
 give us the power to save that validated dictionary to SQL tables. We
 don't even need to involve web pages!

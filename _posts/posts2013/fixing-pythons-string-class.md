@@ -230,7 +230,7 @@ April Fool's Joke
 ==================
 
 This was my 2013 [April Fool's
-Joke](https://pydanny.com/fixing-pythons-string-class.html#april-fool-s-joke).
+Joke](/fixing-pythons-string-class.html#april-fool-s-joke).
 
 However, the code was a lot of fun to write and after Mike Bayer's
 comment about `__new__` and a number of serious questions that people

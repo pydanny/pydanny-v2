@@ -11,7 +11,7 @@ title: A Public Service Message to the Python Community
 ---
 
 Hi, I'm Daniel Greenfeld. You might know me from my
-[blog](https://pydanny.com). I'm here to talk to you about a very
+[blog](). I'm here to talk to you about a very
 import subject: **Submitting your talk early to PyCon US.**
 
 Last year there were hundreds of talks were submitted for just a very

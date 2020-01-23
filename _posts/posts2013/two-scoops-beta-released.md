@@ -127,7 +127,7 @@ When can I get a print version?
 
 After a lot of consideration, we've decided to hold off on the print
 version of the book until what we call the
-[final](https://pydanny.com/two-scoops-beta-released.html#final)
+[final](/two-scoops-beta-released.html#final)
 release, which won't be released until after [PyCon
 US](https://us.pycon.org/2013/). We're very finicky and don't want
 buyers of the print version to have an unfinished book.
@@ -170,7 +170,7 @@ Can I buy the book via PayPal?
 ==============================
 
 No. I've answered in full
-[here](https://pydanny.com/we-are-not-using-paypal.html).
+[here](/we-are-not-using-paypal.html).
 
 We're considering other non-credit card options to handle payment.
 

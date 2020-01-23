@@ -15,9 +15,9 @@ This is Part III in a series of blog posts about [PyCon US
 2013](https://us.pycon.org/2013/). The goal is to provide a handy
 reference guide for first time attendees of the world's largest
 [Python](https://python.org) conference. [Part
-I](https://pydanny.com/beginners-guide-pycon-2013-part-1.html) was
+I](/beginners-guide-pycon-2013-part-1.html) was
 mostly about [tutorials](https://us.pycon.org/2013/schedule/tutorials/),
-[Part II](https://pydanny.com/beginners-guide-pycon-2013-part-2.html)
+[Part II](/beginners-guide-pycon-2013-part-2.html)
 was mostly about the first day of talks, this third post in the series
 will be about the second day of talks.
 

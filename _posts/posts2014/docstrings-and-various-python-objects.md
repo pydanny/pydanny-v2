@@ -22,7 +22,7 @@ This includes lambdas. Since all Python objects have the `__doc__`
 special (aka 'magic') attribute, can we add custom docstrings to
 everything?
 
-Using [pytest](https://pydanny.com/pytest-no-boilerplate-testing.html),
+Using [pytest](/pytest-no-boilerplate-testing.html),
 Python 2.7.x, and lambdas, let's find out!
 
 ``` python
@@ -180,7 +180,7 @@ etc) for Python do not.
 I wonder if I scratch this particular itch long enough I might be able
 to create a string-like class that handles the `help()` issue. If that
 happens, maybe I'll add it to [String
-Theory](https://pydanny.com/fixing-pythons-string-class.html). ;-)
+Theory](/fixing-pythons-string-class.html). ;-)
 
 **Resource**: The entire `test_docstrings.py` module:
 <https://gist.github.com/pydanny/9373279>

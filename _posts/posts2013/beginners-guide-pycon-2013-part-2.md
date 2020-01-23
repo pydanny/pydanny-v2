@@ -16,7 +16,7 @@ This is Part II in a series of blog posts about [PyCon US
 2013](https://us.pycon.org/2013/). The goal is to provide a handy
 reference guide for first time attendees of the world's largest
 [Python](https://python.org) conference. [Part
-I](https://pydanny.com/beginners-guide-pycon-2013-part-1.html) was
+I](/beginners-guide-pycon-2013-part-1.html) was
 mostly about [tutorials](https://us.pycon.org/2013/schedule/tutorials/),
 this post will be about registration and the first day of talks.
 

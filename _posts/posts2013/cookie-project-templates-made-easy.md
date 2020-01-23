@@ -37,7 +37,7 @@ Python 3. There's a term for this sort of behavior, and it's called
 programming](http://en.wikipedia.org/wiki/Cargo_cult_programming).
 
 Fortunately, while I was
-[ranting](https://pydanny.com/made-up-statistics.html#debate-statistics)
+[ranting](/made-up-statistics.html#debate-statistics)
 and
 [Jeff](http://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/)
 (and [Hynek

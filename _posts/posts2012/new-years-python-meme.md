@@ -48,7 +48,7 @@ From early self-instructional work I did for
 [django-mongonaut](https://github.com/pydanny/django-mongonaut/blob/master/mongonaut/views.py),
 to client efforts and personal projects where I honed my craft, plus
 examples [I blogged
-about](https://pydanny.com/tag/class-based-views.html) or helped get
+about](/tag/class-based-views.html) or helped get
 into Django core, it made for a great year. Also I wasn't just
 productive personally, I helped increased the productivity of others
 around the world.

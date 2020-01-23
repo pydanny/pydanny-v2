@@ -12,7 +12,7 @@ title: 'pytest: no-boilerplate testing (part 3)'
 ---
 
 In my previous [blog
-post](https://pydanny.com/pytest-no-boilerplate-testing-2.html) I
+post](/pytest-no-boilerplate-testing-2.html) I
 covered writing exception-based assertions and fixtures. Today I'm
 going to close things out by demonstrating how to change the behavior of
 [pytest](http://pytest.org/) and how to integrate it with **Django** and

@@ -166,7 +166,7 @@ What's Next?
 =============
 
 In my next [blog
-post](https://pydanny.com/pytest-no-boilerplate-testing-2.html) I
+post](/pytest-no-boilerplate-testing-2.html) I
 describe the following features of writing tests with **pytest**.
 
 -   The `raises` **context manager**

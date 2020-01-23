@@ -177,7 +177,7 @@ yourself](https://speakerdeck.com/u/bryan/p/design-your-own-open-source-project)
 
 ---
 
-[Read Day 2 of PyCon Philippines!](https://pydanny.com/pycon-philippines-day-1.html)
+[Read Day 2 of PyCon Philippines!](/pycon-philippines-day-1.html)
 
 [^1]: <https://pydanny-event-notes.readthedocs.org/en/latest/PyconPH2012/basic_python.html>
 [^2]: <https://pydanny-event-notes.readthedocs.org/en/latest/PyconPH2012/python_tricks.html>

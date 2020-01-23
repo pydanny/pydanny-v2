@@ -79,7 +79,7 @@ were "just" Python constructs. He's right:
 
 Understanding the structure of Django forms is really useful. This
 structure is what allows the modification mechanism that I described in
-my [previous post](https://pydanny.com/overloading-form-fields.html).
+my [previous post](/overloading-form-fields.html).
 
 We don't have to stop in just the `forms.py` module. You can also
 modify forms in views (either the classic `views.py` module or in
@@ -191,4 +191,4 @@ ModelForms adds at least three more bullets...
 -   ModelForms save dictionaries to SQL tables.
 
 ... and I touch on them in [my post on
-ModelForms](https://pydanny.com/core-concepts-django-modelforms.html).
+ModelForms](/core-concepts-django-modelforms.html).

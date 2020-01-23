@@ -136,5 +136,5 @@ Part II
 =======
 
 Check out [Beginner's Guide to PyCon 2013 Part
-II](https://pydanny.com/beginners-guide-pycon-2013-part-2.html) where I
+II](/beginners-guide-pycon-2013-part-2.html) where I
 cover the first day of talks best suited for new Python developers!

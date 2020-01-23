@@ -49,7 +49,7 @@ the best of them all.
 
 **Update 1/4/2014:** I learned this awesome skill because [I wanted to
 be classy on my wedding
-day](https://pydanny.com/i-married-audrey-roy.html).
+day](/i-married-audrey-roy.html).
 
 Awesome Foods Around the World
 ------------------------------

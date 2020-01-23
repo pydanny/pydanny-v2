@@ -22,7 +22,7 @@ cached result will be returned.
 
 If that doesn't make much sense, below is a snippet of code that shows
 the code and demonstrates it in action. As always, I'm using
-[pytest](https://pydanny.com/pytest-no-boilerplate-testing.html) to
+[pytest](/pytest-no-boilerplate-testing.html) to
 validate my code:
 
 ``` python

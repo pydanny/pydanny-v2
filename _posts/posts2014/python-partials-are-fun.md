@@ -15,7 +15,7 @@ Python's
 [functools.partial](https://docs.python.org/2.7/library/functools.html#functools.partial)
 function, which I've found can help facilitate writing reusable code.
 
-[![image](../../.vuepress/assets/images/partials.png)](https://pydanny.com/python-partials-are-fun.html)
+[![image](../../.vuepress/assets/images/partials.png)](/python-partials-are-fun.html)
 
 While the documentation has a nice explanation and demonstration of
 `functools.partial`, it's very serious. I've got my own internal
@@ -66,7 +66,7 @@ This works, but what if we want to create 15 or 20 variations of our
 repetitive code is, needless to say, annoying. This is where partials
 come into play. Let's rewrite our square and cube functions using
 partials, and test it for success using
-[py.test](https://pydanny.com/pytest-no-boilerplate-testing.html):
+[py.test](/pytest-no-boilerplate-testing.html):
 
 ``` python
 from functools import partial

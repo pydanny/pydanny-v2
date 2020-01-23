@@ -17,7 +17,7 @@ deal with the arguments that would follow. ;-)
 
 Of course, as much as I like to read or listen to them, I also like to
 give them. As of 11/26/2012 there are 2 on this
-[blog](https://pydanny.com/tag/rant.html) and 26 on my [old
+[blog](/tag/rant.html) and 26 on my [old
 blog](https://pydanny.blogspot.com/search/label/rant).
 
 Unfortunately, I have a problem in giving rants. It ties with this

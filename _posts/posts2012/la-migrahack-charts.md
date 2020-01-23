@@ -48,6 +48,6 @@ Credits
 -   [Rachel Estabrook](https://twitter.com/restabro)
 -   [Scott Smith](https://twitter.com/connectacopia)
 -   [Agustin Duran](http://latinocalifornia.com)
--   [Daniel Greenfeld](https://pydanny.com)
+-   [Daniel Greenfeld]()
 
 For [LA Hackathon on Immigration](http://hackathon2012.wikidot.com/)

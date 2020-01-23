@@ -112,7 +112,7 @@ Using awesome-slugify
 
 Rather than describe **awesome-slugify** in paragraph format, here is
 working test code ([using pytest which I described
-before](https://pydanny.com/pytest-no-boilerplate-testing.html)) that
+before](/pytest-no-boilerplate-testing.html)) that
 explains what we can do:
 
 ``` python
@@ -240,7 +240,7 @@ What's Next?
 
 As demonstrated, **awesome-slugify** covers many common use cases.
 Nevertheless, in [my next blog
-post](https://pydanny.com/awesome-slugify-human-readable-url-slugs-from-any-string-2.html)
+post](/awesome-slugify-human-readable-url-slugs-from-any-string-2.html)
 I cover how to write custom language `slugify()` translation functions
 using **awesome-slugify**.
 

@@ -33,7 +33,7 @@ Genetic predisposition, not to mention moving a refrigerator. And a
 sofa. And much more.
 
 Last year in early April my wife and were given the [chance to work in
-Europe](https://pydanny.com/off-to-europe.html) for a while. We moved
+Europe](/off-to-europe.html) for a while. We moved
 out of our place and put all our stuff into storage. We don't have that
 much stuff, so we decided to do all the packing and moving ourselves.
 While I hadn't worked out consistently in a couple of months, I *knew*

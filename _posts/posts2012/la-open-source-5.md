@@ -21,7 +21,7 @@ title: Los Angeles Open Source Sprint on Nov 4th!
 Yet again, myself, Audrey Roy, and a small but elite cadre of volunteers
 are feverishly at work putting together another Los Angeles open source
 event. Our [last effort went smashingly
-well](https://pydanny.com/july-15th-2012-la-open-source-recap.html), and
+well](/july-15th-2012-la-open-source-recap.html), and
 like any good engineer, we're ready to scale up - this time to 150
 attendees!
 

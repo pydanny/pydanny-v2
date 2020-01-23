@@ -25,7 +25,7 @@ After my fiancee, [Audrey Roy](https://www.aroygreenfeld.com/), converted her bl
 <https://github.com/mojombo/jekyll> at it's new location of
 [aroygreenfeld.com](https://www.aroygreenfeld.com/), the static file hosting seemed
 so awesome I was impressed enough to [give Jekyll a
-try](https://pydanny.com/tried-out-jekyll.html). Why did Jekyll and
+try](/tried-out-jekyll.html). Why did Jekyll and
 static file hosting interest me so much?
 
 ## I don't want to maintain my own server

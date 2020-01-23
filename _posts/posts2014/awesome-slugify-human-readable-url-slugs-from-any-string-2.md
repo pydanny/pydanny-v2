@@ -13,7 +13,7 @@ title: 'awesome-slugify: Human-readable URL slugs from any string (part 2)'
 ---
 
 In my previous [blog
-post](https://pydanny.com/awesome-slugify-human-readable-url-slugs-from-any-string.html)
+post](/awesome-slugify-human-readable-url-slugs-from-any-string.html)
 I covered using
 [awesome-slugify](https://pypi.python.org/pypi/awesome-slugify) to
 capture slugs in both ASCII and unicode. Today I'm covering the

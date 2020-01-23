@@ -95,5 +95,5 @@ tested it yet.
 # See you at BarCamp Django SF!
 
 On October 4th and 5th I'll be at [BarCamp Django
-SF](https://pydanny.com/barcamp-django-sf.html) if you want to talk
+SF](/barcamp-django-sf.html) if you want to talk
 about Django, Python, or have me teach you how to do cartwheels.
