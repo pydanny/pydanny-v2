@@ -10,7 +10,7 @@ time_to_read: 3
 title: Intensive Django Training with the US Air Force
 ---
 
-Last week [Audrey Roy Greenfeld](http://www.codemakesmehappy.com/) and I
+Last week [Audrey Roy Greenfeld](http://audrey.roygreenfeld.com) and I
 had the privilege of teaching the US Air Force's [91st Cyberspace
 Operations
 Squadron](https://en.wikipedia.org/wiki/91st_Cyberspace_Operations_Squadron)
@@ -72,7 +72,7 @@ Base](https://en.wikipedia.org/wiki/Lackland_Air_Force_Base), and I look
 forward to hearing about their successes in the future.
 
 For more details, see Audrey's [blog
-post](http://www.codemakesmehappy.com/2015/11/intensive-django-training-with-91st.html).
+post](http://audrey.roygreenfeld.com2015/11/intensive-django-training-with-91st.html).
 
 Testimonial by Captain Jonathan D. Miller
 =========================================

@@ -15,7 +15,7 @@ we got up to go when I heard a feminine voice ask: "Are you
 [bshaurette](https://twitter.com/bshaurette)?" I turned and it was like
 I got punched in the gut.
 
-It was the first time I met [Audrey](https://www.codemakesmehappy.com/). I remember
+It was the first time I met [Audrey](https://audrey.roygreenfeld.com). I remember
 every detail of how she looked at that moment. The clothes she was
 wearing, the part in her hair, that her eyes met mine, and that they
 didn't turn away. I was immediately captivating, but fortunately

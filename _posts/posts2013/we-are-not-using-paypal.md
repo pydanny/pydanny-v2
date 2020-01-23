@@ -11,7 +11,7 @@ time_to_read: 5
 title: We are not using PayPal
 ---
 
-In January [Audrey Roy](https://www.codemakesmehappy.com/) and I launched a
+In January [Audrey Roy](https://audrey.roygreenfeld.com) and I launched a
 [book](https://twoscoopspress.org/products/two-scoops-of-django-1-5) about Django called [Two Scoops of
 Django: Best Practices for Django 1.5](https://twoscoopspress.org/products/two-scoops-of-django-1-5). We
 decided to not use PayPal. Here's why:

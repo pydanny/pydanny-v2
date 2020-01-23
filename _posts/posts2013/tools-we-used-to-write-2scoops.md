@@ -36,7 +36,7 @@ Some of the original alpha material was written in rough draft form as
 RST since it was what we were used to using. Unfortunately, the PDF
 generation wasn't to our liking, so we immediately began looking at
 other options. Since she enjoyed using it at MIT and because it gave us
-greater individual control, [Audrey](https://www.codemakesmehappy.com/) wanted to
+greater individual control, [Audrey](https://audrey.roygreenfeld.com) wanted to
 switch to [LaTeX](http://en.wikipedia.com/wiki/LateX). I was worried
 about the challenges of learning LaTeX, so we compromised and moved to
 Google Documents.

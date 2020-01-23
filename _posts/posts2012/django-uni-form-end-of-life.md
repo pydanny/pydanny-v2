@@ -206,7 +206,7 @@ We tossed around names for the project, but all of them were stupid,
 especially mine. We are both huge fans and users of
 [django-floppyforms](https://github.com/brutasse/django-floppyforms)
 (HTML5 form widget app), so my fiancee, [Audrey
-Roy](https://www.codemakesmehappy.com/), suggested django-crispy-forms. And lo, the
+Roy](https://audrey.roygreenfeld.com), suggested django-crispy-forms. And lo, the
 project was named.
 
 Right now

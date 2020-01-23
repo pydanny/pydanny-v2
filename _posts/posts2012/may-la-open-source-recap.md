@@ -27,7 +27,7 @@ together.
 Less then two weeks before May 12, a bunch of us Los Angeles area Python
 developers were hanging out and wishing we had a local sprint to attend
 that was just about developers working on open source projects. It was
-then that [Audrey Roy](https://www.codemakesmehappy.com/) and I, along with an army
+then that [Audrey Roy](https://audrey.roygreenfeld.com) and I, along with an army
 of hardworking volunteers, decided to stop wishing and make it happen on
 May 12th.
 

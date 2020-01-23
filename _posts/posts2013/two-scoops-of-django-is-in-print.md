@@ -23,7 +23,7 @@ Also, I have a confession to make. When it comes to technical books, I
 really prefer the print version. For me, nothing beats being able to
 flip through pages of a hardcopy next to a keyboard, or simply reading
 while I'm on a bus, train, or plane. So this adds to my excitement when
-I get to say that the book that [Audrey Roy](https://www.codemakesmehappy.com//) and
+I get to say that the book that [Audrey Roy](https://audrey.roygreenfeld.com/) and
 I wrote together is in
 [print](http://www.amazon.com/Two-Scoops-Django-Best-Practices/dp/1481879707/ref=sr_1_2?ie=UTF8&qid=1366166104&sr=8-2&tag=ihpydanny-20).
 

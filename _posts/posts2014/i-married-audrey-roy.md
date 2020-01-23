@@ -14,7 +14,7 @@ title: I Married Audrey Roy
 
 In a small, private family ceremony on December 27th, 2013 I exchanged
 wedding vows with [Audrey](http://audreyr.com)
-[Roy](https://www.codemakesmehappy.com/).
+[Roy](https://audrey.roygreenfeld.com).
 
 ![image](https://s3.amazonaws.com/pydanny/vows.jpg)
 

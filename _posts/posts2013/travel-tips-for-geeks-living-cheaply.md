@@ -16,7 +16,7 @@ That's not really true.
 
 There are ways to live well but cheaply. It takes a bit of discipline,
 forethought, and judgement, but the reward of living is amazing. This
-article explains how [Audrey Roy](https://www.codemakesmehappy.com/) and I do it.
+article explains how [Audrey Roy](https://audrey.roygreenfeld.com) and I do it.
 
 Pick the Right Location
 =======================
