@@ -12,7 +12,7 @@ books:
         link: "http://roygreenfeld.com/products/two-scoops-of-django-1-11"
       - text: "Buy on amazon.com"
         link: "https://2scoops.co/tsd111"
-      - text: "Buy kindle on amazon.com"
+      - text: "Kindle and paperback versions available on amazon.com"
         link: "https://2scoops.co/tsd111kindle"
 
   - id: 2
