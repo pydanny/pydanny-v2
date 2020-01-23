@@ -12,7 +12,7 @@ time_to_read: 1
 title: Two Scoops of Goblins
 ---
 
-While [Audrey Roy Greenfeld](http://audreyr.com/) and I were
+While [Audrey Roy Greenfeld](http://audrey.roygreenfeld.com) and I were
 contemplating our next Two Scoops Press book topic, it came down to a
 decision between Pyramid, Flask, and mythical creatures. Inspired by
 Django's magical flying pony, Pyramid's scary alien dude, and even the
@@ -26,15 +26,11 @@ What that means is that the next book we publish will be fantasy. Going
 forward all the books we write will be fiction.
 
 If we ever write a new [Two Scoops of
-Django](http://twoscoopspress.com/products/two-scoops-of-django-1-6)
+Django](http://roygreenfeld.com/products/two-scoops-of-django-1-11)
 book, it will be a fantasy about a magical flying pony who eats ice
 cream. That way we'll confuse the [already muddled Amazon.com search
 requests for
 'Django'](http://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=django&tag=mlinar-20)
 even more.
 
-Since this is a technical blog, I'll be moving my fiction writing based
-articles to my author blog at
-[danielroygreenfeld.com](http://www.danielroygreenfeld.com).
-
-[![image](https://s3.amazonaws.com/pydanny/two-scoops-of-goblins.png)](http://www.danielroygreenfeld.com)
+![image](images/two-scoops-of-goblins.png)

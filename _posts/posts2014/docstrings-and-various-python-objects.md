@@ -59,21 +59,18 @@ Contrary to what I thought in 2007, Python lambdas *can* be documented.
 Modifying their docstring functions with both the direct `__doc___`
 special attribute and the `help()` built-in works just fine.
 
-Should We Use Lambdas?
-======================
+## Should We Use Lambdas?
 
 As demonstrated in this article, lambdas can be documented.
 Nevertheless, I'm still not entirely convinced python lambdas should be
 used as anything except when an anonymous function is advantageous, i.e
 during functional programming.
 
-What About Other Python Types?
-==============================
+## What About Other Python Types?
 
 Enough about lambdas, let's see what else we can do with docstrings.
 
-Functions and Docstrings
-------------------------
+### Functions and Docstrings
 
 We know modifying docstrings of functions works, so we'll use it as a
 'control'.
@@ -95,8 +92,7 @@ def test_functions():
     assert doubler.__doc__ == "Really doubles strings"
 ```
 
-Strings and Docstrings
-----------------------
+### Strings and Docstrings
 
 Let's go for something a bit harder. Strings, for example, come with a
 docstring, but as Python strings are immutable types, it's read-only
@@ -169,8 +165,7 @@ DESCRIPTION
 You'll notice in the result of the `help()` call on the 's' object,
 that the phrase, "I am a string object" does not exist.
 
-Conclusion
-==========
+## Conclusion
 
 In Python, everything might be an object, but not all objects are
 created equal. Lambdas (and functions and objects) do allow for
@@ -185,4 +180,4 @@ Theory](/fixing-pythons-string-class.html). ;-)
 **Resource**: The entire `test_docstrings.py` module:
 <https://gist.github.com/pydanny/9373279>
 
-[![image](https://s3.amazonaws.com/pydanny/lambda_scoops.png)](https://s3.amazonaws.com/pydanny/lambda_scoops.png)
+![image](images/lambda_scoops.png)

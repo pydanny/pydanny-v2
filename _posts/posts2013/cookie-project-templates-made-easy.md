@@ -45,8 +45,7 @@ Schlawack](http://hynek.me/articles/sharing-your-labor-of-love-pypi-quick-and-di
 was writing, someone was making
 [cookiecutter](https://github.com/audreyr/cookiecutter).
 
-cookiecutter does one thing and it does it well
-===============================================
+## cookiecutter does one thing and it does it well
 
 What [cookiecutter](https://github.com/audreyr/cookiecutter) does is
 make creating and maintaining project templates easy and intuitive. This
@@ -134,8 +133,7 @@ wants to implement Jeff's pattern, they can.
 
 In fact...
 
-Creating cookiecutter templates is easy and intuitive
-=====================================================
+## Creating cookiecutter templates is easy and intuitive
 
 All you have to do is:
 
@@ -178,36 +176,31 @@ including Python, [Flask](https://github.com/sloria/cookiecutter-flask),
 cookiecutter-pypackage that even more closely matches Jeff Knupp's
 design.
 
-Additional cookiecutter features
-================================
+## Additional cookiecutter features
 
 Here are more things to like about cookiecutter:
 
-cookiecutter is focused
------------------------
+### cookiecutter is focused
 
 It doesn't handle deployment, serving of HTTP, testing, or anything
 else. All it does is project templates. It follows those classic words,
 "*It's programmed to do one thing and do it well*".
 
-Supports all modern versions of Python
---------------------------------------
+### Supports all modern versions of Python
 
 -   Python 2.6
 -   Python 2.7
 -   Python 3.3
 -   Even PyPy!
 
-cookiecutter is modular
------------------------
+### cookiecutter is modular
 
 It's not built off a single giant function, or a complex architecture.
 Instead, it's comprised of a number of relatively simple functions.
 Why? Well this way you can import easily elements of cookiecutter into
 other projects, and it plays into the next feature:
 
-cookiecutter is tested
-----------------------
+### cookiecutter is tested
 
 The project has as of August 20th 2013, [98% test
 coverage](https://coveralls.io/r/audreyr/cookiecutter?branch=master),
@@ -217,8 +210,7 @@ following things much easier/safer:
 1.  Implementing new features without breaking existing ones.
 2.  Handling new versions of Python as they emerge.
 
-cookiecutter isn't just for Python packages
---------------------------------------------
+### cookiecutter isn't just for Python packages
 
 That's correct. While at the moment there is only
 [cookiecutter-jquery](https://github.com/audreyr/cookiecutter-jquery),
@@ -229,8 +221,7 @@ accommodate customizations for any tool.
 
 Which brings me to my next point...
 
-cookiecutter isn't just for Python developers
-----------------------------------------------
+### cookiecutter isn't just for Python developers
 
 Even if you don't know Python you can use
 [cookiecutter](https://github.com/audreyr/cookiecutter). The templating
@@ -256,6 +247,6 @@ Jinja2's `{% raw %}` template tag:
 {% endraw %}
 ```
 
-[![image](https://raw.github.com/audreyr/cookiecutter/aa309b73bdc974788ba265d843a65bb94c2e608e/cookiecutter_medium.png)](https://github.com/audreyr/cookiecutter)
+[![Cookiecutter logo](images/cookiecutter_medium.png)](https://github.com/audreyr/cookiecutter)
 
 -   **Update 09/20/2013**: Test coverage increased to 98% from 91%.

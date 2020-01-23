@@ -13,10 +13,9 @@ title: I Married Audrey Roy
 ---
 
 In a small, private family ceremony on December 27th, 2013 I exchanged
-wedding vows with [Audrey](http://audreyr.com)
-[Roy](https://audrey.roygreenfeld.com).
+wedding vows with [Audrey Roy](https://audrey.roygreenfeld.com).
 
-![image](https://s3.amazonaws.com/pydanny/vows.jpg)
+![image](images/vows.jpg)
 
 It was an incredible day. I'll savor the moment we promised ourselves
 to each other in matrimony forever. She is the other half of my soul,
@@ -50,4 +49,4 @@ More Photos
 This image is a link to a short collection of photos from the incredible
 photographer, Lindy DiMaio. More to come:
 
-[![image](https://s3.amazonaws.com/pydanny/couple.jpg)](http://www.2scoops.co/3p/)
+![Married couple sitting together](images/couple.jpg)
