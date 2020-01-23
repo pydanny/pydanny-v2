@@ -23,7 +23,7 @@ worry me, so I started looking for alternatives.
 
 After my fiancee, [Audrey Roy](https://www.aroygreenfeld.com/), converted her blog to
 <https://github.com/mojombo/jekyll> at it's new location of
-[aroygreenfeld.com](https://www.aroygreenfeld.com/), the static file hosting seemed
+aroygreenfeld.com (now at [audrey.roygreenfeld.com](https://audrey.roygreenfeld.com/)), the static file hosting seemed
 so awesome I was impressed enough to [give Jekyll a
 try](/tried-out-jekyll.html). Why did Jekyll and
 static file hosting interest me so much?
