@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><id>https://daniel.roygreenfeld.com/</id><title>pydanny</title><updated>2020-01-30T04:48:29.661439+00:00</updated><author><name>Daniel Roy Greenfeld</name><email>daniel.roy.greenfeld@roygreenfeld.com</email></author><link href="https://daniel.roygreenfeld.com" rel="alternate"/><link href="https://daniel.roygreenfeld.com/atom.django.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://daniel.roygreenfeld.com/images/personalPhoto.png</logo><subtitle>Inside the Head of Daniel Roy Greenfeld</subtitle><entry><id>https://daniel.roygreenfeld.com/django-crash-course.html</id><title>Time to Crash Into Django</title><updated>2020-01-30T04:48:29.663530+00:00</updated><content type="html">
+
+Blah blah blah
+
+## I am an H2 header
+
+&lt;h2&gt;I am an H2 header&lt;/h2&gt;
+
+- This
+- is
+- a
+- list</content><published>2020-01-30T07:20:50.520000+00:00</published></entry></feed>
