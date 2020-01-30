@@ -31,6 +31,7 @@ Note:
 
     Works with Python 3.8, untested otherwise.
 """
+
 from glob import glob
 import sys
 
@@ -56,7 +57,7 @@ if __name__ == "__main__":
         "2020",
     ]
 
-    markdowner = Markdown()
+    markdowner = Markdown(extras=["fenced-code-blocks", ])
 
     fg = FeedGenerator()
     fg.id("https://daniel.roygreenfeld.com/")
@@ -111,6 +112,7 @@ if __name__ == "__main__":
 
     print(fg.atom_str(pretty=True))
     fg.atom_file(f".vuepress/public/feeds/{tag}.atom.xml")
+
 ```
 
 You call this on my blog for all `python` tagged content by running it thus:

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><id>https://daniel.roygreenfeld.com/</id><title>pydanny</title><updated>2020-01-30T19:44:06.122224+00:00</updated><author><name>Daniel Roy Greenfeld</name><email>daniel.roy.greenfeld@roygreenfeld.com</email></author><link href="https://daniel.roygreenfeld.com" rel="alternate"/><link href="https://daniel.roygreenfeld.com/atom.python.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://daniel.roygreenfeld.com/images/personalPhoto.png</logo><subtitle>Inside the Head of Daniel Roy Greenfeld</subtitle><entry><id>https://daniel.roygreenfeld.com/feed-generator.html</id><title>Feed Generator</title><updated>2020-01-30T19:44:06.127556+00:00</updated><content type="html">&lt;p&gt;Late last year I &lt;a href="/moving-to-vuepress.html"&gt;changed my blog engine yet again&lt;/a&gt;. I've been happy with it so far, with the exception of XML feeds. The tooling I chose doesn't have good support for feeds, certainly not with the filtering I need. Specifically, I need to have a &lt;code&gt;python&lt;/code&gt; feed, a &lt;code&gt;family&lt;/code&gt; feed, and so on. As much as I love my &lt;a href="https://audrey.roygreenfeld.com"&gt;wife&lt;/a&gt; and &lt;a href="/recap-2019-resolutions-2020.html#my-daughter-was-born"&gt;daughter&lt;/a&gt;, non-technical posts about them probably don't belong on places where this post will show up.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><id>https://daniel.roygreenfeld.com/</id><title>pydanny</title><updated>2020-01-30T19:48:59.913997+00:00</updated><author><name>Daniel Roy Greenfeld</name><email>daniel.roy.greenfeld@roygreenfeld.com</email></author><link href="https://daniel.roygreenfeld.com" rel="alternate"/><link href="https://daniel.roygreenfeld.com/atom.python.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://daniel.roygreenfeld.com/images/personalPhoto.png</logo><subtitle>Inside the Head of Daniel Roy Greenfeld</subtitle><entry><id>https://daniel.roygreenfeld.com/feed-generator.html</id><title>Feed Generator</title><updated>2020-01-30T19:48:59.917876+00:00</updated><content type="html">&lt;p&gt;Late last year I &lt;a href="/moving-to-vuepress.html"&gt;changed my blog engine yet again&lt;/a&gt;. I've been happy with it so far, with the exception of XML feeds. The tooling I chose doesn't have good support for feeds, certainly not with the filtering I need. Specifically, I need to have a &lt;code&gt;python&lt;/code&gt; feed, a &lt;code&gt;family&lt;/code&gt; feed, and so on. As much as I love my &lt;a href="https://audrey.roygreenfeld.com"&gt;wife&lt;/a&gt; and &lt;a href="/recap-2019-resolutions-2020.html#my-daughter-was-born"&gt;daughter&lt;/a&gt;, non-technical posts about them probably don't belong on places where this post will show up.&lt;/p&gt;
 
 &lt;p&gt;After trying to work within the framework of the blog engine (Vuepress), I got tired of fighting abstraction and gave up. My blog wouldn't have an XML feed.&lt;/p&gt;
 
@@ -7,109 +7,103 @@
 
 &lt;p&gt;Last night I decided to go around the problem. In 30 minutes I coded up a solution, a Python script that bypasses the Vuepress abstraction. You can see it below:&lt;/p&gt;
 
-&lt;p&gt;``` python
+&lt;pre&gt;&lt;code&gt;"""
+generate_feed.py
+
+Usage:
+
+    python generate_feed.py TAGHERE
+
+Note:
+
+    Works with Python 3.8, untested otherwise.
 """
-generate_feed.py&lt;/p&gt;
-
-&lt;p&gt;Usage:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;python generate_feed.py TAGHERE
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Note:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Works with Python 3.8, untested otherwise.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;"""
 from glob import glob
-import sys&lt;/p&gt;
+import sys
 
-&lt;p&gt;try:
+try:
     from feedgen.feed import FeedGenerator
     from yaml import safe_load
     from markdown2 import Markdown
 except ImportError:
     print("You need to install pyyaml, feedgen, and markdown2")
-    sys.exit(1)&lt;/p&gt;
-
-&lt;p&gt;if &lt;strong&gt;name&lt;/strong&gt; == "&lt;strong&gt;main&lt;/strong&gt;":&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;try:
-    tag = sys.argv[1]
-except IndexError:
-    print('Add a tag argument such as "python"')
     sys.exit(1)
 
-# TODO - convert to argument
-YEARS = [
-    "2020",
-]
 
-markdowner = Markdown()
+if __name__ == "__main__":
 
-fg = FeedGenerator()
-fg.id("https://daniel.roygreenfeld.com/")
-fg.title("pydanny")
-fg.author(
-    {
-        "name": "Daniel Roy Greenfeld",
-        "email": "daniel.roy.greenfeld@roygreenfeld.com",
-    }
-)
-fg.link(href="https://daniel.roygreenfeld.com", rel="alternate")
-fg.logo("https://daniel.roygreenfeld.com/images/personalPhoto.png")
-fg.subtitle("Inside the Head of Daniel Roy Greenfeld")
-fg.link(href=f"https://daniel.roygreenfeld.com/atom.{tag}.xml", rel="self")
-fg.language("en")
+    try:
+        tag = sys.argv[1]
+    except IndexError:
+        print('Add a tag argument such as "python"')
+        sys.exit(1)
 
-years = [f"_posts/posts{x}/*.md" for x in YEARS]
-years.sort()
-years.reverse()
+    # TODO - convert to argument
+    YEARS = [
+        "2020",
+    ]
 
-def read_post(filename):
-    with open(filename) as f:
-        raw = f.read()[3:]
+    markdowner = Markdown()
 
-    config = safe_load(raw[: raw.index("---")])
-    content = raw[raw.index("---") + 3 :]
+    fg = FeedGenerator()
+    fg.id("https://daniel.roygreenfeld.com/")
+    fg.title("pydanny")
+    fg.author(
+        {
+            "name": "Daniel Roy Greenfeld",
+            "email": "daniel.roy.greenfeld@roygreenfeld.com",
+        }
+    )
+    fg.link(href="https://daniel.roygreenfeld.com", rel="alternate")
+    fg.logo("https://daniel.roygreenfeld.com/images/personalPhoto.png")
+    fg.subtitle("Inside the Head of Daniel Roy Greenfeld")
+    fg.link(href=f"https://daniel.roygreenfeld.com/atom.{tag}.xml", rel="self")
+    fg.language("en")
 
-    return config, content
+    years = [f"_posts/posts{x}/*.md" for x in YEARS]
+    years.sort()
+    years.reverse()
 
-feed = []
+    def read_post(filename):
+        with open(filename) as f:
+            raw = f.read()[3:]
 
-for year in years:
-    posts = glob(year)
-    posts.sort()
-    posts.reverse()
-    for post in posts:
-        config, content = read_post(post)
-        if tag not in config["tags"]:
-            continue
+        config = safe_load(raw[: raw.index("---")])
+        content = raw[raw.index("---") + 3 :]
 
-        # add the metadata
-        print(config["title"])
-        entry = fg.add_entry()
-        entry.id(f'https://daniel.roygreenfeld.com/{config["slug"]}.html')
-        entry.title(config["title"])
-        entry.description(config["description"])
-        entry.pubDate(config["date"])
+        return config, content
 
-        # Add the content
-        content = markdowner.convert(content)
-        entry.content(content, type="html")
+    feed = []
 
-print(fg.atom_str(pretty=True))
-fg.atom_file(f".vuepress/public/feeds/{tag}.atom.xml")
+    for year in years:
+        posts = glob(year)
+        posts.sort()
+        posts.reverse()
+        for post in posts:
+            config, content = read_post(post)
+            if tag not in config["tags"]:
+                continue
+
+            # add the metadata
+            print(config["title"])
+            entry = fg.add_entry()
+            entry.id(f'https://daniel.roygreenfeld.com/{config["slug"]}.html')
+            entry.title(config["title"])
+            entry.description(config["description"])
+            entry.pubDate(config["date"])
+
+            # Add the content
+            content = markdowner.convert(content)
+            entry.content(content, type="html")
+
+    print(fg.atom_str(pretty=True))
+    fg.atom_file(f".vuepress/public/feeds/{tag}.atom.xml")
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;```&lt;/p&gt;
 
 &lt;p&gt;You call this on my blog for all &lt;code&gt;python&lt;/code&gt; tagged content by running it thus:&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;bash
-python generate_feed.py python
-&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;python generate_feed.py python
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;The result &lt;a href="https://validator.w3.org/feed/#validate_by_input"&gt;validates per W3C&lt;/a&gt; and should work everywhere. Yeah! &lt;/p&gt;
 

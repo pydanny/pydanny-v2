@@ -35,7 +35,7 @@ if __name__ == "__main__":
         "2020",
     ]
 
-    markdowner = Markdown()
+    markdowner = Markdown(extras=["fenced-code-blocks", ])
 
     fg = FeedGenerator()
     fg.id("https://daniel.roygreenfeld.com/")
