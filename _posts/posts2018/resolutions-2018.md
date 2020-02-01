@@ -16,7 +16,7 @@ time_to_read: 1
 title: 2018 New Years Resolutions
 ---
 
-[![Lasergun Light Painting](https://raw.githubusercontent.com/pydanny/pydanny.github.com/master/static/lasergun.jpg)](/)
+[![Lasergun Light Painting](/images/lasergun.jpg)](/)
 
 Happy New Year!
 ===============

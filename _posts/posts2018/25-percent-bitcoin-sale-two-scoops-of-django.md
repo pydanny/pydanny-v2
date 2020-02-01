@@ -13,7 +13,7 @@ time_to_read: 1
 title: Use Bitcoin to Get Two Scoops of Django at 25% Off
 ---
 
-[![BitCoin and Two Scoops of Django!](https://raw.githubusercontent.com/pydanny/pydanny.github.com/master/static/bitcointsd111.png)](/25-percent-bitcoin-sale-two-scoops-of-django.html)
+[![BitCoin and Two Scoops of Django!](/images/bitcointsd111.png)](/25-percent-bitcoin-sale-two-scoops-of-django.html)
 
 Like the title of this blog post says, for Bitcoin purchases we're
 offering a 25% discount for purchases of [Two Scoops of

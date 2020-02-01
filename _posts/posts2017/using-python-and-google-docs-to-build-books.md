@@ -10,13 +10,14 @@ tags:
 - cookiecutter
 time_to_read: 7
 title: Using Python and Google Docs to Build Books
+description: Using Python to combine multiple Google docs into one cohesive whole that can be published as a book.
 ---
 
 
-[![Python F-Strings Are Fun!](https://raw.githubusercontent.com/pydanny/pydanny.github.com/master/static/python-tip-from-pydanny.png)](/using-google-docs-and-python-to-assemble-fiction-books.html)
+[![Python tips and tricks](/images/python-tip-from-pydanny.png)](/using-google-docs-and-python-to-assemble-fiction-books.html)
 
 When I started my latest fiction book, [The Darkest
-Autumn](https://www.danielroygreenfeld.com/books/the-darkest-autumn/), I
+Autumn](https://www.roygreenfeld.com/products/darkest-autumn-ambria-book-1), I
 wrote out the chapters as individual files. I did it in a text editor
 (Sublime) and saved the files to a git repo. The names of the files
 determined their order, chapters being named in this pattern:
@@ -61,7 +62,7 @@ one master file which can be converted to epub, mobi (kindle), or PDF.
 
 First, I download all the files in the book's Google Docs directory.
 
-![Selecting Files With Google Docs](/static/selecting-files.png?12346)
+![Selecting Files With Google Docs](/images/selecting-files.png?12346)
 
 This generates and downloads a zip file called something like
 drive-download-20170505T230011Z-001.zip. I use `unzip to open it`:
@@ -336,4 +337,3 @@ for me to do this kind of thing, I'm not interested in maintaining yet
 another open source project. However, if someone does package it up and
 credits me for my work, I'm happy to link to it from this blog post.
 
-[![Cover for The Darkest Autumn](https://github.com/pydanny/pydanny.github.com/blob/master/static/the-darkest-autumn-04-01-thumbnail.jpg?raw=true)](https://www.amazon.com/Darkest-Autumn-Ambria-I-ebook/dp/B071L2G8SL/?tag=mlinar-20)
