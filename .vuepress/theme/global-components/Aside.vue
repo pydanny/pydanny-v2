@@ -5,11 +5,11 @@
       <FlagIcon />
     </h4>
     <Card
-      :title="twoScoops.title"
-      :image="twoScoops.image"
-      :text="twoScoops.text"
-      :description="twoScoops.description"
-      :actions="twoScoops.actions"
+      :title="primary.title"
+      :image="primary.image"
+      :text="primary.text"
+      :description="primary.description"
+      :actions="primary.actions"
       width="100%"
       class="side-book-card"
     />
@@ -39,28 +39,41 @@ export default {
   data() {
     return {
       currentBookIndex: 0,
-      twoScoops: {
-        title: "Two Scoops of Django",
-        description: "for Django 1.11 LTS",
-        image: "/images/0692915729.01.LZZZZZZZ.jpg",
+      primary: {
+        title: "Django Crash Course",
+        description: "Covers Python 3.8 and Django 3.x - Alpha Version",
+        image: "/images/Django-Crash-Course-300x436.jpg",
         text:
-          "Two Scoops of Django is chock-full of material that will help you with your Django projects. Written to support Django 1.11 LTS (Long Term Support), this book won't get outdated until 2020.",
+          "The Django Crash Course book is a guided walkthrough where we build a real, production-quality Django web application from the ground up. Originally a large part of our corporate training materials, this tutorial was once only available to companies paying $3000 a seat for in-person training. The contents of this book are professional-grade and have been used by real software companies to get their engineers up and running fast with Python 3.8 and Django 3.x development.",
         actions: [
           {
-            text: "Paperback, PDF, ePub, and Kindle versions available on roygreenfeld.com  ",
-            link: "http://roygreenfeld.com/products/two-scoops-of-django-1-11"
-          },
-          {
-            text: "Available at amazon.com",
-            link: "https://2scoops.co/tsd111"
-          },
-          {
-            text: "Kindle and paperback versions available on amazon.com",
-            link: "https://2scoops.co/tsd111kindle"
+            text: "E-Book versions available on roygreenfeld.com ",
+            link: "http://roygreenfeld.com/products/django-crash-course"
           }
         ]
       },
       books: [
+        {
+          title: "Two Scoops of Django",
+          description: "for Django 1.11 LTS",
+          image: "/images/0692915729.01.LZZZZZZZ.jpg",
+          text:
+            "Two Scoops of Django is chock-full of material that will help you with your Django projects. Written to support Django 1.11 LTS (Long Term Support), this book won't get outdated until 2020.",
+          actions: [
+            {
+              text: "Paperback, PDF, ePub, and Kindle versions available on roygreenfeld.com  ",
+              link: "http://roygreenfeld.com/products/two-scoops-of-django-1-11"
+            },
+            {
+              text: "Available at amazon.com",
+              link: "https://2scoops.co/tsd111"
+            },
+            {
+              text: "Kindle and paperback versions available on amazon.com",
+              link: "https://2scoops.co/tsd111kindle"
+            }
+          ],
+        },        
         {
           title: "Fluent Python",
           description: "Clear, Concise, and Effective Programming",
@@ -76,7 +89,7 @@ export default {
           description: "Build web APIs with Python and Django",
           image: "/images/B07DR9XS6L.01.LZZZZZZZ.jpg",
           text:
-            "Another book by William Vincent, this take a modern API-first approach to creating 3 different Django back-ends: a Library API, Todo API, and a Blog API with user authentication, permissions, proper documentation, and more. You'll even learn how to connect them to a React front-end for a truly full-stack web application..",
+            "Authored by my friend, William Vincent, this take a modern API-first approach to creating 3 different Django back-ends: a Library API, Todo API, and a Blog API with user authentication, permissions, proper documentation, and more. You'll even learn how to connect them to a React front-end for a truly full-stack web application..",
           actions: [
             {
               text: "Available at Amazon",
@@ -91,33 +104,20 @@ export default {
           ]
         },
         {
-          title: "Django for Beginners",
-          description: "Learn web development with Django",
-          image: "/images/1980377898.01.LZZZZZZZ.jpg",
-          text:
-            'Authored by my friend, William Vincent, Django for Beginners takes you from total beginner to confident Django developer. Proceed step-by-step through five progressively more complex web applications: from a "Hello World" app all the way to a robust Newspaper app with a custom user model, complete user authentication flow, foreign key relationships, and more. Learn current best practices around class-based views, templates, urls, user authentication, testing, and deployment.',
-          actions: [
-            {
-              text: "Available at amazon.com",
-              link: "https://2scoops.co/1980377898"
-            }
-          ]
-        },
-        {
           title: "Darkest Autumn",
           description: "Ambria Book 1",
-          image: "/images/B071L2G8SL.01.LZZZZZZZ.jpg",
+          image: "/images/Darkest_Autumn_540x.jpg",
           text:
             "Heroes are supposed to be brave, aren't they? Vetch is training to be a knight in a magical world. But he’s afraid of battle and reluctant to hurt others. Led by a sorcerer, a massive army of men and monsters attack Vetch’s homeland, the land of Ambria. With no idea how far the enemy’s power extends, Vetch struggles against impossible odds to keep himself and those he cares about safe.",
           actions: [
             {
-              text: "Available at amazon.com",
-              link: "https://2scoops.co/ambria-1"
-            },
-            {
               text: "Available at Roy Greenfeld",
               link:
                 "https://www.roygreenfeld.com/products/darkest-autumn-ambria-book-1"
+            },            
+            {
+              text: "Available at amazon.com",
+              link: "https://2scoops.co/ambria-1"
             }
           ]
         },
