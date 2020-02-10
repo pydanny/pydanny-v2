@@ -10,11 +10,11 @@ time_to_read: 0
 title: Deadline for DjangoCon Financial Aid requests is tomorrow!
 ---
 
-For 2012, [DjangoCon US](http://www.djangocon.us/) has moved to
+For 2012, [DjangoCon US](https://www.djangocon.us/) has moved to
 Washington, DC, and everyone is invited! If you need financial support
 to get there, the [Django Software
 Foundation](https://www.djangoproject.com/foundation/) and
-[PyLadies](http://pyladies.com/) have paired with a number of forward
+[PyLadies](https://pyladies.com/) have paired with a number of forward
 thinking sponsors to help get you there. All genders are eligible for
 assistance, so don't hesitate to submit your application.
 

@@ -17,7 +17,7 @@ Mars, and has the power to use them for at least 14 years.
 
 Simply put, this is an incredible step forward.
 
-[![image](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Mars_Science_Laboratory_Curiosity_rover.jpg/800px-Mars_Science_Laboratory_Curiosity_rover.jpg)](http://en.wikipedia.org/wiki/File:Mars_Science_Laboratory_Curiosity_rover.jpg)
+[![image](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Mars_Science_Laboratory_Curiosity_rover.jpg/800px-Mars_Science_Laboratory_Curiosity_rover.jpg)](https://en.wikipedia.org/wiki/File:Mars_Science_Laboratory_Curiosity_rover.jpg)
 
 As an American, I'm proud that our nation is capable of putting
 together such amazing feats of engineering and science. People from a

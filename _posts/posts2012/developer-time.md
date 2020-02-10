@@ -21,7 +21,7 @@ personal best. Obviously I struck a chord that resonated with a lot of
 people.
 
 <blockquote class="twitter-tweet"><p>Developers should have 4-6 hours of uninterrupted activity each day. Each 3-5 minute interruption costs more than you can imagine.</p>&mdash; Daniel Greenfeld (@pydanny) <a href="https://twitter.com/pydanny/status/275680738773463040" data-datetime="2012-12-03T19:19:44+00:00">December 3, 2012</a></blockquote>
-<script src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 Why did this tweet resonate with so many people?
 ================================================
 
@@ -76,8 +76,8 @@ are some possible mitigations:
 **1. Maker's Day**
 
 My friend, [Craig
-Kerstiens](http://craigkerstiens.com/2011/11/07/how-heroku-works-maker-day/)
-describes how [Heroku](http://heroku.com) gives engineers a full day
+Kerstiens](https://craigkerstiens.com/2011/11/07/how-heroku-works-maker-day/)
+describes how [Heroku](https://heroku.com) gives engineers a full day
 each week (Thursday) to focus on getting stuff done. No meetings, no
 standup, just 100% uninterrupted quiet time to focus on making stuff.
 
@@ -85,7 +85,7 @@ Suggest this at your company and see how it goes!
 
 **2. Blocks of Time**
 
-As of 2010, [Eldarion](http://eldarion.com) broke up their work day into
+As of 2010, [Eldarion](https://eldarion.com) broke up their work day into
 at least two sizable chunks of uninterrupted activity. Between the
 chunks you communicated with co-workers. The advantage of this approach
 is if you went down the wrong path or someone had a critical question,
