@@ -105,6 +105,7 @@ if __name__ == "__main__":
             entry.title(config["title"])
             entry.description(config["description"])
             entry.pubDate(config["date"])
+            entry.updated(config["date"])
 
             # Add the content
             content = markdowner.convert(content)

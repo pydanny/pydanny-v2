@@ -80,9 +80,11 @@ if __name__ == "__main__":
             print(config["title"])
             entry = fg.add_entry()
             entry.id(f'https://daniel.roygreenfeld.com/{config["slug"]}.html')
+            entry.link(href=f'https://daniel.roygreenfeld.com/{config["slug"]}.html')
             entry.title(config["title"])
             entry.description(config["description"])
             entry.pubDate(config["date"])
+            entry.updated(config["date"])
 
             # Add the content
             content = markdowner.convert(content)
