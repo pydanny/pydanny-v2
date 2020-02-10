@@ -20,7 +20,7 @@ As the book is in alpha, you're encouraged to submit bug reports to us for error
 
 ## Check it out!
 
-[![Cover for Django Crash Course](images/Django_Crash_Course_3_E-Book_Download_740x.jpg)](https://roygreenfeld.com/products/django-crash-course)
+[![Cover for Django Crash Course](https://daniel.roygreenfeld.com/images/Django_Crash_Course_3_E-Book_Download_740x.jpg)](https://roygreenfeld.com/products/django-crash-course)
 
 
 
