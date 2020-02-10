@@ -55,7 +55,7 @@ export default {
         case "linkedin":
           return "LinkedinIcon";
         case "feed":
-          return "RssIcon";          
+          return "RssIcon"; 
         default:
           return "";
       }

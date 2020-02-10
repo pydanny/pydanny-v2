@@ -43,10 +43,6 @@ module.exports = {
         {
           type: "linkedin",
           link: "https://www.linkedin.com/in/pydanny/"
-        },
-        {
-          type: "feed",
-          link: "/feed.atom"
         }
       ],
       copyright: [

@@ -11,6 +11,9 @@
     <h3>Follow Me!</h3>
     <div>
       If you read this far, you might want to follow me on
+      <a href="https://www.patreon.com/roygreenfeld">
+        Patreon     
+      </a> or 
       <a href="https://twitter.com/pydanny">
         Twitter
         <i>
@@ -32,7 +35,7 @@ import { GithubIcon, TwitterIcon } from "vue-feather-icons";
 import FeaturedPosts from "../components/FeaturedPosts.vue";
 
 export default {
-  components: { GithubIcon, TwitterIcon, FeaturedPosts }
+  components: { GithubIcon, TwitterIcon, FeaturedPosts}
 };
 </script>
 

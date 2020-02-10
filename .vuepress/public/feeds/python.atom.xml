@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><id>https://daniel.roygreenfeld.com/</id><title>pydanny</title><updated>2020-01-30T19:48:59.913997+00:00</updated><author><name>Daniel Roy Greenfeld</name><email>daniel.roy.greenfeld@roygreenfeld.com</email></author><link href="https://daniel.roygreenfeld.com" rel="alternate"/><link href="https://daniel.roygreenfeld.com/atom.python.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://daniel.roygreenfeld.com/images/personalPhoto.png</logo><subtitle>Inside the Head of Daniel Roy Greenfeld</subtitle><entry><id>https://daniel.roygreenfeld.com/feed-generator.html</id><title>Feed Generator</title><updated>2020-01-30T19:48:59.917876+00:00</updated><content type="html">&lt;p&gt;Late last year I &lt;a href="/moving-to-vuepress.html"&gt;changed my blog engine yet again&lt;/a&gt;. I've been happy with it so far, with the exception of XML feeds. The tooling I chose doesn't have good support for feeds, certainly not with the filtering I need. Specifically, I need to have a &lt;code&gt;python&lt;/code&gt; feed, a &lt;code&gt;family&lt;/code&gt; feed, and so on. As much as I love my &lt;a href="https://audrey.roygreenfeld.com"&gt;wife&lt;/a&gt; and &lt;a href="/recap-2019-resolutions-2020.html#my-daughter-was-born"&gt;daughter&lt;/a&gt;, non-technical posts about them probably don't belong on places where this post will show up.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><id>https://daniel.roygreenfeld.com/</id><title>pydanny</title><updated>2020-02-10T20:57:50.927388+00:00</updated><author><name>Daniel Roy Greenfeld</name><email>daniel.roy.greenfeld@roygreenfeld.com</email></author><link href="https://daniel.roygreenfeld.com" rel="alternate"/><link href="https://daniel.roygreenfeld.com/atom.python.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://daniel.roygreenfeld.com/images/personalPhoto.png</logo><subtitle>Inside the Head of Daniel Roy Greenfeld</subtitle><entry><id>https://daniel.roygreenfeld.com/feed-generator.html</id><title>Feed Generator</title><updated>2020-02-10T20:57:50.946578+00:00</updated><content type="html">&lt;p&gt;Late last year I &lt;a href="/moving-to-vuepress.html"&gt;changed my blog engine yet again&lt;/a&gt;. I've been happy with it so far, with the exception of XML feeds. The tooling I chose doesn't have good support for feeds, certainly not with the filtering I need. Specifically, I need to have a &lt;code&gt;python&lt;/code&gt; feed, a &lt;code&gt;family&lt;/code&gt; feed, and so on. As much as I love my &lt;a href="https://audrey.roygreenfeld.com"&gt;wife&lt;/a&gt; and &lt;a href="/recap-2019-resolutions-2020.html#my-daughter-was-born"&gt;daughter&lt;/a&gt;, non-technical posts about them probably don't belong on places where this post will show up.&lt;/p&gt;
 
 &lt;p&gt;After trying to work within the framework of the blog engine (Vuepress), I got tired of fighting abstraction and gave up. My blog wouldn't have an XML feed.&lt;/p&gt;
 
@@ -18,6 +18,7 @@ Note:
 
     Works with Python 3.8, untested otherwise.
 """
+
 from glob import glob
 import sys
 
@@ -43,7 +44,7 @@ if __name__ == "__main__":
         "2020",
     ]
 
-    markdowner = Markdown()
+    markdowner = Markdown(extras=["fenced-code-blocks", ])
 
     fg = FeedGenerator()
     fg.id("https://daniel.roygreenfeld.com/")
@@ -98,6 +99,7 @@ if __name__ == "__main__":
 
     print(fg.atom_str(pretty=True))
     fg.atom_file(f".vuepress/public/feeds/{tag}.atom.xml")
+
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;You call this on my blog for all &lt;code&gt;python&lt;/code&gt; tagged content by running it thus:&lt;/p&gt;
@@ -110,4 +112,33 @@ if __name__ == "__main__":
 &lt;h2&gt;Summary&lt;/h2&gt;
 
 &lt;p&gt;This is what I've always enjoyed about Python. In a very short time I can throw together a script that makes my life better. &lt;/p&gt;
-</content><published>2020-01-30T22:20:50.520000+00:00</published></entry></feed>
+</content><published>2020-01-30T22:20:50.520000+00:00</published></entry><entry><id>https://daniel.roygreenfeld.com/crash-into-django.html</id><title>Our New Django Book Has Launched!</title><updated>2020-02-10T20:57:50.932110+00:00</updated><content type="html">&lt;p&gt;Audrey and I wrote a new book titled &lt;a href="https://roygreenfeld.com/products/django-crash-course"&gt;Django Crash Course&lt;/a&gt;. You can get it right now on our website at &lt;a href="https://roygreenfeld.com/products/django-crash-course"&gt;roygreenfeld.com/products/django-crash-course&lt;/a&gt;. Right now it's in &lt;strong&gt;alpha&lt;/strong&gt;, which means only the e-book is available. Later we'll produce it in print formats (perfect bound, spiral, and hardcover).&lt;/p&gt;
+
+&lt;p&gt;As the book is in alpha, you're encouraged to submit bug reports to us for errors that you find. In turn we will give you credit for your contributions in not just the e-book, but also in the print paperback and online publicly on the web. This is your opportunity to have your name in one of our books as a contributor, which you are then welcome to add to your resume and LinkedIn profile. We followed the same pattern with our Two Scoops of Django books.&lt;/p&gt;
+
+&lt;h2&gt;Check it out!&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="https://roygreenfeld.com/products/django-crash-course"&gt;&lt;img src="images/Django_Crash_Course_3_E-Book_Download_740x.jpg" alt="Cover for Django Crash Course" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://roygreenfeld.com/products/django-crash-course"&gt;Django Crash Course&lt;/a&gt; is designed to build solid foundations for any developer looking to get quickly and solidly proficient with Django 3. Once you've finished the book, you'll be able to purchase Django Crash Course extensions on topics such as deployment on various platforms, Django REST Framework (DRF), Javascript frameworks like VueJS and/or React, third-party packages, and more. &lt;/p&gt;
+
+&lt;h2&gt;Some of My Favorite Features&lt;/h2&gt;
+
+&lt;h3&gt;Friendly to Data Scientists&lt;/h3&gt;
+
+&lt;p&gt;We chose &lt;strong&gt;Conda&lt;/strong&gt; as our Python environment and &lt;strong&gt;pip&lt;/strong&gt; for dependency management. This makes getting everything right across different operating systems for students very straightforward.  These tools also empower us to create data-focused extensions to the core book.&lt;/p&gt;
+
+&lt;h3&gt;Class-Based Views&lt;/h3&gt;
+
+&lt;p&gt;Our opinion is that beginners should be taught Class-Based Views (CBVs) from the start. Knowing CBVs from the start makes understanding critical CBV-based packages like &lt;strong&gt;Django REST Framework&lt;/strong&gt; much easier. We also believe that the explicit nature of the &lt;code&gt;GET&lt;/code&gt;, &lt;code&gt;POST&lt;/code&gt;, and other HTTP methods is easier for beginners to grasp. Years of success at levelling up people with Django supports our opinion.&lt;/p&gt;
+
+&lt;h3&gt;Theme!&lt;/h3&gt;
+
+&lt;p&gt;Tutorial themes are cheesy. That's why we use cheese as the theme for the main project in the book!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;We also want to be the most successful dairy-themed tech book authors in the universe.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;If you'd like to buy the book (or learn more about it), do so on the &lt;a href="https://roygreenfeld.com/products/django-crash-course"&gt;The Django Crash Course page on roygreenfeld.com&lt;/a&gt;.&lt;/p&gt;
+</content><published>2020-02-10T22:20:50.520000+00:00</published></entry></feed>
