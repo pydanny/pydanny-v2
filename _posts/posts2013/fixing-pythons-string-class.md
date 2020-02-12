@@ -223,7 +223,7 @@ and everything else we can imagine. Let's do it!
 
 Resources:
 
--   <http://github.com/pydanny/stringtheory>
+-   <https://github.com/pydanny/stringtheory>
 -   <https://pypi.python.org/pypi/stringtheory>
 
 April Fool's Joke

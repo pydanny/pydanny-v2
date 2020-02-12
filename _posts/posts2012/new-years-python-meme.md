@@ -24,18 +24,18 @@ choices:
 -   Django Class Based Views (CBVs) allow developers do amazing things
     with Django, but needed some polish ([improved
     documentation](https://docs.djangoproject.com/en/1.5/topics/class-based-views/),
-    [missing functionality](http://django-braces.readthedocs.org/)) to
+    [missing functionality](https://django-braces.readthedocs.org/)) to
     be able to shine.
--   [ReportLab](http://reportlab.org) for generating PDF allowed me to
-    create some [impressive results](http://www.petcheatsheets.com/),
+-   [ReportLab](https://reportlab.org) for generating PDF allowed me to
+    create some [impressive results](https://www.petcheatsheets.com/),
     but the API needed updating. The other Python PDF libraries might be
     better, but getting images to work trivially in them
 -   If I didn't completely agree with [Armin Ronacher on the
-    subject](http://lucumr.pocoo.org/2012/12/29/sql-is-agile/), I might
+    subject](https://lucumr.pocoo.org/2012/12/29/sql-is-agile/), I might
     have gone with a combination of
-    [PyMongo](http://api.mongodb.org/python/),
-    [MongoEngine](http://mongoengine.org/), and
-    [MongoKit](http://namlook.github.com/mongokit/). Just like Armin,
+    [PyMongo](https://api.mongodb.org/python/),
+    [MongoEngine](https://mongoengine.org/), and
+    [MongoKit](https://namlook.github.com/mongokit/). Just like Armin,
     I've learned through working with schemaless databases to know that
     schemas are awesome.
 
@@ -88,16 +88,16 @@ time to do more.
 4. Which Python blog or website did you read the most in 2012?
 ==============================================================
 
-As always, <http://planet.python.org>.
+As always, <https://planet.python.org>.
 
 5. What are the three top things you want to learn in 2013?
 ===========================================================
 
 1.  Really advanced Python as taught by Raymond Hettiger or David
     Beazley.
-2.  I really want to learn [Twisted](http://twistedmatrix.com/).
+2.  I really want to learn [Twisted](https://twistedmatrix.com/).
 3.  How to do an [Aú sem
-    Mão](http://en.wikipedia.org/wiki/A%C3%BA#A.C3.BA).
+    Mão](https://en.wikipedia.org/wiki/A%C3%BA#A.C3.BA).
 
 6. What is the top software, application or library you wish someone would write in 2013?
 =========================================================================================

@@ -12,7 +12,7 @@ time_to_read: 1
 title: Hola, Argentina!
 ---
 
-I'll be arriving in [Argentina](http://en.wikipedia.org/wiki/Argentina)
+I'll be arriving in [Argentina](https://en.wikipedia.org/wiki/Argentina)
 on August 14th. I'll be speaking at [PyDay
 Mendoza](https://eventioz.com.ar/e/pyday-mendoza-2014) on August 15th,
 and sprinting on August 16th on something
@@ -20,7 +20,7 @@ and sprinting on August 16th on something
 sprint" (more details to come). On August 22nd, I'll be speaking at
 the combined Buenos Aires Python, Django, and PyLadies Argentina meetup.
 Between the events I'll be working from the
-[Eventbrite](http://www.eventbrite.com/)/[Eventioz](http://eventioz.com.ar)
+[Eventbrite](https://www.eventbrite.com/)/[Eventioz](https://eventioz.com.ar)
 Argentina office.
 
 I'm extremely excited. I've wanted to go to Argentina for years. It's
@@ -32,4 +32,4 @@ over the internet.
 Hasta pronto!
 
 [![image](images/800px-Flag_of_Argentina.png){.align-center
-width="292px" height="183px"}](http://en.wikipedia.org/wiki/Argentina)
+width="292px" height="183px"}](https://en.wikipedia.org/wiki/Argentina)

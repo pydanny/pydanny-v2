@@ -16,7 +16,7 @@ title: Implemementing Manual Schema with Django REST Framework
 [![Implementing a manual schema in Django REST Framework!](/images/drf.png)](/manual-schema-django-rest-framework.html)
 
 This is what will hopefully be the first in a series of reference
-articles for using [Core API](http://www.coreapi.org/) libraries with
+articles for using [Core API](https://www.coreapi.org/) libraries with
 Django REST Framework ([DRF](https://www.django-rest-framework.org/)).
 
 This is an extraction from an existing production view running Django

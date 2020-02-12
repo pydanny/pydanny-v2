@@ -12,11 +12,11 @@ title: PyCon Philippines 2012 Day 1
 description: The first day of the first PyCon Philippines!
 ---
 
-[PyCon Philippines 2012](http://ph.pycon.org) (PyCon PH) happened just
+[PyCon Philippines 2012](https://ph.pycon.org) (PyCon PH) happened just
 this past weekend at the [University of the Philippines
-Diliman](http://www.upd.edu.ph/) (UP Diliman) campus in [Quezon
-City](http://en.wikipedia.org/wiki/Quezon_City), which is part of [Metro
-Manila](http://en.wikipedia.org/wiki/Metro_Manila).
+Diliman](https://www.upd.edu.ph/) (UP Diliman) campus in [Quezon
+City](https://en.wikipedia.org/wiki/Quezon_City), which is part of [Metro
+Manila](https://en.wikipedia.org/wiki/Metro_Manila).
 
 I can assure you that PyCon PH was an wonderful, amazing, humbling
 experience. I'm hoping that this post and others will get across to you
@@ -47,7 +47,7 @@ event in a forthcoming blog post.
 
 We noticed a large group gather by a side corridor and went to say
 hello. There we met [Sony Valdez](https://twitter.com/mrvaldez),
-President of [Agoo Computer College](http://www.13hq.com/), and forty of
+President of [Agoo Computer College](https://www.13hq.com/), and forty of
 his faculty and students. They were buzzing with energy and excitement,
 belying the fact that they had left at midnight the night before in
 order to arrive on time (they traveled many hours by bus). Audrey,
@@ -69,7 +69,7 @@ shortly, and then it was time for the talks.
 
 ## Intro to Python[^1]
 
-by [Paolo Barazon](http://twitter.com/titopao)
+by [Paolo Barazon](https://twitter.com/titopao)
 
 Paulo gave the Intro to Python talk. He was burdened by some equipment
 issues, but kept going undeterred. It reminded me of the first time I
@@ -89,14 +89,14 @@ was the best version of this kind of talk ever given. :-)
 
 ## Django Quickstart[^3]
 
-By [Marconi](http://marconijr.com/)
+By [Marconi](https://marconijr.com/)
 [Moreto](https://twitter.com/marconimjr)
 
 Marconi built off what Audrey provided, and added to it by giving a good
 introduction to Django. He also contributed a lot during the sprints the
 next day by pitching in with beginners. His talk featured code for a
 simple TODO app, and you can see the working example at
-<http://quickstart.marconijr.com/>.
+<https://quickstart.marconijr.com/>.
 
 ## Game Programming with Python[^4]
 
@@ -141,11 +141,11 @@ talk before, but this instance was clearly the best.
 
 ## Ansible[^6]
 
-by [Rodney](http://capsunlock.net) [Quillo](https://github.com/cocoy)
+by [Rodney](https://capsunlock.net) [Quillo](https://github.com/cocoy)
 
 What's a python conference without one talk about system engineering?
 Fortunately for us, Rodney gave a talk on
-[Ansible](http://ansible.github.com/), a pretty new Python based
+[Ansible](https://ansible.github.com/), a pretty new Python based
 deployment tool. What makes Ansible different is it's range of options,
 and simplicity of use.
 
@@ -154,7 +154,7 @@ and simplicity of use.
 > "PyCon: More fun in the Philippines"
 >
 > -- Variant of the [Philippines Department of Tourism
-> slogan](http://www.itsmorefuninthephilippines.com/)
+> slogan](https://www.itsmorefuninthephilippines.com/)
 
 Paulo Barazon returned to talk about the big users of Python, how to
 promote it's use, and why it's so awesome for... well.. lots of
@@ -168,7 +168,7 @@ necessary to do a mashup of an imaginary place he cooked up.
 ## Closing Keynote: Design your open source project[^9]
 
 by [Bryan](https://twitter.com/bryanveloso)
-[Veloso](http://avalonstar.com/)
+[Veloso](https://avalonstar.com/)
 
 Bryan closed out the day with an inspirational and funny keynote speech
 instructing beginners on how to make your project used and loved by

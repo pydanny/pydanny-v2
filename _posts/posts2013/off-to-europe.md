@@ -40,7 +40,7 @@ such a thing as weekends.
 
 We'll be spending a few days in early May in Barcelona, then making our
 way to Poland for several weeks. Yes, we're attending [Django
-Circus](http://djangocircus.com), plus I want to investigate some family
+Circus](https://djangocircus.com), plus I want to investigate some family
 roots. After Poland, we're thinking either France, Italy, Hungary,
 England, Belgium, Scotland, Ireland, and other options. We'll see where
 the winds and affordable AirBNB places take us.
@@ -58,4 +58,4 @@ and tweets to be slower than normal.
 
 **Update:** In the middle of all of this, I was invited to keynote
 Django Circus:
-<http://blog.djangocircus.com/post/48439600279/meet-daniel-greenfeld>
+<https://blog.djangocircus.com/post/48439600279/meet-daniel-greenfeld>

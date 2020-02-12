@@ -49,8 +49,8 @@ CORS_ORIGIN_ALLOW_ALL = False
 CORS_ALLOW_CREDENTIALS = True
 CORS_ORIGIN_WHITELIST = (
     # TODO - set this properly for production
-    'http://127.0.0.1:8080',
-    'http://127.0.0.1:8000',
+    'https://127.0.0.1:8080',
+    'https://127.0.0.1:8000',
 )
 
 REST_FRAMEWORK = {
@@ -122,9 +122,9 @@ export default new Vuex.Store({
     jwt: localStorage.getItem('token'),
     endpoints: {
       // TODO: Remove hardcoding of dev endpoints
-      obtainJWT: 'http://127.0.0.1:8000/api/v1/auth/obtain_token/',
-      refreshJWT: 'http://127.0.0.1:8000/api/v1/auth/refresh_token/',
-      baseUrl: 'http://127.0.0.1:8000/api/v1/'
+      obtainJWT: 'https://127.0.0.1:8000/api/v1/auth/obtain_token/',
+      refreshJWT: 'https://127.0.0.1:8000/api/v1/auth/refresh_token/',
+      baseUrl: 'https://127.0.0.1:8000/api/v1/'
     }
   },
 

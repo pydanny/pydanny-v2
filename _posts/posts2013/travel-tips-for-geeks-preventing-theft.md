@@ -174,16 +174,16 @@ require a trick to open. Their stuff also has steel wire woven into
 their straps and fabric, meaning they can't get cut by a razor. PacSafe
 stuff isn't cheap but the peace of mind has been definitely worth the
 price. We've relied on the PacSafe [laptop
-bag](http://www.amazon.com/Pacsafe-Metrosafe-Anti-Theft-Tablet-Laptop/dp/B00AVXDELI/?tag=ihpydanny-20)
+bag](https://www.amazon.com/Pacsafe-Metrosafe-Anti-Theft-Tablet-Laptop/dp/B00AVXDELI/?tag=ihpydanny-20)
 and [shoulder
-bag](http://www.amazon.com/Pacsafe-Luggage-Slingsafe-Shoulder-Black/dp/B006QLMDH0/?tag=ihpydanny-20)
+bag](https://www.amazon.com/Pacsafe-Luggage-Slingsafe-Shoulder-Black/dp/B006QLMDH0/?tag=ihpydanny-20)
 for about 18 months now and they've been awesome.
 
-[![My laptop bag](http://ecx.images-amazon.com/images/I/41lh%2B2goeNL._SL500_SS80_.jpg)](http://www.amazon.com/Pacsafe-Metrosafe-Anti-Theft-Tablet-Laptop/dp/B00AVXDELI/?tag=ihpydanny-20)
+[![My laptop bag](https://ecx.images-amazon.com/images/I/41lh%2B2goeNL._SL500_SS80_.jpg)](https://www.amazon.com/Pacsafe-Metrosafe-Anti-Theft-Tablet-Laptop/dp/B00AVXDELI/?tag=ihpydanny-20)
 
 *My laptop bag*
 
-[![Audrey's shoulder bag](http://ecx.images-amazon.com/images/I/31jF8RBoBEL._SL500_SS80_.jpg)](http://www.amazon.com/Pacsafe-Luggage-Slingsafe-Shoulder-Black/dp/B006QLMDH0/?tag=ihpydanny-20)
+[![Audrey's shoulder bag](https://ecx.images-amazon.com/images/I/31jF8RBoBEL._SL500_SS80_.jpg)](https://www.amazon.com/Pacsafe-Luggage-Slingsafe-Shoulder-Black/dp/B006QLMDH0/?tag=ihpydanny-20)
 
 *Audrey's shoulder bag*
 

@@ -14,7 +14,7 @@ time_to_read: 3
 title: Memories of Malcolm
 ---
 
-A year ago today [Malcolm Tredinnick](http://about.me/malcolmt), core
+A year ago today [Malcolm Tredinnick](https://about.me/malcolmt), core
 contributor to Django suddenly passed away. He was a mentor, and more
 importantly, a good friend.
 
@@ -86,7 +86,7 @@ Two Scoops of Django: October 2012-January 2013
 ===============================================
 
 If you read the
-[memorial](http://roygreenfeld.com/pages/malcolm-tredinnick-memorial)
+[memorial](https://roygreenfeld.com/pages/malcolm-tredinnick-memorial)
 we wrote for Malcolm, you can see that his presence is an integral part
 of Two Scoops of Django. He coached us, guided us, forced us to dig
 deeper and deeper into source code. Of special note is the database

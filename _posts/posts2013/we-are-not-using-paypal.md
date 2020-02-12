@@ -22,8 +22,8 @@ Open Source Events Get Burned By PayPal
 PayPal has a long, sordid history of freezing the accounts of Python
 related conferences and events around the world. In fact, this article
 was born out of the fact [DjangoCon Europe 2013 had its PayPal account
-frozen](http://blog.djangocircus.com/post/43806402173/back-on-track). In
-the past, [DjangoCon Europe 2012](http://2012.djangocon.eu/), Plone
+frozen](https://blog.djangocircus.com/post/43806402173/back-on-track). In
+the past, [DjangoCon Europe 2012](https://2012.djangocon.eu/), Plone
 Conferences 2008, 2011, and at least one PyCon Australia dealt with the
 same PayPal problem (DjangoCon 2013 was forewarned and took measures to
 protect itself). We also have unconfirmed reports of other Python and
@@ -33,9 +33,9 @@ a combined total of assets in excess of over US$100,000 dollars.
 
 It's not just a Python issue either, it's an issue that [strikes other
 open source languages and
-tools](http://conferencesburnedbypaypal.tumblr.com/). It's at the point
+tools](https://conferencesburnedbypaypal.tumblr.com/). It's at the point
 now where [conference organizers don't trust
-PayPal](http://aralbalkan.com/3898/) and make a point telling each other
+PayPal](https://aralbalkan.com/3898/) and make a point telling each other
 to use alternative payment gateways.
 
 Fear, Shame, and PayPal
@@ -115,7 +115,7 @@ the developer community hurt them just as much.
 
 PayPal is on the same path of self-destruction. The've gone from the
 [scrappy
-company](http://www.amazon.com/The-PayPal-Wars-Battles-Planet/dp/0977898431/?tag=ihpydanny-20)
+company](https://www.amazon.com/The-PayPal-Wars-Battles-Planet/dp/0977898431/?tag=ihpydanny-20)
 helping people grow their business to the monolithic overlord that kills
 businesses and well-meaning events.
 
@@ -164,6 +164,6 @@ Note
 
 If this makes you angry as it did me, take a deep breath and step back.
 I've found [this
-book](http://www.amazon.com/gp/product/0807012394/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0807012394&linkCode=as2&tag=ihpydanny-20)
+book](https://www.amazon.com/gp/product/0807012394/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0807012394&linkCode=as2&tag=ihpydanny-20)
 recommended by my friend Randall Degges useful in getting back on track
 and staying productive.

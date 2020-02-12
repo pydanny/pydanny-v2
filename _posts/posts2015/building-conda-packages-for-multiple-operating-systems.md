@@ -15,7 +15,7 @@ title: Building Conda Packages for Multiple Operating Systems
 ---
 
 On the [Cookiecutter](https://github.com/audreyr/cookiecutter) project,
-recently we added [conda](http://conda.pydata.org/) to the open source
+recently we added [conda](https://conda.pydata.org/) to the open source
 packaging systems we officially support (You can find Cookiecutter on
 [PyPI](https://pypi.python.org/pypi/cookiecutter),
 [homebrew](https://github.com/Homebrew/homebrew/blob/master/Library/Formula/cookiecutter.rb),
@@ -26,7 +26,7 @@ Creating a conda recipe from a PyPI package
 
 Prequisites:
 
--   A [conda binary](http://conda.pydata.org/miniconda.html#miniconda)
+-   A [conda binary](https://conda.pydata.org/miniconda.html#miniconda)
     installed.
 -   A package deployed to
     [PyPI](https://pypi.python.org/pypi/cookiecutter) (in our case,
@@ -112,7 +112,7 @@ Uploading conda packages to Binstar
 ===================================
 
 With these packages created, it's time to upload them to
-[binstar](http://binstar.org), the primary conda package index.
+[binstar](https://binstar.org), the primary conda package index.
 
 First, [register your binstar
 account](https://binstar.org/account/register).
@@ -135,7 +135,7 @@ $ binstar upload win-64/cookiecutter-0.9.1-BUILDNUM.tar.bz2
 
 [Check out the results of my
 work](https://binstar.org/pydanny/cookiecutter) or take a look right
-below at what's on [binstar](http://binstar.org):
+below at what's on [binstar](https://binstar.org):
 
 [![image](images/packages.png){.align-center
 width="500px"
@@ -159,7 +159,7 @@ Writing about how to package software is hard, so figuring this out was
 a [bit of detective
 work](https://github.com/audreyr/cookiecutter/issues/232#issuecomment-71552905).
 I think that's going to change, as the company behind conda, [Continuum
-Analytics](http://www.continuum.io/) has stated their intentions to
+Analytics](https://www.continuum.io/) has stated their intentions to
 improve conda's documentation. Furthermore, just as many [for-python
 cookiecutter templates](https://github.com/audreyr/cookiecutter#python)
 include carefully researched `setup.py` modules for use with

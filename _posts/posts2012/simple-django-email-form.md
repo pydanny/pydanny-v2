@@ -12,7 +12,7 @@ title: Simple Django email form using CBV
 ---
 
 Here's a simple `FormView` Class Based Views for
-[Django](http://djangoproject.com). Here is a sample of how to do one as
+[Django](https://djangoproject.com). Here is a sample of how to do one as
 a simple email form. There is no CAPTCHA in this example, that's the
 topic of a future blog post.
 
@@ -118,4 +118,4 @@ Want to learn more?
 
 Check out the Django book I co-wrote, [Two Scoops of Django: Best
 Practices for Django
-1.11](http://roygreenfeld.com/products/two-scoops-of-django-1-11)!
+1.11](https://roygreenfeld.com/products/two-scoops-of-django-1-11)!

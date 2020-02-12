@@ -12,11 +12,11 @@ title: PyCon Philippines 2012 Day 2
 description: A wonderful end to a wonderful event.
 ---
 
-The second day of [PyCon Philippines 2012](http://ph.pycon.org) had a
+The second day of [PyCon Philippines 2012](https://ph.pycon.org) had a
 really good turnout. My unofficial estimate is that we had about 90% of
 the attendees from the first day attend (with the unfortunate exception
 of most of the faculty and students of [Agoo Computer
-College](http://www.13hq.com/)).
+College](https://www.13hq.com/)).
 
 The day started with...
 
@@ -26,23 +26,23 @@ Unfortunately I don't normally take notes on lightning talks. I'm
 kicking myself now. **Really hard.** I'll try and relate some of the
 talks:
 
-- Import this and [that](http://pypi.python.org/pypi/that), a parody
+- Import this and [that](https://pypi.python.org/pypi/that), a parody
   talk by Daniel Greenfeld (me). [Malcolm comment on
   it.](https://twitter.com/malcolmt/status/219244338029412352)
 - Getting into space using weather balloons by Frank Pohlmann
 - [Ponystrap](https://github.com/audreyr/ponystrap) by [Audrey
   Roy](https://audrey.roygreenfeld.com) ([video from DjangoCon
-  Europe](http://klewel.com/conferences/djangocon-2012/index.php?talkID=31))
-- Call for [Tagalog](http://en.wikipedia.org/wiki/Tagalog) and other
+  Europe](https://klewel.com/conferences/djangocon-2012/index.php?talkID=31))
+- Call for [Tagalog](https://en.wikipedia.org/wiki/Tagalog) and other
   [Philippine
-  languages](http://en.wikipedia.org/wiki/Philippine_languages)
+  languages](https://en.wikipedia.org/wiki/Philippine_languages)
   translation of [Django](#django) by Malcolm Tredinnick
 - The obligatory PyCon lighting talk on Vim by [Bryan
   Bibat](https://twitter.com/bry_bibat)
-- [OpenERP](http://openerp.com/) by
+- [OpenERP](https://openerp.com/) by
   [Frank](https://twitter.com/PliniusSecundus)
-  [Pohlmann](http://www.auberonsolutions.com/) and [Ann
-  Tan-Pohlmann](http://www.linkedin.com/pub/ann-tan-pohlmann/4/a30/233)
+  [Pohlmann](https://www.auberonsolutions.com/) and [Ann
+  Tan-Pohlmann](https://www.linkedin.com/pub/ann-tan-pohlmann/4/a30/233)
 - A parody talk by [Sony Valdez](https://twitter.com/mrvaldez)
 
 Then it was on to...
@@ -57,7 +57,7 @@ Then it was on to...
 
 Primary funding for the sprints came from the [Django Software
 Foundation](https://www.djangoproject.com/foundation) and [Python
-Sprints](http://pythonsprints.com/). That funding went towards food,
+Sprints](https://pythonsprints.com/). That funding went towards food,
 drinks, and various logistics for handling the estimated 200+ attendee
 turnout. Things sprinted on:
 
@@ -65,7 +65,7 @@ turnout. Things sprinted on:
 
 Django had it's own dedicated and very full room (no more chairs could
 fit so I sat on the floor), with Malcolm Tredinnick leading the effort,
-with [Marconi](http://marconijr.com/)
+with [Marconi](https://marconijr.com/)
 [Moreto](https://twitter.com/marconimjr) helping out. It turned into
 mostly an effort to get a lot of people kick-started in Django. What was
 very heartening was watching people race through the tutorials on their
@@ -80,8 +80,8 @@ moving in Django and other projects.
 
 ## Ansible
 
-[Rodney](http://capsunlock.net) [Quillo](https://github.com/cocoy) led
-the sprint on the [Ansible](http://ansible.github.com/) tool of which he
+[Rodney](https://capsunlock.net) [Quillo](https://github.com/cocoy) led
+the sprint on the [Ansible](https://ansible.github.com/) tool of which he
 is so fond. About seven people fond of engineering joined him. They
 seemed very productive and happy by day's end.
 
@@ -112,7 +112,7 @@ room was very impressive. The tutorials/talks included:
 - Intro to Python using Turtle by Sony Valdez
 - Introduction to git and github by Bryan Bibat
 - [21 Cool Things You Can Do With
-  Python](http://www.slideshare.net/pydanny/intro-to-python-11186202)
+  Python](https://www.slideshare.net/pydanny/intro-to-python-11186202)
   by Daniel Greenfeld (me)
 
 # Food and drinks
@@ -143,4 +143,4 @@ I had this chance to bring PyCon to so many wonderful people.
 
 More thoughts on PyCon Philippines in a forthcoming blog post.
 
-[![image](images/7516869028_ff24aaa027_z.jpg)](http://www.flickr.com/photos/pydanny/7516869028/)
+[![image](images/7516869028_ff24aaa027_z.jpg)](https://www.flickr.com/photos/pydanny/7516869028/)

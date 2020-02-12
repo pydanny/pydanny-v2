@@ -180,7 +180,7 @@ framework standard as much as possible. Since many systems rely on
 convention over configuration, this makes it easier and faster to
 develop projects, be it Django, Twisted, or some other tool.
 
-It's the work you can see in my [recent](http://petcheatsheets.com)
-[public](http://movehero.io) [projects](http://lacurrents.com), and what
+It's the work you can see in my [recent](https://petcheatsheets.com)
+[public](https://movehero.io) [projects](https://lacurrents.com), and what
 I want to port to long existing sites like [Django
-Packages](http://djangopackages.com).
+Packages](https://djangopackages.com).

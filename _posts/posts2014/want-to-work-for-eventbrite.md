@@ -12,12 +12,12 @@ time_to_read: 2
 title: Want to work for Eventbrite?
 ---
 
-Join me, [Andrew Godwin](http://www.aeracode.org/) (South, [Django
+Join me, [Andrew Godwin](https://www.aeracode.org/) (South, [Django
 migrations](https://docs.djangoproject.com/en/1.7/topics/migrations/)),
-[Simon](http://en.wikipedia.org/wiki/Simon_Willison)
-[Willison](http://blog.simonwillison.net/) (co-founder of
-[Django](http://djangoproject.com), co-founder of
-[Lanyrd](http://lanyrd.com/)), and many other talented people at
+[Simon](https://en.wikipedia.org/wiki/Simon_Willison)
+[Willison](https://blog.simonwillison.net/) (co-founder of
+[Django](https://djangoproject.com), co-founder of
+[Lanyrd](https://lanyrd.com/)), and many other talented people at
 [Eventbrite](https://eventbrite.com). We have great challenges, the kind
 that inspire you to rise to the occasion. We need you to help us
 overcome them.

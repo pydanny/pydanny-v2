@@ -84,7 +84,7 @@ Wednesday Afternoon
     Through Public Data
     Hacking](https://us.pycon.org/2013/schedule/presentation/2/). He's
     the author of [Python Essential
-    Reference](http://www.amazon.com/Python-Essential-Reference-4th-Edition/dp/0672329786/?ie=UTF8&tag=ihpydanny-20),
+    Reference](https://www.amazon.com/Python-Essential-Reference-4th-Edition/dp/0672329786/?ie=UTF8&tag=ihpydanny-20),
     an amazing instructor, and delivered a PyCon keynote last year.
 2.  If you're interested in the web, check out Nathan Yergler's
     [Effective
@@ -122,8 +122,8 @@ Thursday Afternoon
     taught this class for years, and I can't say enough good things
     about him.
 3.  This talk is not meant for beginning Django developers, but it's
-    useful anyway. [Kenneth Love](http://gettingstartedwithdjango.com/)
-    and [Jacob Kaplan-Moss](http://jacobian.org) are presenting [Wiring
+    useful anyway. [Kenneth Love](https://gettingstartedwithdjango.com/)
+    and [Jacob Kaplan-Moss](https://jacobian.org) are presenting [Wiring
     Up Django
     Packages](https://us.pycon.org/2013/schedule/presentation/11/).
 

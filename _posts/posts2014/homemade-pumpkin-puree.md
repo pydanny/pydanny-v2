@@ -14,12 +14,12 @@ title: Homemade Pumpkin Puree
 
 I'm of the opinion that homemade pumpkin puree is better than what
 comes out of a
-[can](http://www.amazon.com/Farmers-Market-Organic-Pumpkin-15-Ounce/dp/B0062A87HA/ref=sr_1_1?tag=mlinar-20).
+[can](https://www.amazon.com/Farmers-Market-Organic-Pumpkin-15-Ounce/dp/B0062A87HA/ref=sr_1_1?tag=mlinar-20).
 Some people disagree with me, but I argue that the delicate, sensitive
 flavor of pumpkin is easy to overwhelm. Simply put, if you overload it
 with sugar and/or that mixture of cinnamon, ginger, nutmeg, cloves and
 allspice called [pumpkin
-spice](http://www.amazon.com/Culinary-Secrets-Pumpkin-Pie-Spice/dp/B00OGNFZA2/ref=sr_1_14?tag=mlinar-20),
+spice](https://www.amazon.com/Culinary-Secrets-Pumpkin-Pie-Spice/dp/B00OGNFZA2/ref=sr_1_14?tag=mlinar-20),
 canned is going to taste identical (if not better).
 
 Before you belabor the point of homemade versus canned, the same
@@ -39,9 +39,9 @@ pumpkin dishes.
 ## Instructions
 
 First, get out your [cutting
-board](http://www.amazon.com/Microban-Antimicrobial-Cutting-Board-Green/dp/B00BM9939C/ref=sr_1_1?tag=mlinar-20)
+board](https://www.amazon.com/Microban-Antimicrobial-Cutting-Board-Green/dp/B00BM9939C/ref=sr_1_1?tag=mlinar-20)
 and [french
-knife](http://www.amazon.com/Victorinox-Fibrox-8-Inch-Chefs-Knife/dp/B000638D32/ref=zg_bs_289857_1?tag=mlinar-20).
+knife](https://www.amazon.com/Victorinox-Fibrox-8-Inch-Chefs-Knife/dp/B000638D32/ref=zg_bs_289857_1?tag=mlinar-20).
 
 [![image](images/homemade-pumpkin-puree/pumpkin-uncut.jpg)](images/homemade-pumpkin-puree/pumpkin-uncut.jpg)
 
@@ -66,7 +66,7 @@ Set the over to 350 degrees fahrenheit, or about 176 degrees celsius.
 [![image](images/homemade-pumpkin-puree/setting-oven.jpg)](images/homemade-pumpkin-puree/setting-oven.jpg)
 
 Scoop out the seeds into a [mixing
-bowl](http://www.amazon.com/iSi-Basics-Flexible-Silicone-Mixing/dp/B000S17WNO/ref=sr_1_7?tag=mlinar-20).
+bowl](https://www.amazon.com/iSi-Basics-Flexible-Silicone-Mixing/dp/B000S17WNO/ref=sr_1_7?tag=mlinar-20).
 You can use a spoon or your hand. Don't worry about getting the stringy
 material out of the pumpkin. It's perfectly edible and provides a
 slightly stronger pumpkin flavor when you are done.
@@ -76,10 +76,10 @@ In a future recipe I'll describe how you can roast the seeds.
 [![image](images/homemade-pumpkin-puree/scoop-out-pumpkin.jpg)](images/homemade-pumpkin-puree/scoop-out-pumpkin.jpg)
 
 Spread the spoonful of [olive
-oil](http://www.amazon.com/California-Olive-Ranch-Extra-Virgin/dp/B004ULUVU4/ref=sr_1_1?tag=mlinar-20)
+oil](https://www.amazon.com/California-Olive-Ranch-Extra-Virgin/dp/B004ULUVU4/ref=sr_1_1?tag=mlinar-20)
 on the parts of the halved pumpkin touched by the french knife. The goal
 is to not have the pumpkin stick to the [cookie
-sheet](http://www.amazon.com/Nordic-Ware-Natural-Aluminum-Commercial/dp/B000G0KJG4/ref=sr_1_1?tag=mlinar-20)
+sheet](https://www.amazon.com/Nordic-Ware-Natural-Aluminum-Commercial/dp/B000G0KJG4/ref=sr_1_1?tag=mlinar-20)
 while also not overwhelming the delicate flavor with olive oil.
 
 [![image](images/homemade-pumpkin-puree/oiling-pumpkins.jpg)](images/homemade-pumpkin-puree/oiling-pumpkins.jpg)
@@ -109,7 +109,7 @@ the process, but that's okay!
 [![image](images/homemade-pumpkin-puree/cooked-pumpkin.jpg)](images/homemade-pumpkin-puree/cooked-pumpkin.jpg)
 
 Puree the pumpkin! We prefer the [immersion
-blender](http://www.amazon.com/Cuisinart-HB-155PC-Blender-Blending-Attachments/dp/B00DOK0R2O/ref=sr_1_3?tag=mlinar-20)
+blender](https://www.amazon.com/Cuisinart-HB-155PC-Blender-Blending-Attachments/dp/B00DOK0R2O/ref=sr_1_3?tag=mlinar-20)
 as it's less setup/cleanup than a food processer or blender. Not to
 mention you can do it right in the soup pot.
 

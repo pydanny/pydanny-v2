@@ -46,7 +46,7 @@ Affordable places we've discovered this year:
 -   Zagreb, Croatia
 
 One of our resource is [The World's Cheapest
-Destinations](http://www.amazon.com/Worlds-Cheapest-Destinations-Countries-ebook/dp/B00AYIBO1M/ref=tmm_kin_swatch_0?_encoding=UTF8&sr=&tag=mlinar-20),
+Destinations](https://www.amazon.com/Worlds-Cheapest-Destinations-Countries-ebook/dp/B00AYIBO1M/ref=tmm_kin_swatch_0?_encoding=UTF8&sr=&tag=mlinar-20),
 which, if nothing else, is an interesting read.
 
 Use a service to find a place and stay a while

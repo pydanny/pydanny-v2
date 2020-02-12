@@ -15,7 +15,7 @@ title: Generating NCX files with Python
 
 With the help of fellow Python developer Matt Harrison's excellent
 [Ebook Formatting: KF8, Mobi &
-EPUB](http://www.amazon.com/Ebook-Formatting-Mobi-EPUB-ebook/dp/B00BWQXHU6/ref=la_B0077BQLH6_1_2?ie=UTF8&qid=1366041987&sr=1-2&tag=ihpydanny-20),
+EPUB](https://www.amazon.com/Ebook-Formatting-Mobi-EPUB-ebook/dp/B00BWQXHU6/ref=la_B0077BQLH6_1_2?ie=UTF8&qid=1366041987&sr=1-2&tag=ihpydanny-20),
 we managed to create pretty decent looking Kindle and ePub versions of
 [Two Scoops of Django](https://roygreenfeld.com/products/two-scoops-of-django-1-5/).
 
@@ -49,8 +49,8 @@ from django.utils.text import slugify
 from jinja2 import Template
 
 TEMPLATE = Template("""<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
-<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "https://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="https://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
 <head>
 
 <!-- The content of dtb:uid must be exactly the same as the uuid specified in the OPF file. -->

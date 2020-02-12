@@ -59,7 +59,7 @@ See the problems with this approach?
 `MyModelForm` is nearly a copy of `MyModel`, and was in fact created by
 copy/pasting model and then modifying it. In software engineering
 parlance, it violates the principal of Don't Repeat Yourself
-([DRY](http://en.wikipedia.org/wiki/Don%27t_repeat_yourself)) and is
+([DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)) and is
 fertile ground for introducing bugs.
 
 `MyModelForm` has a bug!
@@ -181,10 +181,10 @@ in some cases even more typing, but it's a lot better than making an
 embarrassing/costly mistake.
 
 From the perspective of a Python developer our approach more closely
-matches the [Zen of Python](http://www.python.org/dev/peps/pep-0020/).
+matches the [Zen of Python](https://www.python.org/dev/peps/pep-0020/).
 This is because we only modify the field properties that need to be
 modified, the approach specified is more explicit.
 
 Today's reading is Matt Harrison's [Guide to Learning Iteration and
 Generators in
-Python](http://www.amazon.com/Guide-Learning-Iteration-Generators-ebook/dp/B007JR4FCQ/?ie=UTF8&qid=1364400929&sr=1-5&tag=ihpydanny-20)
+Python](https://www.amazon.com/Guide-Learning-Iteration-Generators-ebook/dp/B007JR4FCQ/?ie=UTF8&qid=1364400929&sr=1-5&tag=ihpydanny-20)

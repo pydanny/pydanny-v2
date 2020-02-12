@@ -10,7 +10,7 @@ time_to_read: 3
 title: Django Girls Ensenada 2015
 ---
 
-Since the first [Django Girls](http://djangogirls.org/) event I've
+Since the first [Django Girls](https://djangogirls.org/) event I've
 watched the movement grow with a sense of of awe and inevitability.
 There is something about it that is both contagious and powerful, and in
 a very good way. This past weekend I had my first chance to attend one
@@ -36,16 +36,16 @@ No one wanted the day to end.
 We did our small part. We coached and did our best to give an invited
 inspirational talk.
 
-<iframe src="http://www.slideshare.net/slideshow/embed_code/key/5bBUFTEvDYqcIn" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/twoscoopspress/programming-gives-you-superpowers" title="Programming Gives You Superpowers" target="_blank">Programming Gives You Superpowers</a> </strong> from <strong><a href="//www.slideshare.net/twoscoopspress" target="_blank">Audrey &amp; Daniel Roy Greenfeld</a></strong> </div>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/5bBUFTEvDYqcIn" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/twoscoopspress/programming-gives-you-superpowers" title="Programming Gives You Superpowers" target="_blank">Programming Gives You Superpowers</a> </strong> from <strong><a href="//www.slideshare.net/twoscoopspress" target="_blank">Audrey &amp; Daniel Roy Greenfeld</a></strong> </div>
 <br>
 The Django Girls Ensenada organizers did a magnificent job of assembling
 a wonderful day that touched lives. We were very impressed!
 
-The event had two sponsors, [Hala Ken](http://halaken.org) and the [US
-Consulate in Tijuana, Mexico](http://tijuana.usconsulate.gov/). They did
+The event had two sponsors, [Hala Ken](https://halaken.org) and the [US
+Consulate in Tijuana, Mexico](https://tijuana.usconsulate.gov/). They did
 more than just sponsor, they were part of the effort of organizing and
 running the event.
 
 My co-author, co-presenter, co-everything wife AudreyR also blogged her
 account of it: [Our Trip to DjangoGirls Ensenada,
-Mexico](http://audrey.roygreenfeld.com2015/05/our-trip-to-djangogirls-ensenada-mexico.html).
+Mexico](https://audrey.roygreenfeld.com2015/05/our-trip-to-djangogirls-ensenada-mexico.html).

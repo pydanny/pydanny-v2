@@ -32,7 +32,7 @@ grid.
 -   Took some awesome road trips around the USA. My favorite was driving
     up the Pacific Coast Highway.
 -   Took a fun class with Audrey. We did woodshop!
--   Learned how to do [Aú Batido](http://en.wikipedia.org/wiki/L-kick)!
+-   Learned how to do [Aú Batido](https://en.wikipedia.org/wiki/L-kick)!
 
 [![image](images/aubatido.jpg)](images/aubatido.jpg)
 
@@ -41,9 +41,9 @@ grid.
 -   Published Two Scoops of Django 1.6 with my awesome wife, Audrey Roy
     Greenfeld.
 -   Experienced my first major surgery.
--   Started working at [Eventbrite](http://www.eventbrite.com).
+-   Started working at [Eventbrite](https://www.eventbrite.com).
 -   Found a [Inland Empire Capoeira
-    group](http://www.meetup.com/Riverside-Capoeira-Meetup/) but still
+    group](https://www.meetup.com/Riverside-Capoeira-Meetup/) but still
     remained friends with [Capoeira
     Batuque](https://www.facebook.com/valleycapoeirabatuque).
 -   Gave talks at:

@@ -60,11 +60,11 @@ of manual correction. Jekyll, and it's alternatives,let me just write.
 Why not Jekyll?
 ===============
 
-Jekyll is written in [ruby](http://ruby-lang.org). Nothing against ruby,
+Jekyll is written in [ruby](https://ruby-lang.org). Nothing against ruby,
 but I can't trivially work in that language the way I can in Python.
 It's good to eat your own dogfood.
 
-So I started looking at [hyde](http://hyde.github.com/),
-[blogofile](http://blogofile.com/), and
-[pelican](http://pelican.readthedocs.org/) as alternatives. More on that
+So I started looking at [hyde](https://hyde.github.com/),
+[blogofile](https://blogofile.com/), and
+[pelican](https://pelican.readthedocs.org/) as alternatives. More on that
 later.

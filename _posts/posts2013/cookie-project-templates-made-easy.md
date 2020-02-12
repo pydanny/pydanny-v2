@@ -19,12 +19,12 @@ title: 'Cookiecutter: Project Templates Made Easy'
 
 Yesterday, Jeff Knupp wrote an amazing how-to article called "[Open
 Sourcing a Python Project the Right
-Way](http://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/)".
+Way](https://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/)".
 While I was reading it, I was rather pleased by just how close it is to
 my own practices. Considering Jeff's amazing
-[Writing](http://www.amazon.com/gp/product/B00B5KG0F8/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00B5KG0F8&linkCode=as2&tag=mlinar-20)
-[Idiomatic](http://www.amazon.com/gp/product/B00B5VXMRG/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00B5VXMRG&linkCode=as2&tag=mlinar-20)
-[Python](http://www.jeffknupp.com/writing-idiomatic-python-ebook/), it
+[Writing](https://www.amazon.com/gp/product/B00B5KG0F8/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00B5KG0F8&linkCode=as2&tag=mlinar-20)
+[Idiomatic](https://www.amazon.com/gp/product/B00B5VXMRG/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00B5VXMRG&linkCode=as2&tag=mlinar-20)
+[Python](https://www.jeffknupp.com/writing-idiomatic-python-ebook/), it
 meant I was on the right track.
 
 The downside, of course, is implementation. Creating reusable Python
@@ -34,14 +34,14 @@ hacky, poorly understood, often legacy code from one project to the
 other. Some of it does nothing and some of it fails catastrophically on
 Python 3. There's a term for this sort of behavior, and it's called
 [Cargo Cult
-programming](http://en.wikipedia.org/wiki/Cargo_cult_programming).
+programming](https://en.wikipedia.org/wiki/Cargo_cult_programming).
 
 Fortunately, while I was
 [ranting](/made-up-statistics.html#debate-statistics)
 and
-[Jeff](http://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/)
+[Jeff](https://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/)
 (and [Hynek
-Schlawack](http://hynek.me/articles/sharing-your-labor-of-love-pypi-quick-and-dirty/))
+Schlawack](https://hynek.me/articles/sharing-your-labor-of-love-pypi-quick-and-dirty/))
 was writing, someone was making
 [cookiecutter](https://github.com/audreyr/cookiecutter).
 
@@ -56,7 +56,7 @@ like how the author of cookiecutter's creates her projects, you can use
 someone else's or roll your own.
 
 Okay, enough talk, let's use cookiecutter to build a Python project.
-Assuming you have [virtualenv](http://www.virtualenv.org/) installed:
+Assuming you have [virtualenv](https://www.virtualenv.org/) installed:
 
 ``` bash
 $ pip install cookiecutter
@@ -126,7 +126,7 @@ cheese/
 ```
 
 While there are *some* differences from Jeff Knupp's example in his
-[article](http://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/)
+[article](https://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/)
 (ReStructuredText vs Markdown, location of tests, etc), I would argue
 that the general vision is the same. Better yet, if Jeff (or someone)
 wants to implement Jeff's pattern, they can.
@@ -148,7 +148,7 @@ All you have to do is:
     [cookiecutter.json](https://github.com/audreyr/cookiecutter-pypackage/blob/master/cookiecutter.json)
     field, but there is an issue submitted to have that changed.
 3.  **Remember that renders everything in**
-    [Jinja2](http://jinja.pocoo.org/). Questions asked by
+    [Jinja2](https://jinja.pocoo.org/). Questions asked by
     [cookiecutter.json](https://github.com/audreyr/cookiecutter-pypackage/blob/master/cookiecutter.json)
     are rendered to the project's files (be those files in Python,
     Javascript, HTML, etc). So if you add a field to
@@ -225,7 +225,7 @@ Which brings me to my next point...
 
 Even if you don't know Python you can use
 [cookiecutter](https://github.com/audreyr/cookiecutter). The templating
-is done via [Jinja2](http://jinja.pocoo.org/), which isn't far off from
+is done via [Jinja2](https://jinja.pocoo.org/), which isn't far off from
 other template languages like Mustache, Handlebars, or Liquid. if you
 are worried about collisions between templating systems, just use
 Jinja2's `{% raw %}` template tag:

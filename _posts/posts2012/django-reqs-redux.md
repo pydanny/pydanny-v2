@@ -12,7 +12,7 @@ title: Django Requirements 2012-08-15
 
 A little over three months ago [I blogged about my preferred
 requirements](/django-requirements-for-a-project.html)
-list. It's now nearly the eve of [Django Dash](http://djangodash.com),
+list. It's now nearly the eve of [Django Dash](https://djangodash.com),
 and I feel it's time to update the list. I'm going to bump the
 versions on some of the existing packages and add some new ones to the
 list.
@@ -20,7 +20,7 @@ list.
 New Packages
 ============
 
-[django-braces==0.1.3](http://pypi.python.org/pypi/django-braces/)
+[django-braces==0.1.3](https://pypi.python.org/pypi/django-braces/)
 ------------------------------------------------------------------
 
 Want to use Django Class Based Views but unhappy with the missing
@@ -28,14 +28,14 @@ components like `LoginRequiredMixin`, `SelectRelatedMixin`, and even
 `StaffuserRequiredMixin`? Not to worry, as this library will make Django
 CBVs **134% easier to use**.
 
-[django-secure==0.1.2](http://pypi.python.org/pypi/django-secure/)
+[django-secure==0.1.2](https://pypi.python.org/pypi/django-secure/)
 ------------------------------------------------------------------
 
 Django is rather secure, but there is a checklist of things that the
 security experts want you to do. Save yourself forgetting something and
 use this library to do all those little things.
 
-[django-profiletools==0.1.3](http://pypi.python.org/pypi/django-profiletools/)
+[django-profiletools==0.1.3](https://pypi.python.org/pypi/django-profiletools/)
 ------------------------------------------------------------------------------
 
 Have you ever used the django-debug-toolbar and noticed that you did
@@ -49,40 +49,40 @@ request chain.
 Existing Packages
 =================
 
-[Django==1.4.1](http://pypi.python.org/pypi/Django/1.4.1)
+[Django==1.4.1](https://pypi.python.org/pypi/Django/1.4.1)
 ---------------------------------------------------------
 
 If you need sessions, forms, templates, and relational database models,
 then I can argue you've got the ideal
-[Django](http://djangoproject.com) project. Make certain you are running
+[Django](https://djangoproject.com) project. Make certain you are running
 the latest Django version (1.4.1). If you have any reason to stick to
 the Django 1.3 series, I advise bumping it up to Django 1.3.2.
 
-[psycopg2==2.4.5](http://pypi.python.org/pypi/psycopg2)
+[psycopg2==2.4.5](https://pypi.python.org/pypi/psycopg2)
 -------------------------------------------------------
 
 This is the database connector to PostgreSQL, which is what you should
 be using. Django is known for playing 'nicer' with PostgreSQL than
 say... MySQL.
 
-[django-debug-toolbar==0.9.4](http://pypi.python.org/pypi/django-debug-toolbar)
+[django-debug-toolbar==0.9.4](https://pypi.python.org/pypi/django-debug-toolbar)
 -------------------------------------------------------------------------------
 
 Because not using this tool is insane.
 
-[django-extensions==0.8](http://pypi.python.org/pypi/django-extensions)
+[django-extensions==0.8](https://pypi.python.org/pypi/django-extensions)
 -----------------------------------------------------------------------
 
 Because amongst other things this library gives you, I never want to
 write my own `TimeStampedModel` ever again. :-)
 
-[South==0.7.6](http://pypi.python.org/pypi/South)
+[South==0.7.6](https://pypi.python.org/pypi/South)
 -------------------------------------------------
 
 Django gives you the freedom to migrate data in the way you want. The
 way I want to do it is via South.
 
-[django-registration==0.8.0](http://pypi.python.org/pypi/django-registration)
+[django-registration==0.8.0](https://pypi.python.org/pypi/django-registration)
 -----------------------------------------------------------------------------
 
 The common go-to tool for non-Social registration.
@@ -96,30 +96,30 @@ django-social-auth== 0.7.4
 Want to authenticate via Twitter, Facebook, or GitHub? Then use this
 very useful package.
 
-[django-floppyforms==1.0](http://pypi.python.org/pypi/django-floppyforms)
+[django-floppyforms==1.0](https://pypi.python.org/pypi/django-floppyforms)
 -------------------------------------------------------------------------
 
 An excellent tool for making your forms HTML5-ish out of the box. It
 allows full control of form rendering in the templates.
 
-[django-crispy-forms==1.1.4](http://pypi.python.org/pypi/django-crispy-forms)
+[django-crispy-forms==1.1.4](https://pypi.python.org/pypi/django-crispy-forms)
 -----------------------------------------------------------------------------
 
 The child of my own django-uni-forms, this will let me create forms
 using div-based controls super fast, and do layout customizations if I
 need them.
 
-[django-heroku-postgresify==0.2](http://pypi.python.org/pypi/django-heroku-postgresify)
+[django-heroku-postgresify==0.2](https://pypi.python.org/pypi/django-heroku-postgresify)
 ---------------------------------------------------------------------------------------
 
 This tool makes getting the PostGreSQL settings out of Heroku trivial.
 
-[django-heroku-memcacheify==0.3](http://pypi.python.org/pypi/django-heroku-memcacheify)
+[django-heroku-memcacheify==0.3](https://pypi.python.org/pypi/django-heroku-memcacheify)
 ---------------------------------------------------------------------------------------
 
 This tool makes getting the memcache settings for Heroku trivial.
 
-[gunicorn==0.14.6](http://pypi.python.org/pypi/gunicorn)
+[gunicorn==0.14.6](https://pypi.python.org/pypi/gunicorn)
 --------------------------------------------------------
 
 All the cool kids who play in devops swear by Gunicorn.
@@ -152,7 +152,7 @@ dependencies. The file should contain the following text:
     psycopg2==2.4.5
 
 Once you have that, you install them thus in your
-[virtualenv](http://pypi.python.org/pypi/virtualenv):
+[virtualenv](https://pypi.python.org/pypi/virtualenv):
 
     pip install -r requirements.txt
 

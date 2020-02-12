@@ -35,7 +35,7 @@ lists, specifically **HTML**, **reStructuredText**, **Markdown**, and
 
 # HTML
 
-If you view the [HTML](http://en.wikipedia.org/wiki/HTML) source of this
+If you view the [HTML](https://en.wikipedia.org/wiki/HTML) source of this
 web page, you'll find this:
 
 ```html
@@ -72,14 +72,14 @@ This works, but is incredibly verbose. **HTML** requires closing tags on
 every element (keep in mind browsers are not the same as
 specifications). Working with lists in HTML becomes tedious quickly.
 Which is why so many people use
-[WYSIWYG](http://en.wikipedia.org/wiki/WYSIWYG) tools or mark up
+[WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) tools or mark up
 languages like **reStructuredText** and **Markdown**, as it expedites
 creation of lists (and many other things).
 
 # reStructuredText
 
 This blog is written in
-[reStructuredText](http://en.wikipedia.org/wiki/ReStructuredText) and
+[reStructuredText](https://en.wikipedia.org/wiki/ReStructuredText) and
 transformed into **HTML**. Let's see the markup for this blog post:
 
 ```rest
@@ -101,12 +101,12 @@ They are there to remove ambiguity.
 
 Interestingly enough, I did not know this until the day after I wrote
 this article. Since understanding these behaviors can be challenging,
-myself and Eric Holscher of [ReadTheDocs](http://readthedocs.org) fame
+myself and Eric Holscher of [ReadTheDocs](https://readthedocs.org) fame
 began a project last year to [clearly index and
-document](http://restructuredtext.readthedocs.org/) all the details of
+document](https://restructuredtext.readthedocs.org/) all the details of
 **reStructuredText** from the user's point of view. Our plan was to
 provide this as an adjunct to the [formal
-documentation](http://docutils.sourceforge.net/docs/) of
+documentation](https://docutils.sourceforge.net/docs/) of
 **reStructuredText**. Alas, time and work considerations got in the way.
 If you want to help expand our effort, you can contribute at
 <https://github.com/pydanny/restructuredtext>.
@@ -117,7 +117,7 @@ markup then odds are you are using **Markdown**.
 
 # Markdown
 
-[Markdown](http://en.wikipedia.org/wiki/Markdown) does lists really
+[Markdown](https://en.wikipedia.org/wiki/Markdown) does lists really
 well. Terse and no weird quirks:
 
 ```markdown
@@ -137,19 +137,19 @@ Why don't I switch from **reStructuredText** to **Markdown**? Here are
 my reasons against switching:
 
 1.  Force of habit.
-2.  [PyPI](http://pypi.python.org/pypi) requires it to display package
+2.  [PyPI](https://pypi.python.org/pypi) requires it to display package
     long descriptions nicely on Package pages.
-3.  [Sphinx](<http://en.wikipedia.org/wiki/Sphinx_(documentation_generator)>)
+3.  [Sphinx](<https://en.wikipedia.org/wiki/Sphinx_(documentation_generator)>)
     is based on it.
 4.  **reStructuredText** has one concrete standard, with extensions that
     people add. Markdown has many standards, which may or may not have
     shared features.
-5.  I can use [Pandoc](http://pandoc.org) to help transform
+5.  I can use [Pandoc](https://pandoc.org) to help transform
     **reStructuredText** to **Markdown**.
 
 # LaTeX
 
-Finally, let's discuss [LaTeX](http://en.wikipedia.org/wiki/LaTeX).
+Finally, let's discuss [LaTeX](https://en.wikipedia.org/wiki/LaTeX).
 While not a markup language it bears mentioning, and I'll explain why
 later in this section.
 
@@ -165,7 +165,7 @@ markup. In fact, as far as I can tell, in order to render
 most common approach is:
 
 1.  Use a script to transform the markup into **LaTeX**.
-2.  Use a tool like [XeTeX](http://en.wikipedia.org/wiki/XeTeX) to
+2.  Use a tool like [XeTeX](https://en.wikipedia.org/wiki/XeTeX) to
     render the **LaTeX** into PDF.
 
 Why the extra step? Why not just go directly from markup to PDF? Well,
@@ -196,7 +196,7 @@ Halfway between the markup languages and HTML in verbosity, **LaTeX**
 lists are of medium difficulty to write. If this example makes **LaTeX**
 look easy, please realize that while lists are easy to understand, other
 structures like **LaTeX**
-[tables](http://en.wikibooks.org/wiki/LaTeX/Tables) can quickly get out
+[tables](https://en.wikibooks.org/wiki/LaTeX/Tables) can quickly get out
 of hand. **LaTeX**'s reputation for being an arcane tool is a well
 deserved one.
 
@@ -213,7 +213,7 @@ Or do you?
 The problem my wife and I have faced is that the combination of
 **LaTeX** packages and tools we've assembled for ourselves to write
 books like [Two Scoops of
-Django](http://roygreenfeld.com/products/two-scoops-of-django-1-8) is
+Django](https://roygreenfeld.com/products/two-scoops-of-django-1-8) is
 very, very different than what is rendered via
 [docutils](https://pypi.python.org/pypi/docutils)' `rst2latex` or
 Sphinx `make latex`. We've tried to write migration scripts, but have
@@ -221,11 +221,11 @@ found that we end up spending too much of our time on formatting.
 That's why we have stuck with hand-crafted artisan **LaTeX**.
 
 That isn't to say it isn't possible. In fact, Matt Harrison has
-[released](http://www.amazon.com/Brief-Introduction-Python-Testing-Harrison-ebook/dp/B00AY4VE8E/?tag=mlinar-20)
+[released](https://www.amazon.com/Brief-Introduction-Python-Testing-Harrison-ebook/dp/B00AY4VE8E/?tag=mlinar-20)
 a number
-[handsome](http://www.amazon.com/Guide-Learning-Iteration-Generators-Python/dp/1492333514/ref=sr_1_7?tag=mlinar-20)
-[Python](http://www.amazon.com/Treading-Python-1-Foundations/dp/1475266413/ref=sr_1_2?tag=mlinar-20)
-[books](http://www.amazon.com/Treading-Python-2-Intermediate/dp/149055095X/ref=sr_1_1?tag=mlinar-20)
+[handsome](https://www.amazon.com/Guide-Learning-Iteration-Generators-Python/dp/1492333514/ref=sr_1_7?tag=mlinar-20)
+[Python](https://www.amazon.com/Treading-Python-1-Foundations/dp/1475266413/ref=sr_1_2?tag=mlinar-20)
+[books](https://www.amazon.com/Treading-Python-2-Intermediate/dp/149055095X/ref=sr_1_1?tag=mlinar-20)
 following this path (**reStructuredText** to **LaTeX**). I'm certain
 there are **Markdown** books that follow this path too.
 

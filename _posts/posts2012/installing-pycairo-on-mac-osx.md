@@ -11,8 +11,8 @@ time_to_read: 2
 title: Installing Pycairo on Mountain Lion
 ---
 
-[Pycairo](http://cairographics.org/pycairo/) is the binding for the
-[cairo graphics library](http://cairographics.org/). It's also not
+[Pycairo](https://cairographics.org/pycairo/) is the binding for the
+[cairo graphics library](https://cairographics.org/). It's also not
 something you can get running with a simple `pip install py2cairo`.
 After many hours of working the search engines and dancing to the
 configure/make/make install melody, I figured out an answer that worked

@@ -12,7 +12,7 @@ title: Python Indie Bundle Cyber Monday Sale
 ---
 
 I've joined forces with Matt Harrison and Audrey Roy to put together
-the first ever [Python Indie Bundle](http://www.pythonindiebundle.com)
+the first ever [Python Indie Bundle](https://www.pythonindiebundle.com)
 sale!
 
 This bundle includes the following e-book bundles (PDF, Kindle, ePub)
@@ -55,7 +55,7 @@ If you want to purchase multiple copies, perhaps for your office or
 company:
 
 <p>
-<a href="http://roygreenfeld.com/products/python-indie-bundle" class="btn btn-danger">$24.95: Multiple copies at Two Scoops Press</a>
+<a href="https://roygreenfeld.com/products/python-indie-bundle" class="btn btn-danger">$24.95: Multiple copies at Two Scoops Press</a>
 </p>
 Did I Mention Bitcoin?
 ======================
@@ -63,11 +63,11 @@ Did I Mention Bitcoin?
 We support Bitcoin on Two Scoops Press!
 
 <p>
-<a href="http://roygreenfeld.com/products/python-indie-bundle" class="btn btn-danger">$24.95: Use Bitcoin at Two Scoops Press</a>
+<a href="https://roygreenfeld.com/products/python-indie-bundle" class="btn btn-danger">$24.95: Use Bitcoin at Two Scoops Press</a>
 </p>
 The Sale Ends Midnight Tonight!
 ===============================
 
 At Midnight, Pacific Standard Time, on December 2, the [Python Indie
-Bundle](http://www.pythonindiebundle.com) sale ends. What are you
+Bundle](https://www.pythonindiebundle.com) sale ends. What are you
 waiting for?

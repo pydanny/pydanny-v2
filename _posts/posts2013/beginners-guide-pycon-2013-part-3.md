@@ -110,7 +110,7 @@ PyLadies Lunch at PyCon (12:30 PM)
 PyLadies have organized to host a lunch for **women** attending the
 conference who love Python, or who want to learn more about Python or
 PyLadies. While the event is filled up, you can [register to get on the
-waitlist](http://www.eventbrite.com/event/5227826570).
+waitlist](https://www.eventbrite.com/event/5227826570).
 
 Saturday Afternoon
 ==================

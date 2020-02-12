@@ -32,7 +32,7 @@ So here are my resolutions for 2018:
 2.  Work out for 60 minutes a day. I got lazy in the last year.
 3.  Start martial arts again. Because of knee and ankle injuries,
     Capoeira is probably right out. Already up Kali/Escrima under
-    [Guro](http://valleycapoeira.com/about-us/contra-mestreguro-xingu/)
+    [Guro](https://valleycapoeira.com/about-us/contra-mestreguro-xingu/)
     Mestre Xingú instead.
 4.  Write at least 3 books (last year we did 5 books, so this is
     doable!). Out of those, one will be about coding in some way.

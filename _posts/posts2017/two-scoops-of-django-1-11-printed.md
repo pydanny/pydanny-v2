@@ -30,7 +30,7 @@ either:
 -   [Two Scoops
     Press](https://www.roygreenfeld.com/products/two-scoops-of-django-1-11)
     (for autographed copies directly from us), or
--   [Amazon](http://mybook.to/tsd111) (this link sends you to your
+-   [Amazon](https://mybook.to/tsd111) (this link sends you to your
     regional Amazon store)
 
 If you purchase the book on Amazon, please leave an [honest

@@ -82,8 +82,8 @@ have when we learned Django, and we're honored by the response the book
 has received.
 
 Since the book isn't a tutorial, we ask that before beginners purchase
-it, they [learn the fundamentals of](http://learnpythonthehardway.org/)
-[Python](http://www.amazon.com/Learn-Python-Hard-Way-Introduction/dp/0321884914/?ie=UTF8&tag=ihpydanny-20)
+it, they [learn the fundamentals of](https://learnpythonthehardway.org/)
+[Python](https://www.amazon.com/Learn-Python-Hard-Way-Introduction/dp/0321884914/?ie=UTF8&tag=ihpydanny-20)
 and take the [official Django
 tutorial](https://docs.djangoproject.com/en/1.5/intro/tutorial01/).
 
@@ -130,8 +130,8 @@ Tutorial? PyCon? Are you going?
 
 Yes! We're going to be at PyCon next month! We're giving the [Wiring
 Up Django Packages](https://us.pycon.org/2013/schedule/presentation/11/)
-tutorial, and [Kenneth Love](http://brack3t.com/) (of [Getting Started
-with Django](http://gettingstartedwithdjango.com/) fame) is part of our
+tutorial, and [Kenneth Love](https://brack3t.com/) (of [Getting Started
+with Django](https://gettingstartedwithdjango.com/) fame) is part of our
 team.
 
 While tickets to PyCon itself are sold out, you can still [register for

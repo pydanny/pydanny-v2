@@ -44,12 +44,12 @@ It results in this unpleasant looking response:
      ! South cannot introspect some fields; this is probably because they are custom
      ! fields. If they worked in 0.6 or below, this is because we have removed the
      ! models parser (it often broke things).
-     ! To fix this, read http://south.aeracode.org/wiki/MyFieldsDontWork
+     ! To fix this, read https://south.aeracode.org/wiki/MyFieldsDontWork
 
 The last line in the error report is important. I'll repeat it to
 illustrate it more clearly:
 
-    ! To fix this, read http://south.aeracode.org/wiki/MyFieldsDontWork
+    ! To fix this, read https://south.aeracode.org/wiki/MyFieldsDontWork
 
 Experience working on other projects has taught me I can simply add two
 lines of code to `products/models.py` and everything should just work:

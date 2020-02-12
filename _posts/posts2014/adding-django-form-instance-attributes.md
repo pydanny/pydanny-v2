@@ -75,7 +75,7 @@ You can use this technique with:
 - `FormView`
 - `UpdateView`
 
-As always, <http://ccbv.co.uk> is a great resource for deliving into
+As always, <https://ccbv.co.uk> is a great resource for deliving into
 Django forms.
 
 While this technique is used by `django-braces` through the
@@ -87,7 +87,7 @@ many.
 # django-vanilla-views
 
 This should also work with
-[django-vanilla-views](http://django-vanilla-views.org), but I haven't
+[django-vanilla-views](https://django-vanilla-views.org), but I haven't
 tested it yet.
 
 [![image](images/form-attributes.png)](audrey.roygreenfeld.com)

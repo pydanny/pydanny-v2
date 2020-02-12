@@ -14,7 +14,7 @@ title: 'pytest: no-boilerplate testing (part 2)'
 In my previous [blog
 post](/pytest-no-boilerplate-testing.html) I covered
 test discovery and writing basic tests using
-[pytest](http://pytest.org/). Today I'm going to cover a few more
+[pytest](https://pytest.org/). Today I'm going to cover a few more
 features that I really enjoy: `raises` and `fixtures`.
 
 The Intuitively Named `raises` **context manager**
@@ -42,7 +42,7 @@ def test_my_exception():
 
 This is similar to, but just a bit easier to remember than the
 implementation in
-[unittest](http://docs.python.org/2/library/unittest.html).
+[unittest](https://docs.python.org/2/library/unittest.html).
 
 What I like about it is that even if I step away from code and tests for
 enough time to go on vacation and [get
@@ -166,7 +166,7 @@ More **pytext** Fixture Features
 
 Want to know more things you can do with **pytest** fixtures? Please
 read the [pytest fixtures
-documentation](http://pytest.org/latest/fixture.html)
+documentation](https://pytest.org/latest/fixture.html)
 
 More to Come
 ============

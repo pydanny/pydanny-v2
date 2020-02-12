@@ -15,13 +15,13 @@ title: July 15th, 2012 LA Open Source Recap
 ---
 
 On July 15th, 2012, at the [July LA Hackathons Open Source
-event](http://www.meetup.com/LA-Hackathons/events/64542582/), over 60
-[Python](https://python.org), [Django](http://djangoproject.com),
-[Ruby](http://www.ruby-lang.org/), [Ruby on
-Rails](http://rubyonrails.org/), [PHP](http://www.php.net/),
-[JavaScript](http://en.wikipedia.org/wiki/JavaScript),
-[Node.js](http://nodejs.org/), [Perl](http://www.perl.org/), and
-[Clojure](http://clojure.org) developers arrived to work on a variety of
+event](https://www.meetup.com/LA-Hackathons/events/64542582/), over 60
+[Python](https://python.org), [Django](https://djangoproject.com),
+[Ruby](https://www.ruby-lang.org/), [Ruby on
+Rails](https://rubyonrails.org/), [PHP](https://www.php.net/),
+[JavaScript](https://en.wikipedia.org/wiki/JavaScript),
+[Node.js](https://nodejs.org/), [Perl](https://www.perl.org/), and
+[Clojure](https://clojure.org) developers arrived to work on a variety of
 projects. We went from 10 AM to 10 PM, and there was much coding and
 learning done by all. There was a very powerful vibe shared by nearly
 everyone there, and it was great to see so many people from different
@@ -45,15 +45,15 @@ won't hesitate to use these techniques again.
 # Sponsors
 
 We let attendees know which sponsors were interested in potential new
-hires, in this case, [Originate](http://originatelabs.com) and
-[Cars.com](http://cars.com). This sort of low-key technique helps us
+hires, in this case, [Originate](https://originatelabs.com) and
+[Cars.com](https://cars.com). This sort of low-key technique helps us
 land sponsors but doesn't annoy attendees. Speaking of sponsors, here
 they are in alphabetical order:
 
-- [Cars.com](http://cars.com)
-- [Cartwheel Web](http://cartwheelweb.com)
-- [Heroku](http://heroku.com)
-- [Originate](http://originatelabs.com)
+- [Cars.com](https://cars.com)
+- [Cartwheel Web](https://cartwheelweb.com)
+- [Heroku](https://heroku.com)
+- [Originate](https://originatelabs.com)
 
 # Code/Projects worked on
 
@@ -61,13 +61,13 @@ Next time I'm going to be a lot more careful about getting down the
 details of what people did. Maybe a signup sheet or an online form?
 Heck, sounds like a great quick project for next time!
 
-- [Django](http://djangoproject.com) (see below for details)
-- [Dynasaur](http://tglines.github.com/dynasaur/) (Node.js/DynamoDB
+- [Django](https://djangoproject.com) (see below for details)
+- [Dynasaur](https://tglines.github.com/dynasaur/) (Node.js/DynamoDB
   ORM)
 - [Salt Stack](https://github.com/saltstack/salt)
 - [meteordraw](https://github.com/philfree/meteordraw)
 - [pyit](https://github.com/harph/pyit)
-- [Ruby on Rails](http://rubyonrails.org/)
+- [Ruby on Rails](https://rubyonrails.org/)
 - [DBIx::Config](https://github.com/symkat/DBIx-Config)
 - Clojure Tutorials
 - [engulf](https://github.com/andrewvc/engulf) (Clojure load testing
@@ -103,11 +103,11 @@ were working with, and something interesting/embarrassing about
 themselves. Three of the more memorable ones:
 
 - An 8 year old attendee wrote his first 4 PHP programs!
-- [sym_kat](http://twitter.com/sym_kat) is invited to speak at the
+- [sym_kat](https://twitter.com/sym_kat) is invited to speak at the
   next London Perl Workshop.
 - Someone employed at SpaceX took Zed Shaw's
-  [LPTHW](http://learnpythonthehardway.org/) class taught by the man
-  himself at [Cartwheel Web](http://cartwheelweb.com) HQ in 2011 got
+  [LPTHW](https://learnpythonthehardway.org/) class taught by the man
+  himself at [Cartwheel Web](https://cartwheelweb.com) HQ in 2011 got
   himself moved from the C# to the Python team. Go open source!
 
 # Closing thoughts

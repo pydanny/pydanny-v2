@@ -55,7 +55,7 @@ Forms are "just" Python constructs.
 =====================================
 
 I believe it was [Alex](https://twitter.com/alex_gaynor)
-[Gaynor](http://alexgaynor.net/) who said back in 2008 that Django forms
+[Gaynor](https://alexgaynor.net/) who said back in 2008 that Django forms
 were "just" Python constructs. He's right:
 
 ``` python

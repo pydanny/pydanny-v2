@@ -27,7 +27,7 @@ The punchline is that blog post wasn't a joke or prank. Indeed,
 yesterday I released my first fiction book, a dark fantasy novel with
 goblins in it.
 
-[![Into the Brambles Cover](images/itb.png)](http://www.amazon.com/into-the-brambles-ebook/dp/B00VC5UQHO/?tag=the-brambles-20)
+[![Into the Brambles Cover](images/itb.png)](https://www.amazon.com/into-the-brambles-ebook/dp/B00VC5UQHO/?tag=the-brambles-20)
 
 Description:
 
@@ -44,7 +44,7 @@ her own destiny, and in the depths of the Haunted Lands a dark king is
 born. Their fates will shake the foundations of the universe.*
 
 If you would like to buy my book, you can do so on
-[Amazon](http://www.amazon.com/into-the-brambles-ebook/dp/B00VC5UQHO/?tag=the-brambles-20)
+[Amazon](https://www.amazon.com/into-the-brambles-ebook/dp/B00VC5UQHO/?tag=the-brambles-20)
 for the introductory price of $2.99, the same price as a cup of coffee
 in the USA. The book is also in the Kindle Unlimited program, at least
 for now.

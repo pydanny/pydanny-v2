@@ -10,19 +10,19 @@ title: django-uni-form end of life
 ---
 
 I started on django-uni-form in January 2009. In order to use
-[Pinax](http://pinaxproject.com) on an internal social network for
-[NASA](http://www.nasa.gov) HQ, we had to render all content, including
+[Pinax](https://pinaxproject.com) on an internal social network for
+[NASA](https://www.nasa.gov) HQ, we had to render all content, including
 forms, [Section
-508](http://django-uni-form.readthedocs.org/en/latest/concepts.html#section-508)
+508](https://django-uni-form.readthedocs.org/en/latest/concepts.html#section-508)
 compliant. Rather than rewrite the html for all 50+ forms that existed
 in the Pinax 0.5.x framework at that time, I decided to minimize my work
-and automate things. [James Tauber](http://jtauber.com) gave guidance
+and automate things. [James Tauber](https://jtauber.com) gave guidance
 and insight, my co-workers were supportive, and [Jannis
-Leidel](http://enn.io) suggested the Uni-form library. The name **Django
+Leidel](https://enn.io) suggested the Uni-form library. The name **Django
 Uni-Form** was obvious, and lo the project was named.
 
 Looking at the old, extremely deprecated [Google Code site for
-django-uni-form](http://code.google.com/p/django-uni-form/), I see that
+django-uni-form](https://code.google.com/p/django-uni-form/), I see that
 the first commit happened on January 7th, 2009. That was for version
 0.1, with some core code that was literally a merger between the Django
 form example on how to integrate divs into forms and the simplest
@@ -85,20 +85,20 @@ Days of django-uni-form
 
 Leading up to PyCon 2009 James Tauber suggested some things that lead to
 the
-[FormHelpers](http://django-uni-form.readthedocs.org/en/latest/concepts.html#form-helpers),
+[FormHelpers](https://django-uni-form.readthedocs.org/en/latest/concepts.html#form-helpers),
 and we hammered out the API on IRC. We knew it crossed the rigid lines
 between Model-View-Template, but sometimes it's advantageous to break a
 few rules and abstractions in order to get better things down the road
 
 At PyCon 2009 with the mentoring of Jannis, James, and [Brian
-Rosner](http://twitter.com/brosner), I moved the project from google
+Rosner](https://twitter.com/brosner), I moved the project from google
 code to [Github](https://github.com/pydanny/django-uni-form). Jannis
-released it on [PyPI](http://pypi.python.org/pypi/) and I followed the
+released it on [PyPI](https://pypi.python.org/pypi/) and I followed the
 pattern he showed me for two years. Yeah, I learned tons under those
 guys.
 
 After PyCon 2009 a pull request with the
-[Layout](http://django-uni-form.readthedocs.org/en/latest/helpers.html#layouts)
+[Layout](https://django-uni-form.readthedocs.org/en/latest/helpers.html#layouts)
 helper was provided. It took some work to make it pass all the tests and
 use cases, but the end result was definition of form layout in the
 Python. This broke the rigid battle lines of Model-View-Template and
@@ -106,12 +106,12 @@ left purists screaming in agony, but it certainly made working with
 forms in Django trivially easy.
 
 Lots of people started to use the project across projects like Pinax and
-organizations like NASA, [PBS](http://pbs.org), Discovery Channel,
+organizations like NASA, [PBS](https://pbs.org), Discovery Channel,
 various newspapers and many others. Lots of pull requests came in and
 the features grew.
 
-In 2010, [Alice Rowland](http://twitter.com/arowla) submitted the first
-[Sphinx](http://sphinx.pocoo.org/) docs, and it was her work that really
+In 2010, [Alice Rowland](https://twitter.com/arowla) submitted the first
+[Sphinx](https://sphinx.pocoo.org/) docs, and it was her work that really
 helped get me started on doing lots of Sphinx work.
 
 And, all the way into 2011, pull requests for Django Form Sets started
@@ -141,7 +141,7 @@ liked.
 
 He was right.
 
-I apologized to the guy ([Miguel Araujo](http://twitter.com/maraujop))
+I apologized to the guy ([Miguel Araujo](https://twitter.com/maraujop))
 and remembered my manners. Over the next couple of months we chatted via
 Twitter and Github's messaging system. He was smart, trustworthy, and
 passionate about everything he did. I knew I had found my co-lead. He
@@ -156,7 +156,7 @@ out, and the documentation revised. The project had new life!
 The only blip I saw with Miguel is my own fault of sometimes being too
 nice as a project leader when it comes to accepting pull requests. [I
 believe pull requests should be really
-atomic](http://django-uni-form.readthedocs.org/en/latest/contributing.html#how-to-get-your-pull-request-accepted)
+atomic](https://django-uni-form.readthedocs.org/en/latest/contributing.html#how-to-get-your-pull-request-accepted)
 - for one thing and one thing only with support tests and documentation.
 Otherwise it becomes nigh impossible to incorporate them and these days
 I reject multi-purpose pull requests. One pull request in particular
@@ -172,7 +172,7 @@ board as co-lead.
 
 We finally met in September of 2011 and co-presented on [Advanced Django
 Form Usage at DjangoCon
-2011](http://www.slideshare.net/pydanny/advanced-django-forms-usage).
+2011](https://www.slideshare.net/pydanny/advanced-django-forms-usage).
 The deepest technical material we presented was authored by Miguel.
 During our research he uncovered at least one bug in Django and got an
 ancient bug closed. It was a great experience and I hope he'll
@@ -200,7 +200,7 @@ We both had been uncomfortable with the name *django-uni-form* for some
 time, especially since it had almost nothing to do with Uni-form
 anymore. In fact, I often using template overrides to avoid the Uni-form
 HTML layout - the most common alternative being [Twitter
-Bootstrap](http://twitter.github.com/bootstrap/).
+Bootstrap](https://twitter.github.com/bootstrap/).
 
 We tossed around names for the project, but all of them were stupid,
 especially mine. We are both huge fans and users of
@@ -218,8 +218,8 @@ and feature controls will be better.
 What you should be using now is
 [django-crispy-forms](https://github.com/maraujop/django-crispy-forms).
 Don't worry about changing over as there are [migration
-instructions](http://django-crispy-forms.readthedocs.org/en/d-0/migration.html)
+instructions](https://django-crispy-forms.readthedocs.org/en/d-0/migration.html)
 on the [excellent
-documentation](http://django-crispy-forms.readthedocs.org/).
+documentation](https://django-crispy-forms.readthedocs.org/).
 
 Try it. You'll like it. :-)

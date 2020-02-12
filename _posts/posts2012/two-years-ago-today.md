@@ -9,8 +9,8 @@ time_to_read: 1
 title: Two years ago today
 ---
 
-The [PyCon](http://us.pycon.org) tutorial on Django in Depth was ending.
-I had been sitting next to my friend [Barbara](http://djangrrl.com/) and
+The [PyCon](https://us.pycon.org) tutorial on Django in Depth was ending.
+I had been sitting next to my friend [Barbara](https://djangrrl.com/) and
 we got up to go when I heard a feminine voice ask: "Are you
 [bshaurette](https://twitter.com/bshaurette)?" I turned and it was like
 I got punched in the gut.

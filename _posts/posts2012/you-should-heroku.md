@@ -15,10 +15,10 @@ title: You should Heroku
 In mid-November me and my fiancee, [Audrey Roy](https://audrey.roygreenfeld.com)
 began our startup. We had been frustrated with trying to do on-line
 product research and came up with an idea to take the lessons learned
-from [Django Packages](http://djangopackages.com) / [Open
-Comparison](http://opencomparison.org) and apply them to a commercial
+from [Django Packages](https://djangopackages.com) / [Open
+Comparison](https://opencomparison.org) and apply them to a commercial
 effort. The result has been [Consumer
-Notebook](http://consumernotebook.com), and it's been a steadily
+Notebook](https://consumernotebook.com), and it's been a steadily
 growing success.
 
 We've been bootstrapping the project. That means supporting it with
@@ -48,13 +48,13 @@ admin**.
 Solution: Platform as a Service
 ===============================
 
-Platform as a Service, or [PaaS](http://en.wikipedia.org/wiki/PaaS), is
+Platform as a Service, or [PaaS](https://en.wikipedia.org/wiki/PaaS), is
 where someone else does the majority of work involved in system
 administration. There are now [dozens of companies edging into the
 Python capable PaaS
-space](http://www.quora.com/What-is-the-Heroku-equivalent-for-Django-applications-Edit-Question-not-relevant-anymore-as-Heroku-now-supports-Django).
+space](https://www.quora.com/What-is-the-Heroku-equivalent-for-Django-applications-Edit-Question-not-relevant-anymore-as-Heroku-now-supports-Django).
 We've been leery of using any of them but finally settled on
-[Heroku](http://heroku.com) after a long period of evaluation.
+[Heroku](https://heroku.com) after a long period of evaluation.
 
 Why Heroku?
 ===========
@@ -62,7 +62,7 @@ Why Heroku?
 We choose Heroku for a number of reasons:
 
 1.  We competed in a Los Angeles area Hacking contest with [Randall
-    Degges](http://rdegges.com/). He was responsible for the sys admin
+    Degges](https://rdegges.com/). He was responsible for the sys admin
     and went with Heroku. He got it up and it was out of the way for the
     competition. He spent his time coding, adding features, and fixing
     templates instead of tweaking knobs on something in the cloud. We
@@ -72,8 +72,8 @@ We choose Heroku for a number of reasons:
     pieces out in about 10 minutes, then go old school and host it
     myself on my own closet server.
 3.  Heroku has very good
-    [PostgreSQL](http://devcenter.heroku.com/categories/heroku-postgres)
-    support. Our web framework is [Django](http://djangoproject.com),
+    [PostgreSQL](https://devcenter.heroku.com/categories/heroku-postgres)
+    support. Our web framework is [Django](https://djangoproject.com),
     which has an ORM that works best with PostgreSQL.
 4.  Heroku has staff. At least seventy of them. Odds are they would have
     people around 24/7 to deal with issues.
@@ -87,10 +87,10 @@ We choose Heroku for a number of reasons:
 7.  When I think of Heroku I think of Puffer Fish. Which is awesome
     because Puffer Fish are awesome.
 
-[![Puffer fish](images/5776592544_fb15a2902a_m.jpg)](http://www.flickr.com/photos/saspotato/5776592544/)
+[![Puffer fish](images/5776592544_fb15a2902a_m.jpg)](https://www.flickr.com/photos/saspotato/5776592544/)
 
 Creative Commons: Some rights reserved by
-[Saspotato](http://www.flickr.com/photos/saspotato/5776592544/)
+[Saspotato](https://www.flickr.com/photos/saspotato/5776592544/)
 
 Things that we really liked about using Heroku
 ----------------------------------------------
@@ -99,11 +99,11 @@ As we progressed down the journey of building our site, we discovered
 even more nice features about Heroku. Here are some of the things that
 really make me smile:
 
-1.  [Releases](http://devcenter.heroku.com/articles/releases) and
+1.  [Releases](https://devcenter.heroku.com/articles/releases) and
     especially
-    [rollbacks](http://devcenter.heroku.com/articles/releases#rollback)
+    [rollbacks](https://devcenter.heroku.com/articles/releases#rollback)
     means we deploy with a lot more confidence.
-2.  [Logging](http://devcenter.heroku.com/articles/logging) and other
+2.  [Logging](https://devcenter.heroku.com/articles/logging) and other
     diagnostic add-ons like [Sentry](https://addons.heroku.com/sentry)
     and [New Relic](https://addons.heroku.com/newrelic) means we know
     what's going on.
@@ -120,7 +120,7 @@ It means I'm doing the deployments. I'm the sys admin. And I'm happy
 with my role because it takes minutes out of my day. Me and Audrey team
 up on everything else and the results so far have been great. If you've
 ever worked with me, the fact that [Consumer
-Notebook](http://consumernotebook.com) is administered and deployed by
+Notebook](https://consumernotebook.com) is administered and deployed by
 me is going to be a shock.
 
 We've been able to really focus on development of the project. And when
@@ -132,9 +132,9 @@ I mean development, I mean a lot of things. I mean:
 -   CSS
 -   JavaScript
 -   Data Modeling
--   [Documenting the API](http://api.consumernotebook.com/)
+-   [Documenting the API](https://api.consumernotebook.com/)
 -   Marketing: [blogging on Consumer
-    Notebook](http://insidertips.consumernotebook.com/),
+    Notebook](https://insidertips.consumernotebook.com/),
     [Tweeting](https://twitter.com/consumernotebk), and working with
     other groups
 -   Trying out [public
@@ -235,4 +235,4 @@ For developers I see great times ahead.
 ------------------------------------------------------------------------
 
 [Discuss this post on Hacker
-News](http://news.ycombinator.com/item?id=3643910)
+News](https://news.ycombinator.com/item?id=3643910)

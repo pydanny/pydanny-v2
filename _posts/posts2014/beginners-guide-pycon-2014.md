@@ -38,7 +38,7 @@ Basics
     with or going out with different people. Introduce yourself. Make
     new friends and learn new things!
 5.  If you can't make it to a talk, don't stress out. They are
-    recorded and will be available later on <http://www.pyvideo.org>.
+    recorded and will be available later on <https://www.pyvideo.org>.
 6.  Act Professionally (see next section)
 
 Be Professional
@@ -75,7 +75,7 @@ I'm actually a little relieved that I'm not going to PyCon, because
 there were some time slots thad several must-see talks running
 concurrently. I would have to clone myself repeatedly in order to see
 all the good stuff! Fortunately, I'll be able to watch them on
-<http://www.pyvideo.org>.
+<https://www.pyvideo.org>.
 
 If you are new to open source and plan to attend the PyCon 2015 sprints
 (or in general contribute to open source), then I strongly recommend
@@ -101,7 +101,7 @@ quick guidelines:
 
 -   **Ask Questions!** If the speaker leaves time for questions at the
     end, [go and
-    ask](http://cecinestpasun.com/entries/i-can-haz-question-or-five/)!
+    ask](https://cecinestpasun.com/entries/i-can-haz-question-or-five/)!
 -   **Shut the Laptop and Turn Off the Device.** It's disconcerting to
     give a speech to hundreds of people staring at their portable
     electronics and not responding to your banter. Unless you are using
@@ -159,8 +159,8 @@ getting the the following installed:
     > -   Git. Really make sure you have a GitHub account
     > -   Mercurial. Useful to have a BitBucket account.
 
--   [virtualenv](http://www.virtualenv.org/en/latest/index.html) and
-    [pip](http://www.pip-installer.org/en/latest/installing.html) for
+-   [virtualenv](https://www.virtualenv.org/en/latest/index.html) and
+    [pip](https://www.pip-installer.org/en/latest/installing.html) for
     all versions of Python. If you are using Python 3.4, you don't need
     to have them installed.
 -   An IDE or Text Editor you are comfortable using.
@@ -190,7 +190,7 @@ alert and I recommend you do the same **every** day of the conference:
 3.  Get at least three hours of sleep. More if possible because your
     brain is going to go into learning overdrive. I aim for 6-8 hours.
 4.  Bring [Immune System
-    Boosters](http://www.amazon.com/Airborne-Support-Supplement-Vitamin-Effervescent/dp/B000WZI4WY?tag=mlinar-20)
+    Boosters](https://www.amazon.com/Airborne-Support-Supplement-Vitamin-Effervescent/dp/B000WZI4WY?tag=mlinar-20)
     and consume them daily. I usually do it with breakfast and lunch.
 
 Get Autographs!
@@ -201,13 +201,13 @@ programming book and get it autographed. A few books I want to get
 signed:
 
 -   [Python Cookbook, by David Beazley and Brian
-    Jones](http://www.amazon.com/gp/product/1449340377/?tag=cn-001-20)
+    Jones](https://www.amazon.com/gp/product/1449340377/?tag=cn-001-20)
 -   [Python for Data Analysis, by Wes
-    McKinney](http://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1449319793/?tag=cn-001-20)
+    McKinney](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1449319793/?tag=cn-001-20)
 -   [Flask Web Development, by Miguel
-    Grinberg](http://www.amazon.com/Flask-Web-Development-Developing-Applications/dp/1449372627/?tag=cn-001-20)
+    Grinberg](https://www.amazon.com/Flask-Web-Development-Developing-Applications/dp/1449372627/?tag=cn-001-20)
 -   [Test-Driven Development with Python, by Harry
-    Percival](http://www.amazon.com/Test-Driven-Development-Python-Harry-Percival/dp/1449364829/?tag=cn-001-20)
+    Percival](https://www.amazon.com/Test-Driven-Development-Python-Harry-Percival/dp/1449364829/?tag=cn-001-20)
 
 Two Scoops of Django Footnote
 =============================

@@ -26,9 +26,9 @@ answers to the commonly asked questions:
 
 We now support PayPal.  The next part is the historical text that no longer applies:
 
->In order to handle PayPal we need to find a reputable e-publisher that supports it that gives us similar rates, customer service, and product control (updates at any time, uploads of PDF, no surprise charges, etc) as [Gumroad](http://gumroad.com). If you know of an e-publisher who is willing to provide that same level of service, please let me know.
+>In order to handle PayPal we need to find a reputable e-publisher that supports it that gives us similar rates, customer service, and product control (updates at any time, uploads of PDF, no surprise charges, etc) as [Gumroad](https://gumroad.com). If you know of an e-publisher who is willing to provide that same level of service, please let me know.
 >
-> For the record, we aren't leaving [Gumroad](http://gumroad.com). We just want to support developers and students who don't have credit cards.
+> For the record, we aren't leaving [Gumroad](https://gumroad.com). We just want to support developers and students who don't have credit cards.
 >
 > **note:** While we could certainly write our own publishing platform, that would delay work on the [book](https://roygreenfeld.com/products/two-scoops-of-django-1-5). ;-)
 
@@ -36,7 +36,7 @@ We now support PayPal.  The next part is the historical text that no longer appl
 
 Our plan is to support those formats in either the BETA or FINAL
 releases. In fact, I really love my
-[Kindle](http://www.amazon.com/gp/product/B007HCCNJU/?ie=UTF8&tag=ihpydanny-20).
+[Kindle](https://www.amazon.com/gp/product/B007HCCNJU/?ie=UTF8&tag=ihpydanny-20).
 I can't wait to proof my own [book](https://roygreenfeld.com/products/two-scoops-of-django-1-5) on my
 favorite reading device.
 
@@ -107,8 +107,8 @@ evaluation, use, and extension of third party Python and Django
 applications in your projects. This tutorial will be a lecture with a
 lot of detailed and annotated code examples. Instructors are [Audrey
 Roy Greenfeld](https://audrey.roygreenfeld.com/), Daniel Roy Greenfeld, and [Kenneth
-Love](http://brack3t.com/) (of [Getting Started with
-Django](http://gettingstartedwithdjango.com/) fame).
+Love](https://brack3t.com/) (of [Getting Started with
+Django](https://gettingstartedwithdjango.com/) fame).
 
 ## [Advanced Django Forms Usage](https://us.pycon.org/2013/schedule/presentation/101/) (Talk)
 
@@ -130,7 +130,7 @@ Roy Greenfeld](https://audrey.roygreenfeld.com).
 
 ## Are you going to Django Circus?
 
-We hope so. [Django Circus](http://2013.djangocon.eu/), a.k.a. DjangoCon
+We hope so. [Django Circus](https://2013.djangocon.eu/), a.k.a. DjangoCon
 Europe, is one of the important industry events for us and we're trying
 to figure out logistics.
 

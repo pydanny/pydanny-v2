@@ -12,7 +12,7 @@ time_to_read: 2
 title: Los Angeles Open Source Sprint on May 12th!
 ---
 
-[![Los Angeles Open Source Sprint](images/7132778527_6e3b49b313_o.png)](http://www.flickr.com/photos/pydanny/7132778527/)
+[![Los Angeles Open Source Sprint](images/7132778527_6e3b49b313_o.png)](https://www.flickr.com/photos/pydanny/7132778527/)
 
 
 This is a day long coding event in Los Angeles for Open Source
@@ -21,7 +21,7 @@ fiends. They'll be joined by dozens of either really smart coders or
 nice people like me. Sponsors are providing food, drinks, venue, and
 more!
 
-RSVP at <http://www.meetup.com/LA-Hackathons/events/62796642/> before it
+RSVP at <https://www.meetup.com/LA-Hackathons/events/62796642/> before it
 fills up! It's free.
 
 I'll be there to:
@@ -50,7 +50,7 @@ When:
 Is this like a Hackathon?
 =========================
 
-Yup. See <http://en.wikipedia.org/wiki/Hackathon#Sprints>
+Yup. See <https://en.wikipedia.org/wiki/Hackathon#Sprints>
 
 Will there be Wifi?
 ===================
@@ -65,7 +65,7 @@ It depends.
 **If you've never coded before**, this isn't the right place. Instead,
 you might consider one of the local coding workshops or classes. In
 fact, here's a good [bi-weekly hack night / study
-group](http://www.meetup.com/Los-Angeles-Hack-Night/) for you.
+group](https://www.meetup.com/Los-Angeles-Hack-Night/) for you.
 
 **If you've done a tutorial or two**, sprints can be a great way to
 learn new skills or hone your technique by sitting alongside experienced
@@ -91,7 +91,7 @@ This is not a job fair and we don't want unnecessary distractions.
 
 On the other hand, if you want to help sponsor we'll happily mention
 you on the
-[meetup.com](http://www.meetup.com/LA-Hackathons/events/62796642/)
+[meetup.com](https://www.meetup.com/LA-Hackathons/events/62796642/)
 description.
 
 Are there going to be any presentations or lightning talks?
@@ -114,4 +114,4 @@ I'm sold! How much does it cost and where do I register?
 =========================================================
 
 The event costs you nothing and you RSVP at
-<http://www.meetup.com/LA-Hackathons/events/62796642/>.
+<https://www.meetup.com/LA-Hackathons/events/62796642/>.

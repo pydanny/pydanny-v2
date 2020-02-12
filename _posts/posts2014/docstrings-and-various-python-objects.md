@@ -15,7 +15,7 @@ various other shortcomings, [I went back to standard
 functions](https://pydanny.blogspot.com/2007/07/lambdas-no-more.html).
 Also, for what it's worth, I've even spoken about how [you shouldn't
 use
-lambdas](http://www.slideshare.net/pydanny/python-worst-practices/41).
+lambdas](https://www.slideshare.net/pydanny/python-worst-practices/41).
 
 Recently I was thinking about how everything in Python is an object.
 This includes lambdas. Since all Python objects have the `__doc__`

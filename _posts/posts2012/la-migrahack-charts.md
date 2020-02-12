@@ -44,10 +44,10 @@ Deportation Numbers per State
 Credits
 =======
 
--   [Carlos Hernandez](http://sblatino.com)
+-   [Carlos Hernandez](https://sblatino.com)
 -   [Rachel Estabrook](https://twitter.com/restabro)
 -   [Scott Smith](https://twitter.com/connectacopia)
--   [Agustin Duran](http://latinocalifornia.com)
+-   [Agustin Duran](https://latinocalifornia.com)
 -   [Daniel Greenfeld]()
 
-For [LA Hackathon on Immigration](http://hackathon2012.wikidot.com/)
+For [LA Hackathon on Immigration](https://hackathon2012.wikidot.com/)

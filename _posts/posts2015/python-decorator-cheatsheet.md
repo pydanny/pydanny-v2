@@ -12,7 +12,7 @@ title: Python Decorator Cheatsheet
 ---
 
 I can never remember the syntax for writing
-[decorators](http://en.wikipedia.org/wiki/Python_syntax_and_semantics#Decorators).
+[decorators](https://en.wikipedia.org/wiki/Python_syntax_and_semantics#Decorators).
 I always have to look it up. Worse, I always have to remember where to
 look to find references. Hence the reason for this article. I'll never
 lose this reference: It's on my laptop and the internet.
@@ -149,7 +149,7 @@ Summary
 This article is a cheatsheet, not a tutorial.
 
 Instead of explaining why Python has
-[decorators](http://en.wikipedia.org/wiki/Python_syntax_and_semantics#Decorators),
+[decorators](https://en.wikipedia.org/wiki/Python_syntax_and_semantics#Decorators),
 how to use them, how they work, or why to use them, this article is a
 reference. Nothing more.
 

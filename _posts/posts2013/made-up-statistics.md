@@ -16,9 +16,9 @@ title: Made Up Statistics
 
 Years ago my good friend [Miguel Araujo](https://twitter.com/maraujop)
 and I presented on [Advanced Django Form
-Usage](http://speakerdeck.com/u/pydanny/p/advanced-django-forms-usage).
+Usage](https://speakerdeck.com/u/pydanny/p/advanced-django-forms-usage).
 [Slide
-18](http://www.slideshare.net/pydanny/advanced-django-forms-usage/52) of
+18](https://www.slideshare.net/pydanny/advanced-django-forms-usage/52) of
 that talk mentioned some made up statistics. Here they are for
 reference:
 
@@ -81,8 +81,8 @@ Pydanny Made Up Python Enviroment Statistics
 
 Following the obvious logic flow (to me anyway) of DevOps to something
 else, let's go into Python environments, also known as the
-[VirtualEnv](http://pypi.python.org/pypi/virtualenv) vs
-[Buildout](http://pypi.python.org/pypi/zc.buildout) debate, which adds
+[VirtualEnv](https://pypi.python.org/pypi/virtualenv) vs
+[Buildout](https://pypi.python.org/pypi/zc.buildout) debate, which adds
 up to an even 100% (making it good pie chart material):
 
 -   77% of Python Developers prefer VirtualEnv.
@@ -108,11 +108,11 @@ ending template debate in Python:
 
 -   70% of python developers prefer
     [non-XML](https://docs.djangoproject.com/en/1.5/ref/templates/)
-    [templates](http://jinja.pocoo.org/docs/).
--   25% of python developers prefer [XML](http://www.makotemplates.org/)
+    [templates](https://jinja.pocoo.org/docs/).
+-   25% of python developers prefer [XML](https://www.makotemplates.org/)
     templates.
 -   5% of python developers wonder why we don't just use the
-    [str.format()](http://docs.python.org/library/string.html#formatstrings)
+    [str.format()](https://docs.python.org/library/string.html#formatstrings)
     method and be done with it.
 
 The display for this data is a lovely pie chart as seen below. In order

@@ -48,7 +48,7 @@ export default {
         actions: [
           {
             text: "E-Book versions available on roygreenfeld.com ",
-            link: "http://roygreenfeld.com/products/django-crash-course"
+            link: "https://roygreenfeld.com/products/django-crash-course"
           }
         ]
       },
@@ -62,7 +62,7 @@ export default {
           actions: [
             {
               text: "Paperback, PDF, ePub, and Kindle versions available on roygreenfeld.com  ",
-              link: "http://roygreenfeld.com/products/two-scoops-of-django-1-11"
+              link: "https://roygreenfeld.com/products/two-scoops-of-django-1-11"
             },
             {
               text: "Available at amazon.com",

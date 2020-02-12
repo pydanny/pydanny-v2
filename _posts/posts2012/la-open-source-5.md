@@ -16,7 +16,7 @@ time_to_read: 3
 title: Los Angeles Open Source Sprint on Nov 4th!
 ---
 
-[![Hacking awayyy!!](images/la_hackathons.jpeg)](http://www.meetup.com/LA-Hackathons/events/85658952/)
+[![Hacking awayyy!!](images/la_hackathons.jpeg)](https://www.meetup.com/LA-Hackathons/events/85658952/)
 
 Yet again, myself, Audrey Roy, and a small but elite cadre of volunteers
 are feverishly at work putting together another Los Angeles open source
@@ -30,14 +30,14 @@ of all languages and skill levels to come and code like fiends. They'll
 be joined by dozens of either really smart coders or nice people like
 me. Sponsors are providing food, drinks, venue, and more!
 
-RSVP at <http://www.meetup.com/LA-Hackathons/events/85658952/>
+RSVP at <https://www.meetup.com/LA-Hackathons/events/85658952/>
 
 I'll be there to:
 
 -   Co-lead the event with the assistance of the awesome Los Angeles
     technical community!
 -   Code like a fiend. I plan to work on core
-    [Django](http://djangoproject.com). Maybe some ember.js stuff too.
+    [Django](https://djangoproject.com). Maybe some ember.js stuff too.
 
 And now to open the floor to questions...
 
@@ -56,7 +56,7 @@ When:
 
 ## Is this like a Hackathon?
 
-Yup. See <http://en.wikipedia.org/wiki/Hackathon#Sprints>
+Yup. See <https://en.wikipedia.org/wiki/Hackathon#Sprints>
 
 ## What if I don't have a project of my own to bring? Should I come?
 
@@ -82,7 +82,7 @@ It depends.
 **If you've never coded before**, this isn't the right place. Instead,
 you might consider one of the local coding workshops or classes. In
 fact, here's a good [bi-weekly hack night / study
-group](http://www.meetup.com/Los-Angeles-Hack-Night/) for you.
+group](https://www.meetup.com/Los-Angeles-Hack-Night/) for you.
 
 **If you've done a tutorial or two**, sprints can be a great way to
 learn new skills or hone your technique by sitting alongside experienced
@@ -134,5 +134,5 @@ The event is $10, covers food and drink for the day, and you can RSVP
 by clicking on the image below
 
 
-[![Los Angeles Open Source Sprint](images/7132778527_6e3b49b313_o.png)](http://www.flickr.com/photos/pydanny/7132778527/)
+[![Los Angeles Open Source Sprint](images/7132778527_6e3b49b313_o.png)](https://www.flickr.com/photos/pydanny/7132778527/)
 

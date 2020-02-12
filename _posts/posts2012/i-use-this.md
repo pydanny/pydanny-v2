@@ -11,15 +11,15 @@ title: I use this
 
 I had been meaning to do this for some time, and even had a nascent page
 for it on this site already. I just noticed my old friend [Jessica
-Hammer](http://jessica.hammer.usesthis.com/) was featured on
+Hammer](https://jessica.hammer.usesthis.com/) was featured on
 usesthis.com. Then I remembered [Kenneth
-Reitz](http://kennethreitz.com/) [blogged about his
-tools](http://kennethreitz.com/i-use-this.html) not that long ago. Looks
+Reitz](https://kennethreitz.com/) [blogged about his
+tools](https://kennethreitz.com/i-use-this.html) not that long ago. Looks
 like it is my turn now.
 
 So without further ado, seven of my tools, specifically software.
 
-[TextMate](http://consumernotebook.com/textmate-the-missing-editor-for-mac-os-x/4f4ad4e35a4305000d000000/)
+[TextMate](https://consumernotebook.com/textmate-the-missing-editor-for-mac-os-x/4f4ad4e35a4305000d000000/)
 ==========================================================================================================
 
 > "My relationship with Textmate isn't healthy."
@@ -30,8 +30,8 @@ I continue to use it, even though it's unsupported, has weird
 whitespace issues, and people make fun of me. I don't mean the
 EMACS/Vim people, cause they mock everyone, I mean people using [Sublime
 Text
-2](http://consumernotebook.com/sublime-text/4f4ad53a5a4305000e000000/),
-[PyCharm](http://consumernotebook.com/jetbrains-pycharm/4f4ad5b861e9e4000e000000/),
+2](https://consumernotebook.com/sublime-text/4f4ad53a5a4305000e000000/),
+[PyCharm](https://consumernotebook.com/jetbrains-pycharm/4f4ad5b861e9e4000e000000/),
 and NotePad on Windows. I try to make a brave face of it and for the
 most part I succeed.
 
@@ -44,14 +44,14 @@ stares me in the face; yet I cling to hope.
 
 Alright, sometimes I dabble in Sublime Text 2. I've played with
 PyCharm. In 2010 I even worked on a project where use of
-[PyDev](http://consumernotebook.com/pydev/4f4ad5d55a4c6f000d000000/) was
+[PyDev](https://consumernotebook.com/pydev/4f4ad5d55a4c6f000d000000/) was
 mandatory. When I touch servers it's EMACS, Vi, or even Nano. And yet
 to TextMate I always return.
 
 Is TextMate dead? Probably. And yes, someday I'll switch over to
 something else, probably Sublime Text 2. In order to be certain I'm
 starting to [list all the Python
-editors](http://consumernotebook.com/lists/pydanny/complete-list-of-python-editors/)
+editors](https://consumernotebook.com/lists/pydanny/complete-list-of-python-editors/)
 so I can review them properly before switching.
 
 ------------------------------------------------------------------------
@@ -66,7 +66,7 @@ pretty I copy/paste pygmentized code and it just works.
 
 ------------------------------------------------------------------------
 
-[Read the Docs](http://rtfd.org)
+[Read the Docs](https://rtfd.org)
 ================================
 
 > "Wikis are where documentation goes to die."
@@ -87,7 +87,7 @@ documentation as you do coding. Use Read the Docs.
 
 ------------------------------------------------------------------------
 
-[Heroku](http://heroku.com)
+[Heroku](https://heroku.com)
 ===========================
 
 When I first heard that Heroku had become yet-another-Python-PAAS, I
@@ -95,16 +95,16 @@ shrugged. The field is crowded. We've tried a bunch, but never felt
 like committing a real project to this type of service.
 
 After a coding contest in October over in Hollywood where [Randall
-Degges](http://rdegges.com) served as sys admin for the project and
+Degges](https://rdegges.com) served as sys admin for the project and
 tried out Heroku, I was impressed. Heroku provided a nice command-line
 interface and had an impressive feature set on it's own. A stand-out
-feature I noticed was the [add-ons](http://add-ons.heroku.com), which
+feature I noticed was the [add-ons](https://add-ons.heroku.com), which
 are Heroku moderated third-party plug-ins for their service. Finally, it
 didn't hurt that Heroku has the staff to provide 24/7 coverage of their
 servers.
 
 We decided to give it a try and the results are that [Consumer
-Notebook](http://consumernotebook.com) is hosted by Heroku. We're more
+Notebook](https://consumernotebook.com) is hosted by Heroku. We're more
 than pleased, and I'll be blogging about the advantages of PaaS over
 doing-servers-yourself in a future article.
 
@@ -122,15 +122,15 @@ relying on weird coding patterns.
 
 ------------------------------------------------------------------------
 
-[Consumer Notebook](http://consumernotebook.com)
+[Consumer Notebook](https://consumernotebook.com)
 ================================================
 
 Yup, I eat my own dogfood. It lets me [build comparison
-grids](http://consumernotebook.com/grids/~pydanny/) or look at what
+grids](https://consumernotebook.com/grids/~pydanny/) or look at what
 [other people are
-comparing](http://consumernotebook.com/grids/r1chardj0n3s/10-android-tablets/).
+comparing](https://consumernotebook.com/grids/r1chardj0n3s/10-android-tablets/).
 I can [list stuff for any
-purpose](http://consumernotebook.com/lists/~pydanny/), and turn the
+purpose](https://consumernotebook.com/lists/~pydanny/), and turn the
 content of those lists into grids. It is still in BETA, so things are
 still under development. However, on the other side, since I'm the one
 building and using it, I get to determine the features going in or
@@ -143,7 +143,7 @@ Mac OS X
 
 I started as an Apple user:
 
-[![Me at 14-ish years of age sitting in from of the Apple 2](images/6933443849_51316a7cb7.jpg)](http://www.flickr.com/photos/pydanny/6933443849/)
+[![Me at 14-ish years of age sitting in from of the Apple 2](images/6933443849_51316a7cb7.jpg)](https://www.flickr.com/photos/pydanny/6933443849/)
 
 I use Mac OS X professionally and have done so since 2006. However,
 between autumn of 1985 and 2006 I used MS/DOS and Windows (deployments

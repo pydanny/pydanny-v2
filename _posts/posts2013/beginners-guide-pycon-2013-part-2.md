@@ -50,7 +50,7 @@ quick guidelines:
 
 -   **Ask Questions!** If the speaker leaves time for questions at the
     end, [go and
-    ask](http://cecinestpasun.com/entries/i-can-haz-question-or-five/)!
+    ask](https://cecinestpasun.com/entries/i-can-haz-question-or-five/)!
 -   **Shut the Laptop and Turn Off the Device.** It's disconcerting to
     give a speech to hundreds of people staring at their portable
     electronics and not responding to your banter. Unless you are using

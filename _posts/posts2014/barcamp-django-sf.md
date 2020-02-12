@@ -15,13 +15,13 @@ title: Announcing BarCamp Django SF!
 ## BarCamp Django SF!
 
 On October 4th and 5th [BarCamp Django
-SF](http://barcampdjangosf.eventbrite.com) will be taking place in the
-[Eventbrite](http://eventbrite.com) office in San Francisco. [BarCamp
-Django SF](http://barcampdjangosf.eventbrite.com) is a low-cost,
+SF](https://barcampdjangosf.eventbrite.com) will be taking place in the
+[Eventbrite](https://eventbrite.com) office in San Francisco. [BarCamp
+Django SF](https://barcampdjangosf.eventbrite.com) is a low-cost,
 community-focused event that's different than any previous multi-day
-[Django](http://djangoproject.com) conference.
+[Django](https://djangoproject.com) conference.
 
-How is [BarCamp Django SF](http://barcampdjangosf.eventbrite.com)
+How is [BarCamp Django SF](https://barcampdjangosf.eventbrite.com)
 different than previous Django conferences and events?
 
 ### Speakers are determined at the event
@@ -43,21 +43,21 @@ While this is meant to be an informal, beginner-friendly event, a
 professional level of conduct is still required:
 
 -   Speakers, like all attendees must agree to the code of
-    conduct (listed on the [event page](http://barcampdjangosf.eventbrite.com)).
+    conduct (listed on the [event page](https://barcampdjangosf.eventbrite.com)).
 -   No sales or recruiting pitches. Don't even try it!
 
 Some attendees planning to be speakers:
 
 -   [Simon Willison](https://twitter.com/simonw) (co-founder of Django,
-    co-founder of [Lanyrd](http://lanyrd.com/))
+    co-founder of [Lanyrd](https://lanyrd.com/))
 -   [Andrew Godwin](https://twitter.com/andrewgodwin) (South,
     Migrations, etc)
 -   [Natalie Downe](https://twitter.com/natbat) (co-founder of
-    [Lanyrd](http://lanyrd.com/))
+    [Lanyrd](https://lanyrd.com/))
 -   [Audrey Roy Greenfeld](audrey.roygreenfeld.com)
     ([Cookiecutter](github.com/audreyr/cookiecutter),
     [MessageBar](https://github.com/audreyr/messagebar), [Two Scoops of
-    Django](http://roygreenfeld.com/products/two-scoops-of-django-1-6))
+    Django](https://roygreenfeld.com/products/two-scoops-of-django-1-6))
 -   Michael Herman ([Real Python](https://twitter.com/realpython))
 -   Myself
 -   You! We especially welcome people from diverse backgrounds (race,
@@ -84,17 +84,17 @@ What that **$15** gets you:
 ### Camping!
 
 On the night of October 4th, you can stay overnight at [BarCamp Django
-SF](http://barcampdjangosf.eventbrite.com)!
+SF](https://barcampdjangosf.eventbrite.com)!
 
-[BarCamp Django SF](http://barcampdjangosf.eventbrite.com) is 2 days,
+[BarCamp Django SF](https://barcampdjangosf.eventbrite.com) is 2 days,
 and will run from 10am Saturday morning until 4pm Sunday in the
-[Eventbrite](http://eventbrite.com) San Francisco office. Doors will be
+[Eventbrite](https://eventbrite.com) San Francisco office. Doors will be
 open throughout the duration of the event and all are welcome to camp
 out overnight. If you do plan on camping, you'll need to **bring your
 own sleeping bag, blow up beds, pillows & blankets**.
 
 What's really awesome about camping at [BarCamp Django
-SF](http://barcampdjangosf.eventbrite.com) is it allows out-of-town
+SF](https://barcampdjangosf.eventbrite.com) is it allows out-of-town
 attendees to keep their costs low ($15 event cost vs $200+ hotel
 rooms).
 

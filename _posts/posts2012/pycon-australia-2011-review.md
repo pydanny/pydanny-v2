@@ -20,7 +20,7 @@ Australia
 I was terribly excited for her to get that invitation, and that
 excitement was compounded when they allowed me to present on
 [Confessions of Joe
-Developer](http://www.slideshare.net/pydanny/confessions-of-a-joe-developer%60:).
+Developer](https://www.slideshare.net/pydanny/confessions-of-a-joe-developer%60:).
 
 Travel is a passion of mine, and it's only been since 2007 that I've
 gotten a chance to do much seeing of the world. Australia was always
@@ -29,7 +29,7 @@ go. Fortunately, my assumption was wrong and we landed on August 18th in
 Sydney, Australia!
 
 Audrey [wrote her own statement about the
-event](http://audreyr.posterous.com/thank-you-pycon-au) right after we
+event](https://audreyr.posterous.com/thank-you-pycon-au) right after we
 were done. She's good that way. Okay then, off to my own review. This
 is belated, but better late then never, right?
 
@@ -62,10 +62,10 @@ it as many times as possible because he changes it each and every time.
 Richard Jones' presentation on the [Zen of
 Python](https://pydanny-event-notes.readthedocs.org/en/latest/PyconAU2011/zen_of_python.html)
 was very solid too, and I'll use this as an opportunity to promote my
-[Anti-Zen of Python](http://pypi.python.org/pypi/that).
+[Anti-Zen of Python](https://pypi.python.org/pypi/that).
 
 When it came time for me to present on [Confessions of Joe
-Developer](http://www.slideshare.net/pydanny/confessions-of-a-joe-developer%60:),
+Developer](https://www.slideshare.net/pydanny/confessions-of-a-joe-developer%60:),
 I finished way too early; plus me and Audrey felt the talk was not
 technical enough. Even though the reception for my talk was very
 positive, based on that experience and observation we ramped up the
@@ -144,7 +144,7 @@ We talked with Richard Jones about PyPI authentication issues, and he
 decided to go with OpenID. Personally, I would prefer OAUTH but I'll
 take whatever I can get. On the behalf of the community Mark Rees
 implemented OpenID on PyPI at the sprint so things like
-<http://opencomparison.org> can support the community better. One goal
+<https://opencomparison.org> can support the community better. One goal
 at PyCon 2012 is to get that working as another authentication system.
 
 Otherwise I closed bugs and worked lintification of the project. Audrey

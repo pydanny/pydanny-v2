@@ -12,7 +12,7 @@ title: New Year's Meme 2013
 ---
 
 Inspired by [Alex Clark's
-meme](http://blog.aclark.net/2013/12/30/new-years-python-meme-2014/),
+meme](https://blog.aclark.net/2013/12/30/new-years-python-meme-2014/),
 here is my own entry into this end-of-year fun.
 
 What's the Coolest Thing You Discovered This Year?
@@ -26,11 +26,11 @@ LaTeX
 -----
 
 That [book](dhttps://roygreenfeld.com/products/two-scoops-of-django-1-5) I co-wrote with [Audrey
-Roy](http://audreyr.com)? Written in
+Roy](https://audreyr.com)? Written in
 [LaTeX](https://en.wikipedia.org/wiki/LaTeX). It wasn't easy to get
 started, even with Audrey as my instructor, but now that I grok it, I
 feel extremely empowered. That's because I can do all kinds of awesome,
-insane hacks when [Sphinx](http://sphinx-doc.org/) generates PDFs. I
+insane hacks when [Sphinx](https://sphinx-doc.org/) generates PDFs. I
 hope I get the chance to show off some of my new madness to the world in
 2014.
 
@@ -44,7 +44,7 @@ considered stylish to loosen the bow tie later in the evening to
 demonstrate you aren't wearing that clip.
 
 Of all the stuff I watched on the subject of bow tying, [this
-video](http://www.youtube.com/watch?v=T5PTLV-L_sk) was the longest and
+video](https://www.youtube.com/watch?v=T5PTLV-L_sk) was the longest and
 the best of them all.
 
 **Update 1/4/2014:** I learned this awesome skill because [I wanted to

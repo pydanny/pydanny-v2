@@ -398,7 +398,7 @@ coming into your system, form libraries save you from doing extra work
 and cover your behind. While my experience is with Django forms, there
 are many form libraries out there. The patterns explored in this post
 are certainly available in other web frameworks (see
-<http://flask.pocoo.org/snippets/category/forms/> for proof).
+<https://flask.pocoo.org/snippets/category/forms/> for proof).
 
 **HTML Rendering Issues**: No form library is going to do everything,
 and because of evolving standards, decent HTML rendering is a pain for

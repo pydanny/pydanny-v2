@@ -10,7 +10,7 @@ time_to_read: 2
 title: PyCon 2013 Talks/Tutorials I want to see
 ---
 
-This morning, [Jesse Noller](http://jessenoller.com/), the chair of
+This morning, [Jesse Noller](https://jessenoller.com/), the chair of
 PyCon US, suggested a meme, "[PyCon 2013](https://us.pycon.org/2013)
 **talks/tutorials I'd like to see**". Here is my meme submission:
 
@@ -53,7 +53,7 @@ migrating from 2.x to 3.
 5. Fun and games with NumPy
 ===========================
 
-[NumPy](http://numpy.scipy.org/) is an incredible library. It deserves a
+[NumPy](https://numpy.scipy.org/) is an incredible library. It deserves a
 talk, specifically one where it is demonstrated to do something amazing.
 Maybe it's something scientific, maybe it's something crunching social
 data, maybe it's something I can't begin to imagine. Surprise and
@@ -86,4 +86,4 @@ problem in one of two ways:
 1.  [Submit your talk as early as
     possible](https://us.pycon.org/2013/speaking/cfp).
 2.  [Help review PyCon US
-    talks](http://pycon.blogspot.com/2012/07/i-want-you-for-pycon-program-commitee.html).
+    talks](https://pycon.blogspot.com/2012/07/i-want-you-for-pycon-program-commitee.html).

@@ -10,7 +10,7 @@ time_to_read: 3
 title: Intensive Django Training with the US Air Force
 ---
 
-Last week [Audrey Roy Greenfeld](http://audrey.roygreenfeld.com) and I
+Last week [Audrey Roy Greenfeld](https://audrey.roygreenfeld.com) and I
 had the privilege of teaching the US Air Force's [91st Cyberspace
 Operations
 Squadron](https://en.wikipedia.org/wiki/91st_Cyberspace_Operations_Squadron)
@@ -21,9 +21,9 @@ the finer details of how to build, test, and deploy
 
 It was a challenging, exciting experience for us as instructors. We've
 taught numerous Python and Django trainings over the years under
-[Cartwheel Web](http://www.cartwheelweb.com/training/) , but this was
+[Cartwheel Web](https://www.cartwheelweb.com/training/) , but this was
 the first time we taught as [Two Scoops
-Academy](http://www.twoscoopsacademy.com) using our new system of
+Academy](https://www.twoscoopsacademy.com) using our new system of
 instruction.
 
 The environment that the 91st Cyberspace Operations Squadron works in is
@@ -72,7 +72,7 @@ Base](https://en.wikipedia.org/wiki/Lackland_Air_Force_Base), and I look
 forward to hearing about their successes in the future.
 
 For more details, see Audrey's [blog
-post](http://audrey.roygreenfeld.com2015/11/intensive-django-training-with-91st.html).
+post](https://audrey.roygreenfeld.com2015/11/intensive-django-training-with-91st.html).
 
 Testimonial by Captain Jonathan D. Miller
 =========================================

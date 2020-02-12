@@ -28,7 +28,7 @@ These are tricks I have to make package management in
 implement them, I recommend you have at least basic experience with
 creating new packages. Two ways to learn about python packaging are the
 [New Library
-Sprint](http://audreyr.gitbooks.io/new-library-sprint/content/)
+Sprint](https://audreyr.gitbooks.io/new-library-sprint/content/)
 (beginner friendly) and the [Python Packaging User
 Guide](https://python-packaging-user-guide.readthedocs.org) (more
 advanced).
@@ -121,7 +121,7 @@ forthcoming 'traps' blog post.
 
 Alrighty then...
 
-I like [py.test](http://pytest.org). I've [blogged about the use of
+I like [py.test](https://pytest.org). I've [blogged about the use of
 py.test](/pytest-no-boilerplate-testing.html). I
 try to use it everywhere. Yet, I'm really not a fan of how we're
 supposed tie it into **python setup.py test**. The precise moment I get
@@ -177,7 +177,7 @@ the **os.system()** function is good enough.
 ## Why not just use a Makefile?
 
 While I code primarily on Mac OSX and Linux, most of my open source
-packages are used Windows. Thanks to [AppVeyor](http://appveyor.com),
+packages are used Windows. Thanks to [AppVeyor](https://appveyor.com),
 I'm testing more and more of them in that environment. In fact, I'll
 probably be modifying these "tricks" to work better for Windows users.
 

@@ -18,7 +18,7 @@ trip to Dynów, Poland in May 2013.
 
 This was our second trip to Poland. Last year (2012) I went with
 [Audrey](https://audrey.roygreenfeld.com) in 2012 for a few days to present at a
-software conference called [PyCon Poland](http://pl.pycon.org/). We
+software conference called [PyCon Poland](https://pl.pycon.org/). We
 stayed for a few days afterwards in the eerily familiar Krakow, always
 conscious that my family heritage was perhaps just hours away. You see,
 my mother and father's family come from Jews who emigrated to the USA
@@ -32,7 +32,7 @@ year I would get to research and visit where my grand-father's roots in
 south-eastern Poland. We blocked out some time, made various
 reservations, talked to family members such as my mother and Aunt
 Bernice (who [wrote about her trip in
-2006](http://kehilalinks.jewishgen.org/krosno/Krosnodubtrip.htm)), and
+2006](https://kehilalinks.jewishgen.org/krosno/Krosnodubtrip.htm)), and
 leaned heavily on the graces of close friends Tomasz 'Tomek'
 Paczkowski and Alexandra 'Ola' Sendecka.
 
@@ -58,5 +58,5 @@ of their ancestors.
 More about the trip is forthcoming later in the series. In the meantime,
 here are some things still being edited:
 
--   [Photos](http://www.flickr.com/photos/pydanny/sets/72157635453007448/)
+-   [Photos](https://www.flickr.com/photos/pydanny/sets/72157635453007448/)
 -   [Notes](https://github.com/pydanny/dynow-trip-2013)

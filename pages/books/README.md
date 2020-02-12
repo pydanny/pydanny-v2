@@ -11,7 +11,7 @@ books:
     Originally a large part of our corporate training materials, this tutorial was once only available to companies paying $3000 a seat for in-person training. The contents of this book are professional-grade and have been used by real software companies to get their engineers up and running fast with Python 3.8 and Django 3.x development."
     actions:
       - text: "Buy on roygreenfeld.com"
-        link: "http://roygreenfeld.com/products/django-crash-course"
+        link: "https://roygreenfeld.com/products/django-crash-course"
   - id: 1
     title: "Two Scoops of Django"
     type: "technical"
@@ -20,7 +20,7 @@ books:
     text: "Two Scoops of Django is chock-full of material that will help you with your Django projects. Written to support Django 1.11 LTS (Long Term Support), this book won't get outdated until April 2020."
     actions:
       - text: "Buy on roygreenfeld.com"
-        link: "http://roygreenfeld.com/products/two-scoops-of-django-1-11"
+        link: "https://roygreenfeld.com/products/two-scoops-of-django-1-11"
       - text: "Buy on amazon.com"
         link: "https://2scoops.co/tsd111"
       - text: "Kindle and paperback versions available on amazon.com"
@@ -34,7 +34,7 @@ books:
     text: "Written to support Django 1.8 LTS (Long Term Support), this book is still useful to have for older projects."
     actions:
       - text: "Buy on roygreenfeld.com"
-        link: "http://roygreenfeld.com/products/two-scoops-of-django-1-8"
+        link: "https://roygreenfeld.com/products/two-scoops-of-django-1-8"
       - text: "Buy on amazon.com"
         link: "https://2scoops.co/tsd18"
 
@@ -46,7 +46,7 @@ books:
     text: "Long out of date, displayed for historical purposes."
     actions:
       - text: "Buy on roygreenfeld.com"
-        link: "http://roygreenfeld.com/products/two-scoops-of-django-1-6"
+        link: "https://roygreenfeld.com/products/two-scoops-of-django-1-6"
       - text: "Buy on amazon.com"
         link: "https://2scoops.co/tsd16"
 
@@ -128,7 +128,7 @@ books:
       - text: "Buy on roygreenfeld.com"
         link: "https://www.roygreenfeld.com/collections/ambria-series"
       - text: "Buy on amazon.com"
-        link: "http://mybook.to/ambria-series"
+        link: "https://mybook.to/ambria-series"
 ---
 
 # Books
@@ -169,4 +169,4 @@ Yes, I also write fiction with my wife.
     width="300"
     class="horizontal" />
 
-  <!-- http://images.amazon.com/images/P/B071L2G8SL.01.LZZZZZZZ.jpg -->
+  <!-- https://images.amazon.com/images/P/B071L2G8SL.01.LZZZZZZZ.jpg -->

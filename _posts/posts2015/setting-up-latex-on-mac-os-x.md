@@ -13,12 +13,12 @@ title: Setting up LaTeX on Mac OS X
 
 These are my notes for getting LaTeX running on Mac OS X with the
 components and fonts I want. Which is handy when you want to generate
-PDFs from [Sphinx](http://sphinx-doc.org/). At some point I want to
+PDFs from [Sphinx](https://sphinx-doc.org/). At some point I want to
 replace this with a [Docker](https://www.docker.com/) container similar
 <https://github.com/blang/latex-docker>, albeit with the components in
 parts 3 and 4 below.
 
-1.  Get mactex-basic.pkg from <http://www.ctan.org/pkg/mactex-basic>
+1.  Get mactex-basic.pkg from <https://www.ctan.org/pkg/mactex-basic>
 2.  Click mactex-basic.pkg to install LaTeX.
 3.  Update `tlmgr`:
 
@@ -51,6 +51,6 @@ parts 3 and 4 below.
         sudo tlmgr install collection-fontsrecommended
 
 **note:** Yes, I know I can install the basic LaTeX package using
-[Homebrew](http://brew.sh/), but sometimes I like doing things manually.
+[Homebrew](https://brew.sh/), but sometimes I like doing things manually.
 
-[![image](http://upload.wikimedia.org/wikipedia/commons/9/9c/Latex_example.png)](http://en.wikipedia.org/wiki/LaTeX#mediaviewer/File:Latex_example.png)
+[![image](https://upload.wikimedia.org/wikipedia/commons/9/9c/Latex_example.png)](https://en.wikipedia.org/wiki/LaTeX#mediaviewer/File:Latex_example.png)

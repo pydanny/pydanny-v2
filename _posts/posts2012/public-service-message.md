@@ -33,7 +33,7 @@ Help us fix the problem in one of two ways:
 1.  [Submit your talk as early as
     possible](https://us.pycon.org/2013/speaking/cfp).
 2.  [Help review PyCon US
-    talks](http://pycon.blogspot.com/2012/07/i-want-you-for-pycon-program-commitee.html).
+    talks](https://pycon.blogspot.com/2012/07/i-want-you-for-pycon-program-commitee.html).
 
 Production notes for this service message
 =========================================

@@ -17,8 +17,8 @@ an article about Django or Plone.*
 
 ## Introduction
 
-Years ago, when I was working with [Plone](http://plone.org) at
-[NASA](http://nasa.gov), one thing I dreaded was when content editors
+Years ago, when I was working with [Plone](https://plone.org) at
+[NASA](https://nasa.gov), one thing I dreaded was when content editors
 would copy-and-paste from Microsoft Word into the title bar. All kinds
 of funny characters would appear in the title bar and URL. I would have
 to go into the database (ZODB) and fix things. Things didn't get better
@@ -31,7 +31,7 @@ that made it nice was the presence of it's
 function and template filter. Inspired by the newspaper industry, this
 function it easier on both content editors and software engineers. In
 any case, using `slugify()` we completed a number of projects, with
-[NASA Science](http://science.nasa.gov/) being the only public one I
+[NASA Science](https://science.nasa.gov/) being the only public one I
 worked on.
 
 As much as the `slugify()` function was useful, there were problems. As
@@ -48,7 +48,7 @@ u"strae"
 If you read German, you'll know that the default Django `slugify()`
 function is converting the word 'road' to nonsense. For sites dealing
 with internationalization, this won't do. So over three years ago while
-at [Mozilla](http://www.mozilla.org/), [Pinterest](http://pinterest.com)
+at [Mozilla](https://www.mozilla.org/), [Pinterest](https://pinterest.com)
 engineer [Dave Dash](https://twitter.com/davedash) created
 [unicode-slugify](https://pypi.python.org/pypi/unicode-slugify). From
 then on we could do this:
@@ -64,7 +64,7 @@ u"straße"
 While a very nice tool, this package is dependent on Django's internal
 machinery to operate, which is a problem for non-Django users. While we
 could use Python's [unicodedata library to resolve unicode to
-slugs](http://flask.pocoo.org/snippets/5/), wouldn't it be nice if
+slugs](https://flask.pocoo.org/snippets/5/), wouldn't it be nice if
 there was a nicely packaged/tested solution?
 
 Fortunately, such a nicely packaged/tested solution exists, and it's
@@ -239,7 +239,7 @@ I cover how to write custom language `slugify()` translation functions
 using **awesome-slugify**.
 
 **Update 2013/01/23** Thanks to
-[flying-sheep](http://www.reddit.com/user/flying-sheep), I Changed
+[flying-sheep](https://www.reddit.com/user/flying-sheep), I Changed
 'equivalent' to 'substitution' in describing the unicode-to-ASCII
 translation. This is because 'ss' is not a precise translation of
 'ß'.

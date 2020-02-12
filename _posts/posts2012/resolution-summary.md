@@ -27,8 +27,8 @@ Resolutions completed
 -   See a place in the USA I've never been. A couple places I saw:
 
     > -   [San Luis
-    >     Obispo](http://en.wikipedia.org/wiki/San_Luis_Obispo)
-    > -   [Sonoma](http://en.wikipedia.org/wiki/Sonoma_County,_California)
+    >     Obispo](https://en.wikipedia.org/wiki/San_Luis_Obispo)
+    > -   [Sonoma](https://en.wikipedia.org/wiki/Sonoma_County,_California)
 
 -   Drop to a 32 waist
 -   Visit friends and family back east. Been over a year since I've
@@ -42,7 +42,7 @@ Resolutions completed
 
 -   Visit a Theme park. The parks I got to visit:
 
-    > -   [Disneyland](http://en.wikipedia.org/wiki/Disneyland) (Thanks
+    > -   [Disneyland](https://en.wikipedia.org/wiki/Disneyland) (Thanks
     >     Paul and Marty!)
     > -   [Disney California
     >     Adventure](https://en.wikipedia.org/wiki/Disney_California_Adventure)

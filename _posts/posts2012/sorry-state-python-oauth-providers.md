@@ -31,10 +31,10 @@ but I'm going to be nice and say that it's because their too busy to
 find time to send pull requests back.
 
 In any case, let me present our use case. For [Consumer
-Notebook](http://consumernotebook.com) we want an
-[API](http://api.consumernotebook.com). We want to be able to track
+Notebook](https://consumernotebook.com) we want an
+[API](https://api.consumernotebook.com). We want to be able to track
 usernames, passwords, and the application using our
-[API](http://api.consumernotebook.com) - which is the OAuth use case.
+[API](https://api.consumernotebook.com) - which is the OAuth use case.
 Much as BasicAuth or DigestAuth is the easier way to go in terms of
 implementation, OAuth was designed for our use case: allowing
 third-party developers to build apps using our API without having to
@@ -82,7 +82,7 @@ OAuth version: 1.0
 django-oauth-plus (Django)
 --------------------------
 
-<http://code.larlet.fr/django-oauth-plus>
+<https://code.larlet.fr/django-oauth-plus>
 
 OAuth version: 1.0a
 
@@ -160,7 +160,7 @@ Join us at the PyCon US sprints either in person or on-line. [Details of
 the sprint are near the bottom of this PyCon Sprint
 page](https://us.pycon.org/2012/community/sprints/projects/).
 
-[![OAuth Logo](images/6803475636_f34fb400eb_m.jpg)](http://oauth.net/)
+[![OAuth Logo](images/6803475636_f34fb400eb_m.jpg)](https://oauth.net/)
 
 ------------------------------------------------------------------------
 
@@ -172,7 +172,7 @@ Updates
 -   03/06/2012 - Added a link to the PyCon OAuth sprints.
 -   6/24/2013 - This article has been translated by Anja Skrba to
     Serbo-Croatian:
-    <http://science.webhostinggeeks.com/lose-stanje-python>
+    <https://science.webhostinggeeks.com/lose-stanje-python>
 -   07/07/2013 - Please consider
     <https://github.com/evonove/django-oauth-toolkit> for use as a
     Django-powered OAuth provider. The team behind it is doing it right!
@@ -183,4 +183,4 @@ Updates
 ------------------------------------------------------------------------
 
 [Discuss this post on Hacker
-News](http://news.ycombinator.com/item?id=3666853)
+News](https://news.ycombinator.com/item?id=3666853)

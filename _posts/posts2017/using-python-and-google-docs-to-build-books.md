@@ -34,7 +34,7 @@ don't know, Scrivener is an excellent tool for writing. It encourages
 you to break up your work into chapters and scenes. The downside is that
 Scrivener is complex (I want to write, not figure out software) and
 [Scrivener isn't designed for simultaneous
-collaboration](http://www.literatureandlatte.com/forum/viewtopic.php?f=2&t=11725).
+collaboration](https://www.literatureandlatte.com/forum/viewtopic.php?f=2&t=11725).
 The latter issue is a very serious problem, as I like to have others
 review and comment on my writing as I go.
 

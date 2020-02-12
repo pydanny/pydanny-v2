@@ -29,7 +29,7 @@ Thursday, March 8th
 
 I'm moderating the Code Reuse panel of the Python Web Summit. [Have you
 submitted a question
-yet](http://www.google.com/moderator/#15/e=1c9a94&t=1c9a94.43)?
+yet](https://www.google.com/moderator/#15/e=1c9a94&t=1c9a94.43)?
 
 In the evening we'll be helping assemble bags for the conference.
 That's always a blast.
@@ -58,9 +58,9 @@ and hang out at the (in)famous TIP BOF.
 Saturday, March 10th
 ====================
 
-I'll be at the [Consumer Notebook](http://consumernotebook.com)
+I'll be at the [Consumer Notebook](https://consumernotebook.com)
 [Startup
-Row](http://pycon.blogspot.com/2012/02/startup-row-winners-for-pycon-2012.html)
+Row](https://pycon.blogspot.com/2012/02/startup-row-winners-for-pycon-2012.html)
 booth all day! Come and hang out with us and all the other bright, new
 companies.
 
@@ -68,7 +68,7 @@ In the evening I'm hosting the [PyCon Capoeira Open
 Space](https://us.pycon.org/2012/community/openspaces/capoeira/). We've
 got a seriously large room assigned for the event, and over twenty five
 people currently signed up to participate ([there's still room for
-signups](http://bit.ly/pycon-capoeira)). Even if you don't want to play
+signups](https://bit.ly/pycon-capoeira)). Even if you don't want to play
 a musical instrument or learn/play at Capoeira, come anyway to watch.
 Some of the players there have some seriously amazing skills - I can
 assure you've seen them in the movies.

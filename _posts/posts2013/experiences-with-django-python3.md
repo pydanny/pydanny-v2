@@ -37,7 +37,7 @@ The steps I use are below. They are in rough order:
     if any of it's trove classifiers mention Python 3 status.
 -   See if a pull request for Python 3 support is outstanding.
 -   Run the test suite using Python 3.3
--   Use [2to3](http://docs.python.org/2/library/2to3.html) to scan the
+-   Use [2to3](https://docs.python.org/2/library/2to3.html) to scan the
     code for issues.
 -   If a Django project, check the models for `__str__()` methods. If it
     has them, it's a pretty good indicator it's Python 3.3 friendly.
@@ -165,16 +165,16 @@ The following are two useful resources on converting Python 2 to Python
 3. I don't follow their methods exactly, I just use them as rough
 guidelines for my own workflow.
 
--   [Porting Django apps to Python 3](http://youtu.be/cJMGvAYYUyY) video
+-   [Porting Django apps to Python 3](https://youtu.be/cJMGvAYYUyY) video
     by Jacob Kaplan-Moss
--   [Porting to Python 3](http://python3porting.com/) book (free HTML or
+-   [Porting to Python 3](https://python3porting.com/) book (free HTML or
     paid PDF, Kindle, ePub) by Lennart Regebro
 
 For various Python 3 recipes, I keep my kindle reader open to this
 priceless gem:
 
 -   [Python Cookbook, 3rd
-    Edition](http://www.amazon.com/Python-Cookbook-ebook/dp/B00DQV4GGY/?tag=ihpydanny)
+    Edition](https://www.amazon.com/Python-Cookbook-ebook/dp/B00DQV4GGY/?tag=ihpydanny)
     book by David Beazley and Brian K. JOnes.
 
 Closing Thoughts

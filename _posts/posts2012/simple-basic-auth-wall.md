@@ -20,10 +20,10 @@ for an early visitor. So we determined this was a job for a very simple
 authentication](https://en.wikipedia.org/wiki/Basic_access_authentication)
 implementation.
 
-I asked around and [Jacob Kaplan-Moss](http://jacobian.org/) gave me
-this awesome snippet using [barrel](http://pypi.python.org/pypi/barrel)
+I asked around and [Jacob Kaplan-Moss](https://jacobian.org/) gave me
+this awesome snippet using [barrel](https://pypi.python.org/pypi/barrel)
 that I pasted right into the bottom of the
-[Django](http://djangoproject.com) 1.4-style application's `wsgi.py`
+[Django](https://djangoproject.com) 1.4-style application's `wsgi.py`
 file.
 
 ``` python

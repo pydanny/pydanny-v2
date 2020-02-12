@@ -11,11 +11,11 @@ time_to_read: 3
 title: 'pytest: no-boilerplate testing'
 ---
 
-When I first encountered Holger Krekel's [pytest](http://pytest.org/)
+When I first encountered Holger Krekel's [pytest](https://pytest.org/)
 this summer on [Jeff Knupp's
-blog](http://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/)
+blog](https://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/)
 I felt like I had been living under a rock for years. I've been using
-Python's [unittest](http://docs.python.org/2/library/unittest.html)
+Python's [unittest](https://docs.python.org/2/library/unittest.html)
 framework since 2006 and [nose](https://pypi.python.org/pypi/nose) to
 find tests since 2008, but here was another test framework that actually
 predates **nose**! **pytest** is a very mature testing tool for testing
@@ -67,7 +67,7 @@ Now that I've explained which files are checked for tests, here is how
 1.  **pytest** *just runs* **doctests** and **unittests**.
 2.  **pytest** runs any function prefixed with `test_` as a test.
 3.  **pytest** does [its
-    best](http://pytest.org/latest/nose.html#unsupported-idioms-known-issues)
+    best](https://pytest.org/latest/nose.html#unsupported-idioms-known-issues)
     to run tests written for **nose**.
 
 Yes, **pytest** behaves similarly to **nose** in test discovery. Next is

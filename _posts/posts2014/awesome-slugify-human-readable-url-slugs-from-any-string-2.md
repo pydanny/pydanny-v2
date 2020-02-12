@@ -104,7 +104,7 @@ if __name__ == "__main__":
     pytest.main()
 ```
 
-[Michael P. Jung](http://bikeshedder.com/) created a German translation
+[Michael P. Jung](https://bikeshedder.com/) created a German translation
 function, which I've included below:
 
 ``` python

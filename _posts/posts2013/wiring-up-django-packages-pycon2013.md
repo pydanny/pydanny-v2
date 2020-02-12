@@ -24,7 +24,7 @@ In alphabetical order, the instructors:
 
 > -   [Audrey Roy](https://audrey.roygreenfeld.com/)
 > -   Daniel Greenfeld (myself)
-> -   [Kenneth Love](http://gettingstartedwithdjango.com/)
+> -   [Kenneth Love](https://gettingstartedwithdjango.com/)
 
 Tutorial Description
 ====================
@@ -74,13 +74,13 @@ you sign up for some of the introductory Python tutorials taught at
 PyCon next week. If that is not possible or you wish reinforcement,
 please dive into one of the following resources before you attend:
 
--   <http://learnpythonthehardway.org/>
+-   <https://learnpythonthehardway.org/>
 -   [Treading on
-    Python](http://www.amazon.com/Treading-Python-Volume-1-ebook/dp/B00639H0AK/ref=sr_1_4?s=digital-text&ie=UTF8&qid=1362769305&sr=1-4&keywords=matt+harrison&tag=ihpydanny-20)
+    Python](https://www.amazon.com/Treading-Python-Volume-1-ebook/dp/B00639H0AK/ref=sr_1_4?s=digital-text&ie=UTF8&qid=1362769305&sr=1-4&keywords=matt+harrison&tag=ihpydanny-20)
 -   [Think in
-    Python](http://www.amazon.com/Think-Python-Allen-B-Downey/dp/144933072X/ref=sr_1_1?ie=UTF8&qid=1362768936&sr=8-1&keywords=think+in+python&tag=ihpydanny-20)
+    Python](https://www.amazon.com/Think-Python-Allen-B-Downey/dp/144933072X/ref=sr_1_1?ie=UTF8&qid=1362768936&sr=8-1&keywords=think+in+python&tag=ihpydanny-20)
 -   [Python for
-    Kids](http://www.amazon.com/Python-Kids-Playful-Introduction-Programming/dp/1593274076/ref=sr_1_8?s=books&ie=UTF8&qid=1362769005&sr=1-8&keywords=python+programming&tag=ihpydanny-20)
+    Kids](https://www.amazon.com/Python-Kids-Playful-Introduction-Programming/dp/1593274076/ref=sr_1_8?s=books&ie=UTF8&qid=1362769005&sr=1-8&keywords=python+programming&tag=ihpydanny-20)
     (meant for kids but good for beginning developers of all ages)
 
 Registration

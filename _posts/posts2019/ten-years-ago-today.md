@@ -40,7 +40,7 @@ I've improved my family relationships. Even when we're clashing I can tell them 
 
 I lost many of my old friends and made new ones. Losing friends hurt, especially when I know I'm at least partially responsible. I can be a jerk at times and there were years of lingering bitterness from the days before May 5th, 2009. I've been reaching out to old friends, but it's not easy. On the other hand, I have wonderful new friends.
 
-Professionally my career has gone well. I've freelanced, worked for startups, and some big firms. My current job at [BriteCore](http://britecore.com) is exactly where I want to be.
+Professionally my career has gone well. I've freelanced, worked for startups, and some big firms. My current job at [BriteCore](https://britecore.com) is exactly where I want to be.
 
 # Lessons Learned
 

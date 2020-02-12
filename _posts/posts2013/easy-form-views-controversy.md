@@ -11,16 +11,16 @@ time_to_read: 3
 title: The Easy Form Views Pattern Controversy
 ---
 
-In the summer of 2010 [Frank Wiles](http://twitter.com/fwiles) of
-[Revsys](http://revsys.com) exposed me to what I later called the
+In the summer of 2010 [Frank Wiles](https://twitter.com/fwiles) of
+[Revsys](https://revsys.com) exposed me to what I later called the
 "**Easy Form Views**" pattern when creating Django form function
 views. I used this technique in a variety of places, including [Django
 Packages](https://www.djangopackages.com) and the documentation for
 django-uni-form (which is rebooted as
 [django-crispy-forms](https://github.com/maraujop/django-crispy-forms)).
-At DjangoCon 2011 [Miguel Araujo](http://tothinkornottothink.com/) and I
+At DjangoCon 2011 [Miguel Araujo](https://tothinkornottothink.com/) and I
 opened our [Advanced Django Forms
-Usage](http://lanyrd.com/2011/djangocon-us/shbrd/) talk at DjangoCon
+Usage](https://lanyrd.com/2011/djangocon-us/shbrd/) talk at DjangoCon
 2011 with this technique. It's a pattern that reduces the complexity of
 using forms in Django function-based views by flattening the form
 handling code.
@@ -86,7 +86,7 @@ friend:
 > There's a difference between "There is no POST data", and "This
 > wasn't a POST".
 >
-> -- by [Russell Keith-Magee](http://cecinestpasun.com/) (paraphrased)
+> -- by [Russell Keith-Magee](https://cecinestpasun.com/) (paraphrased)
 
 The problem he is talking about is data besides `multipart/form-data` or
 `application/x-www-form-urlencoded` would still end up in the
@@ -116,7 +116,7 @@ Conclusion
 ==========
 
 Going forward, I prefer to use Django's class-based views or [Django
-Rest Framework](http://djangorestframework.com) which make the issue of
+Rest Framework](https://djangorestframework.com) which make the issue of
 this pattern moot. When I do dip into function-based views handling
 classic HTML forms, I'm leery of using this pattern anymore. Yes, it is
 an edge case, but to inaccurately paraphrase Russell, "edge cases are

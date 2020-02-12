@@ -15,7 +15,7 @@ by playing interesting tricks with key/value structures, which in
 [Python](https://python.org) are called dictionaries. In 2005, as a new
 Python user, I read something about how objects in Python are
 essentially dictionaries with [syntactical
-sugar](http://en.wikipedia.org/wiki/Syntactic_sugar).
+sugar](https://en.wikipedia.org/wiki/Syntactic_sugar).
 
 Well, today while driving from Los Angeles to San Francisco, I started
 to try and figure out how to replicate object or class-like behavior

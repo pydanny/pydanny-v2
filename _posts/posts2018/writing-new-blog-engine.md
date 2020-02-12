@@ -16,7 +16,7 @@ title: Writing A New Blog Engine
 
 Since around February of 2012, I've been publishing this blog as a static HTML site using [Pelican](https://blog.getpelican.com/). The experience was pretty good, but over time I ran into a few problems with the fact that I never upgraded the site to match current versions of Pelican. Which meant the following:
 
-- My RSS feed didn't follow the modern W3C RSS/Atom specifications. So I haven't been published in [Planet Python](http://http://planetpython.org/) in years.
+- My RSS feed didn't follow the modern W3C RSS/Atom specifications. So I haven't been published in [Planet Python](https://https://planetpython.org/) in years.
 - As time went by, upgrading to modern Pelican became harder and harder. And trying to get it to work wasn't much fun either.
 
 So I started looking at other options. My requirements:
@@ -50,7 +50,7 @@ I thought about writing something to convert the JSON to native python objects. 
 
 That's when my awesome wife suggested I render the blog out as static HTML and just put that on S3. She said if I needed custom elements, that's what I could host those on AWS Lambda via Zappa and load them with Javascript.
 
-Inspired by her idea, I installed [Frozen-Flask](http://pythonhosted.org/Frozen-Flask/) and a few minutes later I had a static version of my blog. I removed the pagination and was done.
+Inspired by her idea, I installed [Frozen-Flask](https://pythonhosted.org/Frozen-Flask/) and a few minutes later I had a static version of my blog. I removed the pagination and was done.
 
 ## Inside the Mountain
 
