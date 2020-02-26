@@ -38,6 +38,7 @@ if __name__ == "__main__":
     markdowner = Markdown(extras=["fenced-code-blocks", ])
 
     fg = FeedGenerator()
+    fg.language('en')
     fg.id("https://daniel.roygreenfeld.com/")
     fg.title("pydanny")
     fg.author(
@@ -49,7 +50,8 @@ if __name__ == "__main__":
     fg.link(href="https://daniel.roygreenfeld.com", rel="alternate")
     fg.logo("https://daniel.roygreenfeld.com/images/personalPhoto.png")
     fg.subtitle("Inside the Head of Daniel Roy Greenfeld")
-    fg.link(href=f"https://daniel.roygreenfeld.com/atom.{tag}.xml", rel="self")
+    fg.link(href=f"https://daniel.roygreenfeld.com/feeds/{tag}.atom.xml", rel="self")
+    # https://daniel.roygreenfeld.com/feeds/python.atom.xml
     fg.language("en")
 
     years = [f"_posts/posts{x}/*.md" for x in YEARS]
@@ -80,7 +82,7 @@ if __name__ == "__main__":
             print(config["title"])
             entry = fg.add_entry()
             entry.id(f'https://daniel.roygreenfeld.com/{config["slug"]}.html')
-            entry.link(href=f'https://daniel.roygreenfeld.com/{config["slug"]}.html')
+            # entry.link(href=f'https://daniel.roygreenfeld.com/feeds/{config["slug"]}.html')
             entry.title(config["title"])
             entry.description(config["description"])
             entry.pubDate(config["date"])
@@ -90,5 +92,5 @@ if __name__ == "__main__":
             content = markdowner.convert(content)
             entry.content(content, type="html")
 
-    print(fg.atom_str(pretty=True))
+    # print(fg.atom_str(pretty=True))
     fg.atom_file(f".vuepress/public/feeds/{tag}.atom.xml")
