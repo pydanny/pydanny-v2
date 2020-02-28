@@ -1,6 +1,6 @@
 ---
 date: "2020-02-28T04:30:00.00Z"
-description: How to use Python to combine PDFs and then add metadata to them
+description: How to use Python to combine PDFs and then add metadata to them.
 published: true
 slug: adding-metadata-to-pdfs
 tags:
