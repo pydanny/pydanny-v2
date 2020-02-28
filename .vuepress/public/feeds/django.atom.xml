@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><id>https://daniel.roygreenfeld.com/</id><title>pydanny</title><updated>2020-02-26T19:40:05.054924+00:00</updated><author><name>Daniel Roy Greenfeld</name><email>daniel.roy.greenfeld@roygreenfeld.com</email></author><link href="https://daniel.roygreenfeld.com" rel="alternate"/><link href="https://daniel.roygreenfeld.com/feeds/django.atom.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://daniel.roygreenfeld.com/images/personalPhoto.png</logo><subtitle>Inside the Head of Daniel Roy Greenfeld</subtitle><entry><id>https://daniel.roygreenfeld.com/crash-into-django.html</id><title>Our New Django Book Has Launched!</title><updated>2020-02-10T22:20:50.520000+00:00</updated><content type="html">&lt;p&gt;Audrey and I wrote a new book titled &lt;a href="https://roygreenfeld.com/products/django-crash-course"&gt;Django Crash Course&lt;/a&gt;. You can get it right now on our website at &lt;a href="https://roygreenfeld.com/products/django-crash-course"&gt;roygreenfeld.com/products/django-crash-course&lt;/a&gt;. Right now it's in &lt;strong&gt;alpha&lt;/strong&gt;, which means only the e-book is available. Later we'll produce it in print formats (perfect bound, spiral, and hardcover).&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><id>https://daniel.roygreenfeld.com/</id><title>pydanny</title><updated>2020-02-28T04:12:51.921113+00:00</updated><author><name>Daniel Roy Greenfeld</name><email>daniel.roy.greenfeld@roygreenfeld.com</email></author><link href="https://daniel.roygreenfeld.com" rel="alternate"/><link href="https://daniel.roygreenfeld.com/feeds/django.atom.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://daniel.roygreenfeld.com/images/personalPhoto.png</logo><subtitle>Inside the Head of Daniel Roy Greenfeld</subtitle><entry><id>https://daniel.roygreenfeld.com/crash-into-django.html</id><title>Our New Django Book Has Launched!</title><updated>2020-02-10T22:20:50.520000+00:00</updated><content type="html">&lt;p&gt;Audrey and I wrote a new book titled &lt;a href="https://roygreenfeld.com/products/django-crash-course"&gt;Django Crash Course&lt;/a&gt;. You can get it right now on our website at &lt;a href="https://roygreenfeld.com/products/django-crash-course"&gt;roygreenfeld.com/products/django-crash-course&lt;/a&gt;. Right now it's in &lt;strong&gt;alpha&lt;/strong&gt;, which means only the e-book is available. Later we'll produce it in print formats (perfect bound, spiral, and hardcover).&lt;/p&gt;
 
 &lt;p&gt;As the book is in alpha, you're encouraged to submit bug reports to us for errors that you find. In turn we will give you credit for your contributions in not just the e-book, but also in the print paperback and online publicly on the web. This is your opportunity to have your name in one of our books as a contributor, which you are then welcome to add to your resume and LinkedIn profile. We followed the same pattern with our Two Scoops of Django books.&lt;/p&gt;
 
@@ -28,4 +28,119 @@
 &lt;h2&gt;Conclusion&lt;/h2&gt;
 
 &lt;p&gt;If you'd like to buy the book (or learn more about it), do so on the &lt;a href="https://roygreenfeld.com/products/django-crash-course"&gt;The Django Crash Course page on roygreenfeld.com&lt;/a&gt;.&lt;/p&gt;
-</content><published>2020-02-10T22:20:50.520000+00:00</published></entry></feed>
+</content><published>2020-02-10T22:20:50.520000+00:00</published></entry><entry><id>https://daniel.roygreenfeld.com/adding-metadata-to-pdfs.html</id><title>Adding Metadata to PDFs</title><updated>2020-02-28T04:30:00+00:00</updated><content type="html">&lt;p&gt;For both &lt;a href="https://www.roygreenfeld.com/collections/two-scoops-press/products/django-crash-course"&gt;Django Crash Course&lt;/a&gt; and the forthcoming Two Scoops of Django 3.x, we're using a new process to render the PDFs. Unfortunately, until just a few days ago that process didn't include the cover. Instead, covers were inserted manually using Adobe Acrobat. &lt;/p&gt;
+
+&lt;p&gt;While that manual process worked, &lt;a href="https://github.com/roygreenfeld/django-crash-course/issues/132"&gt;it came with predictable consequences&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Merging the PDFs&lt;/h2&gt;
+
+&lt;p&gt;This part was easy and found in any number of blog articles and Stack Overflow answers. &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Step 1: Install &lt;a href="https://pypi.org/project/PyPDF2/"&gt;pypdf2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Step 2: Write a script as seen below&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;from PyPDF2 import PdfFileMerger
+
+now = datetime.now()
+
+pdfs = [
+  'images/Django_Crash_Course_5.5x8in.pdf',
+  '_output/dcc.pdf',
+]
+
+merger = PdfFileMerger()
+
+for pdf in pdfs:
+    merger.append(pdf)
+
+merger.write("releases/beta-20200226.pdf")
+merger.close()    
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It was at this point that we discovered that our new file, &lt;code&gt;releases/beta-20200226.pdf&lt;/code&gt;, was missing most of the metadata. Oh no!&lt;/p&gt;
+
+&lt;h2&gt;Adding the Metadata&lt;/h2&gt;
+
+&lt;p&gt;According to the PyPDF2 docs, &lt;a href="https://pythonhosted.org/PyPDF2/PdfFileMerger.html#PyPDF2.PdfFileMerger.addMetadata"&gt;adding metadata is very straight-forward&lt;/a&gt;. Just pass a &lt;code&gt;dict&lt;/code&gt; into the &lt;code&gt;addMetadata()&lt;/code&gt; function. I inserted this code right before the call to &lt;code&gt;merger.write()&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;merger.addMetadata({
+    "Title": "Django Crash Course",  
+    "Authors": 'Daniel Roy Greenfeld, Audrey Roy Greenfeld',
+    "Description": "Covers Python 3.8 and Django 3.x",
+    "ContentCreator": "Two Scoops Press",
+    "CreateDate": "2020-02-26",
+    "ModifyDate": "2020-02-26",
+})
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The PDF built! Yeah! Time to open it up and see the results!&lt;/p&gt;
+
+&lt;p&gt;Alas, no metadata showed up.&lt;/p&gt;
+
+&lt;p&gt;Then I spent a long time with trial-and-error trying to get the metadata to show up properly. While there are lots of Python-related articles on &lt;strong&gt;extracting&lt;/strong&gt; metadata using PyPDF2, I struggled to find anything that explained how to add metadata.  &lt;/p&gt;
+
+&lt;h2&gt;Doing My Homework&lt;/h2&gt;
+
+&lt;p&gt;After a bunch of research (googling, stack overlow-ing, and visiting forums) I found a wonderful book on O'Reilly called &lt;a href="https://www.oreilly.com/library/view/pdf-explained/9781449321581/"&gt;PDF Explained&lt;/a&gt; by John Whitington. Much credit to John Whitington, he's a good writer and very knowledgable on the topic of PDF. &lt;/p&gt;
+
+&lt;p&gt;For my purposes, the two critical sections were found in Chapter 4 of PDF Explained:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;https://www.oreilly.com/library/view/pdf-explained/9781449321581/ch04.html#didentries&lt;/li&gt;
+&lt;li&gt;https://www.oreilly.com/library/view/pdf-explained/9781449321581/ch04.html#dates&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Based off what I read, I established the following rules:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Every metadata field name had to be prefixed with &lt;code&gt;/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Stick to the metadata names found in chapter 4 &lt;/li&gt;
+&lt;li&gt;Follow the date format supplied in chapter 4&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Writing the Code!&lt;/h2&gt;
+
+&lt;p&gt;Now armed with my rules I returned to the code. This is what I came up with:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;from datetime import datetime
+from PyPDF2 import PdfFileMerger
+
+pdfs = [
+  'images/Django_Crash_Course_5.5x8in.pdf',
+  '_output/dcc.pdf',
+]
+
+merger = PdfFileMerger()
+
+for pdf in pdfs:
+    merger.append(pdf)
+
+# Make PDF datestamp
+now = datetime.now()
+pdf_datestamp = now.strftime("D:%Y%m%d%H%M%S-8'00'")
+
+# https://www.oreilly.com/library/view/pdf-explained/9781449321581/ch04.html#didentries
+# Fields are **precisely** named
+merger.addMetadata({
+    "/Author": 'Daniel Roy Greenfeld, Audrey Roy Greenfeld',
+    "/Title": "Django Crash Course",
+    "/Subject": "Covers Python 3.8 and Django 3.x",
+    "/Creator": "Two Scoops Press",
+    "/CreationDate": pdf_datestamp,
+    "/ModDate": pdf_datestamp,
+})
+
+# Write the release
+version = f"beta-{now.strftime('%Y%m%d')}"
+merger.write(f"releases/{version}.pdf")
+merger.close()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;The lesson I learned writing this little utility is that as useful as Google and Stack Overflow might be, sometimes you need to explore reference manuals. Which, if you ask me, is a lot of fun. :-)&lt;/p&gt;
+
+&lt;p&gt;Speaking of reference manuals, while I referenced the online version of &lt;a href="https://www.amazon.com/dp/B006H4DAE6/?tag=mlinar-20"&gt;PDF Explained&lt;/a&gt; to get my work done, I've ordered a kindle version of the book. It's the least I can do.&lt;/p&gt;
+</content><published>2020-02-28T04:30:00+00:00</published></entry></feed>

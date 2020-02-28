@@ -9,6 +9,8 @@ tags:
 - django
 - audrey
 - heroku
+- book
+
 time_to_read: 2
 title: Our Django Book Has Launched
 ---
