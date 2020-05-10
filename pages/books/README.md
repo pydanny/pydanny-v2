@@ -2,6 +2,15 @@
 sidebar: auto
 books:
   - id: 0
+    title: "Two Scoops of Django 3.x"
+    type: "technical"
+    description: "Covers Python 3.8/3.9 and Django 3.x - Alpha Version"
+    image: "/images/Django-Crash-Course-300x436.jpg"
+    text: "Two Scoops of Django is chock-full of material that will help you with your Django projects. Written to support Django 3.0, 3.1, and 3.2 LTS (Long Term Support), this book won't get outdated until April 2024."
+    actions:
+      - text: "Buy on feldroy.com"
+        link: "https://feldroy.com/products/django-crash-course"
+  - id: 1
     title: "Django Crash Course"
     type: "technical"
     description: "Covers Python 3.8 and Django 3.x - Alpha Version"
@@ -10,59 +19,59 @@ books:
     
     Originally a large part of our corporate training materials, this tutorial was once only available to companies paying $3000 a seat for in-person training. The contents of this book are professional-grade and have been used by real software companies to get their engineers up and running fast with Python 3.8 and Django 3.x development."
     actions:
-      - text: "Buy on roygreenfeld.com"
-        link: "https://roygreenfeld.com/products/django-crash-course"
-  - id: 1
+      - text: "Buy on feldroy.com"
+        link: "https://feldroy.com/products/django-crash-course"
+  - id: 2
     title: "Two Scoops of Django"
     type: "technical"
     description: "for Django 1.11 LTS"
     image: "/images/0692915729.01.LZZZZZZZ.jpg"
     text: "Two Scoops of Django is chock-full of material that will help you with your Django projects. Written to support Django 1.11 LTS (Long Term Support), this book won't get outdated until April 2020."
     actions:
-      - text: "Buy on roygreenfeld.com"
-        link: "https://roygreenfeld.com/products/two-scoops-of-django-1-11"
+      - text: "Buy on feldroy.com"
+        link: "https://feldroy.com/products/two-scoops-of-django-1-11"
       - text: "Buy on amazon.com"
         link: "https://2scoops.co/tsd111"
       - text: "Kindle and paperback versions available on amazon.com"
         link: "https://2scoops.co/tsd111kindle"
 
-  - id: 2
+  - id: 3
     title: "Two Scoops of Django"
     type: "technical"
     description: "for Django 1.8 LTS"
     image: "/images/0981467342.01.LZZZZZZZ.jpg"
     text: "Written to support Django 1.8 LTS (Long Term Support), this book is still useful to have for older projects."
     actions:
-      - text: "Buy on roygreenfeld.com"
-        link: "https://roygreenfeld.com/products/two-scoops-of-django-1-8"
+      - text: "Buy on feldroy.com"
+        link: "https://feldroy.com/products/two-scoops-of-django-1-8"
       - text: "Buy on amazon.com"
         link: "https://2scoops.co/tsd18"
 
-  - id: 3
+  - id: 4
     title: "Two Scoops of Django"
     type: "technical"
     description: "for Django 1.6"
     image: "/images/098146730X.01.LZZZZZZZ.jpg"
     text: "Long out of date, displayed for historical purposes."
     actions:
-      - text: "Buy on roygreenfeld.com"
-        link: "https://roygreenfeld.com/products/two-scoops-of-django-1-6"
+      - text: "Buy on feldroy.com"
+        link: "https://feldroy.com/products/two-scoops-of-django-1-6"
       - text: "Buy on amazon.com"
         link: "https://2scoops.co/tsd16"
 
-  - id: 4
+  - id: 5
     title: "Two Scoops of Django"
     type: "technical"
     description: "for Django 1.5"
     image: "/images/1481879707.01.LZZZZZZZ.jpg"
     text: "The original edition! Long out of date, displayed for historical purposes."
     actions:
-      - text: "Buy on roygreenfeld.com"
-        link: "https://roygreenfeld.com/products/two-scoops-of-django-1-5"
+      - text: "Buy on feldroy.com"
+        link: "https://feldroy.com/products/two-scoops-of-django-1-5"
       - text: "Buy on amazon.com"
         link: "https://2scoops.co/tsd15"
 
-  - id: 5
+  - id: 6
     title: "Darkest Autumn: Ambria 1"
     type: "fiction"
     description: "Heroes are supposed to be brave, aren't they?"
@@ -73,12 +82,12 @@ books:
 
     In an epic tale of intrigue, magic, love, monsters, and Greek myth, can a sixteen-year-old warrior with a too-gentle heart survive?"
     actions:
-      - text: "Buy on roygreenfeld.com"
-        link: "https://www.roygreenfeld.com/collections/impossible-hero-books/products/ambria-book-1-darkest-autumn"
+      - text: "Buy on feldroy.com"
+        link: "https://www.feldroy.com/collections/impossible-hero-books/products/ambria-book-1-darkest-autumn"
       - text: "Buy on amazon.com"
         link: "https://www.amazon.com/gp/product/B071L2G8SL?tag=mlinar-20"
 
-  - id: 6
+  - id: 7
     title: "Brightest Winter"
     type: "fiction"
     description: "Can friendships and family ties survive the truth?"
@@ -89,44 +98,44 @@ books:
     
     The adventure continues in Book Two of this epic coming-of-age series."
     actions:
-      - text: "Buy on roygreenfeld.com"
-        link: "https://www.roygreenfeld.com/collections/impossible-hero-books/products/ambria-book-2-brightest-winter"
+      - text: "Buy on feldroy.com"
+        link: "https://www.feldroy.com/collections/impossible-hero-books/products/ambria-book-2-brightest-winter"
       - text: "Buy on amazon.com"
         link: "https://www.amazon.com/gp/product/B0727WW7F2?tag=mlinar-20"
 
-  - id: 7
+  - id: 8
     title: "Coldest Spring"
     type: "fiction"
     description: "What would you do to protect your loves ones?"
     image: "/images/Coldest_Spring_540x.jpg"
     text: "The gods are at war, and Vetch is caught in the middle. Armed with truths he now wishes he did not know, Vetch struggles to do what he can to keep his friends and family safe in a world torn apart by war."
     actions:
-      - text: "Buy on roygreenfeld.com"
-        link: "https://www.roygreenfeld.com/collections/impossible-hero-books/products/ambria-book-3-coldest-spring"
+      - text: "Buy on feldroy.com"
+        link: "https://www.feldroy.com/collections/impossible-hero-books/products/ambria-book-3-coldest-spring"
       - text: "Buy on amazon.com"
         link: "https://www.amazon.com/gp/product/B071P74C8Z?tag=mlinar-20"
 
-  - id: 8
+  - id: 9
     title: "Deadliest Summer"
     type: "fiction"
     description: "Does good always triumph over evil?"
     image: "/images/2020-02-05_Deadliest_Summer_540x.jpg"
     text: "In the finale to the epic Ambria series, Vetch and his friends have finally struck a blow against the Dark Lord. Now begins the difficult journey back home, where they'll have to face not just their enemy in a titanic conflict, but also their own nation. Is Vetch willing to make the ultimate sacrifice to stop darkness from taking over the world?"
     actions:
-      - text: "Buy on roygreenfeld.com"
-        link: "https://www.roygreenfeld.com/collections/impossible-hero-books/products/ambria-book-4-deadliest-summer"
+      - text: "Buy on feldroy.com"
+        link: "https://www.feldroy.com/collections/impossible-hero-books/products/ambria-book-4-deadliest-summer"
       - text: "Buy on amazon.com"
         link: "https://www.amazon.com/gp/product/B073V77G4M?tag=mlinar-20"
 
-  - id: 9
+  - id: 10
     title: "The Ambria Series"
     type: "fiction"
     description: "Get all four books!"
     image: "/images/B1nqdSgVZ1S._SY300_.png"
     text: "The entire Ambria series!"
     actions:
-      - text: "Buy on roygreenfeld.com"
-        link: "https://www.roygreenfeld.com/collections/ambria-series"
+      - text: "Buy on feldroy.com"
+        link: "https://www.feldroy.com/collections/ambria-series"
       - text: "Buy on amazon.com"
         link: "https://mybook.to/ambria-series"
 ---

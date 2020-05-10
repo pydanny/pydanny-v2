@@ -142,4 +142,4 @@ Stay Tuned!
 
 If you found this article useful and want to see more like it, or if you
 want to encourage me to do more open source work, hit me up on
-[Patreon](https://www.patreon.com/danielroygreenfeld).
+[Patreon](https://www.patreon.com/roygreenfeld).

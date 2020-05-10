@@ -9,6 +9,7 @@ tags:
   - django
   - book
   - conda
+  - django-crash-course  
 time_to_read: 5
 title: Our New Django Book Has Launched!
 type: post

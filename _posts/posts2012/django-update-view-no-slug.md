@@ -8,7 +8,7 @@ tags:
 - howto
 - class-based-views
 time_to_read: 2
-title: Django Update View without slug in the url
+title: Django Update View Without Slug in the URL
 ---
 
 Today I wanted to use the Django Class Based View (CBV) UpdateView but
@@ -19,8 +19,7 @@ to force authentication.
 I've done this with Django functional views a few times times, but
 today I did it in Django. This is what I did:
 
-1. Added django-braces to my project
-====================================
+## 1. Added django-braces to my project
 
 [Kenneth Love](https://twitter.com/kennethlove) and [Chris
 Jones](https://twitter.com/tehjones)' awesome
@@ -44,8 +43,7 @@ INSTALLED_APPS = (
 )
 ```
 
-2. Wrote the view
-=================
+## 2. Wrote the view
 
 Assuming a very simple profile Model and Form (which they weren't - but
 that's not what this post is about), this is how I implemented the
@@ -69,8 +67,7 @@ class ProfileUpdateView(LoginRequiredMixin, UpdateView):
         return Profile.objects.get(user=self.request.user)
 ```
 
-3. Wrote the URLconf
-====================
+## 3. Wrote the URLconf
 
 The URL pretty much wrote itself:
 
@@ -86,8 +83,7 @@ urlpatterns = patterns("",
 )
 ```
 
-Closing Thoughts
-================
+## Closing Thoughts
 
 For a while, I've used django-braces for anything that involves CBVs. I
 can't imagine working on projects using CBVs without them. In fact,

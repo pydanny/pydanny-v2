@@ -9,6 +9,7 @@ tags:
   - book  
   - django
   - twoscoops
+  - django-crash-course  
 time_to_read: 3
 title: Adding Metadata to PDFs
 type: post

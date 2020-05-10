@@ -40,40 +40,34 @@ export default {
     return {
       currentBookIndex: 0,
       primary: {
-        title: "Django Crash Course",
-        description: "Covers Python 3.8 and Django 3.x - Alpha Version",
+        title: "Two Scoops of Django 3.x",
+        description: "Covers Python 3.8/3.9 and Django 3.x - Alpha Version",
         image: "/images/Django-Crash-Course-300x436.jpg",
         text:
-          "The Django Crash Course book is a guided walkthrough where we build a real, production-quality Django web application from the ground up. Originally a large part of our corporate training materials, this tutorial was once only available to companies paying $3000 a seat for in-person training. The contents of this book are professional-grade and have been used by real software companies to get their engineers up and running fast with Python 3.8 and Django 3.x development.",
+          "Two Scoops of Django is chock-full of material that will help you with your Django projects. Written to support Django 3.0, 3.1, and 3.2 LTS (Long Term Support), this book won't get outdated until April 2024.",
         actions: [
           {
-            text: "E-Book versions available on roygreenfeld.com ",
+            text: "E-Book versions available on feldroy.com ",
             link: "https://roygreenfeld.com/products/django-crash-course"
           }
         ]
       },
       books: [
         {
-          title: "Two Scoops of Django",
-          description: "for Django 1.11 LTS",
-          image: "/images/0692915729.01.LZZZZZZZ.jpg",
+          title: "Django Crash Course",
+          description: "Covers Python 3.8 and Django 3.x - Beta Version",
+          image: "/images/Django-Crash-Course-300x436.jpg",
           text:
-            "Two Scoops of Django is chock-full of material that will help you with your Django projects. Written to support Django 1.11 LTS (Long Term Support), this book won't get outdated until 2020.",
+            "The Django Crash Course book is a guided walkthrough where we build a real, production-quality Django web application from the ground up. Originally a large part of our corporate training materials, this tutorial was once only available to companies paying $3000 a seat for in-person training. The contents of this book are professional-grade and have been used by real software companies to get their engineers up and running fast with Python 3.8 and Django 3.x development.",
           actions: [
             {
-              text: "Paperback, PDF, ePub, and Kindle versions available on roygreenfeld.com  ",
-              link: "https://roygreenfeld.com/products/two-scoops-of-django-1-11"
-            },
-            {
-              text: "Available at amazon.com",
-              link: "https://2scoops.co/tsd111"
-            },
-            {
-              text: "Kindle and paperback versions available on amazon.com",
-              link: "https://2scoops.co/tsd111kindle"
+              text:
+                "Paperback, PDF, ePub, and Kindle versions available on feldroy.com  ",
+              link:
+                "https://feldroy.com/products/django-crash-course"
             }
-          ],
-        },        
+          ]
+        },
         {
           title: "Fluent Python",
           description: "Clear, Concise, and Effective Programming",
@@ -114,7 +108,7 @@ export default {
               text: "Available at Roy Greenfeld",
               link:
                 "https://www.roygreenfeld.com/products/darkest-autumn-ambria-book-1"
-            },            
+            },
             {
               text: "Available at amazon.com",
               link: "https://2scoops.co/ambria-1"
