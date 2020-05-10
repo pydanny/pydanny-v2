@@ -1,26 +1,12 @@
----
-date: "2020-05-11T06:00:00.52Z"
-description: The new Two Scoops of Django will supports 3.0, 3.1, and 3.2.
-published: true
-slug: two-scoops-of-dango-3.x
-tags:
-  - python
-  - blog
-  - django
-  - book
-  - twoscoops
-time_to_read: 5
-title: Two Scoops of Django 3.x Released!
-type: post
----
-
 We just released the early release (alpha) of the fifth edition of our book, titled [Two Scoops of Django 3.x](https://www.feldroy.com/collections/two-scoops-press/products/two-scoops-of-django-3-x). The 3.x means we are supporting Django 3.0, 3.1, and 3.2 Long Term Support (LTS) releases, ensuring the content will be valid until April of 2024.
 
-**So long as it is May 11, 2020 anywhere on planet Earth, the [e-book](https://www.feldroy.com/collections/two-scoops-press/products/two-scoops-of-django-3-x) version sells for just US$42.95**!
+**So long as it is May 11, 2020, anywhere on planet Earth, the [e-book](https://www.feldroy.com/collections/two-scoops-press/products/two-scoops-of-django-3-x) version sells for just US$42.95**!
 
-On May 12th 2020, the price goes up to **$49.95**. Hurry up and get your [book](https://www.feldroy.com/collections/two-scoops-press/products/two-scoops-of-django-3-x)!
+On May 12th, 2020, the price goes up to **$49.95**. Hurry up and get your [book](https://www.feldroy.com/collections/two-scoops-press/products/two-scoops-of-django-3-x)!
 
 For now, the [e-book](https://www.feldroy.com/collections/two-scoops-press/products/two-scoops-of-django-3-x) is just in PDF format and will be expanded to epub and mobi formats in the days to come. Readers of this alpha version get all the updates and have the opportunity to help us shape the direction of the book through their feedback, and to be credited as contributors.
+
+If you bought the 1.11 e-book in 2020 you'll receive an email on May 11th with a discount code covering the cost of the new edition.
 
 The [book](https://www.feldroy.com/collections/two-scoops-press/products/two-scoops-of-django-3-x) will also be printed, but for several reasons that won't happen until hopefully August of this year. When we get closer to that date we'll take pre-orders and send everyone who ordered an [e-book](https://www.feldroy.com/collections/two-scoops-press/products/two-scoops-of-django-3-x) a big discount code.
 
