@@ -14,7 +14,7 @@ title: Two Scoops of Django 3.x Released
 type: post
 ---
 
-[![Cover for the alpha version of Two Scoops of Django 3.x](images/Two-Scoops-of-Django-3-Alpha-Cover_540x.jpg)](https://www.feldroy.com/products/two-scoops-of-django-3-x)
+[![Cover for the alpha version of Two Scoops of Django 3.x](https://daniel.feldroy.com/images/Two-Scoops-of-Django-3-Alpha-Cover_540x.jpg)](https://www.feldroy.com/products/two-scoops-of-django-3-x)
 
 
 
@@ -34,4 +34,4 @@ Due to popular demand, we are selling group licenses of Two Scoops of Django 3.x
 
 [Learn more and order the 5th edition of our venerable series about Django best practices.](https://www.feldroy.com/products/two-scoops-of-django-3-x)
 
-[![Image showing the updating of Two Scoops of Django](images/TSD3-Preview-Cartoon_540x.jpg)](https://www.feldroy.com/products/two-scoops-of-django-3-x)
+[![Image showing the updating of Two Scoops of Django](https://daniel.feldroy.com/images/TSD3-Preview-Cartoon_540x.jpg)](https://www.feldroy.com/products/two-scoops-of-django-3-x)
