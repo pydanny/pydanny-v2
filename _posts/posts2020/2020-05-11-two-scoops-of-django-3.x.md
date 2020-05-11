@@ -1,3 +1,23 @@
+---
+date: "2020-05-11T16:30:00.00Z"
+description: The book about best practices for the Django Web Framework, Two Scoops of Django, has been revised, updated, and expanded for versions 3.0, 3.1, and 3.2.
+published: true
+slug: two-scoops-of-django-3.x
+tags:
+  - python
+  - pdf
+  - book  
+  - django
+  - twoscoops 
+time_to_read: 3
+title: Two Scoops of Django 3.x Released
+type: post
+---
+
+[![Cover for the alpha version of Two Scoops of Django 3.x](images/Two-Scoops-of-Django-3-Alpha-Cover_540x.jpg)](https://www.feldroy.com/products/two-scoops-of-django-3-x)
+
+
+
 We just released the early release (alpha) of the fifth edition of our book, titled [Two Scoops of Django 3.x](https://www.feldroy.com/collections/two-scoops-press/products/two-scoops-of-django-3-x). The 3.x means we are supporting Django 3.0, 3.1, and 3.2 Long Term Support (LTS) releases, ensuring the content will be valid until April of 2024.
 
 **So long as it is May 11, 2020, anywhere on planet Earth, the [e-book](https://www.feldroy.com/collections/two-scoops-press/products/two-scoops-of-django-3-x) version sells for just US$42.95**!
