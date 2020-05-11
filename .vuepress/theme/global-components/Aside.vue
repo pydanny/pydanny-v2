@@ -42,7 +42,7 @@ export default {
       primary: {
         title: "Two Scoops of Django 3.x",
         description: "Covers Python 3.8/3.9 and Django 3.x - Alpha Version",
-        image: "/images/Django-Crash-Course-300x436.jpg",
+        image: "/images/Two-Scoops-of-Django-3-Alpha-Cover_540x.jpg",
         text:
           "Two Scoops of Django is chock-full of material that will help you with your Django projects. Written to support Django 3.0, 3.1, and 3.2 LTS (Long Term Support), this book won't get outdated until April 2024.",
         actions: [
@@ -63,8 +63,7 @@ export default {
             {
               text:
                 "Paperback, PDF, ePub, and Kindle versions available on feldroy.com  ",
-              link:
-                "https://feldroy.com/products/django-crash-course"
+              link: "https://feldroy.com/products/django-crash-course"
             }
           ]
         },
