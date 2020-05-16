@@ -11,7 +11,7 @@
     <h3>Follow Me!</h3>
     <div>
       If you read this far, you might want to follow me on
-      <a href="https://www.patreon.com/roygreenfeld">
+      <a href="https://www.patreon.com/feldroy">
         Patreon     
       </a> or 
       <a href="https://twitter.com/pydanny">

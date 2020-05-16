@@ -1,6 +1,6 @@
 <template>
   <div class="featured-posts">
-    <h3>More Posts like this!</h3>
+    <!-- <h3>More Posts like this!</h3>
     <div class="featured-post" v-for="post in posts" :key="post.key">
       <div class="featured-post-body">
         <h3 class="featured-post-title">
@@ -10,7 +10,7 @@
           class="featured-post-description"
         >{{ post.frontmatter.description || post.description }}</div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

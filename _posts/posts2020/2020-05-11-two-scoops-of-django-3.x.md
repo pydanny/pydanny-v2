@@ -2,7 +2,7 @@
 date: "2020-05-11T16:30:00.00Z"
 description: The book about best practices for the Django Web Framework, Two Scoops of Django, has been revised, updated, and expanded for versions 3.0, 3.1, and 3.2.
 published: true
-slug: two-scoops-of-django-3.x
+slug: two-scoops-of-django-3.x-released
 tags:
   - python
   - pdf
