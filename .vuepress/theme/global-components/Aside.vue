@@ -145,6 +145,24 @@ export default {
               link: "https://2scoops.co/illustrated-python-kindle"
             }
           ]
+        },
+        {
+          title: "Lifemart",
+          description:
+            "My late father's book of poetry.",
+          image: "/images/51Fe5VCp7LL.01.LZZZZZZZ.jpg",
+          text:
+            "Life provides you with all these opportunities, and you pick and choose the ones that become your experience. Lifemart is a collection of poems about one Jewish man’s life in the modern era. The poems span eight decades of life experiences. Rich in description and emotion, they evoke mental images of beauty, faith, sadness, and joy.",
+          actions: [
+            {
+              text: "Available at amazon.com",
+              link: "https://www.amazon.com/Lifemart-Narratives-Others-Ted-Greenfeld/dp/1521946035/?tag=mlinar-20"
+            },
+            {
+              text: "Kindle on Amazon",
+              link: "https://www.amazon.com/Lifemart-Narratives-Others-Ted-Greenfeld-ebook/dp/B07495Y33K?tag=mlinar-20"
+            }
+          ]
         }
       ]
     };
