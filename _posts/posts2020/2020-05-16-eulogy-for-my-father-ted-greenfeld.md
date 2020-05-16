@@ -1,6 +1,6 @@
 ---
 date: "2020-05-16T16:30:00.00Z"
-description: On June 11, 2019, my father, Theodore David Greenfeld, passed away at the age of 84. I spoke at his funeral three days later. It was some of the hardest words I've ever had to vocalize. I want to share what I said as well as some photos on what would have been his 85th birthday.
+description: On June 11, 2019, my father, Theodore David Greenfeld, passed away at the age of 84. I spoke at his funeral three days later. It was some of the hardest words I've ever had to vocalize. I want to share what I said as well as some photos. Today would have been his 85th birthday.
 published: true
 slug: eulogy-for-my-father-ted-greenfeld
 tags:
