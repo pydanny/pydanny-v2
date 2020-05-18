@@ -7,11 +7,8 @@ tags:
 - python
 time_to_read: 3
 title: Code, Code, Code
+description: I'm often asked by new programmers how they can forge a path into using their skills professionally. Or how they can get better at writing software.
 ---
-
-I'm often asked by new programmers how they can forge a path into using
-their skills professionally. Or how they can get better at writing
-software.
 
 How to Improve Your Coding Skills
 =================================
