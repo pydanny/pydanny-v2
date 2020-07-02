@@ -17,7 +17,7 @@ type: post
 
 [![Live Online Django Training](https://daniel.feldroy.com/images/dcc-online-training.png)](https://www.feldroy.com/products/django-crash-course?variant=32232086175831)
 
-## Announcing the Live Online Django Crash Course
+## Course Announcement
 
 On July 16th and 17th of 2020, I'll be running a [live instruction of my beginner-friendly Django Crash Course.](https://www.feldroy.com/products/django-crash-course?variant=32232086175831) This is a live interactive class conducted via Zoom conferencing software. We're going to walk through the book together with students. If you get stuck, there will be at least two members of the Feldroy team available to help.
 
