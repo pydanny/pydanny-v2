@@ -2,7 +2,7 @@
 date: "2020-07-02T15:30:00.00Z"
 description: On July 16th and 17th I'll be running a live instruction of my beginner friendly Django Crash Course. This isn't a live stream, but a Zoom-powered interactive class. We're going to walk-through the book together with students. If you get stuck, there will be at least two members of the Feldroy team available to help. 
 published: true
-slug: july-16th-and-17-django-crash-course-live-online-class
+slug: live-instruction-django-crash-course-july-2020
 tags:
   - python
   - django
@@ -11,7 +11,7 @@ tags:
   - tests
   - django-crash-course
 time_to_read: 3
-title: Announcing Live Online Django Crash Course
+title: Announcing Our Live Online Django Crash Course
 type: post
 ---
 
