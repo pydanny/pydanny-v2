@@ -39,6 +39,10 @@ Each course day will have two sessions each 3 hours long, as well as an hour-lon
 ## Topics Covered
 
 - Setting up a development environment
+  - Python 3.8
+  - Django 3.0
+  - Database
+  - VS Code
 - Cookiecutter for rapidly accelerating development 
 - Django
   - Forms
