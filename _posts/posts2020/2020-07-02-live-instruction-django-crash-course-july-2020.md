@@ -49,9 +49,9 @@ Each course day will have two sessions each 3 hours long, as well as an hour-lon
 - Writing Django tests
   - PyTest
   - Factories
-- Best Practices the Two Scoops Way
+- Best practices per [Two Scoops of Django](https://www.feldroy.com/products/two-scoops-of-django-3-x?variant=31605362196567)
   - Proven patterns for avoiding duplication of work ([DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself))  
-  - Maintainable code
+  - Writing maintainable code
   - More secure projects
 
 We're selling the course for the introductory price of just $99 and space is limited, [so register today!](https://www.feldroy.com/products/django-crash-course?variant=32232086175831)
