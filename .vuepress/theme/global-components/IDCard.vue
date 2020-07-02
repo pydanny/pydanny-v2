@@ -25,7 +25,8 @@ import {
   FacebookIcon,
   TwitterIcon,
   InstagramIcon,
-  LinkedinIcon
+  LinkedinIcon,
+  YoutubeIcon
 } from "vue-feather-icons";
 
 export default {
@@ -34,7 +35,8 @@ export default {
     FacebookIcon,
     TwitterIcon,
     InstagramIcon,
-    LinkedinIcon
+    LinkedinIcon,
+    YoutubeIcon
   },
 
   methods: {
@@ -51,7 +53,9 @@ export default {
         case "linkedin":
           return "LinkedinIcon";
         case "feed":
-          return "RssIcon";          
+          return "RssIcon";
+        case "youtube":
+          return "YoutubeIcon";
         default:
           return "";
       }
@@ -94,7 +98,7 @@ export default {
 
   .info-card-img {
     transition: all 0.4s ease;
-    width 200px;
+    width: 200px;
   }
 
   .info-card-header {

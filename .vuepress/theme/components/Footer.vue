@@ -10,7 +10,12 @@
         </li>
         <li>
           <a href="https://dev.to/danielroygreenfeld">
-            <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Daniel Roy Greenfeld's DEV Profile" height="30" width="30">
+            <img
+              src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"
+              alt="Daniel Roy Greenfeld's DEV Profile"
+              height="30"
+              width="30"
+            />
           </a>
         </li>
       </ul>
@@ -33,7 +38,8 @@ import {
   TwitterIcon,
   InstagramIcon,
   LinkedinIcon,
-  RssIcon
+  RssIcon,
+  YoutubeIcon
 } from "vue-feather-icons";
 
 export default {
@@ -43,7 +49,8 @@ export default {
     TwitterIcon,
     InstagramIcon,
     LinkedinIcon,
-    RssIcon
+    RssIcon,
+    YoutubeIcon
   },
 
   methods: {
@@ -59,8 +66,10 @@ export default {
           return "InstagramIcon";
         case "linkedin":
           return "LinkedinIcon";
+        case "youtube":
+          return "YoutubeIcon";
         case "feed":
-          return "RssIcon"; 
+          return "RssIcon";
         default:
           return "";
       }

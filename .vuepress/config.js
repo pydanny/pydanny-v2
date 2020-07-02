@@ -28,10 +28,14 @@ module.exports = {
       { text: "Tags", link: "/tag/" },
       { text: "Books", link: "/pages/books/" },
       { text: "About", link: "/pages/about/" },
-      { text: "Feldroy", link: "https://feldroy.com/"}
+      { text: "Feldroy", link: "https://feldroy.com/" }
     ],
     footer: {
       contact: [
+        {
+          type: "youtube",
+          link: "https://youtube.com/c/danielfeldroy"
+        },
         {
           type: "github",
           link: "https://github.com/pydanny"

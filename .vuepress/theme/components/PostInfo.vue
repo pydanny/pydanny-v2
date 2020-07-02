@@ -11,9 +11,14 @@
     <h3>Follow Me!</h3>
     <div>
       If you read this far, you might want to follow me on
-      <a href="https://www.patreon.com/feldroy">
-        Patreon     
-      </a> or 
+      <a
+        href="https://youtube.com/c/DanielFeldroy"
+      >
+        YouTube
+        <i>
+          <YoutubeIcon />
+        </i>
+      </a>
       <a href="https://twitter.com/pydanny">
         Twitter
         <i>
@@ -25,17 +30,18 @@
         <i>
           <GithubIcon />
         </i>
-      </a>
+      </a> or
+      <a href="https://www.patreon.com/feldroy">Patreon</a>
     </div>
   </div>
 </template>
 
 <script>
-import { GithubIcon, TwitterIcon } from "vue-feather-icons";
+import { YoutubeIcon, GithubIcon, TwitterIcon } from "vue-feather-icons";
 import FeaturedPosts from "../components/FeaturedPosts.vue";
 
 export default {
-  components: { GithubIcon, TwitterIcon, FeaturedPosts}
+  components: { YoutubeIcon, GithubIcon, TwitterIcon, FeaturedPosts }
 };
 </script>
 
