@@ -11,7 +11,7 @@ tags:
   - tests
   - django-crash-course
 time_to_read: 3
-title: Announcing Our Live Online Django Crash Course
+title: I'm Giving A Live Online Django Crash Course
 type: post
 ---
 
