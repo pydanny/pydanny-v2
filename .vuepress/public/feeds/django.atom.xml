@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><id>https://daniel.roygreenfeld.com/</id><title>pydanny</title><updated>2020-05-11T10:39:43.317197+00:00</updated><author><name>Daniel Roy Greenfeld</name><email>daniel.roy.greenfeld@roygreenfeld.com</email></author><link href="https://daniel.roygreenfeld.com" rel="alternate"/><link href="https://daniel.roygreenfeld.com/feeds/django.atom.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://daniel.roygreenfeld.com/images/personalPhoto.png</logo><subtitle>Inside the Head of Daniel Roy Greenfeld</subtitle><entry><id>https://daniel.roygreenfeld.com/crash-into-django.html</id><title>Our New Django Book Has Launched!</title><updated>2020-02-10T22:20:50.520000+00:00</updated><content type="html">&lt;p&gt;Audrey and I wrote a new book titled &lt;a href="https://roygreenfeld.com/products/django-crash-course"&gt;Django Crash Course&lt;/a&gt;. You can get it right now on our website at &lt;a href="https://roygreenfeld.com/products/django-crash-course"&gt;roygreenfeld.com/products/django-crash-course&lt;/a&gt;. Right now it's in &lt;strong&gt;alpha&lt;/strong&gt;, which means only the e-book is available. Later we'll produce it in print formats (perfect bound, spiral, and hardcover).&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><id>https://daniel.roygreenfeld.com/</id><title>pydanny</title><updated>2020-07-02T16:17:05.976065+00:00</updated><author><name>Daniel Roy Greenfeld</name><email>daniel.roy.greenfeld@roygreenfeld.com</email></author><link href="https://daniel.roygreenfeld.com" rel="alternate"/><link href="https://daniel.roygreenfeld.com/feeds/django.atom.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://daniel.roygreenfeld.com/images/personalPhoto.png</logo><subtitle>Inside the Head of Daniel Roy Greenfeld</subtitle><entry><id>https://daniel.roygreenfeld.com/crash-into-django.html</id><title>Our New Django Book Has Launched!</title><updated>2020-02-10T22:20:50.520000+00:00</updated><content type="html">&lt;p&gt;Audrey and I wrote a new book titled &lt;a href="https://roygreenfeld.com/products/django-crash-course"&gt;Django Crash Course&lt;/a&gt;. You can get it right now on our website at &lt;a href="https://roygreenfeld.com/products/django-crash-course"&gt;roygreenfeld.com/products/django-crash-course&lt;/a&gt;. Right now it's in &lt;strong&gt;alpha&lt;/strong&gt;, which means only the e-book is available. Later we'll produce it in print formats (perfect bound, spiral, and hardcover).&lt;/p&gt;
 
 &lt;p&gt;As the book is in alpha, you're encouraged to submit bug reports to us for errors that you find. In turn we will give you credit for your contributions in not just the e-book, but also in the print paperback and online publicly on the web. This is your opportunity to have your name in one of our books as a contributor, which you are then welcome to add to your resume and LinkedIn profile. We followed the same pattern with our Two Scoops of Django books.&lt;/p&gt;
 
@@ -41,23 +41,23 @@
 &lt;li&gt;Step 2: Write a script as seen below&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;PyPDF2&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;PdfFileMerger&lt;/span&gt;
+&lt;pre&gt;&lt;code&gt;from PyPDF2 import PdfFileMerger
 
-&lt;span class="n"&gt;now&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;now&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+now = datetime.now()
 
-&lt;span class="n"&gt;pdfs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
-  &lt;span class="s1"&gt;&amp;#39;images/Django_Crash_Course_5.5x8in.pdf&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="s1"&gt;&amp;#39;_output/dcc.pdf&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;span class="p"&gt;]&lt;/span&gt;
+pdfs = [
+  'images/Django_Crash_Course_5.5x8in.pdf',
+  '_output/dcc.pdf',
+]
 
-&lt;span class="n"&gt;merger&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;PdfFileMerger&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+merger = PdfFileMerger()
 
-&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;pdf&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;pdfs&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
-    &lt;span class="n"&gt;merger&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pdf&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+for pdf in pdfs:
+    merger.append(pdf)
 
-&lt;span class="n"&gt;merger&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;write&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;releases/beta-20200226.pdf&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="n"&gt;merger&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;close&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;    
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+merger.write("releases/beta-20200226.pdf")
+merger.close()    
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;It was at this point that we discovered that our new file, &lt;code&gt;releases/beta-20200226.pdf&lt;/code&gt;, was missing most of the metadata. Oh no!&lt;/p&gt;
 
@@ -65,15 +65,15 @@
 
 &lt;p&gt;According to the PyPDF2 docs, &lt;a href="https://pythonhosted.org/PyPDF2/PdfFileMerger.html#PyPDF2.PdfFileMerger.addMetadata"&gt;adding metadata is very straight-forward&lt;/a&gt;. Just pass a &lt;code&gt;dict&lt;/code&gt; into the &lt;code&gt;addMetadata()&lt;/code&gt; function. I inserted this code right before the call to &lt;code&gt;merger.write()&lt;/code&gt;:&lt;/p&gt;
 
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;merger&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;addMetadata&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;
-    &lt;span class="s2"&gt;&amp;quot;Title&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Django Crash Course&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  
-    &lt;span class="s2"&gt;&amp;quot;Authors&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;Daniel Roy Greenfeld, Audrey Roy Greenfeld&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="s2"&gt;&amp;quot;Description&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Covers Python 3.8 and Django 3.x&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="s2"&gt;&amp;quot;ContentCreator&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Two Scoops Press&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="s2"&gt;&amp;quot;CreateDate&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;2020-02-26&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="s2"&gt;&amp;quot;ModifyDate&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;2020-02-26&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;span class="p"&gt;})&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;pre&gt;&lt;code&gt;merger.addMetadata({
+    "Title": "Django Crash Course",  
+    "Authors": 'Daniel Roy Greenfeld, Audrey Roy Greenfeld',
+    "Description": "Covers Python 3.8 and Django 3.x",
+    "ContentCreator": "Two Scoops Press",
+    "CreateDate": "2020-02-26",
+    "ModifyDate": "2020-02-26",
+})
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;The PDF built! Yeah! Time to open it up and see the results!&lt;/p&gt;
 
@@ -104,46 +104,46 @@
 
 &lt;p&gt;Now armed with my rules I returned to the code. This is what I came up with:&lt;/p&gt;
 
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;datetime&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;
-&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;PyPDF2&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;PdfFileMerger&lt;/span&gt;
+&lt;pre&gt;&lt;code&gt;from datetime import datetime
+from PyPDF2 import PdfFileMerger
 
-&lt;span class="n"&gt;pdfs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
-  &lt;span class="s1"&gt;&amp;#39;images/Django_Crash_Course_5.5x8in.pdf&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="s1"&gt;&amp;#39;_output/dcc.pdf&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;span class="p"&gt;]&lt;/span&gt;
+pdfs = [
+  'images/Django_Crash_Course_5.5x8in.pdf',
+  '_output/dcc.pdf',
+]
 
-&lt;span class="n"&gt;merger&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;PdfFileMerger&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+merger = PdfFileMerger()
 
-&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;pdf&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;pdfs&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
-    &lt;span class="n"&gt;merger&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pdf&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+for pdf in pdfs:
+    merger.append(pdf)
 
-&lt;span class="c1"&gt;# Make PDF datestamp&lt;/span&gt;
-&lt;span class="n"&gt;now&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;now&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-&lt;span class="n"&gt;pdf_datestamp&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;now&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;strftime&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;D:%Y%m&lt;/span&gt;&lt;span class="si"&gt;%d&lt;/span&gt;&lt;span class="s2"&gt;%H%M%S-8&amp;#39;00&amp;#39;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+# Make PDF datestamp
+now = datetime.now()
+pdf_datestamp = now.strftime("D:%Y%m%d%H%M%S-8'00'")
 
-&lt;span class="c1"&gt;# https://www.oreilly.com/library/view/pdf-explained/9781449321581/ch04.html#didentries&lt;/span&gt;
-&lt;span class="c1"&gt;# Fields are **precisely** named&lt;/span&gt;
-&lt;span class="n"&gt;merger&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;addMetadata&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;
-    &lt;span class="s2"&gt;&amp;quot;/Author&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;Daniel Roy Greenfeld, Audrey Roy Greenfeld&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="s2"&gt;&amp;quot;/Title&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Django Crash Course&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="s2"&gt;&amp;quot;/Subject&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Covers Python 3.8 and Django 3.x&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="s2"&gt;&amp;quot;/Creator&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Two Scoops Press&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="s2"&gt;&amp;quot;/CreationDate&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;pdf_datestamp&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="s2"&gt;&amp;quot;/ModDate&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;pdf_datestamp&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;span class="p"&gt;})&lt;/span&gt;
+# https://www.oreilly.com/library/view/pdf-explained/9781449321581/ch04.html#didentries
+# Fields are **precisely** named
+merger.addMetadata({
+    "/Author": 'Daniel Roy Greenfeld, Audrey Roy Greenfeld',
+    "/Title": "Django Crash Course",
+    "/Subject": "Covers Python 3.8 and Django 3.x",
+    "/Creator": "Two Scoops Press",
+    "/CreationDate": pdf_datestamp,
+    "/ModDate": pdf_datestamp,
+})
 
-&lt;span class="c1"&gt;# Write the release&lt;/span&gt;
-&lt;span class="n"&gt;version&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;beta-&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;now&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;strftime&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;%Y%m&lt;/span&gt;&lt;span class="si"&gt;%d&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
-&lt;span class="n"&gt;merger&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;write&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;releases/&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;version&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;.pdf&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="n"&gt;merger&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;close&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+# Write the release
+version = f"beta-{now.strftime('%Y%m%d')}"
+merger.write(f"releases/{version}.pdf")
+merger.close()
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2&gt;Conclusion&lt;/h2&gt;
 
 &lt;p&gt;The lesson I learned writing this little utility is that as useful as Google and Stack Overflow might be, sometimes you need to explore reference manuals. Which, if you ask me, is a lot of fun. :-)&lt;/p&gt;
 
 &lt;p&gt;Speaking of reference manuals, while I referenced the online version of &lt;a href="https://www.amazon.com/dp/B006H4DAE6/?tag=mlinar-20"&gt;PDF Explained&lt;/a&gt; to get my work done, I've ordered a kindle version of the book. It's the least I can do.&lt;/p&gt;
-</content><published>2020-02-28T04:30:00+00:00</published></entry><entry><id>https://daniel.roygreenfeld.com/two-scoops-of-django-3.x.html</id><title>Two Scoops of Django 3.x Released</title><updated>2020-05-11T16:30:00+00:00</updated><content type="html">&lt;p&gt;&lt;a href="https://www.feldroy.com/products/two-scoops-of-django-3-x"&gt;&lt;img src="https://daniel.feldroy.com/images/Two-Scoops-of-Django-3-Alpha-Cover_540x.jpg" alt="Cover for the alpha version of Two Scoops of Django 3.x" /&gt;&lt;/a&gt;&lt;/p&gt;
+</content><published>2020-02-28T04:30:00+00:00</published></entry><entry><id>https://daniel.roygreenfeld.com/two-scoops-of-django-3.x-released.html</id><title>Two Scoops of Django 3.x Released</title><updated>2020-05-11T16:30:00+00:00</updated><content type="html">&lt;p&gt;&lt;a href="https://www.feldroy.com/products/two-scoops-of-django-3-x"&gt;&lt;img src="https://daniel.feldroy.com/images/Two-Scoops-of-Django-3-Alpha-Cover_540x.jpg" alt="Cover for the alpha version of Two Scoops of Django 3.x" /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;We just released the early release (alpha) of the fifth edition of our book, titled &lt;a href="https://www.feldroy.com/collections/two-scoops-press/products/two-scoops-of-django-3-x"&gt;Two Scoops of Django 3.x&lt;/a&gt;. The 3.x means we are supporting Django 3.0, 3.1, and 3.2 Long Term Support (LTS) releases, ensuring the content will be valid until April of 2024.&lt;/p&gt;
 
@@ -162,4 +162,56 @@
 &lt;p&gt;&lt;a href="https://www.feldroy.com/products/two-scoops-of-django-3-x"&gt;Learn more and order the 5th edition of our venerable series about Django best practices.&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href="https://www.feldroy.com/products/two-scoops-of-django-3-x"&gt;&lt;img src="https://daniel.feldroy.com/images/TSD3-Preview-Cartoon_540x.jpg" alt="Image showing the updating of Two Scoops of Django" /&gt;&lt;/a&gt;&lt;/p&gt;
-</content><published>2020-05-11T16:30:00+00:00</published></entry></feed>
+</content><published>2020-05-11T16:30:00+00:00</published></entry><entry><id>https://daniel.roygreenfeld.com/live-instruction-django-crash-course-july-2020.html</id><title>I'm Teaching A Live Online Django Crash Course</title><updated>2020-07-02T17:30:00+00:00</updated><content type="html">&lt;p&gt;&lt;a href="https://www.feldroy.com/products/django-crash-course?variant=32232086175831"&gt;&lt;img src="https://daniel.feldroy.com/images/dcc-online-training.png" alt="Live Online Django Training" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Course Announcement&lt;/h2&gt;
+
+&lt;p&gt;On July 16th and 17th of 2020, I'll be running a &lt;a href="https://www.feldroy.com/products/django-crash-course?variant=32232086175831"&gt;live instruction of my beginner-friendly Django Crash Course.&lt;/a&gt; This is a live interactive class conducted via Zoom conferencing software. We're going to walk through the book together with students. If you get stuck, there will be at least two members of the Feldroy team available to help.&lt;/p&gt;
+
+&lt;p&gt;Each course day will have two sessions each 3 hours long, as well as an hour-long break between sessions.&lt;/p&gt;
+
+&lt;h2&gt;Attendees Receive&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hours of instruction in building web apps by noted authors and senior programmers&lt;/li&gt;
+&lt;li&gt;An invite to both July 16th and July 17th class days&lt;/li&gt;
+&lt;li&gt;The &lt;a href="https://www.feldroy.com/products/django-crash-course"&gt;Django Crash Course e-book&lt;/a&gt; (if you already bought one, we'll send you a discount code for $19.99 off the online class)&lt;/li&gt;
+&lt;li&gt;Membership in our forthcoming online forums when they are activated&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Class Prerequisites&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Basic knowledge of the Python programming language&lt;/li&gt;
+&lt;li&gt;Computer where you are allowed to install software (No work restrictions)&lt;/li&gt;
+&lt;li&gt;Internet fast enough to join online meetings&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Topics Covered&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Setting up a development environment&lt;/li&gt;
+&lt;li&gt;Cookiecutter for rapidly accelerating development &lt;/li&gt;
+&lt;li&gt;Django
+&lt;ul&gt;
+&lt;li&gt;Forms&lt;/li&gt;
+&lt;li&gt;Class-Based Views&lt;/li&gt;
+&lt;li&gt;Models&lt;/li&gt;
+&lt;li&gt;Templates&lt;/li&gt;
+&lt;li&gt;Admin&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Writing Django tests
+&lt;ul&gt;
+&lt;li&gt;PyTest&lt;/li&gt;
+&lt;li&gt;Factories&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Best practices per &lt;a href="https://www.feldroy.com/products/two-scoops-of-django-3-x?variant=31605362196567"&gt;Two Scoops of Django&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Proven patterns for avoiding duplication of work (&lt;a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself"&gt;DRY&lt;/a&gt;)  &lt;/li&gt;
+&lt;li&gt;Writing maintainable code&lt;/li&gt;
+&lt;li&gt;More secure projects&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We're selling the course for the introductory price of just $99 and space is limited, &lt;a href="https://www.feldroy.com/products/django-crash-course?variant=32232086175831"&gt;so register today!&lt;/a&gt;&lt;/p&gt;
+</content><published>2020-07-02T17:30:00+00:00</published></entry></feed>

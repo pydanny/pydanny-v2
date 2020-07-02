@@ -1,5 +1,5 @@
 ---
-date: "2020-07-02T15:30:00.00Z"
+date: "2020-07-02T17:30:00.00Z"
 description: On July 16th and 17th, I'll be running a live instruction of my beginner-friendly Django Crash Course. This is a live interactive class conducted via Zoom conferencing software. We're going to walk through the book together with students. If you get stuck, there will be at least two members of the Feldroy team available to help. 
 published: true
 slug: live-instruction-django-crash-course-july-2020
@@ -23,14 +23,14 @@ On July 16th and 17th of 2020, I'll be running a [live instruction of my beginne
 
 Each course day will have two sessions each 3 hours long, as well as an hour-long break between sessions.
 
-## Attendees will receive:
+## Attendees Receive
 
 - Hours of instruction in building web apps by noted authors and senior programmers
 - An invite to both July 16th and July 17th class days
 - The [Django Crash Course e-book](https://www.feldroy.com/products/django-crash-course) (if you already bought one, we'll send you a discount code for $19.99 off the online class)
 - Membership in our forthcoming online forums when they are activated
 
-## Class prerequisites:
+## Class Prerequisites
 
 - Basic knowledge of the Python programming language
 - Computer where you are allowed to install software (No work restrictions)
