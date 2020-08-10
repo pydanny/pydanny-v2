@@ -1,4 +1,5 @@
 ---
+layout: page
 sidebar: auto
 books:
   - id: 0
@@ -13,7 +14,7 @@ books:
   - id: 1
     title: "Django Crash Course"
     type: "technical"
-    description: "Covers Python 3.8 and Django 3.x - Alpha Version"
+    description: "Covers Python 3.8 and Django 3.x - Beta Version"
     image: "/images/Django-Crash-Course-300x436.jpg"
     text: "The Django Crash Course book is a guided walkthrough where we build a real, production-quality Django web application from the ground up.
     

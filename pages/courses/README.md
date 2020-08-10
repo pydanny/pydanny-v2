@@ -1,6 +1,6 @@
 ---
 sidebar: auto
-
+layout: page
 courses:
   - id: 0
     title: "Django Best Practices the Two Scoops Way"
