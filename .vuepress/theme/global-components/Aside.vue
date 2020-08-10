@@ -151,7 +151,7 @@ export default {
           description: "My late father's book of poetry.",
           image: "/images/51Fe5VCp7LL.01.LZZZZZZZ.jpg",
           text:
-            "Life provides you with all these opportunities, and you pick and choose the ones that become your experience. Lifemart is a collection of poems by my late father, who lived until he was 83. The poems span eight decades of his life experiences. Rich in description and emotion, they evoke mental images of beauty, faith, sadness, and joy.",
+            "Life provides you with all these opportunities, and you pick and choose the ones that become your experience. Lifemart is a collection of poems by my late father, who lived until he was 84. The poems span eight decades of his life experiences. Rich in description and emotion, they evoke mental images of beauty, faith, sadness, and joy.",
           actions: [
             {
               text: "Available at amazon.com",
