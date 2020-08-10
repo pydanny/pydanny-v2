@@ -1,6 +1,8 @@
 <template>
   <div class="card">
-    <img :src="image" :alt="title" v-if="image" class="card-image" :width="width" />
+    <a v-if="actions && image" :href="actions[0].link" target="_blank" rel="noopener">
+      <img :src="image" :alt="title" v-if="image" class="card-image" :width="width" />
+    </a>
     <div class="card-content">
       <div class="card-header">
         <h3 class="card-title" v-if="title">{{title}}</h3>
@@ -21,7 +23,7 @@
 
 <script>
 export default {
-  props: ["image", "title", "text", "description", "actions", "width"]
+  props: ["image", "title", "text", "description", "actions", "width"],
 };
 </script>
 

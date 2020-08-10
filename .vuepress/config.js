@@ -27,6 +27,7 @@ module.exports = {
       { text: "Home", link: "/" },
       { text: "Tags", link: "/tag/" },
       { text: "Books", link: "/pages/books/" },
+      { text: "Courses", link: "/pages/courses/" },      
       { text: "About", link: "/pages/about/" },
       { text: "Feldroy", link: "https://feldroy.com/" }
     ],

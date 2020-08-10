@@ -48,9 +48,9 @@ export default {
         actions: [
           {
             text: "E-Book versions available on feldroy.com ",
-            link: "https://roygreenfeld.com/products/django-crash-course"
-          }
-        ]
+            link: "https://www.feldroy.com/products/two-scoops-of-django-3-x",
+          },
+        ],
       },
       books: [
         {
@@ -63,9 +63,9 @@ export default {
             {
               text:
                 "Paperback, PDF, ePub, and Kindle versions available on feldroy.com  ",
-              link: "https://feldroy.com/products/django-crash-course"
-            }
-          ]
+              link: "https://feldroy.com/products/django-crash-course",
+            },
+          ],
         },
         {
           title: "Fluent Python",
@@ -74,8 +74,8 @@ export default {
           text:
             "Authored by one of my mentors, Luciano Ramalho, this is an amazing intermediate-to-advanced book that teaches you how to write the best Python that you can. Fluent Python is a huge, deep reference that is a must-have for any Python programmer.",
           actions: [
-            { text: "Available at amazon.com", link: "https://2scoops.co/7X" }
-          ]
+            { text: "Available at amazon.com", link: "https://2scoops.co/7X" },
+          ],
         },
         {
           title: "Django for APIs",
@@ -87,14 +87,14 @@ export default {
             {
               text: "Available at Amazon",
               link:
-                "https://www.amazon.com/Django-APIs-Build-web-Python/dp/1093633948?tag=mlinar-20"
+                "https://www.amazon.com/Django-APIs-Build-web-Python/dp/1093633948?tag=mlinar-20",
             },
             {
               text: "Kindle on Amazon",
               link:
-                "https://www.amazon.com/REST-APIs-Django-powerful-Python-ebook/dp/B07DR9XS6L/?tag=mlinar-20"
-            }
-          ]
+                "https://www.amazon.com/REST-APIs-Django-powerful-Python-ebook/dp/B07DR9XS6L/?tag=mlinar-20",
+            },
+          ],
         },
         {
           title: "Darkest Autumn",
@@ -104,15 +104,15 @@ export default {
             "Heroes are supposed to be brave, aren't they? Vetch is training to be a knight in a magical world. But he’s afraid of battle and reluctant to hurt others. Led by a sorcerer, a massive army of men and monsters attack Vetch’s homeland, the land of Ambria. With no idea how far the enemy’s power extends, Vetch struggles against impossible odds to keep himself and those he cares about safe.",
           actions: [
             {
-              text: "Available at Roy Greenfeld",
+              text: "Available at feldroy.com",
               link:
-                "https://www.roygreenfeld.com/products/darkest-autumn-ambria-book-1"
+                "https://www.feldroy.com/products/darkest-autumn-ambria-book-1",
             },
             {
               text: "Available at amazon.com",
-              link: "https://2scoops.co/ambria-1"
-            }
-          ]
+              link: "https://2scoops.co/ambria-1",
+            },
+          ],
         },
         {
           title: "Into the Brambles",
@@ -123,10 +123,10 @@ export default {
           actions: [
             { text: "Available at amazon.com", link: "https://2scoops.co/itb" },
             {
-              text: "Available at Roy Greenfeld",
-              link: "https://www.roygreenfeld.com/products/into-the-brambles"
-            }
-          ]
+              text: "Available at feldroy.com",
+              link: "https://www.feldroy.com/products/into-the-brambles",
+            },
+          ],
         },
         {
           title: "Illustrated Guide to Python 3",
@@ -137,34 +137,35 @@ export default {
             "This is an awesome beginner's book. Matt Harrison is the Python instructor who taught me how decorators work. If he could teach me that, then he can get you up to speed on Python. What's really awesome about this book is how he leverages diagrams of what Python is doing so you aren't just learning the commands, you truly learn what they do.",
           actions: [
             {
-              text: "Available at amazon.com",
-              link: "https://2scoops.co/illustrated-python"
+              text: "Available at Amazon.com",
+              link: "https://2scoops.co/illustrated-python",
             },
             {
               text: "Kindle on Amazon",
-              link: "https://2scoops.co/illustrated-python-kindle"
-            }
-          ]
+              link: "https://2scoops.co/illustrated-python-kindle",
+            },
+          ],
         },
         {
           title: "Lifemart",
-          description:
-            "My late father's book of poetry.",
+          description: "My late father's book of poetry.",
           image: "/images/51Fe5VCp7LL.01.LZZZZZZZ.jpg",
           text:
-            "Life provides you with all these opportunities, and you pick and choose the ones that become your experience. Lifemart is a collection of poems about one Jewish man’s life in the modern era. The poems span eight decades of life experiences. Rich in description and emotion, they evoke mental images of beauty, faith, sadness, and joy.",
+            "Life provides you with all these opportunities, and you pick and choose the ones that become your experience. Lifemart is a collection of poems by my late father, who lived until he was 83. The poems span eight decades of his life experiences. Rich in description and emotion, they evoke mental images of beauty, faith, sadness, and joy.",
           actions: [
             {
               text: "Available at amazon.com",
-              link: "https://www.amazon.com/Lifemart-Narratives-Others-Ted-Greenfeld/dp/1521946035/?tag=mlinar-20"
+              link:
+                "https://www.amazon.com/Lifemart-Narratives-Others-Ted-Greenfeld/dp/1521946035/?tag=mlinar-20",
             },
             {
               text: "Kindle on Amazon",
-              link: "https://www.amazon.com/Lifemart-Narratives-Others-Ted-Greenfeld-ebook/dp/B07495Y33K?tag=mlinar-20"
-            }
-          ]
-        }
-      ]
+              link:
+                "https://www.amazon.com/Lifemart-Narratives-Others-Ted-Greenfeld-ebook/dp/B07495Y33K?tag=mlinar-20",
+            },
+          ],
+        },
+      ],
     };
   },
   mounted() {
@@ -173,7 +174,7 @@ export default {
   computed: {
     currentBook() {
       return this.books[this.currentBookIndex];
-    }
+    },
   },
   methods: {
     changeCurrentBook() {
@@ -181,8 +182,8 @@ export default {
         const randomBookIndex = Math.floor(Math.random() * this.books.length);
         this.currentBookIndex = randomBookIndex;
       }, 10000);
-    }
-  }
+    },
+  },
 };
 </script>
 
