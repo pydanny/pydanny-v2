@@ -1,5 +1,5 @@
 ---
-date: "2020-08-11T17:30:00.00Z"
+date: "2020-08-11T23:45:00.00Z"
 description: All the live, online, interactive courses I'm teaching in the month of August 2020.
 published: true
 slug: august-2020-courses
