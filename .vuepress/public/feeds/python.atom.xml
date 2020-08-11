@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><id>https://daniel.roygreenfeld.com/</id><title>pydanny</title><updated>2020-08-11T18:36:03.080428+00:00</updated><author><name>Daniel Roy Greenfeld</name><email>daniel.roy.greenfeld@roygreenfeld.com</email></author><link href="https://daniel.roygreenfeld.com" rel="alternate"/><link href="https://daniel.roygreenfeld.com/feeds/python.atom.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://daniel.roygreenfeld.com/images/personalPhoto.png</logo><subtitle>Inside the Head of Daniel Roy Greenfeld</subtitle><entry><id>https://daniel.roygreenfeld.com/feed-generator.html</id><title>Feed Generator</title><updated>2020-01-30T22:20:50.520000+00:00</updated><content type="html">&lt;p&gt;Late last year I &lt;a href="/moving-to-vuepress.html"&gt;changed my blog engine yet again&lt;/a&gt;. I've been happy with it so far, with the exception of XML feeds. The tooling I chose doesn't have good support for feeds, certainly not with the filtering I need. Specifically, I need to have a &lt;code&gt;python&lt;/code&gt; feed, a &lt;code&gt;family&lt;/code&gt; feed, and so on. As much as I love my &lt;a href="https://audrey.roygreenfeld.com"&gt;wife&lt;/a&gt; and &lt;a href="/recap-2019-resolutions-2020.html#my-daughter-was-born"&gt;daughter&lt;/a&gt;, non-technical posts about them probably don't belong on places where this post will show up.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><id>https://daniel.roygreenfeld.com/</id><title>pydanny</title><updated>2020-08-11T19:09:27.404952+00:00</updated><author><name>Daniel Roy Greenfeld</name><email>daniel.roy.greenfeld@roygreenfeld.com</email></author><link href="https://daniel.roygreenfeld.com" rel="alternate"/><link href="https://daniel.roygreenfeld.com/feeds/python.atom.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://daniel.roygreenfeld.com/images/personalPhoto.png</logo><subtitle>Inside the Head of Daniel Roy Greenfeld</subtitle><entry><id>https://daniel.roygreenfeld.com/feed-generator.html</id><title>Feed Generator</title><updated>2020-01-30T22:20:50.520000+00:00</updated><content type="html">&lt;p&gt;Late last year I &lt;a href="/moving-to-vuepress.html"&gt;changed my blog engine yet again&lt;/a&gt;. I've been happy with it so far, with the exception of XML feeds. The tooling I chose doesn't have good support for feeds, certainly not with the filtering I need. Specifically, I need to have a &lt;code&gt;python&lt;/code&gt; feed, a &lt;code&gt;family&lt;/code&gt; feed, and so on. As much as I love my &lt;a href="https://audrey.roygreenfeld.com"&gt;wife&lt;/a&gt; and &lt;a href="/recap-2019-resolutions-2020.html#my-daughter-was-born"&gt;daughter&lt;/a&gt;, non-technical posts about them probably don't belong on places where this post will show up.&lt;/p&gt;
 
 &lt;p&gt;After trying to work within the framework of the blog engine (Vuepress), I got tired of fighting abstraction and gave up. My blog wouldn't have an XML feed.&lt;/p&gt;
 
@@ -347,31 +347,4 @@ merger.close()
 &lt;p&gt;&lt;a href="https://events.eventzilla.net/e/django-crash-course-online--august-2138797784"&gt;&lt;img src="https://cdn.shopify.com/s/files/1/0304/6901/files/DCC_Banner_Logo_2.png?v=1595531869" alt="" /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href="https://events.eventzilla.net/e/django-crash-course-online--august-2138797784"&gt;August 21, 22, 23: Django Crash Course Live&lt;/a&gt;&lt;/p&gt;
-
-&lt;!-- I've been extremely busy. This post captures some of what I've been working on.
-
-# Bangladesh and Brasil Stores!
-
-A common request for us at [feldroy.com](https://www.feldroy.com) is to provide regional payment gateways along with cost-of-living price adjustments. After a LOT of paperwork I'm proud to announce we have launched our Bangladesh and Brasil stores, with Nigeria to follow soon. These payment gateways only work for people within those countries, visitors from other parts of the world will be redirected to [feldroy.com](https://www.feldroy.com/pages/countries).
-
-- [Bangladesh](https://bd.feldroy.com)
-- [Brasil](https://br.feldroy.com)
-
-
-# Youtube Videos
-
-In the past few months I've had fun live streaming my Python, JavaScript, and writing efforts on [my twitch channel](https://twitch.tv/danielfeldroy). I extract some favorite and post that on [my youtube channel](https://youtube.com/c/danielfeldroy).
-
-My five most popular videos thus far are:
-
-1. [How to get a job as a Python developer in 2020](https://www.youtube.com/watch?v=YGwjMu_nIQo) - Lessons learned from being on both sides of countless interviews.
-2. [Multiple User Types in Django](https://www.youtube.com/watch?v=f0hdXr2MOEA) - Proxy models with a guest appearance by Audrey.
-3. [Multiple User Types in Django with Custom Data Fields](https://www.youtube.com/watch?v=V3zRZ6XRols) - Combining proxy models with `OneToOne` relations.
-4. [Codecast #6: Writing Two Scoops of Django](https://www.youtube.com/watch?v=tnJFu5GvZyE) - See me add pages of stuff and write in raw LaTeX.
-5. [Author Reacts to Bad and Great Books: Django 3 By Example](https://www.youtube.com/watch?v=rtX8GNwUe9E) - This is my first video book review, where I give an honest critique from an author's point of view. If you want me to review your book, let's talk!
-
-
-
-
- --&gt;
 </content><published>2020-08-11T23:45:00+00:00</published></entry></feed>
