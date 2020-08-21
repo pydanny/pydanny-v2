@@ -1,6 +1,6 @@
 ---
 date: "2020-08-12T23:45:00.00Z"
-description: The resources I used to dramatically improve my audio,
+description: The resources I used to dramatically improve my audio.
 published: true
 slug: improving-audio-recording-with-streamlabs
 tags:
