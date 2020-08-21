@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><id>https://daniel.roygreenfeld.com/</id><title>pydanny</title><updated>2020-08-11T19:09:27.404952+00:00</updated><author><name>Daniel Roy Greenfeld</name><email>daniel.roy.greenfeld@roygreenfeld.com</email></author><link href="https://daniel.roygreenfeld.com" rel="alternate"/><link href="https://daniel.roygreenfeld.com/feeds/python.atom.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://daniel.roygreenfeld.com/images/personalPhoto.png</logo><subtitle>Inside the Head of Daniel Roy Greenfeld</subtitle><entry><id>https://daniel.roygreenfeld.com/feed-generator.html</id><title>Feed Generator</title><updated>2020-01-30T22:20:50.520000+00:00</updated><content type="html">&lt;p&gt;Late last year I &lt;a href="/moving-to-vuepress.html"&gt;changed my blog engine yet again&lt;/a&gt;. I've been happy with it so far, with the exception of XML feeds. The tooling I chose doesn't have good support for feeds, certainly not with the filtering I need. Specifically, I need to have a &lt;code&gt;python&lt;/code&gt; feed, a &lt;code&gt;family&lt;/code&gt; feed, and so on. As much as I love my &lt;a href="https://audrey.roygreenfeld.com"&gt;wife&lt;/a&gt; and &lt;a href="/recap-2019-resolutions-2020.html#my-daughter-was-born"&gt;daughter&lt;/a&gt;, non-technical posts about them probably don't belong on places where this post will show up.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><id>https://daniel.roygreenfeld.com/</id><title>pydanny</title><updated>2020-08-21T15:57:05.307812+00:00</updated><author><name>Daniel Roy Greenfeld</name><email>daniel.roy.greenfeld@roygreenfeld.com</email></author><link href="https://daniel.roygreenfeld.com" rel="alternate"/><link href="https://daniel.roygreenfeld.com/feeds/python.atom.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://daniel.roygreenfeld.com/images/personalPhoto.png</logo><subtitle>Inside the Head of Daniel Roy Greenfeld</subtitle><entry><id>https://daniel.roygreenfeld.com/feed-generator.html</id><title>Feed Generator</title><updated>2020-01-30T22:20:50.520000+00:00</updated><content type="html">&lt;p&gt;Late last year I &lt;a href="/moving-to-vuepress.html"&gt;changed my blog engine yet again&lt;/a&gt;. I've been happy with it so far, with the exception of XML feeds. The tooling I chose doesn't have good support for feeds, certainly not with the filtering I need. Specifically, I need to have a &lt;code&gt;python&lt;/code&gt; feed, a &lt;code&gt;family&lt;/code&gt; feed, and so on. As much as I love my &lt;a href="https://audrey.roygreenfeld.com"&gt;wife&lt;/a&gt; and &lt;a href="/recap-2019-resolutions-2020.html#my-daughter-was-born"&gt;daughter&lt;/a&gt;, non-technical posts about them probably don't belong on places where this post will show up.&lt;/p&gt;
 
 &lt;p&gt;After trying to work within the framework of the blog engine (Vuepress), I got tired of fighting abstraction and gave up. My blog wouldn't have an XML feed.&lt;/p&gt;
 
@@ -7,106 +7,105 @@
 
 &lt;p&gt;Last night I decided to go around the problem. In 30 minutes I coded up a solution, a Python script that bypasses the Vuepress abstraction. You can see it below:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;"""
-generate_feed.py
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+&lt;span class="sd"&gt;generate_feed.py&lt;/span&gt;
 
-Usage:
+&lt;span class="sd"&gt;Usage:&lt;/span&gt;
 
-    python generate_feed.py TAGHERE
+&lt;span class="sd"&gt;    python generate_feed.py TAGHERE&lt;/span&gt;
 
-Note:
+&lt;span class="sd"&gt;Note:&lt;/span&gt;
 
-    Works with Python 3.8, untested otherwise.
-"""
+&lt;span class="sd"&gt;    Works with Python 3.8, untested otherwise.&lt;/span&gt;
+&lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
 
-from glob import glob
-import sys
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;glob&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;glob&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;sys&lt;/span&gt;
 
-try:
-    from feedgen.feed import FeedGenerator
-    from yaml import safe_load
-    from markdown2 import Markdown
-except ImportError:
-    print("You need to install pyyaml, feedgen, and markdown2")
-    sys.exit(1)
+&lt;span class="k"&gt;try&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;feedgen.feed&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;FeedGenerator&lt;/span&gt;
+    &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;yaml&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;safe_load&lt;/span&gt;
+    &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;markdown2&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Markdown&lt;/span&gt;
+&lt;span class="k"&gt;except&lt;/span&gt; &lt;span class="ne"&gt;ImportError&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;You need to install pyyaml, feedgen, and markdown2&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;exit&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
 
-if __name__ == "__main__":
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="vm"&gt;__name__&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;__main__&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
 
-    try:
-        tag = sys.argv[1]
-    except IndexError:
-        print('Add a tag argument such as "python"')
-        sys.exit(1)
+    &lt;span class="k"&gt;try&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;tag&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;argv&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="k"&gt;except&lt;/span&gt; &lt;span class="ne"&gt;IndexError&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Add a tag argument such as &amp;quot;python&amp;quot;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;exit&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
-    # TODO - convert to argument
-    YEARS = [
-        "2020",
-    ]
+    &lt;span class="c1"&gt;# TODO - convert to argument&lt;/span&gt;
+    &lt;span class="n"&gt;YEARS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+        &lt;span class="s2"&gt;&amp;quot;2020&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="p"&gt;]&lt;/span&gt;
 
-    markdowner = Markdown(extras=["fenced-code-blocks", ])
+    &lt;span class="n"&gt;markdowner&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Markdown&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;extras&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;fenced-code-blocks&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;])&lt;/span&gt;
 
-    fg = FeedGenerator()
-    fg.id("https://daniel.roygreenfeld.com/")
-    fg.title("pydanny")
-    fg.author(
-        {
-            "name": "Daniel Roy Greenfeld",
-            "email": "daniel.roy.greenfeld@roygreenfeld.com",
-        }
-    )
-    fg.link(href="https://daniel.roygreenfeld.com", rel="alternate")
-    fg.logo("https://daniel.roygreenfeld.com/images/personalPhoto.png")
-    fg.subtitle("Inside the Head of Daniel Roy Greenfeld")
-    fg.link(href=f"https://daniel.roygreenfeld.com/atom.{tag}.xml", rel="self")
-    fg.language("en")
+    &lt;span class="n"&gt;fg&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;FeedGenerator&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+    &lt;span class="n"&gt;fg&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;id&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;https://daniel.roygreenfeld.com/&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;fg&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;title&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;pydanny&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;fg&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;author&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+        &lt;span class="p"&gt;{&lt;/span&gt;
+            &lt;span class="s2"&gt;&amp;quot;name&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Daniel Roy Greenfeld&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="s2"&gt;&amp;quot;email&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;daniel.roy.greenfeld@roygreenfeld.com&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;fg&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;link&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;https://daniel.roygreenfeld.com&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;rel&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;alternate&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;fg&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;logo&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;https://daniel.roygreenfeld.com/images/personalPhoto.png&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;fg&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;subtitle&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Inside the Head of Daniel Roy Greenfeld&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;fg&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;link&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;https://daniel.roygreenfeld.com/atom.&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;tag&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;.xml&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;rel&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;self&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;fg&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;language&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;en&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
-    years = [f"_posts/posts{x}/*.md" for x in YEARS]
-    years.sort()
-    years.reverse()
+    &lt;span class="n"&gt;years&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;_posts/posts&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/*.md&amp;quot;&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;YEARS&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="n"&gt;years&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sort&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+    &lt;span class="n"&gt;years&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;reverse&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
 
-    def read_post(filename):
-        with open(filename) as f:
-            raw = f.read()[3:]
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;read_post&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;filename&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="k"&gt;with&lt;/span&gt; &lt;span class="nb"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;filename&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="n"&gt;raw&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;read&lt;/span&gt;&lt;span class="p"&gt;()[&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;:]&lt;/span&gt;
 
-        config = safe_load(raw[: raw.index("---")])
-        content = raw[raw.index("---") + 3 :]
+        &lt;span class="n"&gt;config&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;safe_load&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;raw&lt;/span&gt;&lt;span class="p"&gt;[:&lt;/span&gt; &lt;span class="n"&gt;raw&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;index&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;---&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)])&lt;/span&gt;
+        &lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;raw&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;raw&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;index&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;---&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt; &lt;span class="p"&gt;:]&lt;/span&gt;
 
-        return config, content
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;content&lt;/span&gt;
 
-    feed = []
+    &lt;span class="n"&gt;feed&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
 
-    for year in years:
-        posts = glob(year)
-        posts.sort()
-        posts.reverse()
-        for post in posts:
-            config, content = read_post(post)
-            if tag not in config["tags"]:
-                continue
+    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;year&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;years&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;posts&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;glob&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;year&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="n"&gt;posts&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sort&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+        &lt;span class="n"&gt;posts&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;reverse&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+        &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;post&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;posts&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;read_post&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;post&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;tag&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;tags&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt;
+                &lt;span class="k"&gt;continue&lt;/span&gt;
 
-            # add the metadata
-            print(config["title"])
-            entry = fg.add_entry()
-            entry.id(f'https://daniel.roygreenfeld.com/{config["slug"]}.html')
-            entry.title(config["title"])
-            entry.description(config["description"])
-            entry.pubDate(config["date"])
-            entry.updated(config["date"])
+            &lt;span class="c1"&gt;# add the metadata&lt;/span&gt;
+            &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;title&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+            &lt;span class="n"&gt;entry&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;fg&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_entry&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+            &lt;span class="n"&gt;entry&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;id&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;https://daniel.roygreenfeld.com/&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;slug&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s1"&gt;.html&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+            &lt;span class="n"&gt;entry&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;title&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;title&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+            &lt;span class="n"&gt;entry&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;description&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;description&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+            &lt;span class="n"&gt;entry&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pubDate&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;date&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+            &lt;span class="n"&gt;entry&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;updated&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;date&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
 
-            # Add the content
-            content = markdowner.convert(content)
-            entry.content(content, type="html")
+            &lt;span class="c1"&gt;# Add the content&lt;/span&gt;
+            &lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;markdowner&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;convert&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+            &lt;span class="n"&gt;entry&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nb"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;html&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
-    print(fg.atom_str(pretty=True))
-    fg.atom_file(f".vuepress/public/feeds/{tag}.atom.xml")
-
-&lt;/code&gt;&lt;/pre&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fg&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;atom_str&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pretty&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+    &lt;span class="n"&gt;fg&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;atom_file&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;.vuepress/public/feeds/&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;tag&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;.atom.xml&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;You call this on my blog for all &lt;code&gt;python&lt;/code&gt; tagged content by running it thus:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;python generate_feed.py python
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;python generate_feed.py python
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;The result &lt;a href="https://validator.w3.org/feed/#validate_by_input"&gt;validates per W3C&lt;/a&gt; and should work everywhere. Yeah! &lt;/p&gt;
 
@@ -155,23 +154,23 @@ if __name__ == "__main__":
 &lt;li&gt;Step 2: Write a script as seen below&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;pre&gt;&lt;code&gt;from PyPDF2 import PdfFileMerger
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;PyPDF2&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;PdfFileMerger&lt;/span&gt;
 
-now = datetime.now()
+&lt;span class="n"&gt;now&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;now&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
 
-pdfs = [
-  'images/Django_Crash_Course_5.5x8in.pdf',
-  '_output/dcc.pdf',
-]
+&lt;span class="n"&gt;pdfs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+  &lt;span class="s1"&gt;&amp;#39;images/Django_Crash_Course_5.5x8in.pdf&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s1"&gt;&amp;#39;_output/dcc.pdf&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="p"&gt;]&lt;/span&gt;
 
-merger = PdfFileMerger()
+&lt;span class="n"&gt;merger&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;PdfFileMerger&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
 
-for pdf in pdfs:
-    merger.append(pdf)
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;pdf&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;pdfs&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="n"&gt;merger&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pdf&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
-merger.write("releases/beta-20200226.pdf")
-merger.close()    
-&lt;/code&gt;&lt;/pre&gt;
+&lt;span class="n"&gt;merger&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;write&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;releases/beta-20200226.pdf&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;merger&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;close&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;    
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;It was at this point that we discovered that our new file, &lt;code&gt;releases/beta-20200226.pdf&lt;/code&gt;, was missing most of the metadata. Oh no!&lt;/p&gt;
 
@@ -179,15 +178,15 @@ merger.close()
 
 &lt;p&gt;According to the PyPDF2 docs, &lt;a href="https://pythonhosted.org/PyPDF2/PdfFileMerger.html#PyPDF2.PdfFileMerger.addMetadata"&gt;adding metadata is very straight-forward&lt;/a&gt;. Just pass a &lt;code&gt;dict&lt;/code&gt; into the &lt;code&gt;addMetadata()&lt;/code&gt; function. I inserted this code right before the call to &lt;code&gt;merger.write()&lt;/code&gt;:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;merger.addMetadata({
-    "Title": "Django Crash Course",  
-    "Authors": 'Daniel Roy Greenfeld, Audrey Roy Greenfeld',
-    "Description": "Covers Python 3.8 and Django 3.x",
-    "ContentCreator": "Two Scoops Press",
-    "CreateDate": "2020-02-26",
-    "ModifyDate": "2020-02-26",
-})
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;merger&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;addMetadata&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;Title&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Django Crash Course&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  
+    &lt;span class="s2"&gt;&amp;quot;Authors&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;Daniel Roy Greenfeld, Audrey Roy Greenfeld&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;Description&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Covers Python 3.8 and Django 3.x&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;ContentCreator&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Two Scoops Press&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;CreateDate&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;2020-02-26&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;ModifyDate&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;2020-02-26&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="p"&gt;})&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;The PDF built! Yeah! Time to open it up and see the results!&lt;/p&gt;
 
@@ -218,39 +217,39 @@ merger.close()
 
 &lt;p&gt;Now armed with my rules I returned to the code. This is what I came up with:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;from datetime import datetime
-from PyPDF2 import PdfFileMerger
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;datetime&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;PyPDF2&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;PdfFileMerger&lt;/span&gt;
 
-pdfs = [
-  'images/Django_Crash_Course_5.5x8in.pdf',
-  '_output/dcc.pdf',
-]
+&lt;span class="n"&gt;pdfs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+  &lt;span class="s1"&gt;&amp;#39;images/Django_Crash_Course_5.5x8in.pdf&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s1"&gt;&amp;#39;_output/dcc.pdf&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="p"&gt;]&lt;/span&gt;
 
-merger = PdfFileMerger()
+&lt;span class="n"&gt;merger&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;PdfFileMerger&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
 
-for pdf in pdfs:
-    merger.append(pdf)
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;pdf&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;pdfs&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="n"&gt;merger&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pdf&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
-# Make PDF datestamp
-now = datetime.now()
-pdf_datestamp = now.strftime("D:%Y%m%d%H%M%S-8'00'")
+&lt;span class="c1"&gt;# Make PDF datestamp&lt;/span&gt;
+&lt;span class="n"&gt;now&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;now&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;pdf_datestamp&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;now&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;strftime&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;D:%Y%m&lt;/span&gt;&lt;span class="si"&gt;%d&lt;/span&gt;&lt;span class="s2"&gt;%H%M%S-8&amp;#39;00&amp;#39;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
-# https://www.oreilly.com/library/view/pdf-explained/9781449321581/ch04.html#didentries
-# Fields are **precisely** named
-merger.addMetadata({
-    "/Author": 'Daniel Roy Greenfeld, Audrey Roy Greenfeld',
-    "/Title": "Django Crash Course",
-    "/Subject": "Covers Python 3.8 and Django 3.x",
-    "/Creator": "Two Scoops Press",
-    "/CreationDate": pdf_datestamp,
-    "/ModDate": pdf_datestamp,
-})
+&lt;span class="c1"&gt;# https://www.oreilly.com/library/view/pdf-explained/9781449321581/ch04.html#didentries&lt;/span&gt;
+&lt;span class="c1"&gt;# Fields are **precisely** named&lt;/span&gt;
+&lt;span class="n"&gt;merger&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;addMetadata&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;/Author&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;Daniel Roy Greenfeld, Audrey Roy Greenfeld&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;/Title&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Django Crash Course&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;/Subject&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Covers Python 3.8 and Django 3.x&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;/Creator&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Two Scoops Press&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;/CreationDate&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;pdf_datestamp&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;/ModDate&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;pdf_datestamp&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="p"&gt;})&lt;/span&gt;
 
-# Write the release
-version = f"beta-{now.strftime('%Y%m%d')}"
-merger.write(f"releases/{version}.pdf")
-merger.close()
-&lt;/code&gt;&lt;/pre&gt;
+&lt;span class="c1"&gt;# Write the release&lt;/span&gt;
+&lt;span class="n"&gt;version&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;beta-&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;now&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;strftime&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;%Y%m&lt;/span&gt;&lt;span class="si"&gt;%d&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
+&lt;span class="n"&gt;merger&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;write&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;releases/&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="n"&gt;version&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;.pdf&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;merger&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;close&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h2&gt;Conclusion&lt;/h2&gt;
 
@@ -347,4 +346,36 @@ merger.close()
 &lt;p&gt;&lt;a href="https://events.eventzilla.net/e/django-crash-course-online--august-2138797784"&gt;&lt;img src="https://cdn.shopify.com/s/files/1/0304/6901/files/DCC_Banner_Logo_2.png?v=1595531869" alt="" /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href="https://events.eventzilla.net/e/django-crash-course-online--august-2138797784"&gt;August 21, 22, 23: Django Crash Course Live&lt;/a&gt;&lt;/p&gt;
-</content><published>2020-08-11T23:45:00+00:00</published></entry></feed>
+</content><published>2020-08-11T23:45:00+00:00</published></entry><entry><id>https://daniel.roygreenfeld.com/its-the-weekend-lets-code-a-python-project.html</id><title>It's the Weekend, Let's Code a Python Project!</title><updated>2020-08-21T23:45:00+00:00</updated><content type="html">&lt;p&gt;It's Friday where I am, maybe Saturday wherever you are. And like me, you're wondering what you are going to code over the weekend. Why code over the weekend? Here are some good reasons:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You want to practice your Python to level up your skills&lt;/li&gt;
+&lt;li&gt;Potential employees are asking for portfolio work and your GitHub account is bare&lt;/li&gt;
+&lt;li&gt;Coding in Python is fun!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Well, wonder no further because I just helped &lt;a href="https://yasoob.me/"&gt;Yasoob Khalid&lt;/a&gt; of &lt;a href="https://book.pythontips.com/"&gt;Intermediate Python&lt;/a&gt; fame publish his second book, &lt;a href="https://feld.to/ppp"&gt;Practical Python Projects&lt;/a&gt;! &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://feld.to/ppp"&gt;&lt;img src="https://daniel.feldroy.com/images/ppp-hero.png" alt="Practical Python Projects" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Practical Python Projects contains a dozen bite-sized weekend-length projects in 325+ pages where Yasoob explores concepts and then codes out solutions. In addition to showing you how he researched each project, he discusses how to change and extend them. This is important because some of the APIs he explores change periodically. This makes the book interesting because it means everyone's experience with it is unique.&lt;/p&gt;
+
+&lt;p&gt;I've been coding in Python for 15 years now, yet I've learned some really useful things from Practical Python Projects. For me, the JPEG encoding project alone has been really fun to explore. Speaking of projects, here they are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;FIFA World Cup Twilio Bot&lt;/li&gt;
+&lt;li&gt;Making a Reddit + Facebook Messenger Bot&lt;/li&gt;
+&lt;li&gt;Scraping Steam Using lxml&lt;/li&gt;
+&lt;li&gt;Automatic Invoice Generation&lt;/li&gt;
+&lt;li&gt;Article Summarization &amp;amp; Automated Image Generation&lt;/li&gt;
+&lt;li&gt;Cinema Pre-show Generator&lt;/li&gt;
+&lt;li&gt;Understanding and Decoding a JPEG Image using Python (my favorite!)&lt;/li&gt;
+&lt;li&gt;Full Page Scroll Animation Video&lt;/li&gt;
+&lt;li&gt;Visualizing Server Locations&lt;/li&gt;
+&lt;li&gt;Making a TUI Email Client&lt;/li&gt;
+&lt;li&gt;A Music/Video GUI Downloader&lt;/li&gt;
+&lt;li&gt;Deploying Flask to Production&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you're interested in buying &lt;a href="https://feld.to/ppp"&gt;Practical Python Projects&lt;/a&gt; or &lt;a href="https://www.feldroy.com/products/practical-python-projects#faq"&gt;want to know more&lt;/a&gt;, the first 25 people to use code &lt;strong&gt;ppp-pydanny-blog&lt;/strong&gt; for it on &lt;a href="https://feldroy.com"&gt;feldroy.com&lt;/a&gt; will get 15% off. &lt;/p&gt;
+</content><published>2020-08-21T23:45:00+00:00</published></entry></feed>
