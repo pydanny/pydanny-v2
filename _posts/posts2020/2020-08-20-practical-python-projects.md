@@ -41,3 +41,4 @@ I've been coding in Python for 15 years now, yet I've learned some really useful
 
 If you're interested in buying [Practical Python Projects](https://feld.to/ppp) or [want to know more](https://www.feldroy.com/products/practical-python-projects#faq), the first 25 people to use code **ppp-pydanny-blog** for it on [feldroy.com](https://feldroy.com) will get 15% off. 
 
+[![Practical Python Projects](https://daniel.feldroy.com/images/ppp-cover.png)(https://feld.to/ppp)
