@@ -26,6 +26,9 @@ Ask me professional questions in a small group Zoom meeting setting. Past topics
 - Managing tough job situations
 - Resume and portfolio evaluation
  
-Next session is 10AM to Noon PST / 5PM-7PM UTC on Wednesday, September 2nd, 2020. 
+Upcoming sessions:
+
+- 10AM to Noon PST / 5PM-7PM UTC on Wednesday, September 9, 2020. 
+- 10AM to Noon PST / 5PM-7PM UTC on Wednesday, September 23, 2020. 
 
 [Sign up now!](https://www.feldroy.com/products/office-hours)
