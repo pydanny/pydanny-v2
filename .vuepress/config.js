@@ -13,7 +13,7 @@ const feed_options = {
 
 module.exports = {
   title: "Daniel Feldroy",
-  description: "Inside the head of Daniel Feldroy né Roy Greenfeld",
+  description: "Inside the head of Daniel Feldroy (aka Daniel Roy Greenfeld)",
   theme: "@vuepress/theme-blog",
   themeConfig: {
     fullName: "Daniel Roy greenfeld",
