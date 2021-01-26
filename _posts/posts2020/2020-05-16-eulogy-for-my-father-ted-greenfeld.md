@@ -72,7 +72,7 @@ Fly   <br>
 
 ## The Moment
 
-The moment I said the last word in that poem, "Fly," without warning a great gust of wind rushed past me and into the funeral attendees. The yarmulke on my head went flying away. The carpet that had been placed onto the lawn tossed over in the air. People stumbled from the impact of the powefrul gust. 
+The moment I said the last word in that poem, "Fly," without warning a great gust of wind rushed past me and into the funeral attendees. The yarmulke on my head went flying away. The carpet that had been placed onto the lawn tossed over in the air. People stumbled from the impact of the powerful gust. 
 
 Perhaps it was my father having one last word with us. I would like to think it was him reminding me to embrace my creativity and remember that at heart I am a writer.
 

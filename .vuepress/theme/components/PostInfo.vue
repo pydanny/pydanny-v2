@@ -30,8 +30,7 @@
         <i>
           <GithubIcon />
         </i>
-      </a> or
-      <a href="https://www.patreon.com/feldroy">Patreon</a>
+      </a>
     </div>
   </div>
 </template>
