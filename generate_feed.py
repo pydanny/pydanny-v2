@@ -10,13 +10,13 @@ Note:
     Works with Python 3.8, untested otherwise.
 """
 
-from glob import glob
 import sys
+from glob import glob
 
 try:
     from feedgen.feed import FeedGenerator
-    from yaml import safe_load
     from markdown2 import Markdown
+    from yaml import safe_load
 except ImportError:
     print("You need to install pyyaml, feedgen, and markdown2")
     sys.exit(1)
@@ -33,6 +33,7 @@ if __name__ == "__main__":
     # TODO - convert to argument
     YEARS = [
         "2020",
+        "2021"
     ]
 
     markdowner = Markdown(extras=["fenced-code-blocks", ])

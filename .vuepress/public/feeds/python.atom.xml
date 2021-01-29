@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><id>https://daniel.roygreenfeld.com/</id><title>pydanny</title><updated>2021-01-26T18:17:55.128521+00:00</updated><author><name>Daniel Roy Greenfeld</name><email>daniel.roy.greenfeld@roygreenfeld.com</email></author><link href="https://daniel.roygreenfeld.com" rel="alternate"/><link href="https://daniel.roygreenfeld.com/feeds/python.atom.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://daniel.roygreenfeld.com/images/personalPhoto.png</logo><subtitle>Inside the Head of Daniel Roy Greenfeld</subtitle><entry><id>https://daniel.roygreenfeld.com/feed-generator.html</id><title>Feed Generator</title><updated>2020-01-30T22:20:50.520000+00:00</updated><content type="html">&lt;p&gt;Late last year I &lt;a href="/moving-to-vuepress.html"&gt;changed my blog engine yet again&lt;/a&gt;. I've been happy with it so far, with the exception of XML feeds. The tooling I chose doesn't have good support for feeds, certainly not with the filtering I need. Specifically, I need to have a &lt;code&gt;python&lt;/code&gt; feed, a &lt;code&gt;family&lt;/code&gt; feed, and so on. As much as I love my &lt;a href="https://audrey.roygreenfeld.com"&gt;wife&lt;/a&gt; and &lt;a href="/recap-2019-resolutions-2020.html#my-daughter-was-born"&gt;daughter&lt;/a&gt;, non-technical posts about them probably don't belong on places where this post will show up.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><id>https://daniel.roygreenfeld.com/</id><title>pydanny</title><updated>2021-01-29T17:06:38.189862+00:00</updated><author><name>Daniel Roy Greenfeld</name><email>daniel.roy.greenfeld@roygreenfeld.com</email></author><link href="https://daniel.roygreenfeld.com" rel="alternate"/><link href="https://daniel.roygreenfeld.com/feeds/python.atom.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://daniel.roygreenfeld.com/images/personalPhoto.png</logo><subtitle>Inside the Head of Daniel Roy Greenfeld</subtitle><entry><id>https://daniel.roygreenfeld.com/feed-generator.html</id><title>Feed Generator</title><updated>2020-01-30T22:20:50.520000+00:00</updated><content type="html">&lt;p&gt;Late last year I &lt;a href="/moving-to-vuepress.html"&gt;changed my blog engine yet again&lt;/a&gt;. I've been happy with it so far, with the exception of XML feeds. The tooling I chose doesn't have good support for feeds, certainly not with the filtering I need. Specifically, I need to have a &lt;code&gt;python&lt;/code&gt; feed, a &lt;code&gt;family&lt;/code&gt; feed, and so on. As much as I love my &lt;a href="https://audrey.roygreenfeld.com"&gt;wife&lt;/a&gt; and &lt;a href="/recap-2019-resolutions-2020.html#my-daughter-was-born"&gt;daughter&lt;/a&gt;, non-technical posts about them probably don't belong on places where this post will show up.&lt;/p&gt;
 
 &lt;p&gt;After trying to work within the framework of the blog engine (Vuepress), I got tired of fighting abstraction and gave up. My blog wouldn't have an XML feed.&lt;/p&gt;
 
@@ -381,4 +381,83 @@ merger.close()
 &lt;p&gt;If you're interested in buying &lt;a href="https://feld.to/ppp"&gt;Practical Python Projects&lt;/a&gt; or &lt;a href="https://www.feldroy.com/products/practical-python-projects#faq"&gt;want to know more&lt;/a&gt;, the first 25 people to use code &lt;strong&gt;ppp-pydanny-blog&lt;/strong&gt; for it on &lt;a href="https://feldroy.com"&gt;feldroy.com&lt;/a&gt; will get 15% off. &lt;/p&gt;
 
 &lt;p&gt;&lt;a href="https://feld.to/ppp"&gt;&lt;img src="https://daniel.feldroy.com/images/ppp-cover.png" alt="Practical Python Projects" /&gt;&lt;/a&gt;&lt;/p&gt;
-</content><published>2020-08-21T23:45:00+00:00</published></entry></feed>
+</content><published>2020-08-21T23:45:00+00:00</published></entry><entry><id>https://daniel.roygreenfeld.com/recap-2020-resolutions-2021.html</id><title>Recap of 2020 and Resolutions for 2021</title><updated>2021-01-29T23:45:00+00:00</updated><content type="html">&lt;h1&gt;Recap of 2020&lt;/h1&gt;
+
+&lt;h2&gt;I got a job saving the planet&lt;/h2&gt;
+
+&lt;p&gt;For years I've been worried about climate change. I've tried to live a mostly ecologically friendly life, and this year I dived in with making compost for the garden. However, seeing the lack of consistent political will to correct the problem has had me worried. &lt;/p&gt;
+
+&lt;p&gt;So I was delighted that when I started to look for jobs in the autumn I was contacted by several firms attempting to address the problem. I've always thought that finance is a great motivator, albeit all-too-often the results are negative (the petroleum and coal industries are examples).&lt;/p&gt;
+
+&lt;p&gt;Ultimately I went with &lt;a href="https://octopus.energy/"&gt;Octopus Energy&lt;/a&gt;, a company that is to borrow a phrase, disrupting the legacy power industry in areas with free-er energy markets (UK, Australia, Germany, Texas, Japan). They have embraced renewable energies as a source of power, which is good because it is cheaper than fossil fuels. Even if customers don't believe in global climate change they won't be able to ignore the fact renewables are a cheaper source of energy.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://jobs.lever.co/octoenergy"&gt;&lt;img src="/images/octologo.png" alt="Octopus Logo 2019" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In any case, I can't begin to say how wonderful it is being part of a company whose mission is to address climate change. It's like all my skills and talents are now superpowers being used to save the world. &lt;/p&gt;
+
+&lt;p&gt;If you live in the US, UK, Germany, Australia, or Japan and want to join me using our various skills and talents to help save the world, &lt;a href="https://jobs.lever.co/octoenergy"&gt;here's your chance&lt;/a&gt;. We've got lots of &lt;a href="https://jobs.lever.co/octoenergy"&gt;openings&lt;/a&gt;, including for those who know [Python and Django]((https://jobs.lever.co/octoenergy).&lt;/p&gt;
+
+&lt;h2&gt;My daughter grew&lt;/h2&gt;
+
+&lt;p&gt;Uma grew in size and intellect. The photo below demonstrates the changes in her over just 8 months. Seeing her expand in awareness and understanding is a journey I never imagined. The challenges in raising her have been met with happiness by myself and Audrey. Her presence also drove me toward the new job at Octopus Energy I took on in the autumn.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/uma-2020.png" alt="Uma growing" /&gt;&lt;/p&gt;
+
+&lt;h2&gt;I learned to garden&lt;/h2&gt;
+
+&lt;p&gt;Audrey and I once again tried our hand at gardening. In the past, our efforts were stymied by travel and work. Now, being home 99.9% of the year we finally managed to garner some success besides growing flowers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/bounty-2020.png" alt="Bounty for 2020" /&gt;&lt;/p&gt;
+
+&lt;p&gt;I got into &lt;a href="https://en.wikipedia.org/wiki/Compost"&gt;composting&lt;/a&gt;. The science of it is fascinating, you mix kitchen scraps and yard waste, add water, and depending on the method in anywhere from days to weeks to months you have soil that plants love. &lt;/p&gt;
+
+&lt;h2&gt;I quarantined&lt;/h2&gt;
+
+&lt;p&gt;Rather than risk me, family, and friends members, I entered quarantine until the COVID-19 pandemic was under control. It's not been easy, there are times I am restless. I've missed events, the worst of which are funerals of those who died. Nevertheless, I refused to become a statistic or cause others harm.&lt;/p&gt;
+
+&lt;h2&gt;I voted&lt;/h2&gt;
+
+&lt;p&gt;I voted on November 3rd. I believe voting should be mail-in or by the internet. I also believe the United States should get rid of gerrymandering and the electoral college.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Popular vote all the way!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2&gt;I wrote books&lt;/h2&gt;
+
+&lt;p&gt;More on this in a different blog post, but here's what I got out the door:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.feldroy.com/products/two-scoops-of-django-3-x"&gt;Two Scoops of Django 3.x&lt;/a&gt; - Latest edition of our Two Scoops of Django series&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.feldroy.com/collections/two-scoops-press/products/a-wedge-of-django"&gt;A Wedge of Django&lt;/a&gt; - Basic Django tutorial&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.feldroy.com/collections/impossible-hero-books/products/necronaut"&gt;Necronaut&lt;/a&gt; - Horror science fiction novelette&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Resolutions for 2021&lt;/h1&gt;
+
+&lt;h2&gt;Be the best father I can be&lt;/h2&gt;
+
+&lt;p&gt;My daughter is part of my legacy, what will exist on this planet after I am gone. She motivates me to do my best at work and to take care of myself better so I can be stronger for her.&lt;/p&gt;
+
+&lt;p&gt;I will help her grow into the person she wants to be. That means teaching her new things, keeping her safe, and being there for her. I will treasure the time I have with her at this age and never take her presence for granted.&lt;/p&gt;
+
+&lt;h2&gt;Lose my COVID-19&lt;/h2&gt;
+
+&lt;p&gt;Yeah, I put on weight. Working to get it off. Steps I've taken:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Eating less&lt;/li&gt;
+&lt;li&gt;Ramping up my home exercise program&lt;/li&gt;
+&lt;li&gt;Working at a standing desk&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once the pandemic is over I plan to restart my journey into Brazilian Jiu-Jitsu.&lt;/p&gt;
+
+&lt;h2&gt;I will quarantine&lt;/h2&gt;
+
+&lt;p&gt;I don't need to travel to do my job. I can get by without sitting in a restaurant to eat. I can talk to family, friends, and co-workers via any number of communication methods. &lt;/p&gt;
+
+&lt;p&gt;Even after I'm vaccinated, until the pandemic is under control, I'll keep up this behavior.&lt;/p&gt;
+
+&lt;p&gt;Yes, I know some of you reading this disagree with me. You may think that I'm being too cautious. However, right now in Los Angeles huge numbers of people I know or are in my neighborhood ignored all the quarantine rules. The result is that the hospitals are overwhelmed, the staff are exhausted, and the ambulances impossible to get because they can't offload patients. Non-COVID emergency issues go untreated, meaning surviving treatable allergic reactions or heart attacks is no longer so certain.&lt;/p&gt;
+
+&lt;p&gt;Yeah, I'm staying in quarantine and not doing anything stupid with me or my family's safety until things die down.&lt;/p&gt;
+</content><published>2021-01-29T23:45:00+00:00</published></entry></feed>
