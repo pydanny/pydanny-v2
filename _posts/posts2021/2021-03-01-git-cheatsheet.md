@@ -1,0 +1,60 @@
+---
+date: "2021-03-01T23:45:00.00Z"
+published: true
+description: My list of simple and complex git tasks.
+slug: git-cheatsheet
+tags:
+  - git
+- cheatsheet  
+time_to_read: 5
+title: git-cheatsheet
+type: post
+---
+
+# Git Cheatsheet
+
+Anything with an asterisk (`*`) can be done with [GitHub Desktop](https://desktop.github.com/). I use a mix of both command-line and desktop, keeping both fresh in my mind. I don't want to go entirely desktop because there are times (ssh-ing for example) when I have to use the command-line.
+
+## Creating a new branch*
+
+Work in the smallest, most atomic feature branches possible. It's easier for people to review smaller things, meaning you will move faster.
+
+```
+git checkout -b my-new-branch
+```
+
+## Committing all my changes*
+
+Note: Don't end commits with punctuation. Kraken doesn't like it!
+
+Note 2: GitHub desktop makes adding long commits easy.
+
+```
+git commit -am "I am committing everything"
+```
+
+## Pushing my branch up*
+
+```
+git push origin my-new-branch
+```
+
+## Squashing all commits
+
+Rebase is fundamental to working on Kraken but I always screw up rebases unless I think real hard. Instead, I just squash everything down to one commit and look good in the process. Until now, no one has known I copy/pasta this series for all my PRs on Kraken tech. Here is how I do it:
+
+```
+git checkout my-new-branch
+git reset $(git merge-base master my-new-branch)
+git add -A
+git commit -m "OMG I figured out everything with just one commit"
+git push --force
+```
+
+# TODOS
+
+- [ ] Add pulling from master and branches
+- [ ] Add updating a branch from master
+- [ ] Reverting to an earlier commit because I screwed up
+- [ ] Deleting local branches
+- [ ] Deleting external branches
