@@ -7,7 +7,7 @@ const feed_options = {
   author: {
     name: "Daniel Roy Greenfeld",
     email: "pydanny@gmail.com",
-    link: "https://pydanny.com"
+    link: "https://daniel.feldroy.com"
   }
 };
 
@@ -16,7 +16,7 @@ module.exports = {
   description: "Inside the head of Daniel Feldroy (aka Daniel Roy Greenfeld)",
   theme: "@vuepress/theme-blog",
   themeConfig: {
-    fullName: "Daniel Roy greenfeld",
+    fullName: "Daniel Roy Greenfeld",
     personalPhoto: "/images/personalPhoto.png",
     bio: `I do Python, JavaScript, and C# out of Los Angeles, California.
       I love to read, write, hang out with my wife, and play with my daughter.
@@ -62,7 +62,7 @@ module.exports = {
     [
       "sitemap",
       {
-        hostname: "https://www.pydanny.com"
+        hostname: "https://daniel.feldroy.com"
       }
     ],
     ["disqus"],

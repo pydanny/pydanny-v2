@@ -25,7 +25,7 @@ git checkout -b my-new-branch
 
 # Committing all my changes*
 
-Note: Don't end commits with punctuation. Kraken doesn't like it!
+Note: Don't end commit messages with punctuation. Many projects reject it. Not sure why, it is just a thing.
 
 Note 2: GitHub desktop makes adding long commits easy.
 
@@ -38,6 +38,19 @@ git commit -am "I am committing everything"
 ```
 git push origin my-new-branch
 ```
+
+# Deleting a local branch
+
+```
+git branch -d my-new-branch
+```
+
+# Deleting a remote branch (on GitHub, Gitlab, etc)
+
+```
+git branch -D my-new-branch
+```
+
 
 # Squashing all commits into a new one
 
@@ -56,5 +69,3 @@ git push --force
 - [ ] Add pulling from master and branches
 - [ ] Add updating a branch from master
 - [ ] Reverting to an earlier commit because I screwed up
-- [ ] Deleting local branches
-- [ ] Deleting external branches
