@@ -4,12 +4,12 @@ published: true
 slug: homemade-pumpkin-puree
 tags:
 - recipe
-- ingredients
 - audrey
 - pumpkin
 - halloween
 time_to_read: 8
 title: Homemade Pumpkin Puree
+description: How I make the base for pies and other yummy concoctions.
 ---
 
 I'm of the opinion that homemade pumpkin puree is better than what

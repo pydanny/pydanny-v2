@@ -54,7 +54,7 @@ git branch -D my-new-branch
 
 # Squashing all commits into a new one
 
-Rebase is fundamental to working on Kraken. Yet unless I really think hard I screw them up. Instead, I just squash everything down to one commit and look good in the process. Until now, no one has known I copy/pasta this series for all my PRs on Kraken tech. Here is how I do it:
+Rebase is fundamental to working with Git. Yet unless I really think hard I screw them up. Therefore, I tend to just squash everything down to one commit and look good in the process. Until now, no one has known I frequently copy/pasta this series for all my PRs. Here is how I do it:
 
 ```
 git checkout my-new-branch
