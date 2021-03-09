@@ -63,9 +63,3 @@ git add -A
 git commit -m "OMG I figured out everything with just one commit"
 git push --force
 ```
-
-# TODOS
-
-- [ ] Add pulling from master and branches
-- [ ] Add updating a branch from master
-- [ ] Reverting to an earlier commit because I screwed up
