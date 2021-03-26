@@ -1,5 +1,7 @@
 # PyDanny-V2
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/aa46a235-e9fd-44ab-9f36-9238cc637e4d/deploy-status)](https://app.netlify.com/sites/pydannycom/deploys)
+
 PyDanny.com V2 blog 
 
 ## Getting Started

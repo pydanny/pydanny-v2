@@ -4,8 +4,7 @@ published: true
 description: A list of useful references for leveling up frontend development skills.
 slug: git-cheatsheet
 tags:
-  - git
-  - cheatsheet  
+  - references  
   - nodejs
   - javascript
 time_to_read: 5
