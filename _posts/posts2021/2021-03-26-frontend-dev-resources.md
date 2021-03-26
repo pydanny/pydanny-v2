@@ -21,7 +21,7 @@ Paid:
 
 - [7 Essential Books on Responsive Web Design You Do Not Want to Miss](https://www.awwwards.com/7-essential-books-on-responsive-web-design-you-do-not-want-to-miss.html)
 - [Practical Web Inclusion and Accessibility: A Comprehensive Guide to Access Needs](https://www.amazon.com/Practical-Web-Inclusion-Accessibility-Comprehensive/dp/1484254511)
-- [https://www.freecodecamp.org/learn/responsive-web-design/](Responsive Web Design)
+- [Responsive Web Design](https://www.freecodecamp.org/learn/responsive-web-design/)
 
 Free:
 
