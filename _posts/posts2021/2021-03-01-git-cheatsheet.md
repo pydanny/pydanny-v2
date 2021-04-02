@@ -39,7 +39,7 @@ git commit -am "I am committing everything"
 git push origin my-new-branch
 ```
 
-# Deleting a local branch
+# Deleting a local branch*
 
 ```
 git branch -d my-new-branch
