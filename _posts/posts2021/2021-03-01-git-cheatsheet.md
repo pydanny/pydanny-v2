@@ -6,6 +6,7 @@ slug: git-cheatsheet
 tags:
   - git
   - cheatsheet  
+  - howto
 time_to_read: 5
 title: Git Cheatsheet
 type: post
