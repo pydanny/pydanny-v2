@@ -11,11 +11,15 @@ title: Switching between VSCode terminals using hotkeys
 type: post
 ---
 
-By default [VSCode](https://code.visualstudio.com/) doesn't include this keybinding. Here's how you add it:
+When I code I prefer to keep my hands on the keyboard as much as possible. For me, this keeps me more focused on the task at hand. Switching to the mouse is something try to I reserve for interacting with browsers.
 
-## Step 1
+By default [VSCode](https://code.visualstudio.com/) doesn't include the keybinding necessary to switch terminals via the keyboard. You are forced to use the mouse, which disrupts my flow.
 
-Use `ctrl+p` (`cmd+p` on the Mac) and type `keybindings.json` and select the file from the drop downlist. This will open a file that looks like this:
+Here's how you add terminal switching keybindings in VSCode:
+
+# Step 1
+
+Use `ctrl+p` (`cmd+p` on the Mac) and type `keybindings.json`. Select the file from the drop downlist. This will open a file that looks like this:
 
 ```json
 // Place your key bindings in this file to
@@ -23,9 +27,9 @@ Use `ctrl+p` (`cmd+p` on the Mac) and type `keybindings.json` and select the fil
 []
 ```
 
-## Step 2
+# Step 2
 
-Replace the content with this for Windows or Linux:
+Replace the contents of `keybindings.json` with this for Windows or Linux:
 
 ```json
 // Place your key bindings in this file to

@@ -71,8 +71,18 @@ books:
         link: "https://feldroy.com/products/two-scoops-of-django-1-5"
       - text: "Buy on amazon.com"
         link: "https://2scoops.co/tsd15"
-
   - id: 6
+    title: "Necronaut"
+    type: "fiction"
+    description: "Dreading what she would see, she looked over her shoulder. Something with too many legs and mouths scrabbled into the airlock."
+    image: "/images/necronaut.jpg"
+    text: "Travel between the stars is a profitable enterprise, but takes humanity through the dark seas of fate. The journey is risky, and death is right outside the ships that ply the tortured waters between the stars. A realm where when in trouble, the fortunate die and everyone else is consumed body and soul."
+    actions:
+      - text: "Buy on feldroy.com"
+        link: "https://feld.to/necronaut"
+      - text: "Buy on amazon.com"
+        link: "https://feld.to/amzn-necronaut"        
+  - id: 7
     title: "Darkest Autumn: Ambria 1"
     type: "fiction"
     description: "Heroes are supposed to be brave, aren't they?"
@@ -88,7 +98,7 @@ books:
       - text: "Buy on amazon.com"
         link: "https://www.amazon.com/gp/product/B071L2G8SL?tag=mlinar-20"
 
-  - id: 7
+  - id: 8
     title: "Brightest Winter"
     type: "fiction"
     description: "Can friendships and family ties survive the truth?"
@@ -104,7 +114,7 @@ books:
       - text: "Buy on amazon.com"
         link: "https://www.amazon.com/gp/product/B0727WW7F2?tag=mlinar-20"
 
-  - id: 8
+  - id: 9
     title: "Coldest Spring"
     type: "fiction"
     description: "What would you do to protect your loves ones?"
@@ -116,7 +126,7 @@ books:
       - text: "Buy on amazon.com"
         link: "https://www.amazon.com/gp/product/B071P74C8Z?tag=mlinar-20"
 
-  - id: 9
+  - id: 10
     title: "Deadliest Summer"
     type: "fiction"
     description: "Does good always triumph over evil?"
@@ -128,7 +138,7 @@ books:
       - text: "Buy on amazon.com"
         link: "https://www.amazon.com/gp/product/B073V77G4M?tag=mlinar-20"
 
-  - id: 10
+  - id: 11
     title: "The Ambria Series"
     type: "fiction"
     description: "Get all four books!"
@@ -139,6 +149,8 @@ books:
         link: "https://www.feldroy.com/collections/ambria-series"
       - text: "Buy on amazon.com"
         link: "https://mybook.to/ambria-series"
+
+        
 ---
 
 # Books
